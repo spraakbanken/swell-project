@@ -25,6 +25,8 @@ Case: genitive <gen>
 Initial:  <ini>
 Running number: <1, 2…> [enumerate each unique name type entity with a number starting with 1]
 Misspelled: <ort>
+	
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Their%3A'firstname%3Amale'_was_a_problem_yesteray_.//There_was_a_problem_yesterday_.)
 
 Pseudonymization: 
 Provide a list with first names, male, female and gender neutral (incl. international). 
