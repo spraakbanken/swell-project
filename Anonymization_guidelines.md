@@ -28,8 +28,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - Initial:  < ini > 
       - Running number: < 1, 2… >  [enumerate each unique name type entity with a number starting with 1]
       - Misspelled: < ort > 
-	
-
   * Pseudonymization: 
       - Provide a list with first names, male, female and gender neutral (incl. international). 
       - For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
@@ -37,7 +35,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - Middlenames: Replace with an initial “A”
       - Initial replaced by “A”
       - Change token by token
-
   * To consider: 
       - allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym 
       - random substitution for each unique name in the text given a list of names or
@@ -45,7 +42,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - Use typical names for various ethnicities
 
 ### 2. Institution: < institution > 
-	
    * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
   * Descriptor: < school > , < work > , < other_institution >
   * Misspelled: < ort >
@@ -60,10 +56,8 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - < zip_code >: replace each number with zero
       - < street >: square
       - < street_nr > : street number
-
   * Descriptor: 
       - Misspelled: < ort >
-
   * Pseudonymization: 
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and country of origin
       - Country of origin -> markup but do not pseudomize and replace those countries that few people come from
@@ -74,7 +68,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * < transport_line > : number, color
   * Descriptor: 
       - Misspelled: < ort >
-
   * Pseudonymization: 
       - Replace randomly with bus, metro, tram, or train 
       - In case of line number, replace actual number with 1, in case of several number in sequence, enumerate (1, 2, 3…)
@@ -88,7 +81,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * < day > , < month-digit >, < month-word >, <year>. Keep the delimiters as in original (, . - /)
   * Descriptor: 
       - Misspelled: < ort >
-
   * Pseudonymization: 
       - < day > - > random number between 1-28
       - < month-digit > - > random replace 1-12
@@ -122,12 +114,10 @@ The purpose of anonymization is to de-identify all information that can reveal t
 ### 13. Extra (something else, not covered but the previous categories)
   * Description: < oblig >, < nonoblig >
 
-
 ### 14. Mark up but do not pseudomize: 
   * Profession < prof >
       - Descriptor: < prof >, < edu> 
       - Misspelled: < ort >
-
   * Sensitive information < sensitive >
       - Descriptor: 
       - Misspelled: < ort >
