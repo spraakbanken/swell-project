@@ -1,8 +1,13 @@
 # Anonymization guidelines
 
 The purpose of anonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, areas, cities and need to be replaced or overseen to ensure anonymity. Your task is to 1) identify information that can relate to a person, and categorize what type of information it is so that we? can change that information. This document contains instructions for how to proceed. 
-Basic principles
+
+## Basic principles
+
+
 Remove/change the information that can reveal a person behind the essay(s), yet keep to the “minimal change” rule. The data should be usable in research scenarios.  Example? 
+
+![](https://ws.spraakbanken.gu.se/ws/swell/png?He%20get%20to%20cleaned%20his%20son~son%20.%2F%2FHe%20got%20his%20son~son%20to%20cleaned%20his%20room%20.)
 
 Annotators have to make the assessment of the risks and needs for pseudonymization (an element of subjectivity)
 
