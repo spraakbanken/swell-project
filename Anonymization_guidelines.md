@@ -41,7 +41,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - select a few names (while keeping the gender and cross-reference info) and use these names - throughout all texts
       - Use typical names for various ethnicities
       
-![](https://ws.spraakbanken.gu.se/ws/swell/png?Alice%3A1%3A'firstname%3Afemale'%20and%20Bob%3A2%3A'firstname%3Amale'%20went%20to%20Paris%3Acity%20.%2F%2FAlice%20and%20Bob%20went%20to%20Paris%20.)
+![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20Alice~Alice%3A'firstname%3Afemale'%3A1%20and~and%20Bob~Bob%3A'firstname%3Amale'%3A2%20went~went%20to~to%20Paris~Paris%3Acity%20.%40s6~%40s6%20'Alice%5C's'~'Alice%5C's'%3A'firstname%3Afemale'%3A1%3Agen%20wallet~wallet%20was~was%20stolen~stolen%20.%40s11~%40s11%2F%2F'firstname%3Afemale'~Alice%201~Alice%20and~and%20'firstname%3Amale'~Bob%202~Bob%20went~went%20to~to%20city~Paris%20.~%40s6%20'firstname%3Afemale'~'Alice%5C's'%201~'Alice%5C's'%20gen~'Alice%5C's'%20wallet~wallet%20was~was%20stolen~stolen%20.~%40s11)
 
 ### 2. Institution: < institution > 
    * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
