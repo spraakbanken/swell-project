@@ -40,6 +40,8 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - random substitution for each unique name in the text given a list of names or
       - select a few names (while keeping the gender and cross-reference info) and use these names - throughout all texts
       - Use typical names for various ethnicities
+      
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Alice%3A1%3A'firstname%3Afemale'%20and%20Bob%3A2%3A'firstname%3Amale'%20went%20to%20Paris%3Acity%20.%2F%2FAlice%20and%20Bob%20went%20to%20Paris%20.)
 
 ### 2. Institution: < institution > 
    * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
