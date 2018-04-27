@@ -4,50 +4,48 @@ The purpose of anonymization is to de-identify all information that can reveal t
 
 ## Basic principles
 
+1. Remove/change the information that can reveal a person behind the essay(s), yet keep to the “minimal change” rule. The data should be usable in research scenarios.  _Example?_ 
 
-Remove/change the information that can reveal a person behind the essay(s), yet keep to the “minimal change” rule. The data should be usable in research scenarios.  Example? 
+2. Annotators have to make the assessment of the risks and needs for pseudonymization (an element of subjectivity)
 
-![](https://ws.spraakbanken.gu.se/ws/swell/png?He%20get%20to%20cleaned%20his%20son~son%20.%2F%2FHe%20got%20his%20son~son%20to%20cleaned%20his%20room%20.)
+3. Keep track of whether the token is “original” or “masked”
 
-Annotators have to make the assessment of the risks and needs for pseudonymization (an element of subjectivity)
+4. Categories that need to be marked in the texts, but not necessarily replaced. We would  make an assessment later when we have enough statistics over the learners behind the essays: 
+  * country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in our database are from the named countries
+  * country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
+  * number of family members (_Jag har fem bröder och fyra systrar_) - we will need to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
+  * professions (_Jag är webbutvikler_) 
 
-Keep track of whether the token is “original” or “masked”
+5. Categories that can be used for discrimination, such as political views, religious convictions, sexual orientation, should also be marked - but not necessarily masked right away? A decision would need to be made by an annotator. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
-Categories that need to be marked in the texts, but not necessarily replaced. We would  make an assessment later when we have enough statistics over the learners behind the essays: 
-country of origin (Jag kommer från Syrien versus Jag kommer från Luxembourg) - depending upon how many subjects in our database are from the named countries
-country of “intermediate” residence (Vi har stannat en månad i Turkiet )
-number of family members (Jag har fem bröder och fyra systrar) - we will need to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
-professions (Jag är webbutvikler) 
+## Pseudonymize: 
 
-Categories that can be used for discrimination, such as political views, religious convictions, sexual orientation, should also be marked - but not necessarily masked right away? A decision would need to be made by an annotator. E.g. I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration.
-
-Pseudonymize: 
-Names: 
-Types: <surname><firstname><middlename>
-Descriptor: 
-Gender: male, female, unknown <m>, <f>, <unk>
-Case: genitive <gen>
-Initial:  <ini>
-Running number: <1, 2…> [enumerate each unique name type entity with a number starting with 1]
-Misspelled: <ort>
+### Names: 
+  * Types: <surname><firstname><middlename>
+  * Descriptor: 
+      - Gender: male, female, unknown <m>, <f>, <unk>
+      - Case: genitive <gen>
+      - Initial:  <ini>
+      - Running number: <1, 2…> [enumerate each unique name type entity with a number starting with 1]
+      - Misspelled: <ort>
 	
-![](https://ws.spraakbanken.gu.se/ws/swell/png?Their%3A'firstname%3Amale'_was_a_problem_yesteray_.//There_was_a_problem_yesterday_.)
 
-Pseudonymization: 
-Provide a list with first names, male, female and gender neutral (incl. international). 
-For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
-Provide a list with surnames (incl. international)
-Replace with an initial “A” Provide a list with middle names (incl. international)  
-Initial replaced by “A”
-Change token by token
+  * Pseudonymization: 
+      - Provide a list with first names, male, female and gender neutral (incl. international). 
+      - For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
+      - Provide a list with surnames (incl. international)
+      - Middlenames: Replace with an initial “A”
+      - Initial replaced by “A”
+      - Change token by token
 
-To consider: 
-allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym 
-random substitution for each unique name in the text given a list of names or
-select a few names (while keeping the gender and cross-reference info) and use these names - throughout all texts
-Use typical names for various ethnicities
+  * To consider: 
+      - allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym 
+      - random substitution for each unique name in the text given a list of names or
+      - select a few names (while keeping the gender and cross-reference info) and use these names - throughout all texts
+      - Use typical names for various ethnicities
 
-Institution: <institution>
+### Institution: <institution>
+	
 Schools, working place, team, etc. revealing the person’s school, working place, sport team, ...
 Descriptor: 
 <school>, <work>, <other_institution>
