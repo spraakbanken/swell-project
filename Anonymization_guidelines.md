@@ -21,13 +21,13 @@ The purpose of anonymization is to de-identify all information that can reveal t
 ## Pseudonymize: 
 
 ### Names: 
-  * Types: <surname><firstname><middlename>
+  * Types: ```<surname><firstname><middlename>
   * Descriptor: 
-      - Gender: male, female, unknown <m>, <f>, <unk>
-      - Case: genitive <gen>
-      - Initial:  <ini>
-      - Running number: <1, 2…> [enumerate each unique name type entity with a number starting with 1]
-      - Misspelled: <ort>
+      - Gender: male, female, unknown '''<m>, <f>, <unk>'''
+      - Case: genitive '''<gen>'''
+      - Initial:  '''<ini>'''
+      - Running number: '''<1, 2…>''' [enumerate each unique name type entity with a number starting with 1]
+      - Misspelled: '''<ort>'''
 	
 
   * Pseudonymization: 
