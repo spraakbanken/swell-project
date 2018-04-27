@@ -127,6 +127,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
 ### 15. Comments < OBS! >
    * Use for marking place to return to. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
    
+
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?'Alice%5C's'%3A1%3AOBS!%3A'firstname%3Afemale'%3Agen%20wallet%20was%20stolen%20.%2F%2F'Alice%5C's'%20wallet%20was%20stolen%20.)
 
 ## Evaluate if subgroups are needed: 
