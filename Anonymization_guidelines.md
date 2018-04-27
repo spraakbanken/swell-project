@@ -124,6 +124,9 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - Descriptor: 
       - Misspelled: < ort >
 
+### 15. Comments < OBS! >
+   * Use for marking place to return to
+
 ## Evaluate if subgroups are needed: 
 religion, ethnicity, sexual orientation, political views, events that might reveal a person, physical and mental disabilities
 Number of siblings, family members
