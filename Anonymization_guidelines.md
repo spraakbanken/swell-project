@@ -125,7 +125,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - Misspelled: < ort >
 
 ### 15. Comments < OBS! >
-   * Use for marking place to return to
+   * Use for marking place to return to. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
 
 ## Evaluate if subgroups are needed: 
 religion, ethnicity, sexual orientation, political views, events that might reveal a person, physical and mental disabilities
