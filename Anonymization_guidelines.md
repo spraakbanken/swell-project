@@ -78,7 +78,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 3) - > e.g. 15-21
 
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
-  * < day > , < month-digit >, < month-word >, <year>. Keep the delimiters as in original (, . - /)
+  * Types: < day > , < month-digit >, < month-word >, < year >. Keep the delimiters as in original (, . - /)
   * Descriptor: 
       - Misspelled: < ort >
   * Pseudonymization: 
