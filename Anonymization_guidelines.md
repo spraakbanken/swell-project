@@ -20,7 +20,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
 
 ## Pseudonymize: 
 
-### Names: 
+### 1. Names: 
   * Types: < surname > < firstname > < middlename > 
   * Descriptor: 
       - Gender: male, female, unknown < m > , < f > , < unk >
@@ -44,94 +44,97 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - select a few names (while keeping the gender and cross-reference info) and use these names - throughout all texts
       - Use typical names for various ethnicities
 
-### Institution: <institution>
+### 2. Institution: < institution > 
 	
-Schools, working place, team, etc. revealing the person’s school, working place, sport team, ...
-Descriptor: 
-<school>, <work>, <other_institution>
-Misspelled: <ort>
-Pseudonymization: 
-Replace with from a list of school names and companies (e.g. from Yellow pages) 
+   * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
+  * Descriptor: < school > , < work > , < other_institution >
+  * Misspelled: < ort >
+  * Pseudonymization: 
+      - Replace with from a list of school names and companies (e.g. from Yellow pages) 
 
-Geographic data (country, city, zip codes, area names, …)
-Type: <country_of_origin>, <country>, <geo>,<zip_code>, <region>, <city-SWE>, <city>, <area>, <street>, <number>
-	<country>: except Sweden
-<city>: city including villages (på svenska “ort”)
-	<geo>: forest, lake, mountain, etc
-	<zip_code>: replace each number with zero
-	<street>: square
-	<street_nr>: street number
+### 3. Geographic data (country, city, zip codes, area names, …)
+  * Types: < country_of_origin > , < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < street > , < number >
+      - < country > : except Sweden
+      - < city > : city including villages (på svenska “ort”)
+      - < geo >: forest, lake, mountain, etc
+      - < zip_code >: replace each number with zero
+      - < street >: square
+      - < street_nr > : street number
 
-Descriptor: 
-Misspelled: <ort>
+  * Descriptor: 
+      - Misspelled: < ort >
 
-Pseudonymization: 
-Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and country of origin
-Country of origin -> markup but do not pseudomize and replace those countries that few people come from
-<zip_code>: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
+  * Pseudonymization: 
+      - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and country of origin
+      - Country of origin -> markup but do not pseudomize and replace those countries that few people come from
+      - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
-Transportation: <transport>, <transport_line>
-<transport>: bus, metro, tram, train, express
-<transport_line>: number, color
-Descriptor: 
-Misspelled: <ort>
+### 4. Transportation: < transport >, < transport_line >
+  * < transport >: bus, metro, tram, train, express
+  * < transport_line > : number, color
+  * Descriptor: 
+      - Misspelled: < ort >
 
-Pseudonymization: 
-Replace randomly with bus, metro, tram, or train 
-In case of line number, replace actual number with 1, in case of several number in sequence, enumerate (1, 2, 3…)
-Age: <age>
-Person’s age (e.g. 18 years old)
-Pseudonymization: 
-Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers <age> (+ - 3) -> e.g. 15-21
+  * Pseudonymization: 
+      - Replace randomly with bus, metro, tram, or train 
+      - In case of line number, replace actual number with 1, in case of several number in sequence, enumerate (1, 2, 3…)
 
-Dates (all elements directly related to an individual, day, month, year) <day>, <month-digit>, <month-word>, <year>. Keep the delimiters as in original (, . - /)
-Descriptor: 
-Misspelled: <ort>
+### 5. Age: < age >
+  * Person’s age (e.g. 18 years old)
+  * Pseudonymization: 
+      - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 3) - > e.g. 15-21
 
-Pseudonymization: 
-<day> -> random number between 1-28
-<month-digit> -> random replace 1-12
-<month-word> -> random replace: januari, februari, ...
-<Year> -> 5-year interval: e.g. 2013 is replaced by a random number from a range of numbers (+ - 3), i.e. 2010-2016
+### 6. Dates (all elements directly related to an individual, day, month, year) 
+  * < day > , < month-digit >, < month-word >, <year>. Keep the delimiters as in original (, . - /)
+  * Descriptor: 
+      - Misspelled: < ort >
 
-Phone numbers <phone_nr>
-Pseudonymization: 
-Replace each number with a “0” in the sequence (0000-000000) and keep the delimiter
+  * Pseudonymization: 
+      - < day > - > random number between 1-28
+      - < month-digit > - > random replace 1-12
+      - < month-word > - > random replace: januari, februari, ...
+      - < year > - > 5-year interval: e.g. 2013 is replaced by a random number from a range of numbers (+ - 3), i.e. 2010-2016
 
-Email addresses <email>
-Pseudonymization: 
-One single for all: email@dot.com
+### 7. Phone numbers < phone_nr >
+  * Pseudonymization: 
+      - Replace each number with a “0” in the sequence (0000-000000) and keep the delimiter
+      
+### 8. Email addresses < email >
+  * Pseudonymization: 
+      - One single for all: email@dot.com
 
-[personal] web pages (URL) <url>
-Pseudonymization: 
-Replace all with url.com 
+### 9. [personal] web pages (URL) < url >
+  * Pseudonymization: 
+      - Replace all with url.com 
 
-Social security numbers <personid_nr>
-Pseudonymization:  
-Replace each number with 123456-0000, and keep the delimiter (-)
+### 10. Social security numbers < personid_nr  >
+  * Pseudonymization:  
+      - Replace each number with 123456-0000, and keep the delimiter (-)
 
-Account numbers <account_nr>
-Pseudonymization: 
-Replace each number with 0 and keep the delimiter(s)
+### 11. Account numbers < account_nr >
+  * Pseudonymization: 
+      - Replace each number with 0 and keep the delimiter(s)
 
-Certificate/licence numbers (e.g. vehicle) <license_nr>
-Pseudonymization: 
-Replace letters with ABC and each number with 0 (ABC 0000)
+### 12. Certificate/licence numbers (e.g. vehicle) < license_nr >
+  * Pseudonymization: 
+      - Replace letters with ABC and each number with 0 (ABC 0000)
 
-Extra (something else, not covered but the previous categories)
-Description: <oblig>, <nonoblig>
+### 13. Extra (something else, not covered but the previous categories)
+  * Description: < oblig >, < nonoblig >
 
 
-Mark up but do not pseudomize: 
-Profession <prof>
-Descriptor: <prof>, <edu>
-Misspelled: <ort>
+### 14. Mark up but do not pseudomize: 
+  * Profession < prof >
+      - Descriptor: < prof >, < edu> 
+      - Misspelled: < ort >
 
-Sensitive information <sensitive>
-Descriptor: 
-Misspelled: <ort>
+  * Sensitive information < sensitive >
+      - Descriptor: 
+      - Misspelled: < ort >
 
-Evaluate if subgroups are needed: religion, ethnicity, sexual orientation, political views, events that might reveal a person, physical and mental disabilities
+## Evaluate if subgroups are needed: 
+religion, ethnicity, sexual orientation, political views, events that might reveal a person, physical and mental disabilities
 Number of siblings, family members
 
-To be included: Examples
+## To be included: 
+Examples
