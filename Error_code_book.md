@@ -4,7 +4,7 @@
 
 ### L
 
-Wrong word
+Wrong word;
 This error code can be used only to mark existing Swedish words that have been used in an incorrect way or context
 
 ### Examples
@@ -21,5 +21,18 @@ Reference error
 
 ### Examples
 
-...de är stressiga på grund av studier → 
+Jag har en bror, hon heter xx → Jag har en bror, han heter xx.
+
+### L-DER
+
+Deviant derivational affix used
+
+### Examples
+
+ ...de är stressiga på grund av studier → 
 ...de är stressade på grund av studier
+
+### L-ID
+
+Idiomaticity; Covers deviations with respect to idiomatic expressions. Can stretch over groups of words. Nothing exactly is wrong, but "you don't say so " in Swedish. 
+
