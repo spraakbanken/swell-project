@@ -1,6 +1,6 @@
 # Swell code book (error taxonomy + examples)
 
-## Lexical codes
+## Lexical codes (5)
 
 ### L
 
@@ -44,3 +44,62 @@ Idiomaticity; Covers deviations with respect to idiomatic expressions. Can stret
 
 Det är svårt för oss i vinter → Det är svårt för oss på vintern.
 
+### L-FL
+
+Even if it similar to a swedish word and only the spelling is different.
+
+### Examples
+
+Jag och min family → jag och min familj
+Mitt mamma och mitt sister → mitt mamma och mitt syster.
+
+Det fanns flera rum, två kök, balkony och trädgård → det fanns flera rum, två kök, balkong  och trädgård.
+
+## Orthographic codes (3)
+
+### O
+
+Orthographic / spelling error
+
+### Examples 
+
+Det tåg 6 timmar från Tehran till Göteborg → Det tog 6 timmar från Tehran till Göteborg.
+
+### O-CAP
+
+Error with capitalization (upper / lower)
+
+### Example
+
+Det fanns en affär och vi gick dit. vi köpte flera saker → Det fanns en affär och vi gick dit. Vi köpte flera saker.
+
+### O-COMP
+
+Error within compounds (oversplitting, overcompounding)
+
+### Examples
+
+Jag kände mig jätte konstigt → Jag kände mig jättekonstigt.
+Det ligger ett kultur hus nära min bostad → det ligger ett kulturhus när min bostad.
+
+## Morfological codes (7)
+
+### M-F
+
+Deviant morphosyntactic category
+
+### Examples
+
+N: Jag har tre båter
+V: Jag lager mat
+A: Jag vill ha högare lön.
+ADV: Hon lagar väldig god mat
+
+### M-DEF
+
+Deviation in definite/indefinite forms.
+May apply to groups of words.
+
+### Examples
+
+Vi gick till McDonalds och åt maten → Vi gick till McDonalds och åt mat.
