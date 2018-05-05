@@ -34,5 +34,13 @@ Deviant derivational affix used
 
 ### L-ID
 
-Idiomaticity; Covers deviations with respect to idiomatic expressions. Can stretch over groups of words. Nothing exactly is wrong, but "you don't say so " in Swedish. 
+Idiomaticity; Covers deviations with respect to idiomatic expressions. Can stretch over groups of words. Nothing exactly is wrong, but "you don't say so " in Swedish.
+
+### Examples
+
+ Arbetstagare är också stressade av mycket arbetsbelastning →  Arbetstagare är också stressade av hög arbetsbelastning
+
+...genom att göra vissa åtgärder → ...genom att vidta vissa åtgärder 
+
+Det är svårt för oss i vinter → Det är svårt för oss på vintern.
 
