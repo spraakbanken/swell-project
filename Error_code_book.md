@@ -7,6 +7,7 @@
 ### L
 
 _Wrong word_
+
 This error code can be used only to mark existing Swedish words that have been used in an incorrect way or context
 
 ### Examples
@@ -20,6 +21,7 @@ This error code can be used only to mark existing Swedish words that have been u
 ### L-REF
 
 _Reference error_
+
 This error code ...
 
 ### Examples
@@ -38,6 +40,7 @@ _Deviant derivational affix used_
 ### L-ID
 
 _Idiomaticity_ 
+
 Covers deviations with respect to idiomatic expressions. Can stretch over groups of words. Nothing exactly is wrong, but "you don't say so " in Swedish.
 
 ### Examples
@@ -51,6 +54,7 @@ Covers deviations with respect to idiomatic expressions. Can stretch over groups
 ### L-FL
 
 _Foreign word_
+
 Even if it similar to a Swedish word and only the spelling is different.
 
 ### Examples
@@ -107,6 +111,7 @@ _Deviant morphosyntactic category_
 ### M-DEF
 
 _Deviation in definite/indefinite forms._
+
 May apply to groups of words.
 
 ### Examples
