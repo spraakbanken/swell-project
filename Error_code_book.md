@@ -5,6 +5,7 @@
 ---
 
 ### L
+---
 
 _Wrong word_
 
@@ -19,6 +20,7 @@ This error code can be used only to mark existing Swedish words that have been u
    * På det sättet kan kommunen motionera alla medborgare att träna → på det sättet kan kommunen motivera alla medborgare att träna.
 
 ### L-REF
+---
 
 _Reference error_
 
@@ -29,21 +31,23 @@ This error code ...
    * Jag har en bror, hon heter xx → Jag har en bror, han heter xx.
 
 ### L-DER
+---
 
 _Deviant derivational affix used_
 
-### Examples
+**Examples**
 
    * ...de är stressiga på grund av studier → 
    * ...de är stressade på grund av studier
 
 ### L-ID
+---
 
 _Idiomaticity_ 
 
 Covers deviations with respect to idiomatic expressions. Can stretch over groups of words. Nothing exactly is wrong, but "you don't say so " in Swedish.
 
-### Examples
+**Examples**
 
    * Arbetstagare är också stressade av mycket arbetsbelastning →  Arbetstagare är också stressade av hög arbetsbelastning
 
@@ -52,12 +56,13 @@ Covers deviations with respect to idiomatic expressions. Can stretch over groups
    * Det är svårt för oss i vinter → Det är svårt för oss på vintern.
 
 ### L-FL
+---
 
 _Foreign word_
 
 Even if it similar to a Swedish word and only the spelling is different.
 
-### Examples
+**Examples**
 
    * Jag och min family → jag och min familj
    * Mitt mamma och mitt sister → mitt mamma och mitt syster.
@@ -69,26 +74,29 @@ Even if it similar to a Swedish word and only the spelling is different.
 ---
 
 ### O
+---
 
 _Orthographic / spelling error_
 
-### Examples 
+**Examples**
 
    * Det tåg 6 timmar från Tehran till Göteborg → Det tog 6 timmar från Tehran till Göteborg.
 
 ### O-CAP
+---
 
 _Error with capitalization (upper / lower)_
 
-### Example
+**Examples**
 
    * Det fanns en affär och vi gick dit. vi köpte flera saker → Det fanns en affär och vi gick dit. Vi köpte flera saker.
 
 ### O-COMP
+---
 
 _Error within compounds (oversplitting, overcompounding)_
 
-### Examples
+**Examples**
 
    * Jag kände mig jätte konstigt → Jag kände mig jättekonstigt.
    * Det ligger ett kultur hus nära min bostad → det ligger ett kulturhus när min bostad.
@@ -98,10 +106,11 @@ _Error within compounds (oversplitting, overcompounding)_
 ---
 
 ### M-F
+---
 
 _Deviant morphosyntactic category_
 
-### Examples
+**Examples**
 
    * N: Jag har tre båter
    * V: Jag lager mat
@@ -109,11 +118,12 @@ _Deviant morphosyntactic category_
    * ADV: Hon lagar väldig god mat
 
 ### M-DEF
+---
 
 _Deviation in definite/indefinite forms._
 
 May apply to groups of words.
 
-### Examples
+**Examples**
 
    * Vi gick till McDonalds och åt maten → Vi gick till McDonalds och åt mat.
