@@ -10,7 +10,7 @@ _Wrong word_
 
 This error code can be used only to mark existing Swedish words that have been used in an incorrect way or context
 
-### Examples
+**Examples**
 
    * Traditioner ger människorna tid att stå still och fundera över livet → att stanna upp och fundera över livet.
   
@@ -24,7 +24,7 @@ _Reference error_
 
 This error code ...
 
-### Examples
+**Examples**
 
    * Jag har en bror, hon heter xx → Jag har en bror, han heter xx.
 
