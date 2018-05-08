@@ -5,7 +5,7 @@
 ---
 
 ### L
----
+
 
 _Wrong word_
 
@@ -19,8 +19,8 @@ This error code can be used only to mark existing Swedish words that have been u
 
    * På det sättet kan kommunen motionera alla medborgare att träna → på det sättet kan kommunen motivera alla medborgare att träna.
 
-### L-REF
 ---
+### L-REF
 
 _Reference error_
 
@@ -30,8 +30,9 @@ This error code ...
 
    * Jag har en bror, hon heter xx → Jag har en bror, han heter xx.
 
-### L-DER
 ---
+### L-DER
+
 
 _Deviant derivational affix used_
 
@@ -40,8 +41,8 @@ _Deviant derivational affix used_
    * ...de är stressiga på grund av studier → 
    * ...de är stressade på grund av studier
 
-### L-ID
 ---
+### L-ID
 
 _Idiomaticity_ 
 
@@ -55,8 +56,8 @@ Covers deviations with respect to idiomatic expressions. Can stretch over groups
 
    * Det är svårt för oss i vinter → Det är svårt för oss på vintern.
 
-### L-FL
 ---
+### L-FL
 
 _Foreign word_
 
@@ -74,7 +75,6 @@ Even if it similar to a Swedish word and only the spelling is different.
 ---
 
 ### O
----
 
 _Orthographic / spelling error_
 
@@ -82,8 +82,8 @@ _Orthographic / spelling error_
 
    * Det tåg 6 timmar från Tehran till Göteborg → Det tog 6 timmar från Tehran till Göteborg.
 
-### O-CAP
 ---
+### O-CAP
 
 _Error with capitalization (upper / lower)_
 
@@ -106,7 +106,6 @@ _Error within compounds (oversplitting, overcompounding)_
 ---
 
 ### M-F
----
 
 _Deviant morphosyntactic category_
 
@@ -117,8 +116,8 @@ _Deviant morphosyntactic category_
    * A: Jag vill ha högare lön.
    * ADV: Hon lagar väldig god mat
 
-### M-DEF
 ---
+### M-DEF
 
 _Deviation in definite/indefinite forms._
 
