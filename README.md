@@ -1,2 +1,2 @@
 # swell-project
-Guidelines, documentation, instructions, etc.
+Guidelines, documentation, instructions, issues, etc.
