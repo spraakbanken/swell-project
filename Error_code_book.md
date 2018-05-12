@@ -163,3 +163,69 @@ _Agreement error (kongruensfel), e.g. between adjective and noun; pronoun and no
 **Examples**
 
   * Det är inte konstig att → Det är inte konstigt att
+  
+---
+
+### M-INFL
+
+_Deviant paradigm selection, but interpreted to be in accordance with a morpho-syntactic form in Swedish; overgeneralization_
+
+**Examples**
+
+  *Jag sittade länge och väntade på bussen igår → jag satt länge och väntade på bussen igår. 
+  
+  Vädret kommer att blir dåligare nästa vecka → vädret kommer att bli sämre nästa veck.
+  
+---
+
+### M-VERB
+
+_Covers all deviations with verbs and verb groups, incl aspect_
+
+**Examples**
+
+  *Det betyder inte att vi glomma bort vår tradition → Det betyder inte att vi ska glömma/att vi glömmer bort vår tradition.
+  
+---
+## Syntactical codes (6)
+---
+
+### S-Msubj
+
+-Dubject missing
+
+**Examples**
+
+  * Det är inte bara arbetet och arbetslivet [...] kan ge stress → 
+    Det är inte bara arbetet och arbetslivet som kan ge stress
+    
+---
+
+### S-M
+
+_Word, phrase missing_
+
+  * Jag gillar inte tapeterna i min kusins lägenhet men han inte byta dem eftersom det är hyresrätt → ...han får/kan inte byta        dem...
+
+---
+
+### S-R
+
+_Word or phrase redundant_
+
+**Examples**
+
+  * insert example here!
+  
+---
+
+### S-adv 
+
+_Word order error with adverbial placement_
+
+**Examples**
+
+  * Jag ofta är vaken länge på kvällarna. → Jag är ofta vaken länge på kvällarna.
+  * Jag är jättetrött eftersom jag sover inte på nätterna. → Jag är jättetrött eftersom jag inte  sover på nätterna.
+  
+---
