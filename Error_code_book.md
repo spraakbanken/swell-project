@@ -129,3 +129,37 @@ May apply to groups of words.
 **Examples**
 
    * Vi gick till McDonalds och åt maten → Vi gick till McDonalds och åt mat.
+
+---
+
+### M-NUM
+
+_Deviation in definite/indefinite forms.  May apply to groups of words._
+
+Mark elements that should agree with each other, if they are not “separated”!
+
+**Examples**
+
+  *  Stress kan komma i många form → Stress kan komma i många former.
+  
+---
+
+### M-GEN
+
+_Gender error_
+
+**Examples**
+
+  * Det är en mycket trevlig område → det är ett mycket trevligt område.
+  
+---
+
+### M-AGR 
+
+Note! This code need to be tested whether we should keep it.
+
+_Agreement error (kongruensfel), e.g. between adjective and noun; pronoun and noun, etc. -->förtydliga beskrivningen_
+
+**Examples**
+
+  * Det är inte konstig att → Det är inte konstigt att
