@@ -232,7 +232,7 @@ _Word order error with adverbial placement_
 
 ### S-adv
 
-_Word order error with_
+_Word order error with finite verb placement_
 
 **Examples**
 
@@ -240,3 +240,60 @@ _Word order error with_
   * Jag är jättetrött eftersom jag sover inte på nätterna. → Jag är jättetrött eftersom jag inte  sover på nätterna.
 
 ---
+
+### S-WO
+
+_Word or phrase order - other_
+
+**Examples**
+
+  * insert exemples here
+
+---
+## Punctuation codes (4)
+---
+
+### P-W
+
+_Wrong punctuation_
+
+**Examples**
+
+  * Mina barn heter Josef; Salma; Zara och Sami → Mina barn heter Josef, Salma, Zara och Sami.
+
+---
+
+### P-R
+
+_Redundanr punctuation_
+
+**Examples**
+
+  * Jag minns inte exakt. vad det var men det var gott → Jag minns inte exakt vad det var men det var gott. 
+
+---
+
+### P-M
+
+_Missing punctuation_
+
+**Examples**
+
+  * Jag har fyra barn två pojkar och två flickor → jag har tre barn, en pojke och två flickor.
+  
+---
+
+### SENT-segmentation (?)
+
+_Merging, or splitting a sentence.  Note! This error type needs to be tested whether it can be coded through other codes
+Only to be used where other punctuation codes cannot be applied._
+
+**Examples**
+
+  * ?
+
+---
+
+
+
+
