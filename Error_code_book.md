@@ -293,6 +293,26 @@ Only to be used where other punctuation codes cannot be applied._
   * ?
 
 ---
+## Follow-up correction code (1)
+---
+
+## C
+
+_Consistence. This group covers necessary (follow-up) corrections in the text that come as a result of previous correction, i.e. originally there was no mistake in the segment, but due to an introduced correction in the neighbouring context, a correction is necessary in the segment. By using this code we indicate that the error was not made originally by the student._
+
+**Examples**
+
+  * Insert example here
+
+---
+## Unidentified
+---
+
+## Uni
+
+_Error that cannot be categorized according to other codes_
+
+---
 
 
 
