@@ -229,3 +229,14 @@ _Word order error with adverbial placement_
   * Jag är jättetrött eftersom jag sover inte på nätterna. → Jag är jättetrött eftersom jag inte  sover på nätterna.
   
 ---
+
+### S-adv
+
+_Word order error with_
+
+**Examples**
+
+  * Jag ofta är vaken länge på kvällarna. → Jag är ofta vaken länge på kvällarna.
+  * Jag är jättetrött eftersom jag sover inte på nätterna. → Jag är jättetrött eftersom jag inte  sover på nätterna.
+
+---
