@@ -49,7 +49,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * Misspelled: < ort >
   * Pseudonymization: 
       - Replace with from a list of school names and companies (e.g. from Yellow pages) 
-
+![](https://ws.spraakbanken.gu.se/ws/swell/png?'Alice%5C's'%20wallet%20was%20stolen%20.%2F%2F'Alice%5C's'%20wallet%20was%20stolen%20.)
 
 ### 3. Geographic data (country, city, zip codes, area names, …)
   * Types: < country_of_origin > , < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < street > , < number >
