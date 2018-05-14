@@ -49,7 +49,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * Misspelled: < ort >
   * Pseudonymization: 
       - Replace with from a list of school names and companies (e.g. from Yellow pages) 
-![](https://ws.spraakbanken.gu.se/ws/swell/png?'Alice%5C's'%20wallet%20was%20stolen%20.%2F%2F'Alice%5C's'%20wallet%20was%20stolen%20.)
 
 ### 3. Geographic data (country, city, zip codes, area names, …)
   * Types: < country_of_origin > , < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < street > , < number >
@@ -79,6 +78,8 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 3) - > e.g. 15-21
+      
+![](https://ws.spraakbanken.gu.se/ws/swell/png?'Alice%5C's'%3A1%3A'firstname%3Afemale'%3Agen%20wallet%20was%20stolen%20.%2F%2F'Alice%5C's'%20wallet%20was%20stolen%20.)      
 
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
   * Types: < day > , < month-digit >, < month-word >, < year >. Keep the delimiters as in original (, . - /)
