@@ -54,8 +54,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * Types: < country_of_origin > , < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < street > , < number >
       - < country > : except Sweden
       - < city > : city including villages (på svenska “ort”)
-      
-         <a href="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png"></a>
          
          ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
       
