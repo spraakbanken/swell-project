@@ -55,9 +55,9 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - < country > : except Sweden
       - < city > : city including villages (på svenska “ort”)
       
-         <a href="https://mondo.su.se/access/content/group/9853fd9c-d07f-4b01-bb0d-cef00f2b8341/Anonymization_images/Anon_gen.png"></a>
+         <a href="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png"></a>
          
-         ![alt text](https://mondo.su.se/access/content/group/9853fd9c-d07f-4b01-bb0d-cef00f2b8341/Anonymization_images/Anon_gen.png "xxx")
+         ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
       
       - < geo >: forest, lake, mountain, etc
       - < zip_code >: replace each number with zero
