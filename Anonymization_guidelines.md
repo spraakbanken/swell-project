@@ -54,6 +54,11 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * Types: < country_of_origin > , < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < street > , < number >
       - < country > : except Sweden
       - < city > : city including villages (på svenska “ort”)
+      
+         <a href="https://mondo.su.se/access/content/group/9853fd9c-d07f-4b01-bb0d-cef00f2b8341/Anonymization_images/Anon_gen.png"></a>
+         
+         ![alt text](https://mondo.su.se/access/content/group/9853fd9c-d07f-4b01-bb0d-cef00f2b8341/Anonymization_images/Anon_gen.png "xxx")
+      
       - < geo >: forest, lake, mountain, etc
       - < zip_code >: replace each number with zero
       - < street >: square
