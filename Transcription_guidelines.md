@@ -133,7 +133,8 @@ Save information about time used for digitizing an essay - for our statistics.
 1. Essay metadata visible in _kiosk_ computer while transcribing?  
 2. Pdf-viewer or Picture-viewer in _kiosk_ computer? 
 3. Text editor & Virtual keybord for various tokens in _kiosk_ computer?
-4. At the moment we are focusing only on the case of hand-written essays. Should we cover even OCR of digital materials, e.g. pdf of a digitally-born essay? In OCR-ed pdfs the text should be extracted and manually checked/corrected for OCR errors. 
+4. At the moment we are focusing only on the case of hand-written essays. Should we cover even OCR of digital materials, e.g. pdf of a digitally-born essay? In OCR-ed pdfs the text should be extracted and manually checked/corrected for OCR errors. (Comment: Vet inte om vi får några sådana. Behöver först testa hur bra OCR-kvaliten blir, samt vilka program man ska använda för att extrahera text från pdf-filer & hur lång tid det tar att gå igenom och korrigera dessa. På Nationella prov OCR-ar man detta.)
+
 
 
 
