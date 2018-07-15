@@ -32,9 +32,15 @@ _Transcription check (5)_ is performed by a third party, e.g. another annotator.
 ## Transcription guidelines
 ---
 
-Two major principles for essay transcription are: not to correct author’s mistakes and not to make personal assumptions. 
+Two **major principles** for essay transcription are: 
+* not to correct author’s mistakes and 
+* not to make personal assumptions. 
+
+
 
 The following rules should apply to transcription of hand-written essays:
+
+
 
 **Authenticity of writing**
 
@@ -144,9 +150,9 @@ Comment, if necessary
 ## Text format / use of a kiosk version of SVALA
 ---
 
-The work on hand-written essays is potentially risky, since certain amount of personal information in the text (as well as handwriting itself) may give away a person behind the text. That is why this work has to be performed in a safe environment. You will be introduced to the SweLL “kiosk” option for that. See instructions for "kiosk" here:
+The work on hand-written essays is potentially risky, since certain amount of personal information in the text (as well as handwriting itself) may give away a person behind the text. That is why this work has to be performed in a safe environment. You will be introduced to the SweLL “kiosk” option for that. See instructions for "kiosk" here: https://github.com/spraakbanken/swell-project/blob/master/SweLL_kiosk_user_manual.md
 
-A [](https://github.com/spraakbanken/swell-project/blob/master/SweLL_kiosk_user_manual.md)
+[](https://github.com/spraakbanken/swell-project/blob/master/SweLL_kiosk_user_manual.md)
 
 You can save your work in any format while you are working, but your should deliver it in a plain text format (in unicode utf-8). 
 
