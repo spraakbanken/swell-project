@@ -104,52 +104,17 @@ To be able to give some time estimation, we have taken time for digitization of 
 
 It will take longer per essay in the beginning, when annotators are not yet confident with the guidelines and the process itself. The time will also depend upon the legibility of handwriting, and challenges of the writing, i.e. presence of challenging interpretations/uncertainties. Take the time estimations below only as an approximation.
 
-Average 
-A1
-A2
-B1
-B2
-C1
-Characters / essay
-459
-702
-1761
--
--
-Words / essay
-85
-134
-331
+![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time1.png)
 
-
-
-
-Minutes / essay
-10
-9
-24,5
-
-
-
-
-Words / minute
-8,25
-15
-13,5
-
-
-
+Table 1. Time estimation essay transcription at different levels
 
 
 
 During your work, write down your time per essay in an excel sheet acc. to the example below:
 
-Essay-ID
-Level
-L1
-Nr words 
-Time in minutes
-Comment, if necessary
+![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time.png)
+
+Table 2. Time estimatino for annotator work on transcription
 
 ---
 ## Text format / use of a kiosk version of SVALA
