@@ -55,12 +55,12 @@ If there is a dubious case - for instance, whether the learner has written corre
 In many cases some basic knowledge of Swedish should help to understand what is written (see ⑤ in Figure 1; as well as Figure 2, lilac underlinings).
 If the handwriting is illegible, write $ (dollar-sign) for each character that cannot be understood.
 
-![]()
+![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_example_cropped.png)
 
 
 Figure 1. Essay example. Level A1 (beginner), nr tokens: 117, topic: Presentation/Om mig; transcription time: 15 min.
 
-![]()
+![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_deciphering.png)
 
 Figure 2. Deciphering letters in student writing: o vs a; capital/non-capital; hyphenation. Level B1 (intermed.), nr tokens: 330, topic: Min första dag i Sverige; transcription time: 34 min.
 
