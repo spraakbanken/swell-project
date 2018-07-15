@@ -110,11 +110,11 @@ Table 1. Time estimation essay transcription at different levels
 
 
 
-During your work, write down your time per essay in an excel sheet acc. to the example below:
+During your work, write down your time per essay in an excel sheet acc. to the example below (Table 2):
 
 ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time.png)
 
-Table 2. Time estimatino for annotator work on transcription
+Table 2. Time estimation for annotator work on transcription
 
 ---
 ## Text format / use of a kiosk version of SVALA
