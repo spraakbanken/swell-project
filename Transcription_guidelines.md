@@ -39,16 +39,17 @@ Two **major principles** for essay transcription are:
 
 
 
-The following rules should apply to transcription of hand-written essays:
+The following **rules** should apply to transcription of hand-written essays:
 
 
-
+---
 **Authenticity of writing**
 
 Errors should be preserved from the hand-writing, e.g. _no error correction!_ (see  ③ in Figure 1). Tips: disable spell-checker.
 
 If there is a dubious case - for instance, whether the learner has written correctly or incorrectly - a _positive assumption_ should be made. For example, if it is unclear whether two words have been written as one or as two items (with too little space between them), the “positive” assumption would be that the learner meant to write two items, and in practice in the transcribed format the string should be separated into two words. When it is obvious that the two words are written as one, that should be preserved (typed as one item). (See ④ in Figure 1)
 
+---
 **Handwriting**
 
 In many cases some basic knowledge of Swedish should help to understand what is written (see ⑤ in Figure 1; as well as Figure 2, lilac underlinings).
@@ -62,6 +63,7 @@ Figure 1. Essay example. Level A1 (beginner), nr tokens: 117, topic: Presentatio
 ![]()
 Figure 2. Deciphering letters in student writing: o vs a; capital/non-capital; hyphenation. Level B1 (intermed.), nr tokens: 330, topic: Min första dag i Sverige; transcription time: 34 min.
 
+---
 **Non-existent letters**
 
 Sometimes students can be very creative and “invent” their own letters (see Figure 3). In the case when you know there is an equivalent letter in another language, use that one, as for example, in the first word in Fig.3: _Sverigё_. 
@@ -74,7 +76,7 @@ If there is no way you can report a corresponding "created" letter, use dollar-s
 Figure 3. Invented letters
 
 
-
+---
 **Graphical issues (supra-linguistic features)**
 
 1. Insert line breaks (“Enter”) to introduce new paragraphs. 
