@@ -10,7 +10,7 @@ _Draft_
 ## Transcription flow
 ---
 
-SweLL transcription process contains instructions for manual conversion of hand-written essays to a digital format, and recommends the following flow:
+This document contains instructions for manual conversion of hand-written essays to a digital format, and recommends the following flow:
 
 1. Acquaintance with guidelines (annotators)
 2. Transcription workshop (annotators + researchers)
