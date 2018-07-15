@@ -2,7 +2,8 @@
 # Transcription process, L2 essays
 Google Doc version (https://docs.google.com/document/d/1bAXIK85ttWJuOXRmsSm_-fTdAlMNKpJG7ddgIrHB77o/edit#)
 
-_Elena Volodina, Bea Megyesi, June, 04 - July, 15, 2018; _
+_Elena Volodina, Bea Megyesi, June, 04 - July, 15, 2018;_
+
 _Draft_
 
 ---
@@ -152,18 +153,15 @@ Comment, if necessary
 
 The work on hand-written essays is potentially risky, since certain amount of personal information in the text (as well as handwriting itself) may give away a person behind the text. That is why this work has to be performed in a safe environment. You will be introduced to the SweLL “kiosk” option for that. See instructions for "kiosk" here: https://github.com/spraakbanken/swell-project/blob/master/SweLL_kiosk_user_manual.md
 
-[](https://github.com/spraakbanken/swell-project/blob/master/SweLL_kiosk_user_manual.md)
-
 You can save your work in any format while you are working, but your should deliver it in a plain text format (in unicode utf-8). 
 
 Save information about time used for digitizing an essay - for our statistics.
 
 ---
-## List of question
+## List of questions
 ---
 
-**Transcription**: 
-1. Essay metadata visible?  
+1. Essay metadata visible in _kiosk_ computer while transcribing?  
 2. Pdf-viewer or Picture-viewer in _kiosk_ computer? 
 3. Text editor & Virtual keybord for various tokens in _kiosk_ computer?
 4. At the moment we are focusing only on the case of hand-written essays. Should we cover even OCR of digital materials, e.g. pdf of a digitally-born essay? In OCR-ed pdfs the text should be extracted and manually checked/corrected for OCR errors. 
