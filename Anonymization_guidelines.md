@@ -167,6 +167,4 @@ Jag heter <firstname1-m> och bor i <city1>. Jag flyttade till Sverige för 1 år
 Pseudonymized*: 
 Jag heter Mohammed och bor i Göteborg. Jag flyttade till Sverige för 1 år sedan. Jag har flytt från Afghanistan med min familj 2013. Jag har två bröder och två systrar. Vi bor på Gustavsgatan 1. Jag vill jobba. Jag vill bli <prof>. Sverige är skön. Jag är <sensitive>.
 
-Red - automatic pseudonymization
-Orange - manual pseudonymization
-Green - no mark-up although it relates to a person
+
