@@ -1,6 +1,6 @@
 # Anonymization guidelines
 
-The purpose of anonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, areas, cities and need to be replaced or overseen to ensure anonymity. Your task is to 1) identify information that can relate to a person, and categorize what type of information it is so that we? can change that information. This document contains instructions for how to proceed. 
+The purpose of anonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, areas, cities, or political, religious and other views and need to be replaced or overseen to ensure anonymity. Your task is to 1) identify all information that can relate to the specific person who wrote the text, and categorize what type of information it is so that the person can be de-identified by changing/hiding the specific information. This document contains instructions for how to proceed. 
 
 ## Basic principles
 
@@ -20,8 +20,8 @@ The purpose of anonymization is to de-identify all information that can reveal t
 
 ## Pseudonymize: 
 
-### 1. Names: 
-  * Types: < surname > < firstname > < middlename > 
+### 1. Personal Names: 
+  * Types: < firstname > < middlename > < surname > 
   * Descriptor: 
       - Gender: male, female, unknown < m > , < f > , < unk >
       - Case: genitive < gen > 
@@ -52,6 +52,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
 
 ### 3. Geographic data (country, city, zip codes, area names, …)
   * Types: < country_of_origin > , < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < street > , < number >
+      - < country_of_origin >: the person's origin
       - < country > : except Sweden
       - < city > : city including villages (på svenska “ort”)
          
@@ -64,8 +65,8 @@ The purpose of anonymization is to de-identify all information that can reveal t
          
       
       - < geo >: forest, lake, mountain, etc
-      - < zip_code >: replace each number with zero
-      - < street >: square
+      - < zip_code >: zip/area code
+      - < street >: street, square
       - < street_nr > : street number
   * Descriptor: 
       - Misspelled: < ort >
@@ -86,7 +87,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
 ### 5. Age: < age >
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
-      - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 3) - > e.g. 15-21
+      - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20
          
 
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
@@ -125,14 +126,25 @@ The purpose of anonymization is to de-identify all information that can reveal t
 
 ### 13. Extra (something else, not covered but the previous categories)
   * Description: < oblig >, < nonoblig >
+   - < oblig > need to be replaced because of sensitivity
+   - < nonoblig > might be sensitive and replaced later
 
 ### 14. Mark up but do not pseudomize: 
   * Profession < prof >
-      - Descriptor: < prof >, < edu> 
+      * Descriptor: < prof >, < edu> 
+      - < prof > profession
+      - < edu > education 
       - Misspelled: < ort >
   * Sensitive information < sensitive >
       - Descriptor: 
       - Misspelled: < ort >
+      * e.g. political or religious views, number of siblings, family members
+
+      Example: 
+I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration. 
+->
+I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och < sensitive >. 
+
 
 ### 15. Comments < OBS! >
    * Use for marking place to return to. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
@@ -140,9 +152,21 @@ The purpose of anonymization is to de-identify all information that can reveal t
 
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?'Alice%5C's'%3A1%3AOBS!%3A'firstname%3Afemale'%3Agen%20wallet%20was%20stolen%20.%2F%2F'Alice%5C's'%20wallet%20was%20stolen%20.)
 
-## Evaluate if subgroups are needed: 
+## For < sensitive > we need to evaluate if subgroups are needed: 
 religion, ethnicity, sexual orientation, political views, events that might reveal a person, physical and mental disabilities
 Number of siblings, family members
 
 ## To be included: 
 Examples
+Original:
+Jag heter Ali och bor i Borlänge. Jag flyttade till Sverige för 1 år sedan. Jag har flytt från Afghanistan med min familj 2015. Jag har fem bröder och tre systrar. Vi bor på Tegelvägen 32. Jag vill jobba. Jag vill bli arkitekt. Sverige är skön. Jag är muslim.
+
+Marked-up:
+Jag heter <firstname1-m> och bor i <city1>. Jag flyttade till Sverige för 1 år sedan. Jag har flytt från <country_of_origin>,  med min familj <year-2012-2018>. Jag har <sensitive> bröder och <sensitive> systrar. Vi bor på <street1> <street_nr>. Jag vill jobba. Jag vill bli <prof>. Sverige är skön. Jag är <sensitive>.
+
+Pseudonymized*: 
+Jag heter Mohammed och bor i Göteborg. Jag flyttade till Sverige för 1 år sedan. Jag har flytt från Afghanistan med min familj 2013. Jag har två bröder och två systrar. Vi bor på Gustavsgatan 1. Jag vill jobba. Jag vill bli <prof>. Sverige är skön. Jag är <sensitive>.
+
+Red - automatic pseudonymization
+Orange - manual pseudonymization
+Green - no mark-up although it relates to a person
