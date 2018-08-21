@@ -52,7 +52,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
 
 ### 3. Geographic data (country, city, zip codes, area names, …)
   * Types: < country_of_origin > , < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < street > , < number >
-      - < region > **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? (Elena, A10AT1) ???_**
+      - < region > versus < area > **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) ???_**
       - < country_of_origin >: the person's origin
       - < country > : except Sweden
       - < city > : city including villages (på svenska “ort”)
