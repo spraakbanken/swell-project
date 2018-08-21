@@ -84,6 +84,8 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * Pseudonymization: 
       - Replace randomly with bus, metro, tram, or train 
       - In case of line number, replace actual number with 1, in case of several number in sequence, enumerate (1, 2, 3…)
+      
+      - **_Do we need to replace "tunnelbana" och "buss-stationer" in the following context: "Det finns en tunnelbana , heter XXX och många buss-stationer nära" (Elena, A18AT1)? They seem to be generally descriptive, though probably can help identify the city that the person lives in. If yes, how do we represent "plural" in "buss-stationer"? _**
 
 ### 5. Age: < age >
   * Person’s age (e.g. 18 years old)
