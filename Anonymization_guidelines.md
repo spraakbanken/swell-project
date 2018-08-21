@@ -89,6 +89,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20
+      - <span style="color:blue">??? If the age is written in letters, plus an error (e.g. "niotton"), could we rewrite right away with a number from the range of +-5 years keeping the error, e.g. "tiogo"??? At the moment we do not have an option for rewriting. Automatically this is not possible either, not even identify which number range to deal with... ??? (Elena, A10AT1)</span>
          
 
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
