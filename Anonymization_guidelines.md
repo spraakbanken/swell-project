@@ -89,7 +89,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20
-      - **_??? If the age is written in letters, plus an error (e.g. "niotton"), could we rewrite right away with a number from the range of +-5 years keeping the error, e.g. "tiogo"??? At the moment we do not have an option for rewriting. Automatically this is not possible either, not even identify which number range to deal with... ??? (Elena, A10AT1)_**
+      - **_??? There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. We need to have an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Added as an issue for anonymization tool. (Elena, A10AT1) ??? _**
          
 
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
