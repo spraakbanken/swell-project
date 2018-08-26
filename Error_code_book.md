@@ -62,7 +62,7 @@ Covers deviations with respect to idiomatic expressions. Can stretch over groups
 ---
 ### L-FL
 
-_Foreign word_
+_Foreign word (not conventionally used in Swedish)_
 
 Even if it similar to a Swedish word and only the spelling is different.
 
@@ -174,13 +174,13 @@ _Deviant paradigm selection, but interpreted to be in accordance with a morpho-s
 
   *Jag sittade länge och väntade på bussen igår → jag satt länge och väntade på bussen igår. 
   
-  Vädret kommer att blir dåligare nästa vecka → vädret kommer att bli sämre nästa veck.
+  Vädret kommer att blir dåligare nästa vecka → vädret kommer att bli sämre nästa vecka.
   
 ---
 
 ### M-VERB
 
-_Covers all deviations with verbs and verb groups, incl aspect_
+_Covers all deviations involving verbs and verb groups, incl aspect_
 
 **Examples**
 
@@ -192,7 +192,7 @@ _Covers all deviations with verbs and verb groups, incl aspect_
 
 ### S-Msubj
 
--Dubject missing
+-Subject missing
 
 **Examples**
 
@@ -232,7 +232,7 @@ _Word order error with adverbial placement_
 
 ### S-adv
 
-_Word order error with finite verb placement_
+_Word order error involving finite verb placement_
 
 **Examples**
 
@@ -240,6 +240,16 @@ _Word order error with finite verb placement_
   * Jag är jättetrött eftersom jag sover inte på nätterna. → Jag är jättetrött eftersom jag inte  sover på nätterna.
 
 ---
+
+### S-finV
+
+_Word order error with finite verb placement_
+
+**Examples**
+
+  * Vor du bor? → Var bor du?
+  * I morn jag åker. → I morn åker jag.
+  * När jag ätiti, jag sover. → När jag ätit, sover jag.
 
 ### S-WO
 
