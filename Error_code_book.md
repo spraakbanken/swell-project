@@ -27,7 +27,7 @@ This error code can be used only to mark existing Swedish words that have been u
 
 _Reference error_
 
-This error code ...
+This error code is used to mark for example gender error in personal pronouns, as revieled by the context.
 
 **Examples**
 
