@@ -249,7 +249,9 @@ _Word, phrase missing_
   
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20jag%20trivs%20.%2F%2F%E2%90%A4%20Jag%20trivs%20bra%3AS-M%20.)
   
-  
+  * (Pilot 3, Elena, E2ET1) Om utveckling försätter vidare kommer det att vi givetvis ska vara ensamma . --> Om utveckling försätter vidare kommer det att **leda till att** vi givetvis ska vara ensamma . 
+
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Om%20utveckling%20f%C3%B6rs%C3%A4tter%20vidare%20kommer%20det%20att%20vi%20givetvis%20ska%20vara%20ensamma%20.%2F%2FOm%20utveckling%20f%C3%B6rs%C3%A4tter%20vidare%20kommer%20det%20att%20leda~%40t725%3AL-ID%3AS-M%20till~%40t725%20att%40t725~%40t725%20vi%20givetvis%20ska%20vara%20ensamma%20.)
 
 ---
 
