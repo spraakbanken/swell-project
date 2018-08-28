@@ -303,6 +303,20 @@ Only to be used where other punctuation codes cannot be applied._
   * ?
 
 ---
+## Intelligebility (1)
+---
+
+## X
+
+_Impossible to interpret the writer’s intention with a word, phrase or sentence. Some wild guess may be added, but not necessarily._
+
+**Examples**
+
+  * 
+  
+  [](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20En~En%3AX%20agumentera%20p%C3%A5%40s35~%40s35%3AX%20%C3%A4r%20viktigt%20hur%20man%20bor%20%C3%A4r%40s41~%40s41%3AX%20bor~%40s41%20p%C3%A5~%40s41%20en%3AM-GEN%20bra%20hem%20.%2F%2F%E2%90%A4%20Jag~En%20vill~En%20'%20argumentera'%20att~%40s35%20det~%40s35%20%C3%A4r%20viktigt%20hur%20man%20bor%20och~%40s41%20att~%40s41%20man~%40s41%20har~%40s41%20ett%20bra%20hem%20.)
+
+---
 ## Follow-up correction code (1)
 ---
 
