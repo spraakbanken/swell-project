@@ -89,6 +89,11 @@ _Orthographic / spelling error_
 **Examples**
 
    * Det tåg 6 timmar från Tehran till Göteborg → Det tog 6 timmar från Tehran till Göteborg.
+   
+   * (Pilot 3, Elena, A14AT1) Det finns monga affärer. --> Det finns många affärer.
+   
+![](https://ws.spraakbanken.gu.se/ws/swell/png?De%20finns%20monga%3AO%20aff%C3%A4rer%20%2C%20Ja%20har%20n%C3%A4ra%20till%20buss%20och%20transport%20'%5C'.'%2F%2FDe%20finns%20m%C3%A5nga%20aff%C3%A4rer%20%2C%20jag%20har%20n%C3%A4ra%20till%20buss%20och%20transport%20.)
+
 
 ---
 ### O-CAP
@@ -123,6 +128,11 @@ _Deviant morphosyntactic category_
    * V: Jag lager mat
    * A: Jag vill ha högare lön.
    * ADV: Hon lagar väldig god mat
+   
+   
+   * (Pilot 3, Elena, A14AT1) I Sverige är mer kalt än xxx --> I Sverige är kallare än i xxx
+    
+![](https://ws.spraakbanken.gu.se/ws/swell/png?I%20Sverige%20%C3%A4r%20mer~mer%3AM-F%20kalt~mer%20%C3%A4n%20'OBS!_country_of_origin_ort'%20'%5C'.'%2F%2FI%20Sverige%20%C3%A4r%20kallare~mer%20%C3%A4n%20i%3AS-M%20'OBS!_country_of_origin_ort'%20.)
 
 ---
 ### M-DEF
@@ -139,6 +149,7 @@ May apply to groups of words.
    
  
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
+
 ---
 
 ### M-NUM
@@ -219,6 +230,12 @@ _Covers all deviations involving verbs and verb groups, incl aspect_
 _Word, phrase missing_
 
   * Jag gillar inte tapeterna i min kusins lägenhet men han inte byta dem eftersom det är hyresrätt → ...han får/kan inte byta        dem...
+  
+  * (Pilot 3, Elena, A14At1) Jag trivs. --> Jag trivs bra.
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20jag%20trivs%20.%2F%2F%E2%90%A4%20Jag%20trivs%20bra%3AS-M%20.)
+  
+  
 
 ---
 
