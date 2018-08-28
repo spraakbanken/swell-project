@@ -21,6 +21,11 @@ This error code can be used only to mark existing Swedish words that have been u
   ![](https://ws.spraakbanken.gu.se/ws/swell/png?N%C3%A4r%20jag%20tittar%20utom%3AL%20f%C3%B6nstret%E2%80%A6%3AO%2F%2FN%C3%A4r%20jag%20tittar%20ut%20%20genom%20f%C3%B6nsret%E2%80%A6)
 
    * På det sättet kan kommunen motionera alla medborgare att träna → på det sättet kan kommunen motivera alla medborgare att träna.
+   
+   * (PIlot 3, Elena, A14AT1) Jag bor samma med min bror --> Jag bor tilsammans med min bror
+   
+![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Jag%20bor%20samma%3AL%20med%20min%20bror%20.%2F%2F%E2%90%A4%20Jag%20bor%20tillsammans%20med%20min%20bror%20.)
+
 
 ---
 ### L-REF
@@ -129,7 +134,11 @@ May apply to groups of words.
 **Examples**
 
    * Vi gick till McDonalds och åt maten → Vi gick till McDonalds och åt mat.
-
+   
+   * (Pilot 3, Elena, A14AT1)
+   
+ 
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
 ---
 
 ### M-NUM
@@ -152,6 +161,10 @@ _Gender error_
 
   * Det är en mycket trevlig område → det är ett mycket trevligt område.
   
+  
+  * (Pilot 3, Elena, A14AT1)
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
 ---
 
 ### M-AGR 
@@ -338,7 +351,11 @@ _Consistence. This group covers necessary (follow-up) corrections in the text th
 
 **Examples**
 
-  * Insert example here
+  * (Pilot 3, Elena, A14AT1) Min bostanden ser ut som lilla centrum med vlere affere --> Mitt bostadsområde ser ut som ...
+  
+  Vi replace _bostad_ (non-neuter word) with _bostadsområde_ (neuter word), which influences the choice of pronoun _min_ (non-neuter) versus _mitt_ (neuter) according to the gender agreement rules.
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Min%3AC%20bostanden%3AL%20ser%20ut%20som%20lilla%20centrum%20med%20vlere%3AO%20affere%3AM-NUM%3AO%20.%2F%2FMitt%20bostadsomr%C3%A5de%20ser%20ut%20som%20lilla%20centrum%20med%20flera%20aff%C3%A4rer%20.)
 
 ---
 ## Unidentified
