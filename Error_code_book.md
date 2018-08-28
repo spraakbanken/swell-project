@@ -37,6 +37,10 @@ This error code is used to mark for example gender error in personal pronouns, a
 **Examples**
 
    * Jag har en bror, hon heter xx → Jag har en bror, han heter xx.
+   * (Pilot 3, Elena, E2ET1) Stämmer det att **våra sociala media** skapar individualism och ensamhet ? Eller **det** skapar  kontakter och trivs ?  
+   
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
+ 
 
 ---
 ### L-DER
@@ -117,6 +121,12 @@ _Error within compounds (oversplitting, overcompounding)_
 
    * Jag kände mig jätte konstigt → Jag kände mig jättekonstigt.
    * Det ligger ett kultur hus nära min bostad → det ligger ett kulturhus när min bostad.
+   
+   * (Pilot 3, Elena, E2ET1) Kommunikation förändring --> Kommunikationsförändring
+   
+![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Kommunikation%3AO-COMP%20f%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20%28%202012%20%29%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20ansikte%20mot%20ansikte%20.%2F%2F%E2%90%A4%20Kommunikationsf%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20(%202012%20)%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20'%3A'%3AP-M%20ansikte%20mot%20ansikte%20.)
+   
+   
 
 ---
 ## Morfological codes (7)
@@ -249,8 +259,11 @@ _Word or phrase redundant_
 
 **Examples**
 
-  * insert example here!
-  
+  * (Pilot 3, Elena, E2ET1) På 2000- talet kom många kommunikationsappar , bland annat **var** Facebook , Twitter , Instegram och Snapchat , påpekar Rose ( 2012 ) . --> På 2000- talet kom många kommunikationsappar , bland annat Facebook , Twitter , Instegram och Snapchat , påpekar Rose ( 2012 ) .
+
+
+![](https://ws.spraakbanken.gu.se/ws/swell/png?P%C3%A5%202000-%20talet%20kom%20m%C3%A5nga%20kommunikation%3AO-COMP%20appar%20bland%20annat%20var%3AS-R%20Facebook%20%2C%20Twitter%20%2C%20Instegram%20och%20Snapchat%20p%C3%A5pekar%20Rose%20%28%202012%20%29%20.%2F%2FP%C3%A5%202000-%20talet%20kom%20m%C3%A5nga%20kommunikationsappar%20%2C%3AP-M%20bland%20annat%20Facebook%20%2C%20Twitter%20%2C%20Instegram%20och%20Snapchat%20%2C%3AP-M%20p%C3%A5pekar%20Rose%20(%202012%20)%20.)
+
 ---
 
 ### S-adv 
@@ -284,6 +297,12 @@ _Word order error with finite verb placement_
   * Vor du bor? → Var bor du?
   * I morn jag åker. → I morn åker jag.
   * När jag ätiti, jag sover. → När jag ätit, sover jag.
+  
+  * (Pilot 3, Elena, E2ET1) Eller det skapar kontakter och trivs ? --> Eller skapar de kontakter och trivsel ?
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
+
+---
 
 ### S-WO
 
@@ -324,6 +343,11 @@ _Missing punctuation_
 **Examples**
 
   * Jag har fyra barn två pojkar och två flickor → jag har tre barn, en pojke och två flickor.
+  
+  * (Pilot 3, Elena, E2ET1) År 1972 togs den sista manuella växeln ur bruk anger Björkvist (2012) . --> År 1972 togs den sista manuella växeln ur bruk , anger Björkvist (2012) .
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?%C3%85r%201972%20togs%20den%20sista%20manuella%20v%C3%A4xeln%20ur%20bruk%20anger%20Bj%C3%B6rkqvist%20%28%202012%20%29%20.%2F%2F%C3%85r%201972%20togs%20den%20sista%20manuella%20v%C3%A4xeln%20ur%20bruk%20%2C%3AP-M%20anger%20Bj%C3%B6rkqvist%20(%202012%20)%20.)
+
   
 ---
 
