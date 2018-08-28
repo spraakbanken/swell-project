@@ -300,15 +300,15 @@ Only to be used where other punctuation codes cannot be applied._
 
 **Examples**
 
-  * Usage of "och" instead of full stop:
+  * (Pilot 3, Elena, A11AT1)  Usage of "och" instead of full stop:
 
 ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent-segment-och.png)
 
-  * Merging full stops with tokens before and/or after:
+  * (Pilot 3, Elena, A11AT1) Merging full stops with tokens before and/or after:
   
 ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent_segm_merged.png)
 
-  * Neglecting usage of full stops or other indication of a new sentence:
+  * (Pilot 3, Elena, A11AT1) Neglecting usage of full stops or other indication of a new sentence:
   
 ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent_segm_absent.png)
   
