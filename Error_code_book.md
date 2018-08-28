@@ -301,6 +301,9 @@ Only to be used where other punctuation codes cannot be applied._
 **Examples**
 
   * ?
+  
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Haj%3AO%20meet%3AO%20namen%3AO%20'firstname%3Amale_1'%20'surname_2_ort'%20'%5C'jag'%3AC%20bor%20in%3AO%20'country_of_origin_3_ort'%20'region_4_ort'%20'region_5_ort'%20'%5C'och'%20jog%3AO%20protta%3AO%20arabiska%20och%20engliska%3AO%20i%3AS-R%20litte%3AO%20svenska%20och%40s20~%40s20%3ASent-Segmentation%20vi%3AC%20har%203%20rum%20it%3AO%20huset%20dar%3AO%20rum%20%C3%A4r%20meka%3AO%20bra%20liv%3AS-R%20med%20maen%3AO%20familija%3AO%20dar%3AS-R%20huset%3AC%20familjbostder%3AM-NUM%3AO%20och%20jag%20vill%20sta%3AL%3AO%20och%40s43~%40s43%3ASent-Segmentation%20jog%3AC%3AO%20kan%20ante%3AO%20skriv%3AM-VERB%20meka%3AL%3AO%20ord%20.tack%3AO-CAP%3AOBS!%3ASent-Segmentation%20%E2%90%A4%2F%2FHej%20%2C%3AP-M%20mitt%20namn%20%C3%A4r%3AS-M%20'firstname%3Amale_1'%20'surname_2_ort'%20.%3AP-M%3ASent-Segmentation%20Jag%20bor%20i%20'country_of_origin_3_ort'%20'region_4_ort'%20'region_5_ort'%20och%20jag%20pratar%20arabiska%20och%20engelska%20och%3AS-M%20lite%20svenska%20'.%20'~%40s20%20Vi%20har%203%20rum%20i%20huset%20%2C%3AP-M%20d%C3%A4r%20rum%20%C3%A4r%20mycket%20bra%20.%3AP-M%3ASent-Segmentation%20Jag%3AS-Msubj%20bor%3AS-M%20med%20min%20familj%20'.%20'%3AP-M%3ASent-Segmentation%20Huset%20%C3%A4r%3AS-M%20en%3AS-M%20familjbostad%20och%20jag%20vill%20stanna%20.~%40s43%20Jag%20kan%20inte%20skriva%20m%C3%A5nga%20ord%20.%20Tack%20%E2%90%A4)
 
 ---
 ## Intelligebility (1)
@@ -312,11 +315,7 @@ _Impossible to interpret the writer’s intention with a word, phrase or sentenc
 
 **Examples**
 
-  * 
-  
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Unidentified.png)
-
-tralala
+  * (Pilot3:  added by Elena, A14AT1) Syntactically doesn't make sense 
 
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20En~En%3AX%20agumentera%20p%C3%A5%40s35~%40s35%3AX%20%C3%A4r%20viktigt%20hur%20man%20bor%20%C3%A4r%40s41~%40s41%3AX%20bor~%40s41%20p%C3%A5~%40s41%20en%3AM-GEN%20bra%20hem%20.%2F%2F%E2%90%A4%20Jag~En%20vill~En%20'%20argumentera'%20att~%40s35%20det~%40s35%20%C3%A4r%20viktigt%20hur%20man%20bor%20och~%40s41%20att~%40s41%20man~%40s41%20har~%40s41%20ett%20bra%20hem%20.)
 
