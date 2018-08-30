@@ -11,7 +11,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
 3. Keep track of whether the token is “original” or “masked”
 
 4. Categories that need to be marked in the texts, but not necessarily replaced. We would  make an assessment later when we have enough statistics over the learners behind the essays: 
-  * country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in our database are from the named countries
+  * country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in our database are from the named countries [Consider to merge this with <country>]
   * country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
   * number of family members (_Jag har fem bröder och fyra systrar_) - we will need to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
   * professions (_Jag är webbutvikler_) 
@@ -26,8 +26,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - Gender: male, female, unknown < m > , < f > , < unk >
       - Case: genitive < gen > 
       - Initial:  < ini > 
-      - Running number: < 1, 2… >  [enumerate each unique name type entity with a number starting with 1]
-      - Misspelled: < ort > 
+      - Running number: < 1, 2… >  [enumerate each unique name type entity with a number starting with 1] 
   * Pseudonymization: 
       - Provide a list with first names, male, female and gender neutral (incl. international). 
       - For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
@@ -46,7 +45,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
 ### 2. Institution: < institution > 
    * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
   * Descriptor: < school > , < work > , < other_institution >
-  * Misspelled: < ort >
   * Pseudonymization: 
       - Replace with from a list of school names and companies (e.g. from Yellow pages) 
 
@@ -70,7 +68,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - < street >: street, square
       - < street_nr > : street number
   * Descriptor: 
-      - Misspelled: < ort >
       - behövs numrering? Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1]
   * Pseudonymization: 
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and country of origin
@@ -81,7 +78,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * < transport >: bus, metro, tram, train, express
   * < transport_line > : number, color
   * Descriptor: 
-      - Misspelled: < ort >
   * Pseudonymization: 
       - Replace randomly with bus, metro, tram, or train 
       - In case of line number, replace actual number with 1, in case of several number in sequence, enumerate (1, 2, 3…)
@@ -98,7 +94,6 @@ The purpose of anonymization is to de-identify all information that can reveal t
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
   * Types: < day > , < month-digit >, < month-word >, < year >. Keep the delimiters as in original (, . - /)
   * Descriptor: 
-      - Misspelled: < ort >
   * Pseudonymization: 
       - < day > - > random number between 1-28
       - < month-digit > - > random replace 1-12
@@ -139,10 +134,8 @@ The purpose of anonymization is to de-identify all information that can reveal t
       * Descriptor: < prof >, < edu> 
       - < prof > profession
       - < edu > education 
-      - Misspelled: < ort >
   * Sensitive information < sensitive >
       - Descriptor: 
-      - Misspelled: < ort >
       * e.g. political or religious views, number of siblings, family members
 
       Example: 
