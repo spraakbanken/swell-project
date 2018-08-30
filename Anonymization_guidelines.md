@@ -51,7 +51,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
 ### 3. Geographic data (country, city, zip codes, area names, …)
   * Types: < country_of_origin > , < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < street > , < number >
       - < region > versus < area > **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_**
-      - < country_of_origin >: the person's origin
+      - < country_of_origin >: the person's origin (possibly merge with <country>
       - < country > : except Sweden
       - < city > : city including villages (på svenska “ort”)
          
@@ -65,12 +65,12 @@ The purpose of anonymization is to de-identify all information that can reveal t
       
       - < geo >: forest, lake, mountain, etc
       - < zip_code >: zip/area code
-      - < street >: street, square
-      - < street_nr > : street number
+      - < place >: specific place, street, square, bridge, 
+      - < street_nr > : street or place number
   * Descriptor: 
-      - behövs numrering? Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1]
+      - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1]
   * Pseudonymization: 
-      - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and country of origin
+      - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and possibly country of origin
       - Country of origin -> markup but do not pseudomize and replace those countries that few people come from
       - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
@@ -81,6 +81,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
   * Pseudonymization: 
       - Replace randomly with bus, metro, tram, or train 
       - In case of line number, replace actual number with 1, in case of several number in sequence, enumerate (1, 2, 3…)
+      - Only replace entity when specific stops/stations are mentioned, not when transportation types are mentioned in general terms. 
       
       - **_Do we need to replace "tunnelbana" och "buss-stationer" in the following context: "Det finns en tunnelbana , heter XXX och många buss-stationer nära" (Elena, A18AT1)? They seem to be generally descriptive, though probably can help identify the city that the person lives in. If yes, how do we represent "plural" in "buss-stationer"?_**
 
