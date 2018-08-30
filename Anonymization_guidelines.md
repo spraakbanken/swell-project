@@ -71,6 +71,7 @@ The purpose of anonymization is to de-identify all information that can reveal t
       - < street_nr > : street number
   * Descriptor: 
       - Misspelled: < ort >
+      - behövs numrering? Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1]
   * Pseudonymization: 
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and country of origin
       - Country of origin -> markup but do not pseudomize and replace those countries that few people come from
