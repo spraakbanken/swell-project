@@ -27,7 +27,7 @@
  11. Follow-up (consequence) errors
 
 
-## Normalization
+## Normalization principles
 
 ### Principle of minimal change
 
