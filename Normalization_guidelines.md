@@ -71,7 +71,7 @@ min kompis och jag träffar till klubb NN” [F W] → min kompis och jag träff
 
 ## Guidelines by error type
 
-### SweLL pilot - analysis & insights (Elena and Julia, OBS! prel. anteckningar):
+### SweLL pilot - analysis & insights (Elena and Julia, OBS! prel. anteckningar, EJ ANPASSAD TILL SENASTE VERSIONEN AV KODBOKEN):
 
 ### Lexical errors
 
@@ -98,9 +98,6 @@ Jag och min familj bor, min mamma och min syster, bor i en lägenhet i Tumba. De
 [or should we keep to the minimal change principle here? I think that gets confusing and creates too many gray areas.../JP]
 
 F-DEF // optional article and minimal change:
-
-EJ ANPASSAD TILL KODBOKEN ÄN!
-
 
 
 ### Syntactical errors
