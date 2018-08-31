@@ -235,7 +235,7 @@ _Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
 
 ### M-other
 
-_morfologigal deviations that are not covert by the codes above_
+_ambigeous cases with several possible target hypothesies
 
 **Examples**
 
