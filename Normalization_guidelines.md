@@ -1,5 +1,12 @@
 # Normalization guidelines
 
+Note: Should maybe be called correction?
+
+## Introduction
+
+Normalisation is not an unambiguous concept. There are usually several possible normalisations that are compatible with the guidelines (just as there are several possible translations of a sentence). But it's important to remember that a kyy purpose of the normalisation is just to make the target hypothesis explicit, and that target hypotheses exist regardless of whether we make them explicit or not. Another key purpose of normalisation is that we expect that the parallel text will serve as a valuable resource for development of automatic means for identifying learner errors. We will see later on if it's meaningful to calculate inter-annotator agreement for normalisation, and in the meantime we can only try to make the criteria as clear and useful as possible.
+
+
 ## Content
 
 ### Normalization principles
