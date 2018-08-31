@@ -8,7 +8,7 @@ Normalisation is not an unambiguous concept, but the aim of this guideline is to
 
 ## Why are different normalisations possible?
 
-There are two reasons that different normalisations are possible for a given learner text:
+There are two reasons why different normalisations are possible for a learner text:
 
 1. Different target hypotheses
 
@@ -35,7 +35,9 @@ Min bostad   är stor och gul , och ligger i ett fint hus . <-- Even larger chan
 -- Ändra inte på stilnivå (det får låta som från en femåring så länge det inte är ogrammatiskt)
 
 Exempel på saker vi inte rättar:
+
 "Orsaken beror på..."
+
 Huvudsatsordföljd i att-bisats
 
 Prioritet vid ändringar för att göra normalisering
@@ -52,8 +54,11 @@ och ligger i ett fint hus . <-- Större ändring
 3. Utgå från innehållsordets form och ändra omgivande kontext i stället för tvärtom
 
 det är mycket skillnader
+
 det är många skillnader <-- vår ändring
+
 det är stora skillnader <-- "stora" är längre från ursprungstexten ("mycket")
+
 det är stor skillnad <-- innehållsordets form ändrad, ger större ändring
 
 4. Positive assumption.
