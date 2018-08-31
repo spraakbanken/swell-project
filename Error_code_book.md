@@ -135,6 +135,13 @@ _Error within compounds (oversplitting, overcompounding)_
 
 genitiv och dativ (pronomen)
 
+**Examples**
+
+* 50 kilometer avstånd                                 	50 kilometers avstånd  
+* om kan bidra till samhället utveckling	som kan bidra till samhällets utveckling
+
+---
+
 ### M-DEF
 
 _Deviation in definite/indefinite forms._
