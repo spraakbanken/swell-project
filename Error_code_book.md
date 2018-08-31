@@ -127,7 +127,7 @@ _Error within compounds (oversplitting, overcompounding)_
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Kommunikation%3AO-COMP%20f%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20%28%202012%20%29%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20ansikte%20mot%20ansikte%20.%2F%2F%E2%90%A4%20Kommunikationsf%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20(%202012%20)%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20'%3A'%3AP-M%20ansikte%20mot%20ansikte%20.)
    
 ---
-##Morfological codes (9?)
+## Morfological codes (9?)
 ---
 
 ### M-F
