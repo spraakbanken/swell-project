@@ -4,8 +4,7 @@ Note: Should maybe be called correction?
 
 ## Introduction
 
-Normalisation is not an unambiguous concept. There are usually several possible normalisations that are compatible with the guidelines (just as there are several possible translations of a sentence). But it's important to remember that a kyy purpose of the normalisation is just to make the target hypothesis explicit, and that target hypotheses exist regardless of whether we make them explicit or not. Another key purpose of normalisation is that we expect that the parallel text will serve as a valuable resource for development of automatic means for identifying learner errors. We will see later on if it's meaningful to calculate inter-annotator agreement for normalisation, and in the meantime we can only try to make the criteria as clear and useful as possible.
-
+Normalisation is not an unambiguous concept. There will typically be several possible normalisations that are compatible with the guidelines (just as there are several possible translations of a sentence), but this is not necessarily a problem. A key purpose of the normalisation is just to make the target hypothesis explicit, and that target hypotheses always exist regardless of whether we make them explicit or not. The other key purpose of normalisation is that we expect that the resulting parallel text will be a very valuable resource for development of automatic means for identifying learner errors, in this or in future projects. This resource will be valueable even if there are several ways in which the text could have been normalised. We will be able to see later on if it's meaningful to calculate inter-annotator agreement for normalisation, and in the meantime we will try to make the criteria as clear and useful as possible.
 
 ## Content
 
