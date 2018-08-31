@@ -210,8 +210,7 @@ _Deviant paradigm selection, but interpreted to be in accordance with a morpho-s
      * (Pilot 3, Elena, A14AT1) I Sverige är mer kalt än xxx --> I Sverige är kallare än i xxx
     
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?I%20Sverige%20%C3%A4r%20mer~mer%3AM-F%20kalt~mer%20%C3%A4n%20'OBS!_country_of_origin_ort'%20'%5C'.'%2F%2FI%20Sverige%20%C3%A4r%20kallare~mer%20%C3%A4n%20i%3AS-M%20'OBS!_country_of_origin_ort'%20.)
-  
- 
+   
 ---
 
 ### M-VERB
