@@ -190,6 +190,10 @@ genitiv och dativ (pronomen)
 
 adjektiv komparation
 
+**Examples**
+
+  * hon är stor än mig_
+---
 
 ### M-F
 
