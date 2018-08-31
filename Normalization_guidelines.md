@@ -102,13 +102,26 @@ F-DEF // optional article and minimal change:
 
 ### Syntactical errors
 
-
-
-
-
-
-
-
 ### Follow-up (consequence) correction
+
+#Anteckningar SweLL-möte 180931
+
+Inte ändra bisatser som : "allt är bra för att jag kan inte bo ensam" - inte särskilt avvikande (se SAG)
+
+Innehållsord tas bort in minsta möjliga mån - exempel bostaden och fint hus (Elena tar skärmdump)
+
+Can-do i originaltexten får inte gå förlorad i normaliseringen! 
+
+## Mål:
+
+- Ändra så meningen är grammatisk
+- Ändra inte på stilnivå
+
+## Priorotering:
+
+1. Behåll betydelsen !!
+2. Ändra så få ord som möjligt
+
+
 
 
