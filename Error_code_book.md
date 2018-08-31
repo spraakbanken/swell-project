@@ -130,6 +130,11 @@ _Error within compounds (oversplitting, overcompounding)_
 ## Morfological codes (9?)
 
 ---
+
+### M-Case (Heter AGR i vertyget just nu!)
+
+genitiv och dativ (pronomen)
+
 ### M-DEF
 
 _Deviation in definite/indefinite forms._
@@ -147,18 +152,6 @@ May apply to groups of words.
 
 ---
 
-### M-NUM
-
-_Deviation in definite/indefinite forms.  May apply to groups of words._
-
-Mark elements that should agree with each other, if they are not “separated”!
-
-**Examples**
-
-  *  Stress kan komma i många form → Stress kan komma i många former.
-  
----
-
 ### M-GEND
 
 _Gender error_
@@ -171,18 +164,10 @@ _Gender error_
   * (Pilot 3, Elena, A14AT1)
   
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
----
-
 
 **Examples**
 
   * Det är inte konstig att → Det är inte konstigt att
-  
----
-
-### M-Case (Heter AGR i vertyget just nu!)
-
-genitiv och dativ (pronomen)
 
 ---
 
@@ -193,6 +178,29 @@ adjektiv komparation
 **Examples**
 
   * hon är stor än mig_
+  
+  ---
+
+### M-NUM
+
+_Deviation in definite/indefinite forms.  May apply to groups of words._
+
+Mark elements that should agree with each other, if they are not “separated”!
+
+**Examples**
+
+  *  Stress kan komma i många form → Stress kan komma i många former.
+  
+---
+
+### M-VERB
+
+_Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
+
+**Examples**
+
+  *Det betyder inte att vi glomma bort vår tradition → Det betyder inte att vi ska glömma/att vi glömmer bort vår tradition.
+  
 ---
 
 ### M-F
@@ -215,16 +223,6 @@ _Deviant paradigm selection, but interpreted to be in accordance with a morpho-s
     
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?I%20Sverige%20%C3%A4r%20mer~mer%3AM-F%20kalt~mer%20%C3%A4n%20'OBS!_country_of_origin_ort'%20'%5C'.'%2F%2FI%20Sverige%20%C3%A4r%20kallare~mer%20%C3%A4n%20i%3AS-M%20'OBS!_country_of_origin_ort'%20.)
    
----
-
-### M-VERB
-
-_Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
-
-**Examples**
-
-  *Det betyder inte att vi glomma bort vår tradition → Det betyder inte att vi ska glömma/att vi glömmer bort vår tradition.
-  
 ---
 
 ### M-other
