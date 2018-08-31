@@ -204,7 +204,7 @@ _Agreement error (kongruensfel), e.g. between adjective and noun; pronoun and no
   
 ---
 
-### M-INFL
+### M-Paradigm?
 
 _Deviant paradigm selection, but interpreted to be in accordance with a morpho-syntactic form in Swedish; overgeneralization_
 
