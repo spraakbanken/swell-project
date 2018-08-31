@@ -4,7 +4,7 @@ Note: "Normalization" should maybe be called "correction"?
 
 ## Purpose
 
-Normalisation is not an unambiguous concept. There will typically be several possible normalisations that are compatible with the guidelines (just as there are several possible translations of a sentence), but this is not necessarily a problem. A key purpose of the normalisation is to make the target hypothesis explicit, but it's important to remember that target hypotheses always exist regardless of whether we make them explicit or not. The other key purpose of normalisation is that we expect the resulting parallel text to be a very valuable resource for development of automatic methods for identifying learner errors, in this or in future projects. This resource will be valuable even if there are several ways in which the text could have been normalised. In any case, the aim of this guideline is to make the criteria for normalisation as clearcut and useful as possible.
+Normalisation is not an unambiguous concept. There will typically be several possible normalisations that are compatible with the criteria in the guidelines (just as there are several possible translations of a sentence), but this is not necessarily a problem. A key purpose of the normalisation is to make the target hypothesis explicit, and it's important to remember that target hypotheses exist regardless of whether we make them explicit or not. (Note that our tool only allows for one target hypothesis.) The other key purpose of normalisation is that we expect the resulting parallel text to be a very valuable resource for development of automatic methods for identifying learner errors, in this or in future projects. This resource will be valuable even if there are several ways in which the text could have been normalised. In any case, the aim of this guideline is to make the criteria for normalisation as precise and useful as possible.
 
 ## Basic principles
 
@@ -12,8 +12,10 @@ There are two reasons that different normalisations are possible for a given lea
 
 1. Different target hypotheses
 
-jag trivs mycket bor med dem . <-- Original
-Jag trivs mycket bra med dem . <-- Elenas målhypotes
+jag trivs mycket bor med dem . <-- Original text
+
+Jag trivs mycket bra med dem . <-- Target hypothesis 1
+
 Jag trivs mycket med att bo med dem .  <-- Vår målhypotes
 
 2. Givet en målhypotes så kan det fortfarande finnas flera möjliga normaliseringar. Här behövs det kriterier för "minimal ändring".
@@ -57,6 +59,7 @@ Hellre fria än fälla. Utgå från att de kan
 
 ser gul färg???
 
+-----------------------------
 
 ## Content
 
