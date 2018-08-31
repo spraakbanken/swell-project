@@ -231,7 +231,7 @@ _ambigeous cases with several possible target hypothesies
 
 **Examples**
 
-  *?
+  * det är ett **lite** hus
   
 ---
 
