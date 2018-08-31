@@ -126,10 +126,7 @@ _Error within compounds (oversplitting, overcompounding)_
    
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Kommunikation%3AO-COMP%20f%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20%28%202012%20%29%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20ansikte%20mot%20ansikte%20.%2F%2F%E2%90%A4%20Kommunikationsf%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20(%202012%20)%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20'%3A'%3AP-M%20ansikte%20mot%20ansikte%20.)
    
-   
 
----
-## Morfological codes (7)
 ---
 
 ### M-F
@@ -138,9 +135,7 @@ _Deviant morphosyntactic category_
 
 **Examples**
 
-   * N: Jag har tre båter
-   * V: Jag lager mat
-   * A: Jag vill ha högare lön.
+  
    * ADV: Hon lagar väldig god mat
    
    
@@ -178,7 +173,7 @@ Mark elements that should agree with each other, if they are not “separated”
   
 ---
 
-### M-GEN
+### M-GEND
 
 _Gender error_
 
@@ -192,11 +187,6 @@ _Gender error_
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
 ---
 
-### M-AGR 
-
-Note! This code need to be tested whether we should keep it.
-
-_Agreement error (kongruensfel), e.g. between adjective and noun; pronoun and noun, etc. -->förtydliga beskrivningen_
 
 **Examples**
 
@@ -204,7 +194,18 @@ _Agreement error (kongruensfel), e.g. between adjective and noun; pronoun and no
   
 ---
 
-### M-Paradigm?
+### M-Case (Heter AGR i vertyget just nu!)
+
+genitiv och dativ (pronomen)
+
+---
+
+### M-Komp (heter M-INFL i verktyget just nu)
+
+adjektiv komparation
+
+
+### M-F
 
 _Deviant paradigm selection, but interpreted to be in accordance with a morpho-syntactic form in Swedish; overgeneralization_
 
@@ -212,19 +213,35 @@ _Deviant paradigm selection, but interpreted to be in accordance with a morpho-s
 
   *Jag sittade länge och väntade på bussen igår → jag satt länge och väntade på bussen igår. 
   
-  Vädret kommer att blir dåligare nästa vecka → vädret kommer att bli sämre nästa vecka.
+  *Vädret kommer att blir dåligare nästa vecka → vädret kommer att bli sämre nästa vecka.
   
+   * N: Jag har tre båter
+   * V: Jag lager mat
+   * A: Jag vill ha högare lön.
+  
+ 
 ---
 
 ### M-VERB
 
-_Covers all deviations involving verbs and verb groups, incl aspect_
+_Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
 
 **Examples**
 
   *Det betyder inte att vi glomma bort vår tradition → Det betyder inte att vi ska glömma/att vi glömmer bort vår tradition.
   
 ---
+
+### M-other
+
+_morfologigal deviations that are not covert by the codes above_
+
+**Examples**
+
+  *?
+  
+---
+
 ## Syntactical codes (6)
 ---
 
