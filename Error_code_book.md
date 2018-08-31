@@ -193,7 +193,7 @@ adjektiv komparation
 
 ### M-F
 
-_Deviant paradigm selection, but interpreted to be in accordance with a morpho-syntactic form in Swedish; overgeneralization_
+_Deviant paradigm selection, but interpreted to be in accordance with a morpho-syntactic category in Swedish; overgeneralization_
 
 **Examples**
 
