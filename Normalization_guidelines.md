@@ -1,10 +1,62 @@
 # Normalization guidelines
 
-Note: Should maybe be called correction?
+Note: "Normalization" should maybe be called "correction"?
 
-## Introduction
+## Purpose
 
-Normalisation is not an unambiguous concept. There will typically be several possible normalisations that are compatible with the guidelines (just as there are several possible translations of a sentence), but this is not necessarily a problem. A key purpose of the normalisation is just to make the target hypothesis explicit, and that target hypotheses always exist regardless of whether we make them explicit or not. The other key purpose of normalisation is that we expect that the resulting parallel text will be a very valuable resource for development of automatic means for identifying learner errors, in this or in future projects. This resource will be valueable even if there are several ways in which the text could have been normalised. We will be able to see later on if it's meaningful to calculate inter-annotator agreement for normalisation, and in the meantime we will try to make the criteria as clear and useful as possible.
+Normalisation is not an unambiguous concept. There will typically be several possible normalisations that are compatible with the guidelines (just as there are several possible translations of a sentence), but this is not necessarily a problem. A key purpose of the normalisation is to make the target hypothesis explicit, but it's important to remember that target hypotheses always exist regardless of whether we make them explicit or not. The other key purpose of normalisation is that we expect the resulting parallel text to be a very valuable resource for development of automatic methods for identifying learner errors, in this or in future projects. This resource will be valuable even if there are several ways in which the text could have been normalised. In any case, the aim of this guideline is to make the criteria for normalisation as clearcut and useful as possible.
+
+## Basic principles
+
+There are two reasons that different normalisations are possible for a given learner text:
+
+1. Different target hypotheses
+
+jag trivs mycket bor med dem . <-- Original
+Jag trivs mycket bra med dem . <-- Elenas målhypotes
+Jag trivs mycket med att bo med dem .  <-- Vår målhypotes
+
+2. Givet en målhypotes så kan det fortfarande finnas flera möjliga normaliseringar. Här behövs det kriterier för "minimal ändring".
+
+Mit Bostaden är stor och ser gul farg   fint hus . <-- Original
+Min bostad   är stor och har gul färg , ett fint hus . <-- Vår minimala ändring
+Min bostad   är stor och har gul färg , och ligger i ett fint hus . <-- Större ändring
+Min bostad   är stor och gul , och ligger i ett fint hus . <-- Ännu större ändring
+
+Utgångspunkter
+
+-- Ändra så att meningen är grammatisk (vilket är ett vitt begrepp)
+
+-- Ändra inte på stilnivå (det får låta som från en femåring så länge det inte är ogrammatiskt)
+
+Exempel på saker vi inte rättar:
+"Orsaken beror på..."
+Huvudsatsordföljd i att-bisats
+
+Prioritet vid ändringar för att göra normalisering
+
+1. Behåll betydelsen (viktigast!)
+
+Att ändra "bor" till "bra" är en större ändring än att ändra "bor" till "med att bo"
+
+2. Ändra så få ord som möjligt
+
+ett fint hus .
+och ligger i ett fint hus . <-- Större ändring
+
+3. Utgå från innehållsordets form och ändra omgivande kontext i stället för tvärtom
+
+det är mycket skillnader
+det är många skillnader <-- vår ändring
+det är stora skillnader <-- "stora" är längre från ursprungstexten ("mycket")
+det är stor skillnad <-- innehållsordets form ändrad, ger större ändring
+
+4. Positive assumption.
+
+Hellre fria än fälla. Utgå från att de kan 
+
+ser gul färg???
+
 
 ## Content
 
