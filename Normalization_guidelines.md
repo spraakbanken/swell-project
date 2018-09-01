@@ -4,7 +4,7 @@ Note: "Normalization" should perhaps be called "correction"?
 
 ## Purpose
 
-Normalisation is not an unambiguous concept, and there will typically be multiple possible normalisations of a text, just as there are several correct translations of a sentence. Why do we then do normalisation? A key purpose is to make our target hypothesis explicit, given that target hypotheses always exist regardless of whether we make them explicit or not. (Note, by the way, that our tool only allows for a single target hypothesis.) Another purpose is that we expect the resulting parallel (original and normalised) text to be a highly valuable resource for development of automatic methods for identifying learner errors. (Also, this resource will be valuable even if there are multiple ways in which the text could have been normalised.) A third purpose is more speculative, but our intuition tells us that the quality of error coding will improve if the conceptually different tasks of error detection, correction and annotation are performed independently.
+Normalisation is not an unambiguous concept, and there will typically be multiple possible normalisations of a text, just as there are several correct translations of a sentence. Why do we then do normalisation? To begin with, a key purpose is to make our target hypothesis explicit, given that target hypotheses always exist regardless of whether we make them explicit or not. (Note, by the way, that our tool only allows for a single target hypothesis.) Secondly, our intuition tells us that the quality of error coding will improve if the conceptually different tasks of error detection, correction and annotation can be performed independently. Third, we expect the resulting parallel (original and normalised) text to be a highly valuable resource for development of automatic methods for identifying learner errors. In particular, this resource will be valuable even if there are multiple ways in which the text could have been normalised.
 
 ## Why are different normalisations possible?
 
@@ -14,9 +14,9 @@ There are two reasons why different normalisations are possible for a learner te
 
    Jag trivs mycket bor med dem   &nbsp; &larr; Original
 
-   Jag trivs mycket bra med dem   &nbsp; &larr; Target hypothesis 1
-
-   Jag trivs mycket med att bo med dem   &nbsp; &larr; Target hypothesis 2
+   Jag trivs mycket med att bo med dem   &nbsp; &larr; Target hypothesis 1: preferred change
+   
+   Jag trivs mycket bra med dem   &nbsp; &larr; Target hypothesis 2
 
 2. Even if we agree on a target hypothesis, several normalisations are possible
 
