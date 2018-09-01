@@ -18,7 +18,7 @@ There are two reasons why different normalisations are possible for a learner te
 
    Jag trivs mycket med att bo med dem .  <-- Target hypothesis 2
 
-2. Even if we agree on a target hypothesis, several normalisations are still possible. Här behövs det kriterier för "minimal ändring".
+2. Even if we agree on a target hypothesis, several normalisations are still possible
 
    Mit Bostaden är stor och ser gul farg   fint hus . <-- Original
 
@@ -56,7 +56,7 @@ Assuming that several normalisations are possible, use the following criteria in
 
 2. Change as few words as possible
 
-   In item (2) above, inserting "och ligger i ett fint hus" is more idiomatic but changes more words than "ett fint hus"
+   In item (2) above, inserting "och ligger i ett fint hus" is more idiomatic but not preferred since it changes more words than "ett fint hus"
    
    ett fint hus . <-- Preferred change to obtain a proper noun phrase
    
