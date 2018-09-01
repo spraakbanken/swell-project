@@ -4,7 +4,7 @@ Note: "Normalization" should maybe be called "correction"?
 
 ## Purpose
 
-Normalisation is not an unambiguous concept, but the aim of this guideline is to make our criteria for this task as precise as possible. Still, there will typically be multiple possible normalisations of a text, just as there are several correct translations of a sentence. Why do we then do normalisation? A key purpose is to make our target hypothesis explicit, given that target hypotheses always exist regardless of whether we make them explicit or not. (Note, by the way, that our tool only allows for a single target hypothesis.) Another purpose is that we expect the resulting parallel (original and normalised) text to be a highly valuable resource for development of automatic methods for identifying learner errors (and this resource will be valuable even if there are multiple ways in which the text could have been normalised). A third purpose is more speculative, but our intuition is that the quality of error coding will improve if the conceptually different tasks of error detection, correction and annotation are performed independently.
+Normalisation is not an unambiguous concept, and there will typically be multiple possible normalisations of a text (just as there are several correct translations of a sentence). Why do we then do normalisation? A key purpose is to make our target hypothesis explicit, given that target hypotheses always exist regardless of whether we make them explicit or not. (Note, by the way, that our tool only allows for a single target hypothesis.) Another purpose is that we expect the resulting parallel (original and normalised) text to be a highly valuable resource for development of automatic methods for identifying learner errors (and this resource will be valuable even if there are multiple ways in which the text could have been normalised). A third purpose is more speculative, but our intuition is that the quality of error coding will improve if the conceptually different tasks of error detection, correction and annotation are performed independently.
 
 ## Why are different normalisations possible?
 
@@ -30,17 +30,19 @@ There are two reasons why different normalisations are possible for a learner te
 
 ## Criteria
 
--- Ändra så att meningen är grammatisk (vilket är ett vitt begrepp)
+### Basic Criteria
 
--- Ändra inte på stilnivå (det får låta som från en femåring så länge det inte är ogrammatiskt)
+* Ändra så att meningen är grammatisk (vilket är ett vitt begrepp)
 
-Exempel på saker vi inte rättar:
+* Ändra inte på stilnivå (det får låta som från en femåring så länge det inte är ogrammatiskt)
 
-"Orsaken beror på..."
+   Exempel på saker vi inte rättar:
 
-Huvudsatsordföljd i att-bisats
+   "Orsaken beror på..."
 
-Prioritet vid ändringar för att göra normalisering
+   Huvudsatsordföljd i att-bisats
+
+### Minmal change
 
 1. Behåll betydelsen (viktigast!)
 
