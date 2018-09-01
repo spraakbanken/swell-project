@@ -62,7 +62,7 @@ Secondly, if several normalisations are possible, use the following criteria to 
    
    ett fint hus &larr; Preferred change to obtain a proper noun phrase
    
-   och ligger i ett fint hus &larr; Bigger change
+   och ligger i ett fint hus   &nbsp; &larr; Bigger change
 
 3. Keep the form of the content word and change its surrounding context, rather than vice versa
 
@@ -72,7 +72,7 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
    det är stora skillnader   &nbsp; &larr; "stora" is further away from the original ("mycket")
 
-   det är stor skillnad &larr; The form of the content word is changed, which we regard as a bigger change
+   det är stor skillnad   &nbsp; &larr; The form of the content word is changed, which we regard as a bigger change
 
 4. Positive assumption.
 
