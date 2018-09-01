@@ -59,6 +59,7 @@ Assuming that several normalisations are possible, use the following criteria in
    In item (2) above, inserting "och ligger i ett fint hus" is more idiomatic but changes more words than "ett fint hus"
    
    ett fint hus . <-- Minimal change to obtain a proper noun phrase
+   
    och ligger i ett fint hus . <-- Bigger change
 
 3. Keep the form of the content word and change its surrounding context, rather than vice versa
