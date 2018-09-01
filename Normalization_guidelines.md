@@ -50,7 +50,7 @@ First, always keep to the following principles:
 
 ### Minimal change
 
-Secondly, if several normalisations are possible, use the following criteria to discriminate between them in order of decreasing priority:
+Secondly, if several normalisations are possible, use the following criteria to discriminate between them in rough order of decreasing priority:
 
 1. Keep the meaning. This is the most important criterion!
 
