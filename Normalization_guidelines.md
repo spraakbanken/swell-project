@@ -10,7 +10,7 @@ Normalisation is not an unambiguous concept, but the aim of this guideline is to
 
 There are two reasons why different normalisations are possible for a learner text:
 
-1. Different target hypotheses
+# Different target hypotheses
 
 Jag trivs mycket bor med dem . <-- Original
 
@@ -18,7 +18,7 @@ Jag trivs mycket bra med dem . <-- Target hypothesis 1
 
 Jag trivs mycket med att bo med dem .  <-- Target hypothesis 2
 
-2. Even if we agree on a target hypothesis, several normalisations are still possible. Här behövs det kriterier för "minimal ändring".
+# Even if we agree on a target hypothesis, several normalisations are still possible. Här behövs det kriterier för "minimal ändring".
 
 Mit Bostaden är stor och ser gul farg   fint hus . <-- Original
 
