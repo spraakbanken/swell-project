@@ -70,7 +70,7 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
    det är många skillnader   &nbsp; &larr; Preferred change
 
-   det är stora skillnader   &nbsp; &larr; "stora" is further away from the original ("mycket")
+   det är stora skillnader   &nbsp; &larr; "stora" is more idiomatic but is further away from the original ("mycket")
 
    det är stor skillnad   &nbsp; &larr; The form of the content word is changed, which we regard as a bigger change
 
