@@ -12,21 +12,21 @@ There are two reasons why different normalisations are possible for a learner te
 
 1. Different target hypotheses
 
-   Jag trivs mycket bor med dem &larr; Original
+   Jag trivs mycket bor med dem   &nbsp; &larr; Original
 
-   Jag trivs mycket bra med dem &larr; Target hypothesis 1
+   Jag trivs mycket bra med dem   &nbsp; &larr; Target hypothesis 1
 
-   Jag trivs mycket med att bo med dem &larr; Target hypothesis 2
+   Jag trivs mycket med att bo med dem   &nbsp; &larr; Target hypothesis 2
 
 2. Even if we agree on a target hypothesis, several normalisations are possible
 
-   Mit Bostaden är stor och ser gul farg   fint hus &larr; Original
+   Mit Bostaden är stor och ser gul farg fint hus   &nbsp; &larr; Original
 
-   Min bostad   är stor och har gul färg , ett fint hus &larr; Preferred change
+   Min bostad   är stor och har gul färg , ett fint hus   &nbsp; &larr; Preferred change
 
-   Min bostad   är stor och har gul färg , och ligger i ett fint hus &larr; Larger change
+   Min bostad   är stor och har gul färg , och ligger i ett fint hus   &nbsp; &larr; Larger change
 
-   Min bostad   är stor och gul , och ligger i ett fint hus &larr; Even larger change
+   Min bostad   är stor och gul , och ligger i ett fint hus   &nbsp; &larr; Even larger change
 
 ## Criteria
 
@@ -68,9 +68,9 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
    det är mycket skillnader
 
-   det är många skillnader &larr; Preferred change
+   det är många skillnader   &nbsp; &larr; Preferred change
 
-   det är stora skillnader &larr; "stora" is further away from the original ("mycket")
+   det är stora skillnader   &nbsp; &larr; "stora" is further away from the original ("mycket")
 
    det är stor skillnad &larr; The form of the content word is changed, which we regard as a bigger change
 
