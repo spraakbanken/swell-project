@@ -54,7 +54,7 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
 1. Keep the meaning. This is the most important criterion!
 
-   In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo"
+   In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
 2. Change as few words as possible
 
