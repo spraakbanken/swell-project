@@ -12,21 +12,21 @@ There are two reasons why different normalisations are possible for a learner te
 
 1. Different target hypotheses
 
-   Jag trivs mycket bor med dem . <-- Original
+   Jag trivs mycket bor med dem . &larr; Original
 
-   Jag trivs mycket bra med dem . <-- Target hypothesis 1
+   Jag trivs mycket bra med dem . &larr; Target hypothesis 1
 
-   Jag trivs mycket med att bo med dem .  <-- Target hypothesis 2
+   Jag trivs mycket med att bo med dem . &larr; Target hypothesis 2
 
 2. Even if we agree on a target hypothesis, several normalisations are possible
 
-   Mit Bostaden är stor och ser gul farg   fint hus . <-- Original
+   Mit Bostaden är stor och ser gul farg   fint hus . &larr; Original
 
-   Min bostad   är stor och har gul färg , ett fint hus . <-- Preferred change
+   Min bostad   är stor och har gul färg , ett fint hus . &larr; Preferred change
 
-   Min bostad   är stor och har gul färg , och ligger i ett fint hus . <-- Larger change
+   Min bostad   är stor och har gul färg , och ligger i ett fint hus . &larr; Larger change
 
-   Min bostad   är stor och gul , och ligger i ett fint hus . <-- Even larger change
+   Min bostad   är stor och gul , och ligger i ett fint hus . &larr; Even larger change
 
 ## Criteria
 
@@ -60,19 +60,19 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
    In item (2) above, inserting "och ligger i ett fint hus" is more idiomatic but not preferred since it changes more words than "ett fint hus"
    
-   ett fint hus . <-- Preferred change to obtain a proper noun phrase
+   ett fint hus . &larr; Preferred change to obtain a proper noun phrase
    
-   och ligger i ett fint hus . <-- Bigger change
+   och ligger i ett fint hus . &larr; Bigger change
 
 3. Keep the form of the content word and change its surrounding context, rather than vice versa
 
    det är mycket skillnader
 
-   det är många skillnader <-- Preferred change
+   det är många skillnader &larr; Preferred change
 
-   det är stora skillnader <-- "stora" is further away from the original ("mycket")
+   det är stora skillnader &larr; "stora" is further away from the original ("mycket")
 
-   det är stor skillnad <-- The form of the content word is changed, which we regard as a bigger change
+   det är stor skillnad &larr; The form of the content word is changed, which we regard as a bigger change
 
 4. Positive assumption.
 
