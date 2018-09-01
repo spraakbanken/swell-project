@@ -52,22 +52,24 @@ Assuming that several normalisations are possible, use the following criteria in
 
 1. Keep the meaning. This is the most important criterion!
 
-   In example (1) above, changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo"
+   In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo"
 
 2. Change as few words as possible
 
+   In item (2) above, inserting "och ligger i ett fint hus" is more idiomatic but changes more words than "ett fint hus"
+   
    ett fint hus . <-- Minimal change to obtain a proper noun phrase
    och ligger i ett fint hus . <-- Bigger change
 
-3. Utgå från innehållsordets form och ändra omgivande kontext i stället för tvärtom
+3. Keep the form of the content word and change its surrounding context, rather than vice versa
 
    det är mycket skillnader
 
-   det är många skillnader <-- vår ändring
+   det är många skillnader <-- Preferred change
 
-   det är stora skillnader <-- "stora" är längre från ursprungstexten ("mycket")
+   det är stora skillnader <-- "stora" is further away from the original ("mycket")
 
-   det är stor skillnad <-- innehållsordets form ändrad, ger större ändring
+   det är stor skillnad <-- The form of the content word is changed, which we regard as a bigger change
 
 4. Positive assumption.
 
