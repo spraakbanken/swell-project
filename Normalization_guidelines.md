@@ -30,9 +30,11 @@ There are two reasons why different normalisations are possible for a learner te
 
 ## Criteria
 
+Assume that we have a sentence that needs correction.
+
 ### Basic Criteria
 
-Assuming that we have a sentence that needs correction, always keep to the following principles:
+First, always keep to the following principles:
 
 * Change the sentence so that it's grammatical (which is admittedly a broad concept)
 
@@ -48,7 +50,7 @@ Assuming that we have a sentence that needs correction, always keep to the follo
 
 ### Minimal change
 
-Assuming that several normalisations are possible, use the following criteria in order of decreasing priority:
+Secondly, if several normalisations are possible, use the following criteria to discriminate between them in order of decreasing priority:
 
 1. Keep the meaning. This is the most important criterion!
 
