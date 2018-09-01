@@ -1,6 +1,6 @@
 # Normalization guidelines
 
-Note: "Normalization" should maybe be called "correction"?
+Note: "Normalization" should perhaps be called "correction"?
 
 ## Purpose
 
@@ -32,42 +32,48 @@ There are two reasons why different normalisations are possible for a learner te
 
 ### Basic Criteria
 
-* Ändra så att meningen är grammatisk (vilket är ett vitt begrepp)
+Assuming that we have a sentence that needs correction, always keep to the following principles:
 
-* Ändra inte på stilnivå (det får låta som från en femåring så länge det inte är ogrammatiskt)
+* Change the sentence so that it's grammatical (which is admittedly a broad concept)
 
-   Exempel på saker vi inte rättar:
+* Don't change the style (it may sound like a five-year old as long as it's grammatical)
+
+   Examples of things we don't correct:
 
    "Orsaken beror på..."
 
    Huvudsatsordföljd i att-bisats
+   
+   [Insert many authentic examples here!]
 
-### Minmal change
+### Minimal change
 
-1. Behåll betydelsen (viktigast!)
+Assuming that several normalisations are possible, use the following criteria in order of decreasing priority:
 
-Att ändra "bor" till "bra" är en större ändring än att ändra "bor" till "med att bo"
+1. Keep the meaning. This is the most important criterion!
 
-2. Ändra så få ord som möjligt
+   In example (1) above, changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo"
 
-ett fint hus .
-och ligger i ett fint hus . <-- Större ändring
+2. Change as few words as possible
+
+   ett fint hus . <-- Minimal change to obtain a proper noun phrase
+   och ligger i ett fint hus . <-- Bigger change
 
 3. Utgå från innehållsordets form och ändra omgivande kontext i stället för tvärtom
 
-det är mycket skillnader
+   det är mycket skillnader
 
-det är många skillnader <-- vår ändring
+   det är många skillnader <-- vår ändring
 
-det är stora skillnader <-- "stora" är längre från ursprungstexten ("mycket")
+   det är stora skillnader <-- "stora" är längre från ursprungstexten ("mycket")
 
-det är stor skillnad <-- innehållsordets form ändrad, ger större ändring
+   det är stor skillnad <-- innehållsordets form ändrad, ger större ändring
 
 4. Positive assumption.
 
-Hellre fria än fälla. Utgå från att de kan 
+   Hellre fria än fälla. Utgå från can-do.  
 
-ser gul färg???
+   [Insert many authentic examples here!]
 
 -----------------------------
 
