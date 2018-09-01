@@ -12,21 +12,21 @@ There are two reasons why different normalisations are possible for a learner te
 
 1. Different target hypotheses
 
-⋅⋅⋅Jag trivs mycket bor med dem . <-- Original
+   Jag trivs mycket bor med dem . <-- Original
 
-⋅⋅⋅Jag trivs mycket bra med dem . <-- Target hypothesis 1
+   Jag trivs mycket bra med dem . <-- Target hypothesis 1
 
-⋅⋅⋅Jag trivs mycket med att bo med dem .  <-- Target hypothesis 2
+   Jag trivs mycket med att bo med dem .  <-- Target hypothesis 2
 
 2. Even if we agree on a target hypothesis, several normalisations are still possible. Här behövs det kriterier för "minimal ändring".
 
-⋅⋅⋅Mit Bostaden är stor och ser gul farg   fint hus . <-- Original
+   Mit Bostaden är stor och ser gul farg   fint hus . <-- Original
 
-⋅⋅⋅Min bostad   är stor och har gul färg , ett fint hus . <-- Suggested minimal change
+   Min bostad   är stor och har gul färg , ett fint hus . <-- Suggested minimal change
 
-⋅⋅⋅Min bostad   är stor och har gul färg , och ligger i ett fint hus . <-- Larger change
+   Min bostad   är stor och har gul färg , och ligger i ett fint hus . <-- Larger change
 
-⋅⋅⋅Min bostad   är stor och gul , och ligger i ett fint hus . <-- Even larger change
+   Min bostad   är stor och gul , och ligger i ett fint hus . <-- Even larger change
 
 ## Criteria
 
