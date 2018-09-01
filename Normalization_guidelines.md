@@ -22,7 +22,7 @@ There are two reasons why different normalisations are possible for a learner te
 
    Mit Bostaden är stor och ser gul farg   fint hus . <-- Original
 
-   Min bostad   är stor och har gul färg , ett fint hus . <-- Suggested minimal change
+   Min bostad   är stor och har gul färg , ett fint hus . <-- Preferred change
 
    Min bostad   är stor och har gul färg , och ligger i ett fint hus . <-- Larger change
 
@@ -58,7 +58,7 @@ Assuming that several normalisations are possible, use the following criteria in
 
    In item (2) above, inserting "och ligger i ett fint hus" is more idiomatic but changes more words than "ett fint hus"
    
-   ett fint hus . <-- Minimal change to obtain a proper noun phrase
+   ett fint hus . <-- Preferred change to obtain a proper noun phrase
    
    och ligger i ett fint hus . <-- Bigger change
 
