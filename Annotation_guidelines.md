@@ -11,4 +11,4 @@
 ---
 ## Specific guidelines for different error types
 
-### Lexical errors
+### Lexical errors - general function
