@@ -1,5 +1,5 @@
 
-# SweLL Error annotation guidelines
+# SweLL correction annotation guidelines
 ---
 ## General
 ---
@@ -9,6 +9,9 @@
   * Likewise, if we see there are guidelines missing, we should add a suggestion, or flag for further consideration - with    examples, so that the suggestion is interpretable!
   
 ---
-## Specific guidelines for different error types
+## Specific guidelines for different correction types
 
 ### Lexical errors - general function
+---
+The correction-taxonomy contains five diffent codes for lexical corrections. 
+  
