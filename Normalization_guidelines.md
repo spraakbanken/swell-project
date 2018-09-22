@@ -18,7 +18,7 @@ There are two reasons why different normalisations are possible for a learner te
    
    Jag trivs mycket bra med dem   &nbsp; &larr; Target hypothesis 2
 
-2. Even if we agree on a target hypothesis, several normalisations are possible
+2. Given a particular target hypothesis, several normalisations are still possible
 
    Mit Bostaden är stor och ser gul farg fint hus   &nbsp; &larr; Original
 
