@@ -26,9 +26,9 @@ Normalisation is not an unambiguous concept, and there will typically be multipl
 
    Min bostad   är stor och har gul färg , ett fint hus   &nbsp; &larr; Preferred change
 
-   Min bostad   är stor och har gul färg , och ligger i ett fint hus   &nbsp; &larr; Larger change
+   Min bostad   är stor och har gul färg , och ligger i ett fint hus   &nbsp; &larr; Bigger change
 
-   Min bostad   är stor och gul , och ligger i ett fint hus   &nbsp; &larr; Even larger change
+   Min bostad   är stor och gul , och ligger i ett fint hus   &nbsp; &larr; Even bigger change
 
 ## Criteria
 
@@ -80,9 +80,9 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
 If it is otherwise not clear which target hypothesis corresponds to the minimal change, use the one that is most frequent in Korp (or other reference material), and which can thus be assumed to be the more conventionalized expression.
 
-    Det var mycket svårt för oss att hitta den lägenhet i Stockholm
+   Det var mycket svårt för oss att hitta den lägenhet i Stockholm
    
-    Det var mycket svårt att hitta en lägenhet i Stockholm &nbsp; &larr; Preferred change
+   Det var mycket svårt att hitta en lägenhet i Stockholm &nbsp; &larr; Preferred change
    
 Frequency in Korp (all corpora selected): "hitta lägenhet" 1904, "hitta en lägenhet" 4180
 
