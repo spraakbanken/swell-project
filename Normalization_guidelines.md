@@ -80,9 +80,9 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
 If it is otherwise not clear which target hypothesis corresponds to the minimal change, use the one that is most frequent in Korp (or other reference material), and which can thus be assumed to be the more conventionalized expression.
 
-   <p> Det var mycket svårt för oss att hitta den lägenhet i Stockholm <\p>
+    Det var mycket svårt för oss att hitta den lägenhet i Stockholm
    
-   <p> Det var mycket svårt att hitta en lägenhet i Stockholm &nbsp; &larr; Preferred change <\p>
+    Det var mycket svårt att hitta en lägenhet i Stockholm &nbsp; &larr; Preferred change
    
 Frequency in Korp (all corpora selected): "hitta lägenhet" 1904, "hitta en lägenhet" 4180
 
