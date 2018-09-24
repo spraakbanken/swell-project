@@ -78,7 +78,7 @@ Keep the form of the content word and change its surrounding context, rather tha
 
 ### Principle of frequency
 
-If it is otherwise not clear which target hypothesis corresponds to the minimal change, use the one that is most frequent in Korp (or some other reference material), and which can thus be assumed to be the more conventionalised expression.
+If it is otherwise not clear which target hypothesis to prefer, use the one that is most frequent in Korp (or some other reference material), and which can thus be assumed to be the more conventionalised expression.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Det var mycket svårt för oss att hitta den lägenhet i Stockholm
    
