@@ -2,8 +2,13 @@
 
 ## Purpose
 
-Our approach is based on separating error coding into normalisation (that is, correction according to the target hypotheses) and annotation of the errors, and to regard the learner source text and the normalised text as a parallel corpus. There are several reasons why we assume that this is beneficial: First, by letting the annotator work with the text prior to the actual error annotation and making the target hypotheses explicit, she will be in a better position to build an understanding of the learner's linguistic competence, thereby forming target hypotheses that are more internally consistent. Secondly, by separating the conceptually distinct tasks of error correction and error annotation, the quality of both of these are likely to improve. Thirdly, it allows us to outsource normalisation to researchers in second-language acquisition, who are experts in this type of text as opposed to typical annotators. Finally, calculating inter-annotator agreement becomes more straightforward if the annotators have worked off the same normalised text.
+Our approach is based on separating error coding into two subsequent steps: normalisation (that is, correction according to the target hypotheses) and error annotation. There are several reasons why we assume that this is beneficial: First, by letting the annotator work with the text prior to the actual error annotation, they will be in a better position to build an understanding of the learner's linguistic competence and forming target hypotheses that are internally more consistent. Secondly, by separating the conceptually distinct tasks of error correction and error annotation, the quality of both of these are likely to improve. Thirdly, it allows us to outsource normalisation to researchers in second-language acquisition, who are experts in this type of text which is not necessarily the case for typical annotators. Finally, calculating inter-annotator agreement becomes more straightforward if the annotators have worked off the same normalised text.
+
+
 An additional, independent advantage is that the resulting parallel (original and normalised) text will be a highly valuable resource for development of automatic methods for identifying learner errors. In particular, this resource will be valuable even if there are multiple ways in which the text could have been normalised.
+
+
+and to regard the learner source text and the normalised text as a parallel corpus
 
 ## Why are different normalisations possible?
 
@@ -73,11 +78,7 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
    det är stor skillnad   &nbsp; &larr; The form of the content word is changed, which we regard as a bigger change
 
-4. Positive assumption.
-
-   Hellre fria än fälla. Utgå från can-do.  
-
-   [Insert many authentic examples here!]
+4. Positive assumption. This criterion is perhaps most useful in transcription, and then concerns squiggles that could be interpreted in different ways but where we assume that the form is correct. For example, in handwriting where it is difficult to distinguish "a" from "o", we might assume that a partly illegible word should be read as the present verb form "dansar" (English: danse) rather than the illegal form "dansor". Similarly, we might assume strokes above "a" or "o" to be correct diacritics of the Swedish characters "å", "ä" or "ö", rather than errors.
 
 -----------------------------
 
