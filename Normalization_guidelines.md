@@ -42,11 +42,9 @@ First, _always_ keep to the following two principles:
 
    Examples of things we don't correct:
 
-   "Orsaken beror på..."
-
-   Huvudsatsordföljd i att-bisats
+   Main-clause word order in dependent clause with "att": "Allt är bra för att jag kan inte bo ensam"
    
-   [Insert many authentic examples here!]
+   "Orsaken beror på..."
 
 ### Principle of minimal change
 
