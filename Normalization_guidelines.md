@@ -36,9 +36,9 @@ Assuming a sentence that needs correction, use the following principles:
 
 First, _always_ keep to the following two principles:
 
-1. Change the sentence so that it's grammatical (which is admittedly a broad concept)
+1. Change the sentence to make it grammatically correct (which is admittedly a broad concept)
 
-2. Don't change the style (it may sound like a five-year old as long as it's grammatical)
+2. Don't change the style (it may sound like coming from a five-year old as long as it's grammatical)
 
    Examples of things we don't correct:
 
