@@ -1,14 +1,12 @@
 # Normalization guidelines
 
-## Purpose
+## Rationale
 
-A key assumption of approach is that it is beneficial to separate error coding into two subsequent steps: normalisation (that is, correction according to the target hypotheses) and error annotation. There are several reasons for this: First, by letting the annotator work with the text prior to the actual error annotation, they will be in a better position to build a coherent understanding of the learner's linguistic competence and forming target hypotheses that are internally consistent. Secondly, since error correction and error annotation are conceptually distinct tasks, we believe that their quality will improve if they are also performed separately. Thirdly, it allows us to outsource normalisation to researchers in second-language acquisition, who are experts in this type of text, which is not necessarily the case for typical annotators. Finally, calculating inter-annotator agreement can only be done if the annotators have worked off the same normalised text.
+A key assumption of our approach is that it is beneficial to separate error coding into two subsequent steps: normalisation (that is, correction according to the target hypotheses) and the actual error annotation. There are several reasons for this division: First, by letting the annotator work with the text prior to the actual error annotation, they will be in a better position to build a coherent understanding of the learner's linguistic competence and to form target hypotheses that are internally consistent. Secondly, since error correction and error annotation are conceptually distinct tasks, we believe that their quality will improve if they are indeed performed as separate tasks. Thirdly, it allows us to outsource normalisation to researchers in second-language acquisition, in other words, experts in learner texts, which is not necessarily the case for typical annotators. Finally, calculating inter-annotator agreement can only be done if the annotators have worked off the same normalised texts.
 
-Another key assumption is 
+A key feature of our approach which depends on this division is that we regard the learner source text and the normalised text as a parallel corpus, with alignments on the word level that are built automatically, but that may be corrected. This means that normalisation involves two subtasks: the actual editing of the normalised text, and corrrection of the alignments to the extent that this is needed. 
+
 An additional, independent advantage is that the resulting parallel (original and normalised) text will be a highly valuable resource for development of automatic methods for identifying learner errors. In particular, this resource will be valuable even if there are multiple ways in which the text could have been normalised.
-
-
-and to regard the learner source text and the normalised text as a parallel corpus
 
 ## Why are different normalisations possible?
 
@@ -78,7 +76,7 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
    det är stor skillnad   &nbsp; &larr; The form of the content word is changed, which we regard as a bigger change
 
-4. Positive assumption. This criterion is perhaps most useful in transcription, and then concerns squiggles that could be interpreted in different ways but where we assume that the form is correct. For example, in handwriting where it is difficult to distinguish "a" from "o", we might assume that a partly illegible word should be read as the present verb form "dansar" (English: danse) rather than the illegal form "dansor". Similarly, we might assume strokes above "a" or "o" to be correct diacritics of the Swedish characters "å", "ä" or "ö", rather than errors.
+4. Positive assumption. This criterion is perhaps most useful in transcription, and then concerns squiggles that could be interpreted in different ways but that we assume are correct. For example, in certain handwriting it is difficult to distinguish "a" from "o". We might then assume, for example, that a partly illegible word should be read as the present verb form "dansar" (English: danse) rather than the illegal form "dansor". Similarly, we might assume strokes above "a" or "o" to be correct diacritics of the Swedish characters "å", "ä" or "ö", rather than errors.
 
 -----------------------------
 
