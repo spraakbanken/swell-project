@@ -38,9 +38,9 @@ Assume that we have a sentence that needs correction.
 
 First, _always_ keep to the following two principles:
 
-* Change the sentence so that it's grammatical (which is admittedly a broad concept)
+1. Change the sentence so that it's grammatical (which is admittedly a broad concept)
 
-* Don't change the style (it may sound like a five-year old as long as it's grammatical)
+2. Don't change the style (it may sound like a five-year old as long as it's grammatical)
 
    Examples of things we don't correct:
 
