@@ -8,9 +8,9 @@ The fact that correction of the learner text is carried out as a separate step a
 
 ## Why are different normalisations possible?
 
-Normalisation is not an unambiguous concept, and there will typically be multiple possible normalisations of a learner text, just as there are several correct translations of a sentence. (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) There are two reasons for this:
+Normalisation is not an unambiguous concept, and there will typically be multiple possible normalisations of a learner text, just as there are several correct translations of a sentence. (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) In general, there are two reasons for why multiple normalisations are possible:
 
-1. Different target hypotheses
+1. There are different target hypotheses
 
    Jag trivs mycket bor med dem   &nbsp; &larr; Original
 
@@ -18,7 +18,7 @@ Normalisation is not an unambiguous concept, and there will typically be multipl
    
    Jag trivs mycket bra med dem   &nbsp; &larr; Target hypothesis 2
 
-2. Given a particular target hypothesis, several normalisations are still possible
+2. Assuming a particular target hypothesis, several normalisations are still possible
 
    Mit Bostaden är stor och ser gul farg fint hus   &nbsp; &larr; Original
 
@@ -86,7 +86,7 @@ Frequency in Korp (all corpora selected): "hitta lägenhet" 1904, "hitta en läg
 
 ### Principle of positive assumption
 
-This criterion is perhaps most useful in transcription, and then concerns squiggles that could be interpreted in different ways but that we assume are correct. For example, in certain handwriting it is difficult to distinguish "a" from "o". We might then assume, for example, that a partly illegible word should be read as the present verb form "dansar" (English: danse) rather than the illegal form "dansor". Similarly, we might assume strokes above "a" or "o" to be correct diacritics of the Swedish characters "å", "ä" or "ö", rather than errors.
+In cases where it is difficult to decide whether an expression is correct or incorrect, assume the the learner was correct. [Do we have grammatical examples?] This principle is also useful in transcription, and then concerns squiggles that could be interpreted in different ways. For example, in some handwriting it is difficult to distinguish "a" from "o". We may then assume, for example, that a partly illegible word should be read as the present verb form "dansar" (English: danse) rather than the illegal form "dansor". Similarly, we may assume strokes above "a" or "o" to be correct diacritics for the Swedish characters "å", "ä" or "ö", rather than errors.
 
 -----------------------------
 
