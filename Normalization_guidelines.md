@@ -68,13 +68,13 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
 Keep the form of the content word and change its surrounding context, rather than keeping the function word
 
-   det är mycket skillnader
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;det är mycket skillnader
 
-   det är många skillnader   &nbsp; &larr; Preferred change
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;det är många skillnader   &nbsp; &larr; Preferred change
 
-   det är stora skillnader   &nbsp; &larr; "stora" is more idiomatic but is further away from the original ("mycket")
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;det är stora skillnader   &nbsp; &larr; "stora" is more idiomatic but is further away from the original ("mycket")
 
-   det är stor skillnad   &nbsp; &larr; The form of the content word is changed, which we regard as a bigger change
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;det är stor skillnad   &nbsp; &larr; The form of the content word is changed, which we regard as a bigger change
 
 ### Principle of frequency
 
