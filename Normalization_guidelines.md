@@ -30,7 +30,7 @@ Normalisation is not an unambiguous concept, and there will typically be multipl
 
 ## Principles for normalisation
 
-Assuming a sentence that needs correction, use use the following principles in rough order of decreasing priority:
+Assuming a sentence that needs correction, use the following principles:
 
 ### Obligatory principles
 
