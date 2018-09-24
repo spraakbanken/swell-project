@@ -85,6 +85,12 @@ Keep the form of the content word and change its surrounding context, rather tha
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;det är stor skillnad   &nbsp; &larr; The form of the content word is changed, which we regard as a bigger change
 
+   min kompis och jag träffar till klubb NN
+
+   min kompis och jag träffas på klubb &nbsp; &larr; Preferred change (function word changed)
+
+   min kompis och jag går till klubb &nbsp; &larr; Content word changed
+
 ### Principle of frequency
 
 If it is otherwise not clear which target hypothesis to prefer, use the one that is most frequent in Korp (or some other reference material), and which can thus be assumed to be the more conventionalised expression.
