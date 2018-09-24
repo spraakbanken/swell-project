@@ -78,11 +78,11 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
 ### Principle of frequency
 
-If it is otherwise not clear which target hypothesis corresponds to the minimal change, use the one that is most frequent in Korp (or other reference material), and which can thus be assumed to be the more conventionalized expression.
+If it is otherwise not clear which target hypothesis corresponds to the minimal change, use the one that is most frequent in Korp (or some other reference material), and which can thus be assumed to be the more conventionalised expression.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Det var mycket svårt för oss att hitta den lägenhet i Stockholm
    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Det var mycket svårt att hitta en lägenhet i Stockholm &nbsp; &larr; Preferred change
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Det var mycket svårt för oss att hitta en lägenhet i Stockholm &nbsp; &larr; Preferred change
    
 Frequency in Korp (all corpora selected): "hitta lägenhet" 1904, "hitta en lägenhet" 4180
 
