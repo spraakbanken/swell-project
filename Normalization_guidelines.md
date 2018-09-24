@@ -1,12 +1,17 @@
 # Normalization guidelines
 
-Note: "Normalization" should perhaps be called "correction"?
-
 ## Purpose
 
-Our approach is based on separating error coding into normalisation (correction according to target hypotheses) and error annotation, and to regard the learner source text and the normalised text as a parallel corpus.
+Our approach is based on separating error coding into normalisation (that is, correction according to the target hypotheses) and annotation of the errors, and to regard the learner source text and the normalised text as a parallel corpus. There are several reasons why we assume that this is beneficial: First, by letting the annotator work with the text prior to the actual error annotation and making the target hypotheses explicit, she will be in a better position to build an understanding of the learner's linguistic competence, thereby forming target hypotheses that are more internally consistent. Secondly, by separating the conceptually distinct tasks of error correction and error annotation, the quality of both of these are likely to improve. Thirdly, it allows us to outsource normalisation to researchers in second-language acquisition, who are experts in this type of text as opposed to typical annotators. Finally, calculating inter-annotator agreement becomes more straightforward if the annotators have worked off the same normalised text.
 
-A basic tenet of our approach is that we have factored out normalisation as a separate step of error coding. Why do we do this? To begin with, a key purpose is to make our target hypothesis explicit, given that target hypotheses always exist regardless of whether we make them explicit or not. (Note, by the way, that our tool only allows for a single target hypothesis.) Secondly, our intuition tells us that the quality of error coding will improve if the conceptually different tasks of error detection, correction and annotation can be performed independently. Third, we expect the resulting parallel (original and normalised) text to be a highly valuable resource for development of automatic methods for identifying learner errors. In particular, this resource will be valuable even if there are multiple ways in which the text could have been normalised.
+
+
+Secondly, our intuition tells us that the quality of error coding will improve if the conceptually different tasks of error detection, correction and annotation can be performed independently. 
+
+An independent advantage is that the resulting parallel (original and normalised) text will be a highly valuable resource for development of automatic methods for identifying learner errors. In particular, this resource will be valuable even if there are multiple ways in which the text could have been normalised.
+
+
+(Note, by the way, that our tool only allows for a single target hypothesis.) 
 
 ## Why are different normalisations possible?
 
