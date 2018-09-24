@@ -50,7 +50,7 @@ First, _always_ keep to the following two principles:
 
 ### Principle of minimal change
 
-Secondly, if several normalisations are possible, use the following criteria to discriminate between them in rough order of decreasing priority:
+Secondly, if several normalisations are possible, use the following criteria to discriminate between them in order of decreasing priority:
 
 1. Keep the meaning. This is the most important criterion!
 
@@ -64,7 +64,9 @@ Secondly, if several normalisations are possible, use the following criteria to 
    
    och ligger i ett fint hus   &nbsp; &larr; Bigger change
 
-3. Keep the form of the content word and change its surrounding context, rather than vice versa
+### Principle of content and function words
+
+Keep the form of the content word and change its surrounding context, rather than keeping the function word
 
    det är mycket skillnader
 
