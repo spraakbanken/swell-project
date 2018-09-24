@@ -85,11 +85,11 @@ Keep the form of the content word and change its surrounding context, rather tha
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;det är stor skillnad   &nbsp; &larr; The form of the content word is changed, which we regard as a bigger change
 
-   min kompis och jag träffar till klubb NN
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min kompis och jag träffar till klubb NN
 
-   min kompis och jag träffas på klubb &nbsp; &larr; Preferred change (function word changed)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min kompis och jag träffas på klubb &nbsp; &larr; Preferred change (function word changed)
 
-   min kompis och jag går till klubb &nbsp; &larr; Content word changed
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min kompis och jag går till klubb &nbsp; &larr; Content word changed
 
 ### Principle of frequency
 
