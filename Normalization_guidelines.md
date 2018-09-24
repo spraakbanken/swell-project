@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Our approach is based on separating error coding into two subsequent steps: normalisation (that is, correction according to the target hypotheses) and error annotation. There are several reasons why we assume that this is beneficial: First, by letting the annotator work with the text prior to the actual error annotation, they will be in a better position to build an understanding of the learner's linguistic competence and forming target hypotheses that are internally more consistent. Secondly, by separating the conceptually distinct tasks of error correction and error annotation, the quality of both of these are likely to improve. Thirdly, it allows us to outsource normalisation to researchers in second-language acquisition, who are experts in this type of text which is not necessarily the case for typical annotators. Finally, calculating inter-annotator agreement becomes more straightforward if the annotators have worked off the same normalised text.
+A key assumption of approach is that it is beneficial to separate error coding into two subsequent steps: normalisation (that is, correction according to the target hypotheses) and error annotation. There are several reasons for this: First, by letting the annotator work with the text prior to the actual error annotation, they will be in a better position to build a coherent understanding of the learner's linguistic competence and forming target hypotheses that are internally consistent. Secondly, since error correction and error annotation are conceptually distinct tasks, we believe that their quality will improve if they are also performed separately. Thirdly, it allows us to outsource normalisation to researchers in second-language acquisition, who are experts in this type of text, which is not necessarily the case for typical annotators. Finally, calculating inter-annotator agreement can only be done if the annotators have worked off the same normalised text.
 
-
+Another key assumption is 
 An additional, independent advantage is that the resulting parallel (original and normalised) text will be a highly valuable resource for development of automatic methods for identifying learner errors. In particular, this resource will be valuable even if there are multiple ways in which the text could have been normalised.
 
 
