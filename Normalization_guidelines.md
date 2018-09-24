@@ -63,6 +63,14 @@ Secondly, if several normalisations are possible, use the following criteria to 
    ett fint hus   &nbsp; &larr; Preferred change to obtain a proper noun phrase
    
    och ligger i ett fint hus   &nbsp; &larr; Bigger change
+   
+   Here is another example:
+   
+   Här kommer arbetslösheten som en stor faktor till stress, som inte mindre än stressen på grund av arbetsbelastning.
+
+   Här kommer arbetslösheten som en stor faktor till stress, som inte är mindre än stressen på grund av arbetsbelastning. &nbsp; &larr; Preferred change
+
+   Här kommer arbetslösheten som en stor faktor till stress, lika viktigt som stressen på grund av arbetsbelastning. &nbsp; &larr; More idiomatic but requires too much change of the original text
 
 ### Principle of content and function words
 
