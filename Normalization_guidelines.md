@@ -36,7 +36,7 @@ Assume that we have a sentence that needs correction.
 
 ### Basic Criteria
 
-First, always keep to the following principles:
+First, _always_ keep to the following two principles:
 
 * Change the sentence so that it's grammatical (which is admittedly a broad concept)
 
@@ -76,7 +76,19 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
    det är stor skillnad   &nbsp; &larr; The form of the content word is changed, which we regard as a bigger change
 
-4. Positive assumption. This criterion is perhaps most useful in transcription, and then concerns squiggles that could be interpreted in different ways but that we assume are correct. For example, in certain handwriting it is difficult to distinguish "a" from "o". We might then assume, for example, that a partly illegible word should be read as the present verb form "dansar" (English: danse) rather than the illegal form "dansor". Similarly, we might assume strokes above "a" or "o" to be correct diacritics of the Swedish characters "å", "ä" or "ö", rather than errors.
+### Positive assumption
+
+This criterion is perhaps most useful in transcription, and then concerns squiggles that could be interpreted in different ways but that we assume are correct. For example, in certain handwriting it is difficult to distinguish "a" from "o". We might then assume, for example, that a partly illegible word should be read as the present verb form "dansar" (English: danse) rather than the illegal form "dansor". Similarly, we might assume strokes above "a" or "o" to be correct diacritics of the Swedish characters "å", "ä" or "ö", rather than errors.
+
+### Frequency
+
+If it is otherwise not clear which target hypothesis corresponds to the minimal change, use the one that is most frequent in Korp (or other reference material), and which can thus be assumed to be the more conventionalized expression.
+
+   Det var mycket svårt för oss att hitta den lägenhet i Stockholm
+   
+   Det var mycket svårt att hitta en lägenhet i Stockholm &nbsp; &larr; Preferred change
+   
+Frequency in Korp (all corpora selected): "hitta lägenhet" 1904, "hitta en lägenhet" 4180
 
 -----------------------------
 
