@@ -85,7 +85,7 @@ Keep the form of the content word and change its surrounding context, rather tha
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;det är stor skillnad   &nbsp; &larr; The form of the content word is changed, which we regard as a bigger change
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min kompis och jag träffar till klubb NN
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min kompis och jag träffar till klubb
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min kompis och jag träffas på klubb &nbsp; &larr; Preferred change (function word changed)
 
@@ -107,7 +107,9 @@ In cases where it is difficult to decide whether an expression is correct or inc
 
 -----------------------------
 
-Old text:
+Note: Old text commented out (still available in markdown)
+
+<!--- 
 
 ## Content
 
@@ -231,6 +233,6 @@ Can-do i originaltexten får inte gå förlorad i normaliseringen!
 1. Behåll betydelsen !!
 2. Ändra så få ord som möjligt
 
-
+--->
 
 
