@@ -62,13 +62,13 @@ Covers deviations with respect to idiomatic expressions. Can stretch over groups
 
 **Examples**
 
-   * Arbetstagare är också stressade av mycket arbetsbelastning →  Arbetstagare är också stressade av hög arbetsbelastning
+   * Arbetstagare är också stressade av **mycket arbetsbelastning** →  Arbetstagare är också stressade av **hög arbetsbelastning**
 
-   * ...genom att göra vissa åtgärder → ...genom att vidta vissa åtgärder 
+   * ...genom att **göra vissa åtgärder** → ...genom att **vidta vissa åtgärder** 
 
-   * Det är svårt för oss i vinter → Det är svårt för oss på vintern.
+   * Det är svårt för oss **i vinter** → Det är svårt för oss **på vintern**.
    
-   * (Pilot 3, Elena, A14AT1) Jag tycker båda landet är bättre och sämre shillnaden. --> Jag tycker båda länderna har för- och nackdelar.
+   * (Pilot 3, Elena, A14AT1) Jag tycker båda landet **är bättre och sämre shillnaden**. --> Jag tycker båda länderna **har för- och nackdelar**.
    
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Jag%20tycker%20b%C3%A5da%20landet%3AM-NUM%20%C3%A4r~%C3%A4r%3AL-ID%3AO%20b%C3%A4ttre~%C3%A4r%20och~%C3%A4r%20s%C3%A4mre~%C3%A4r%20shillnaden~%C3%A4r%20.%2F%2FJag%20tycker%20b%C3%A5da%20l%C3%A4nderna%20har~%C3%A4r%20f%C3%B6r-~%C3%A4r%20och~%C3%A4r%20nackdelar~%C3%A4r%20.)
 
