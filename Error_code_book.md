@@ -36,7 +36,7 @@ This error code is used to mark for example gender error in personal pronouns, a
 
 **Examples**
 
-   * Jag har en bror, hon heter xx → Jag har en bror, han heter xx.
+   * Jag har en bror, **hon** heter xx → Jag har en bror, **han** heter xx.
    * (Pilot 3, Elena, E2ET1) Stämmer det att **våra sociala media** skapar individualism och ensamhet ? Eller **det** skapar  kontakter och trivs ?  
    
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
