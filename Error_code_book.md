@@ -50,8 +50,8 @@ _Deviant derivational affix used_
 
 **Examples**
 
-   * ...de är stressiga på grund av studier → 
-   * ...de är stressade på grund av studier
+   * ...de är stress**iga** på grund av studier → 
+   * ...de är stress**ade** på grund av studier
 
 ---
 ### L-ID
