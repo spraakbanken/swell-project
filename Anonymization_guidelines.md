@@ -83,10 +83,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
  <!-- * Descriptor: 
       - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
   * Pseudonymization: 
-      - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden <!-- , and possibly country of origin
-     - Country of origin -> markup but do not pseudomize and replace those countries that few people come from -->
-      
-   - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
+      - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
+      - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
 ### 3. Institution: < institution > , < school > , < work > , < other_institution >
    * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
