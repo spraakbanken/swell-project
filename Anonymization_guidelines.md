@@ -66,19 +66,17 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 ### 2. Geographic data (country, city, zip codes, area names, …)
   * Types: <!-- < country_of_origin > , -->
   < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < place > , < street_nr >
-  
-   - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal
-   - < country > : except Sweden
+       - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal
+       - < country > : except Sweden
       
  ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
       
 <!-- c **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_** -->
-      
-   - < city > : city including villages (på svenska “ort”)    
-   - < geo >: forest, lake, mountain, etc
-   - < zip_code >: zip/area code
-   - < place >: specific place, street, square, bridge, name of a bus/tram/metro stop
-   - < street_nr > : street or place number
+      - < city > : city including villages (på svenska “ort”)    
+      - < geo >: forest, lake, mountain, etc
+      - < zip_code >: zip/area code
+      - < place >: specific place, street, square, bridge, name of a bus/tram/metro stop
+      - < street_nr > : street or place number
    
  <!-- * Descriptor: 
       - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
