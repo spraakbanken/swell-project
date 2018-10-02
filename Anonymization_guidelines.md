@@ -173,12 +173,14 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * Sensitive information < sensitive >
       - Descriptor: 
         * e.g. political or religious views, number of siblings, family members 
-  * Markup: for each token assign a "sensitive" @placeholder (or should we group those?)
+  * Markup: assign a single "sensitive" @placeholder (or should we have one pre token? )
 
       Example: 
-I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration. 
+*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och **vi kände mycket glad för att det var första dag ser vi en fri demstration**. *
+
 ->
-I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och < sensitive >. 
+
+*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och **< sensitive > **. *
 
 
 ### 16. Comments < OBS! >
