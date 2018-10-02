@@ -36,7 +36,8 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
 ### 1. Personal Names: 
 
   * Types: < firstname > < middlename > < surname > 
-  * Descriptor: 
+  * Types: < firstname > < middlename > < surname >
+  * Descriptor:
       - Gender: male, female, unknown < m > , < f > , < unk > <!--       - Case: genitive < gen > -->
       - Initial:  < ini > 
    
