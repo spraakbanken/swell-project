@@ -18,16 +18,20 @@ The purpose of anonymization is to de-identify all information that can reveal t
 
 5. Categories that can be used for discrimination, such as political views, religious convictions, sexual orientation, should also be marked - but not necessarily masked right away? A decision would need to be made by an annotator. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
-## Supra-categories (morphology): <span style="color:red">[NEW]</span>
+## Supra-categories : <span style="color:red">[NEW]</span>
 
 May be applied on top of other categories, as (extra)linguistic information. Only marked forms are tagged, i.e. genitive case is marked, whereas common case - not (by default everything is assumed to have common case).
 
+### Running numbers: <span style="color:red">[NEW]</span>
+Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. At the moment this should be done manually. 
+
+### Morphology: <span style="color:red">[NEW]</span>
  * Case: < genitive > , e.g. Volvos
  * Form: < definite > , e.g. Statsbiliotekets
  * Number: < plural > , e.g. Mölndalsbor
 
-## Pseudonymize: 
 
+## Pseudonymize: 
 
 ### 1. Personal Names: 
   * Types: < firstname > < middlename > < surname > 
@@ -35,14 +39,14 @@ May be applied on top of other categories, as (extra)linguistic information. Onl
       - Gender: male, female, unknown < m > , < f > , < unk >
 [//]: #       - Case: genitive < gen > 
       - Initial:  < ini > 
-      - Running number: < 1, 2… >  [enumerate each unique name type entity with a number starting with 1] 
+[//]: #       - Running number: < 1, 2… >  [enumerate each unique name type entity with a number starting with 1] 
   * Pseudonymization: 
       - Provide a list with first names, male, female and gender neutral (incl. international). 
       - For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
       - Provide a list with surnames (incl. international)
       - Middlenames: Replace with an initial “A”
       - Initial replaced by “A”
-      - Change token by token
+[//]: #      - Change token by token [BEA, WHAT IS MEANT BY THIS?]
   * To consider: 
       - allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym 
       - random substitution for each unique name in the text given a list of names or
@@ -51,18 +55,21 @@ May be applied on top of other categories, as (extra)linguistic information. Onl
       
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20Alice~Alice%3A'firstname%3Afemale'%3A1%20and~and%20Bob~Bob%3A'firstname%3Amale'%3A2%20went~went%20to~to%20Paris~Paris%3Acity%20.%40s6~%40s6%20'Alice%5C's'~'Alice%5C's'%3A'firstname%3Afemale'%3A1%3Agen%20wallet~wallet%20was~was%20stolen~stolen%20.%40s11~%40s11%2F%2F'firstname%3Afemale'~Alice%201~Alice%20and~and%20'firstname%3Amale'~Bob%202~Bob%20went~went%20to~to%20city~Paris%20.~%40s6%20'firstname%3Afemale'~'Alice%5C's'%201~'Alice%5C's'%20gen~'Alice%5C's'%20wallet~wallet%20was~was%20stolen~stolen%20.~%40s11)
 
-### 2. Institution: < institution > 
-   * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
-  * Descriptor: < school > , < work > , < other_institution >
-  * Pseudonymization: 
-      - Replace with from a list of school names and companies (e.g. from Yellow pages) 
 
-### 3. Geographic data (country, city, zip codes, area names, …)
-  * Types: < country_of_origin > , < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < street > , < number >
-      - < region > versus < area > **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_**
-      - < country_of_origin >: the person's origin (possibly merge with <country>
+### 2. Geographic data (country, city, zip codes, area names, …)
+  * Types: [//]: # < country_of_origin > , 
+  < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , 
+  [//]: # < street > is replaced with < place >
+  < place > , < street_nr >
+      - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal
+      
+      ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
+      
+      [//]: # **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_**
+[//]: #       - < country_of_origin >: the person's origin (possibly merge with <country>
       - < country > : except Sweden
       - < city > : city including villages (på svenska “ort”)
+      - < 
          
          ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
          
@@ -82,6 +89,12 @@ May be applied on top of other categories, as (extra)linguistic information. Onl
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and possibly country of origin
       - Country of origin -> markup but do not pseudomize and replace those countries that few people come from
       - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
+
+### 3. Institution: < institution > 
+   * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
+  * Descriptor: < school > , < work > , < other_institution >
+  * Pseudonymization: 
+      - Replace with from a list of school names and companies (e.g. from Yellow pages) 
 
 ### 4. Transportation: < transport >, < transport_line >
   * < transport >: bus, metro, tram, train, express
