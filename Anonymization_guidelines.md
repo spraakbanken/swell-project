@@ -46,7 +46,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
    
 <!--     - Running number:  1, 2…   [enumerate each unique name type entity with a number starting with 1] -->
 
-  * Pseudonymization: 
+  * Pseudonymization: (suggested source: https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn)
       - Provide a list with first names, male, female and gender neutral (incl. international). 
       - For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
       - Provide a list with surnames (incl. international)
@@ -80,7 +80,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 <!-- c **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_** -->
  <!-- * Descriptor: 
       - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
-  * Pseudonymization: 
+  * Pseudonymization: (suggested source:  http://www.geonames.org , see more information at the bottom of this document)
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
       - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
@@ -203,4 +203,29 @@ Jag heter <firstname1-m> och bor i <city1>. Jag flyttade till Sverige för 1 år
 Pseudonymized*: 
 Jag heter Mohammed och bor i Göteborg. Jag flyttade till Sverige för 1 år sedan. Jag har flytt från Afghanistan med min familj 2013. Jag har två bröder och två systrar. Vi bor på Gustavsgatan 1. Jag vill jobba. Jag vill bli <prof>. Sverige är skön. Jag är <sensitive>.
 
+## Details about geonames (from mail med SweLLers, 3 april 2018): 
+
+För att anonymisera ”platserna”, kan vi använda  http://www.geonames.org
+
+Det finns en hel del info och zip-filer där, så klicka på ”info”-länken (eller använd länken nedan) för att läsa förklaringar
+http://download.geonames.org/export/dump/readme.txt
+
+För att ladda hem filerna, klicka på Free Gazetteer Data (eller använd länken nedan)
+http://download.geonames.org/export/dump/readme.txt
+
+Det verkar att de mest användbara listorna (för oss) är:
+
+* se.zip (svenska geografiska namn, dock inkluderar de inte bara städer/byar, utan också berg osv)
+* alternateNamesV2.zip (innehåller städer över hela världen. Om man filtrerar på koden ”se” (eller ”sv”?) så får man städer med svensk ortografi
+* cities1000.zip (här listas alla städer med invånare över 1000, samt också vilket land de tillhör/country codes, men de listas med alla möjliga skrift, så vi behöver använda denna fil ihop med alternateNamesV2.zip och matcha på geonameid)
+
+Vi behöver leka lite med dessa filer. Enligt info-länken, så fins det även koder för kontinenter, till exempel. Filerna är superstora, så dator kan lätt hänga sig om man försöker öppna filerna…
+Jag klistrar in denna info till vårt anonymiserngsdokument.
+
+## Details about personal names (from main med Markus, 28 mars 2018): 
+
+Vi har datan från SCB med för- och efternamn här:
+https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn
+
+(litet skräpig data; vi påbörjade arbetet med att skapa en namn-saldo, men det stannade av. saldo-namn.xml innehåller senaste versionen av namn-morfologin)
 
