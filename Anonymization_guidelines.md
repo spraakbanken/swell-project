@@ -40,6 +40,7 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
 <!--       - Case: genitive < gen > -->
       - Initial:  < ini > 
 <!--     - Running number:  1, 2…   [enumerate each unique name type entity with a number starting with 1] -->
+
   * Pseudonymization: 
       - Provide a list with first names, male, female and gender neutral (incl. international). 
       - For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
@@ -47,6 +48,7 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
       - Middlenames: Replace with an initial “A”
       - Initial replaced by “A”
 <!--     - Change token by token [BEA, WHAT IS MEANT BY THIS?] -->
+
   * To consider: 
       - allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym 
       - random substitution for each unique name in the text given a list of names or
@@ -62,32 +64,30 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
   <!--  < street > is replaced with < place > -->
   < place > , < street_nr >
       - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal
-      
-      ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png =150x50 "region")
-      
-<!--c **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_** -->
-<!--       - < country_of_origin >: the person's origin (possibly merge with <country> -->
       - < country > : except Sweden
-      - < city > : city including villages (på svenska “ort”)
-      - < 
-         
-         ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
-         
-         
-         ![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20studerar~studerar%20dataventskap~dataventskap%3Aedu%3A7%20p%C3%A5%40s131~%40s131%20Stockholms~Stockholms%3Acity-SWE%3A8%3Agen%20Universitet~Universitet%20.')
-         
-         
-         
       
-      - < geo >: forest, lake, mountain, etc
-      - < zip_code >: zip/area code
-      - < place >: specific place, street, square, bridge, 
-      - < street_nr > : street or place number
-  * Descriptor: 
-      - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1]
+ ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
+      
+<!-- c **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_** -->
+      
+   - < city > : city including villages (på svenska “ort”)
+                
+   ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
+         
+         
+   ![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20studerar~studerar%20dataventskap~dataventskap%3Aedu%3A7%20p%C3%A5%40s131~%40s131%20Stockholms~Stockholms%3Acity-SWE%3A8%3Agen%20Universitet~Universitet%20.')
+       
+         
+   - < geo >: forest, lake, mountain, etc
+   - < zip_code >: zip/area code
+   - < place >: specific place, street, square, bridge, 
+   - < street_nr > : street or place number
+   
+ <!-- * Descriptor: 
+      - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
   * Pseudonymization: 
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and possibly country of origin
-      - Country of origin -> markup but do not pseudomize and replace those countries that few people come from
+ <!--     - Country of origin -> markup but do not pseudomize and replace those countries that few people come from -->
       - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
 ### 3. Institution: < institution > 
@@ -97,12 +97,12 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
       - Replace with from a list of school names and companies (e.g. from Yellow pages) 
 
 ### 4. Transportation: < transport >, < transport_line >
-  * < transport >: bus, metro, tram, train, express
+  * < transport >: bus, metro, tram, train, express. Do not necessarily need to be replaced when used in generic terms, e.g. *I have several busses and metro near my house.* 
   * < transport_line > : number, color
   * Descriptor: 
   * Pseudonymization: 
       - Replace randomly with bus, metro, tram, or train 
-      - In case of line number, replace actual number with 1, in case of several number in sequence, enumerate (1, 2, 3…)
+      - In case of line number, replace actual number with 1, in case of several numbers in sequence, enumerate (1, 2, 3…)
       - Only replace entity when specific stops/stations are mentioned, not when transportation types are mentioned in general terms. 
       
       - **_Do we need to replace "tunnelbana" och "buss-stationer" in the following context: "Det finns en tunnelbana , heter XXX och många buss-stationer nära" (Elena, A18AT1)? They seem to be generally descriptive, though probably can help identify the city that the person lives in. If yes, how do we represent "plural" in "buss-stationer"?_**
