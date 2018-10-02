@@ -33,7 +33,7 @@ May be applied on top of other categories, as (extra)linguistic information. Onl
   * Types: < firstname > < middlename > < surname > 
   * Descriptor: 
       - Gender: male, female, unknown < m > , < f > , < unk >
-      - Case: genitive < gen > 
+[//]: #       - Case: genitive < gen > 
       - Initial:  < ini > 
       - Running number: < 1, 2… >  [enumerate each unique name type entity with a number starting with 1] 
   * Pseudonymization: 
