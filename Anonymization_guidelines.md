@@ -23,13 +23,16 @@ The purpose of anonymization is to de-identify all information that can reveal t
 May be applied on top of other categories, as (extra)linguistic information. Only marked forms are tagged, i.e. genitive case is marked, whereas common case - not (by default everything is assumed to have common case).
 
 ### Running numbers: <span style="color:red">[NEW]</span>
-Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. At the moment this should be done manually. 
+Applies to all named entities (NE) and their *@placeholders*. Each unique named entity type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. At the moment this should be done manually. 
+
+**NEED A PICTURE HERE**
 
 ### Morphology: 
  * Case: < genitive > , e.g. Volvos
  * Form: < definite > , e.g. Statsbiliotekets <span style="color:red">[NEW]</span>
  * Number: < plural > , e.g. Mölndalsbor <span style="color:red">[NEW]</span>
-
+ 
+ **NEED A PICTURE HERE**
 
 ## Pseudonymize: 
 
@@ -94,13 +97,13 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
 
 
 ### 4. Transportation: < transport >, < transport_line >
-  * < transport >: bus, metro, tram, train, express. Do not necessarily need to be replaced when used in generic terms, e.g. *I have several busses and metro near my house.* 
+  * < transport >: bus, metro, tram, train, express. Do not necessarily need to be replaced when used in generic terms, e.g. *I have several busses and a metro station near my house.* 
   * < transport_line > : number, color
   * Descriptor: 
   * Pseudonymization: 
       - Replace randomly with bus, metro, tram, or train 
       - In case of line number, replace actual number with 1, in case of several numbers in sequence, enumerate (1, 2, 3…)
-      - Only replace entity when specific stops/stations are mentioned, not when transportation types are mentioned in general terms, e.g. in *Det finns en tunnelbana , heter Stadsbiblioteket och många buss-stationer nära* the only placeholder would be used for *Stadsbiblioteket*
+      - Only replace entity when specific stops/stations are mentioned, not when transportation types are mentioned in general terms, e.g. in *Det finns en tunnelbana , heter Stadsbiblioteket och många buss-stationer nära* the only @placeholder would be used for *Stadsbiblioteket*
       
 <!--      - **_Do we need to replace "tunnelbana" och "buss-stationer" in the following context: "Det finns en tunnelbana , heter XXX och många buss-stationer nära" (Elena, A18AT1)? They seem to be generally descriptive, though probably can help identify the city that the person lives in. If yes, how do we represent "plural" in "buss-stationer"?_** -->
 
@@ -151,20 +154,26 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
 ### 12. Certificate/licence numbers (e.g. vehicle) < license_nr >
   * Pseudonymization: 
       - Replace letters with ABC and each number with 0 (ABC 0000)
+      
+### 13. Other sequence of numbers < other_nr_seq >
+  * Pseudonymization: 
+      - Replace each number with 0 and keep delimiters
+      
 
-### 13. Extra (something else, not covered but the previous categories)
+### 14. Extra (something else, not covered but the previous categories)
   * Description: < oblig >, < nonoblig >
    - < oblig > need to be replaced because of sensitivity
    - < nonoblig > might be sensitive and replaced later
 
-### 14. Mark up but do not pseudomize: 
+### 15. Mark up but do not pseudomize: 
   * Profession < prof >
       * Descriptor: < prof >, < edu> 
       - < prof > profession
       - < edu > education 
   * Sensitive information < sensitive >
       - Descriptor: 
-      * e.g. political or religious views, number of siblings, family members
+      * e.g. political or religious views, number of siblings, family members 
+  * Markup: for each token assign a "sensitive" @placeholder (or should we group those?)
 
       Example: 
 I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration. 
