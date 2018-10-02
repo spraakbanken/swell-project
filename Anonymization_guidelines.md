@@ -230,3 +230,7 @@ https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn
 
 (litet skräpig data; vi påbörjade arbetet med att skapa en namn-saldo, men det stannade av. saldo-namn.xml innehåller senaste versionen av namn-morfologin)
 
+## More notes:
+
+* See pages 4-5, notes from SweLL meeting, August 2018:
+https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Minnesanteckningar_SweLL_Projektmote_20180830-31.pdf
