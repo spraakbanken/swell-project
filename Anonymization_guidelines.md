@@ -25,10 +25,10 @@ May be applied on top of other categories, as (extra)linguistic information. Onl
 ### Running numbers: <span style="color:red">[NEW]</span>
 Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. At the moment this should be done manually. 
 
-### Morphology: <span style="color:red">[NEW]</span>
+### Morphology: 
  * Case: < genitive > , e.g. Volvos
- * Form: < definite > , e.g. Statsbiliotekets
- * Number: < plural > , e.g. Mölndalsbor
+ * Form: < definite > , e.g. Statsbiliotekets <span style="color:red">[NEW]</span>
+ * Number: < plural > , e.g. Mölndalsbor <span style="color:red">[NEW]</span>
 
 
 ## Pseudonymize: 
@@ -39,7 +39,7 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
       - Gender: male, female, unknown < m > , < f > , < unk >
 [//]: #       - Case: genitive < gen > 
       - Initial:  < ini > 
-[//]: #       - Running number: < 1, 2… >  [enumerate each unique name type entity with a number starting with 1] 
+      [//]: #       - Running number: < 1, 2… >  [enumerate each unique name type entity with a number starting with 1] 
   * Pseudonymization: 
       - Provide a list with first names, male, female and gender neutral (incl. international). 
       - For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
