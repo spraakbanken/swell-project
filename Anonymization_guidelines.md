@@ -103,25 +103,33 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
   * Pseudonymization: 
       - Replace randomly with bus, metro, tram, or train 
       - In case of line number, replace actual number with 1, in case of several numbers in sequence, enumerate (1, 2, 3…)
-      - Only replace entity when specific stops/stations are mentioned, not when transportation types are mentioned in general terms. 
+      - Only replace entity when specific stops/stations are mentioned, not when transportation types are mentioned in general terms, e.g. in *Det finns en tunnelbana , heter Stadsbiblioteket och många buss-stationer nära* the only placeholder would be used for *Stadsbiblioteket*
       
-      - **_Do we need to replace "tunnelbana" och "buss-stationer" in the following context: "Det finns en tunnelbana , heter XXX och många buss-stationer nära" (Elena, A18AT1)? They seem to be generally descriptive, though probably can help identify the city that the person lives in. If yes, how do we represent "plural" in "buss-stationer"?_**
+<!--      - **_Do we need to replace "tunnelbana" och "buss-stationer" in the following context: "Det finns en tunnelbana , heter XXX och många buss-stationer nära" (Elena, A18AT1)? They seem to be generally descriptive, though probably can help identify the city that the person lives in. If yes, how do we represent "plural" in "buss-stationer"?_** -->
 
-### 5. Age: < age >
+### 5. Age: < age-digits >, < age-string >
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20
+      - The same as above applies to < age-string > , rendered in strings
       - **_??? There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. We need to have an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Added as an issue for anonymization tool. (Elena, A10AT1) ???_**
          
 
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
-  * Types: < day > , < month-digit >, < month-word >, < year >. Keep the delimiters as in original (, . - /)
+  * Types: < day > , < month-digit >, < month-word >, < year >, <date-digits>. Keep the delimiters as in original (, . - /)
   * Descriptor: 
   * Pseudonymization: 
       - < day > - > random number between 1-28
       - < month-digit > - > random replace 1-12
       - < month-word > - > random replace: januari, februari, ...
-      - < year > - > 5-year interval: e.g. 2013 is replaced by a random number from a range of numbers (+ - 3), i.e. 2010-2016
+      - < year > - > 5-year interval: e.g. 2013 is replaced by a random number from a range of numbers (+ - 2), i.e. 2011-2015
+      - < date-digits > - used for all dates that are written as a sequence of numbers with delimiters. Replace all numbers with "1" and keep delimiters, e.g.   
+* 2018-12-01 --> @date_digits --> 1111-11-11
+* 18/01/12 -->  @date_digits --> 11/11/11 
+* 180112 --> @date_digits --> 111111
+* 18.01.12 --> @date_digits --> 11.11.11
+* 01/12 --> @date_digits --> 11/11
+
 
 ### 7. Phone numbers < phone_nr >
   * Pseudonymization: 
