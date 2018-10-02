@@ -175,7 +175,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
       Example: 
       
-*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och **vi kände mycket glad för att det var första dag ser vi en fri demstration**. *
+*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och **vi kände mycket glad för att det var första dag ser vi en fri demstration**. 
 
 -->
 
