@@ -34,12 +34,11 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
 ## Pseudonymize: 
 
 ### 1. Personal Names: 
+
   * Types: < firstname > < middlename > < surname > 
   * Descriptor: 
-      - Gender: male, female, unknown < m > , < f > , < unk >
-<!--       - Case: genitive < gen > -->
-      
-   - Initial:  < ini > 
+      - Gender: male, female, unknown < m > , < f > , < unk > <!--       - Case: genitive < gen > -->
+      - Initial:  < ini > 
    
 <!--     - Running number:  1, 2…   [enumerate each unique name type entity with a number starting with 1] -->
 
