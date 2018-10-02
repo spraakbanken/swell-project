@@ -113,8 +113,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
          
 
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
-  * Types: < day > , < month-digit >, < month-word >, < year >, <date-digits>. Keep the delimiters as in original (, . - /)
-  * Descriptor: 
+  * Types: < day > , < month-digit >, < month-word >, < year >, < date-digits >. Keep the delimiters as in original (, . - /)
+  <!-- * Descriptor: --> 
   * Pseudonymization: 
       - < day > - > random number between 1-28
       - < month-digit > - > random replace 1-12
