@@ -88,7 +88,8 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
   * Pseudonymization: 
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and possibly country of origin
  <!--     - Country of origin -> markup but do not pseudomize and replace those countries that few people come from -->
-      - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
+      
+   - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
 ### 3. Institution: < institution > 
    * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
