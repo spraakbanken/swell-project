@@ -37,16 +37,16 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
   * Types: < firstname > < middlename > < surname > 
   * Descriptor: 
       - Gender: male, female, unknown < m > , < f > , < unk >
-<comment:       - Case: genitive < gen > >
+<!--       - Case: genitive < gen > -->
       - Initial:  < ini > 
-      [//]: #       - Running number: < 1, 2… >  [enumerate each unique name type entity with a number starting with 1] 
+<!--     - Running number:  1, 2…   [enumerate each unique name type entity with a number starting with 1] -->
   * Pseudonymization: 
       - Provide a list with first names, male, female and gender neutral (incl. international). 
       - For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
       - Provide a list with surnames (incl. international)
       - Middlenames: Replace with an initial “A”
       - Initial replaced by “A”
-[//]: #      - Change token by token [BEA, WHAT IS MEANT BY THIS?]
+<!--     - Change token by token [BEA, WHAT IS MEANT BY THIS?] -->
   * To consider: 
       - allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym 
       - random substitution for each unique name in the text given a list of names or
@@ -57,16 +57,16 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
 
 
 ### 2. Geographic data (country, city, zip codes, area names, …)
-  * Types: [//]: # < country_of_origin > , 
+  * Types: <!-- < country_of_origin > , -->
   < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , 
-  [//]: # < street > is replaced with < place >
+  <!--  < street > is replaced with < place > -->
   < place > , < street_nr >
       - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal
       
       ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
       
-      [//]: # **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_**
-[//]: #       - < country_of_origin >: the person's origin (possibly merge with <country>
+<!--c **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_** -->
+<!--       - < country_of_origin >: the person's origin (possibly merge with <country> -->
       - < country > : except Sweden
       - < city > : city including villages (på svenska “ort”)
       - < 
