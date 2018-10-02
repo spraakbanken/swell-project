@@ -74,11 +74,7 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
    - < city > : city including villages (på svenska “ort”)
                 
    ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
-         
-         
-   ![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20studerar~studerar%20dataventskap~dataventskap%3Aedu%3A7%20p%C3%A5%40s131~%40s131%20Stockholms~Stockholms%3Acity-SWE%3A8%3Agen%20Universitet~Universitet%20.')
-       
-         
+    
    - < geo >: forest, lake, mountain, etc
    - < zip_code >: zip/area code
    - < place >: specific place, street, square, bridge, 
@@ -97,6 +93,9 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
   * Descriptor: < school > , < work > , < other_institution >
   * Pseudonymization: 
       - Replace with from a list of school names and companies (e.g. from Yellow pages) 
+      
+ ![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20studerar~studerar%20dataventskap~dataventskap%3Aedu%3A7%20p%C3%A5%40s131~%40s131%20Stockholms~Stockholms%3Acity-SWE%3A8%3Agen%20Universitet~Universitet%20.')
+ 
 
 ### 4. Transportation: < transport >, < transport_line >
   * < transport >: bus, metro, tram, train, express. Do not necessarily need to be replaced when used in generic terms, e.g. *I have several busses and metro near my house.* 
