@@ -121,11 +121,11 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       - < month-word > - > random replace: januari, februari, ...
       - < year > - > 5-year interval: e.g. 2013 is replaced by a random number from a range of numbers (+ - 2), i.e. 2011-2015
       - < date-digits > - used for all dates that are written as a sequence of numbers with delimiters. Replace all numbers with "1" and keep delimiters, e.g.   
-* 2018-12-01 --> @date_digits --> 1111-11-11
-* 18/01/12 -->  @date_digits --> 11/11/11 
-* 180112 --> @date_digits --> 111111
-* 18.01.12 --> @date_digits --> 11.11.11
-* 01/12 --> @date_digits --> 11/11
+         * 2018-12-01 --> @date_digits --> 1111-11-11
+         * 18/01/12 -->  @date_digits --> 11/11/11 
+         * 180112 --> @date_digits --> 111111
+         * 18.01.12 --> @date_digits --> 11.11.11
+         * 01/12 --> @date_digits --> 11/11
 
 
 ### 7. Phone numbers < phone_nr >
