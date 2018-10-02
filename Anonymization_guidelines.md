@@ -36,10 +36,10 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
 ### 1. Personal Names: 
 
 
-  * Types: < firstname > < middlename > < surname >
+  * Types: < firstname > , < middlename > , < surname > , < ini >
   * Descriptor:
       - Gender: male, female, unknown < m > , < f > , < unk > <!--       - Case: genitive < gen > -->
-      - Initial:  < ini > 
+      <!-- - Initial:  < ini > -->
    
 <!--     - Running number:  1, 2…   [enumerate each unique name type entity with a number starting with 1] -->
 
@@ -48,7 +48,7 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
       - For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
       - Provide a list with surnames (incl. international)
       - Middlenames: Replace with an initial “A”
-      - Initial replaced by “A”
+      - Initial replaced by “A”, keep delimiters
 <!--     - Change token by token [BEA, WHAT IS MEANT BY THIS?] -->
 
   * To consider: 
@@ -74,22 +74,21 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
    - < city > : city including villages (på svenska “ort”)    
    - < geo >: forest, lake, mountain, etc
    - < zip_code >: zip/area code
-   - < place >: specific place, street, square, bridge, 
+   - < place >: specific place, street, square, bridge, name of a bus/tram/metro stop
    - < street_nr > : street or place number
    
  <!-- * Descriptor: 
       - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
   * Pseudonymization: 
-      - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden, and possibly country of origin
- <!--     - Country of origin -> markup but do not pseudomize and replace those countries that few people come from -->
+      - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden <!-- , and possibly country of origin
+     - Country of origin -> markup but do not pseudomize and replace those countries that few people come from -->
       
    - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
-### 3. Institution: < institution > 
+### 3. Institution: < institution > , < school > , < work > , < other_institution >
    * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
-  * Descriptor: < school > , < work > , < other_institution >
   * Pseudonymization: 
-      - Replace with from a list of school names and companies (e.g. from Yellow pages) 
+      - Replace from a list of school names and companies (e.g. from Yellow pages) 
       
 ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
 
