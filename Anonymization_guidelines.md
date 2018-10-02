@@ -40,6 +40,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 
   * Types: < firstname > , < middlename > , < surname > , < ini >
+  * < firstname > vs < surname > are sometimes difficult to distinguish between. In uncertain cases, follow the standard Swedish order: < firstname > < middlename > < surname >
   * Descriptor:
       - Gender: male, female, unknown < m > , < f > , < unk > <!--       - Case: genitive < gen > -->
       <!-- - Initial:  < ini > -->
