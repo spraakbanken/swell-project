@@ -62,11 +62,10 @@ Applies to all @placeholders. Each unique name entity (NE) type (e.g.name) shoul
 
 ### 2. Geographic data (country, city, zip codes, area names, …)
   * Types: <!-- < country_of_origin > , -->
-  < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , 
-  <!--  < street > is replaced with < place > -->
-  < place > , < street_nr >
-      - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal
-      - < country > : except Sweden
+  < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < place > , < street_nr >
+  
+   - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal
+   - < country > : except Sweden
       
  ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
       
