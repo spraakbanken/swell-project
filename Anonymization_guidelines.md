@@ -162,7 +162,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
    - < oblig > need to be replaced because of sensitivity
    - < nonoblig > might be sensitive and replaced later
 
-### 15. Mark up but do not pseudomize: 
+### 15. Mark up but do not pseudonymize: 
   * Profession < prof >
       * Descriptor: < prof >, < edu> 
       - < prof > profession
@@ -172,7 +172,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
  
   * Sensitive information < sensitive >
       - Descriptor: 
-      * e.g. political or religious views, number of siblings, family members 
+        * e.g. political or religious views, number of siblings, family members 
   * Markup: for each token assign a "sensitive" @placeholder (or should we group those?)
 
       Example: 
