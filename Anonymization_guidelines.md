@@ -91,7 +91,6 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * Pseudonymization: 
       - Replace from a list of school names and companies (e.g. from Yellow pages) 
       
-![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
 
 
 ### 4. Transportation: < transport >, < transport_line >
@@ -168,6 +167,9 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       * Descriptor: < prof >, < edu> 
       - < prof > profession
       - < edu > education 
+      
+ ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
+ 
   * Sensitive information < sensitive >
       - Descriptor: 
       * e.g. political or religious views, number of siblings, family members 
@@ -179,7 +181,7 @@ I en dag såg vi en stor demstration det var för mycket människor vill inte Tu
 I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och < sensitive >. 
 
 
-### 15. Comments < OBS! >
+### 16. Comments < OBS! >
    * Use for marking place to return to. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
    
 
