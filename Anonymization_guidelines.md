@@ -222,7 +222,7 @@ Det verkar att de mest användbara listorna (för oss) är:
 Vi behöver leka lite med dessa filer. Enligt info-länken, så fins det även koder för kontinenter, till exempel. Filerna är superstora, så dator kan lätt hänga sig om man försöker öppna filerna…
 Jag klistrar in denna info till vårt anonymiserngsdokument.
 
-## Details about personal names (from main med Markus, 28 mars 2018): 
+## Details about personal names (from mail med Markus, 28 mars 2018): 
 
 Vi har datan från SCB med för- och efternamn här:
 https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn
