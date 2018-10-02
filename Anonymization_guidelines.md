@@ -96,8 +96,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * < transport_line > : number, color
   * Descriptor: 
   * Pseudonymization: 
-      - Replace randomly with bus, metro, tram, or train 
-      - In case of line number, replace actual number with 1, in case of several numbers in sequence, enumerate (1, 2, 3…)
+      - < transport > : Replace randomly with bus, metro, tram, or train 
+      - < transport_line > : In case of line number, replace actual number with 1, in case of several numbers in sequence, enumerate (1, 2, 3…)
       - Only replace entity when specific stops/stations are mentioned, not when transportation types are mentioned in general terms, e.g. in *Det finns en tunnelbana , heter Stadsbiblioteket och många buss-stationer nära* the only @placeholder would be used for *Stadsbiblioteket*
       
 <!--      - **_Do we need to replace "tunnelbana" och "buss-stationer" in the following context: "Det finns en tunnelbana , heter XXX och många buss-stationer nära" (Elena, A18AT1)? They seem to be generally descriptive, though probably can help identify the city that the person lives in. If yes, how do we represent "plural" in "buss-stationer"?_** -->
