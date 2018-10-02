@@ -46,7 +46,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
    
 <!--     - Running number:  1, 2…   [enumerate each unique name type entity with a number starting with 1] -->
 
-  * Pseudonymization: (suggested source: https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn)
+  * Pseudonymization: (suggested source: https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn , see more information at the bottom of this document)
       - Provide a list with first names, male, female and gender neutral (incl. international). 
       - For surnames, gender-specific types, when unclear use gender-neutral names (e.g. Andrea, Charlie, Kim, Tayler) 
       - Provide a list with surnames (incl. international)
