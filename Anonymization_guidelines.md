@@ -18,7 +18,16 @@ The purpose of anonymization is to de-identify all information that can reveal t
 
 5. Categories that can be used for discrimination, such as political views, religious convictions, sexual orientation, should also be marked - but not necessarily masked right away? A decision would need to be made by an annotator. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
+## Supra-categories (morphology): 
+
+May be applied on top of other categories, as (extra)linguistic information. Only marked forms are tagged, i.e. genitive case is marked, whereas common case - not (by default everything is assumed to have common case).
+
+ * Case: < genitive > , e.g. Volvos
+ * Form: < definite > , e.g. Statsbiliotekets
+ * Number: < plural > , e.g. Mölndalsbor
+
 ## Pseudonymize: 
+
 
 ### 1. Personal Names: 
   * Types: < firstname > < middlename > < surname > 
