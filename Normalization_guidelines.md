@@ -79,7 +79,7 @@ Secondly, if several normalisations are possible, use the following criteria to 
    Här kommer arbetslösheten som en stor faktor till stress, lika viktigt som stressen på grund av arbetsbelastning. &nbsp; &larr; More idiomatic but requires too much change of the original text
  --->   
 
-Minimal change is equivalent to the _minimal target hypothesis_ in the Falko corpus in the sense that it a) differs minimally from the learner text and b) is grammatical at the expense of ignoring errors concerning semantics, pragmatics and style.
+Minimal change is equivalent to the _minimal target hypothesis_ in the [Falko corpus](https://www.linguistik.hu-berlin.de/en/institut-en/professuren-en/korpuslinguistik/mitarbeiter-innen-en/marc/ReznicekEA_toAppear.pdf) in the sense that it a) differs minimally from the learner text and b) is grammatical at the expense of ignoring errors concerning semantics, pragmatics and style.
 
 ### Principle of content and function words
 
