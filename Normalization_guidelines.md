@@ -16,7 +16,7 @@ There are several motivations for this separation:
 
 ## Why are different normalisations possible?
 
-Normalisation is not an unambiguous concept, and there will typically be multiple possible normalisations of a learner text, just as there are several correct translations of a sentence. (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) In general, there are two reasons for why different normalisations are possible:
+Normalisation is not an unambiguous concept, and there will typically be multiple possible normalisations of a learner text, just as there are several correct translations of a sentence. (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) Generally speaking, there are two reasons for why different normalisations are possible:
 
 1. Different target hypotheses can be assumed
 
