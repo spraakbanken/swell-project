@@ -2,7 +2,7 @@
 
 ## Background
 
-In terms of workflow, a key assumption of our approach is that it is beneficial to separate error coding into two steps: normalisation (that is, correction of the learner text according to the target hypotheses) and the actual annotation of the corrections. There are several reasons for this division.
+In terms of workflow, a key assumption of our approach is that it is beneficial to separate error coding into two steps: normalisation (that is, correction of the learner text according to the target hypotheses) and the actual annotation of the corrections. There are several reasons for this separation.
 
 1. By letting the annotator correct the text prior to error annotation, they will be in a better position to build a coherent understanding of the learner's linguistic competence and to form target hypotheses that are consistent with this understanding.
 
