@@ -4,6 +4,8 @@
 
 A key assumption of our approach is that it is beneficial to separate error coding into two steps, both in terms of workflow and representation: _normalisation_ (that is, correction of the learner text according to the target hypotheses) and the actual _annotation_ of the corrections. Based on this separation, our system (Svala) automatically constructs a parallel corpus of the learner and normalised texts, with word alignments that may be corrected by the annotator. Strictly speaking, normalisation therefore involves not only correction of the learner text but also correction of misaligned links.
 
+There are several motivations for this separation:
+
 1. By letting the annotator correct the text prior to error annotation (whether in smaller or larger chunks), they will be in a better position to build a coherent understanding of the learner's linguistic competence and to form target hypotheses that are consistent with this understanding.
 
 2. Since error correction and error annotation are conceptually distinct tasks, it is logical to perform them independently. For example, it might be beneficial to outsource normalisation to researchers in second-language acquisition, that is, to people who are experts in comparing target hypotheses for learner texts. In contrast, annotation of corrections might be handled just as well by students.
