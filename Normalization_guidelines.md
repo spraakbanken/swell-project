@@ -4,13 +4,13 @@
 
 In terms of workflow, a key assumption of our approach is that it is beneficial to separate error coding into two steps: normalisation (that is, correction of the learner text according to the target hypotheses) and the actual annotation of the corrections. There are several reasons for this division.
 
-1. By letting the annotator correct the text prior to the error annotation, they will be in a better position to build a coherent understanding of the learner's linguistic competence and to form target hypotheses that are consistent with this understanding.
+1. By letting the annotator correct the text prior to error annotation, they will be in a better position to build a coherent understanding of the learner's linguistic competence and to form target hypotheses that are consistent with this understanding.
 
-2. Since error correction and error annotation are conceptually distinct tasks, it is logical to perform them independently. For example, it might be beneficial to outsource corrections (normalisation) to researchers in second-language acquisition, that is, to people who are experts in comparing target hypotheses for learner texts. In contrast, annotation of corrections might be possible for students to handle  just as well.
+2. Since error correction and error annotation are conceptually distinct tasks, it is logical to perform them independently. For example, it might be beneficial to outsource normalisation to researchers in second-language acquisition, that is, to people who are experts in comparing target hypotheses for learner texts. In contrast, annotation of corrections might be handled just as well by students.
 
-3. There is currently no consensus on a measure for inter-annotator agreement for corrections (normalisation). Because of this, inter-annotator agreement for error annotation should be calculated based on a given normalisation. By separating the tasks (and representations of) normalisation and error annotation, this becomes straightforward.
+3. There is currently no consensus on a measure for inter-annotator agreement for normalisation. Because of this, inter-annotator agreement for error annotation should be calculated based on a given normalisation. By separating normalisation and error annotation (and their representations), this becomes straightforward.
 
-4. A resource that can be used for development of automatic methods for correction of learner text (the parallel corpus) is generated on the fly.
+4. The parallel corpus that is generated as a result of normalisation and error annotation is a valuable resource for independent purposes, which might be used for development of automatic methods for identifying learner errors or even for correction of learner text.
 
 The fact that correction of the learner text is carried out as a separate step allows our system (Svala) to automatically construct a parallel corpus of the learner and normalised text with alignments at the word level. As a consequence of this, normalisation involves not only correction of the learner text but also correction of misaligned links between words. An additional, independent advantage of the approach is that the resulting parallel corpus will be a highly valuable resource for development of automatic methods for identifying learner errors.
 
