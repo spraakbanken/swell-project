@@ -10,7 +10,7 @@ A key assumption of our approach is that it is beneficial to separate error codi
 
 3. There is currently no consensus on how to measure inter-annotator agreement for normalisation. Because of this, inter-annotator agreement for error annotation should be calculated based on a given normalisation. By separating normalisation and error annotation (and their representations), this becomes straightforward.
 
-4. The parallel corpus that is generated as a result of normalisation and error annotation is a valuable resource in its own right, which might be used for development of automatic methods for identifying learner errors or even for correction of learner text.
+4. The parallel corpus that is generated as a result of normalisation and error annotation is a valuable resource in its own right, and might be used for development of automatic methods for identifying learner errors or even for correction of learner text.
 
 The fact that correction of the learner text is carried out as a separate step allows our system (Svala) to automatically construct a parallel corpus of the learner and normalised text with alignments at the word level. As a consequence of this, normalisation involves not only correction of the learner text but also correction of misaligned links between words. An additional, independent advantage of the approach is that the resulting parallel corpus will be a highly valuable resource for development of automatic methods for identifying learner errors.
 
