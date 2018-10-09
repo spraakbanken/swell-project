@@ -10,7 +10,7 @@ There are several motivations for this separation:
 
 2. Since error correction and error annotation are conceptually distinct tasks, it is logical to perform them independently. For example, it might be beneficial to outsource normalisation to researchers in second-language acquisition, that is, to people who are experts in comparing target hypotheses for learner texts. In contrast, annotation of corrections might be handled just as well by students.
 
-3. There is currently no consensus on how to measure inter-annotator agreement for normalisation. Because of this, inter-annotator agreement for error annotation should be calculated based on a given normalisation. By separating normalisation and error annotation (and their representations), this becomes straightforward.
+3. There is currently no consensus on how to measure inter-annotator agreement for normalisation. Because of this, inter-annotator agreement for error annotation should be calculated based on a given normalisation. Because of the separation of normalisation and error annotation (and their representations), this is straightforward.
 
 4. An additional, independent advantage of the separation of normalisation and annotation is that the resulting parallel corpus will be a highly valuable resource for development of automatic methods for identifying learner errors.
 
