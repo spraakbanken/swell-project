@@ -2,7 +2,7 @@
 
 ## Background
 
-A key assumption of our approach is that it is beneficial to separate error coding into two steps, both in terms of workflow and representations: normalisation (that is, correction of the learner text according to the target hypotheses, which also includes correcting misaligned links) and the actual annotation of the corrections. There are several mtoivations for this.
+A key assumption of our approach is that it is beneficial to separate error coding into two steps, both in terms of workflow and representations: normalisation (that is, correction of the learner text according to the target hypotheses, which also includes correcting misaligned links between the two) and the actual annotation of the corrections. There are several mtoivations for this.
 
 1. By letting the annotator correct the text prior to error annotation, they will be in a better position to build a coherent understanding of the learner's linguistic competence and to form target hypotheses that are consistent with this understanding.
 
@@ -78,6 +78,8 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
    Här kommer arbetslösheten som en stor faktor till stress, lika viktigt som stressen på grund av arbetsbelastning. &nbsp; &larr; More idiomatic but requires too much change of the original text
  --->   
+
+Minimal change is equivalent to the minimal target hypothesis in the Falko corpus in the sense that it a) differs minimally from the learner text and b) represents a grammatical sentence at the expense of ignoring errors concerning semantics, pragmatics and style.
 
 ### Principle of content and function words
 
