@@ -2,7 +2,7 @@
 
 ## Background
 
-A key assumption of our approach is that it is beneficial to separate error coding into two steps, both in terms of workflow and representations: normalisation (that is, correction of the learner text according to the target hypotheses, which also includes correcting misaligned links between the two) and the actual annotation of the corrections. There are several mtoivations for this.
+A key assumption of our approach is that it is beneficial to separate error coding into two steps, both in terms of workflow and representation: normalisation (that is, correction of the learner text according to the target hypotheses, which also includes correcting misaligned links between the two) and the actual annotation of the corrections. There are several mtoivations for this.
 
 1. By letting the annotator correct the text prior to error annotation, they will be in a better position to build a coherent understanding of the learner's linguistic competence and to form target hypotheses that are consistent with this understanding.
 
