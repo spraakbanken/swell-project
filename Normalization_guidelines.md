@@ -8,7 +8,7 @@ In terms of workflow, a key assumption of our approach is that it is beneficial 
 
 2. Since error correction and error annotation are conceptually distinct tasks, it is logical to perform them independently. For example, it might be beneficial to outsource normalisation to researchers in second-language acquisition, that is, to people who are experts in comparing target hypotheses for learner texts. In contrast, annotation of corrections might be handled just as well by students.
 
-3. There is currently no consensus on a measure for inter-annotator agreement for normalisation. Because of this, inter-annotator agreement for error annotation should be calculated based on a given normalisation. By separating normalisation and error annotation (and their representations), this becomes straightforward.
+3. There is currently no consensus on how to measure inter-annotator agreement for normalisation. Because of this, inter-annotator agreement for error annotation should be calculated based on a given normalisation. By separating normalisation and error annotation (and their representations), this becomes straightforward.
 
 4. The parallel corpus that is generated as a result of normalisation and error annotation is a valuable resource for independent purposes, which might be used for development of automatic methods for identifying learner errors or even for correction of learner text.
 
