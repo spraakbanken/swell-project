@@ -1,5 +1,7 @@
 # Swell code book (error taxonomy + examples)
 
+This code book contains the taxonomy for the SweLL-error annotation. The codes are presented in alfabetical order with exemples. You find an additional collection of examples with illustrations from the annotation tool in the appendix to the code book.
+
 ---
 ## Lexical codes (5)
 ---
@@ -430,6 +432,12 @@ _Consistence. This group covers necessary (follow-up) corrections in the text th
 _Error that cannot be categorized according to other codes_
 
 ---
+
+
+#Appendix 
+---
+## Illustrated examples
+
 
 
 
