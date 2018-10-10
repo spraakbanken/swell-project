@@ -1,6 +1,17 @@
-# Swell code book (error taxonomy + examples)
+# Swell code book (taxonomy för correction annotation + examples)
 
-This code book contains the taxonomy for the SweLL-error annotation. The codes are presented in alfabetical order with exemples. You find illustrations from the annotation tool for sevaral of the examples in the appendix to the code book.
+This code book contains the taxonomy for the SweLL-correction annotation. The codes are presented in alfabetical order with exemples. You find illustrations from the annotation tool for sevaral of the examples in the appendix to the code book.
+
+---
+## C
+
+_Consistence. This group covers necessary (follow-up) corrections in the text that come as a result of previous correction, i.e. originally there was no mistake in the segment, but due to an introduced correction in the neighbouring context, a correction is necessary in the segment. By using this code we indicate that the error was not made originally by the student._
+
+**Examples**
+
+* Bostad**en** min --> Min **bostad**
+
+* Det ger en en positiv **energi därmed** kan man bli av med stress.. --> Det ger en en positiv **energi. Därmed** kan man bli av med stress…
 
 ---
 ## Lexical codes (5)
@@ -8,22 +19,38 @@ This code book contains the taxonomy for the SweLL-error annotation. The codes a
 
 ### L
 
-_Wrong word_
+_Wrong word or phrase_
 
 This error code can be used only to mark existing Swedish words that have been used in an incorrect way or context
 
 **Examples**
 
-   * Traditioner ger människorna tid att stå still och fundera över livet → att stanna upp och fundera över livet.
+   * Traditioner ger människorna tid att **stå still** och fundera över livet → att **stanna upp** och fundera över livet.
+   
+   *  … men **känner** bara fysiskt närvarande. -->	… men **känner sig** bara fysiskt närvarande.	
+   
+   * Uppfinningen som **transformerade** hela kommunikationsområdet … --> Uppfinningen som förändrade hela kommunikationsområdet 
+
   
-  * När jag tittar utom fönstret… → när jag tittar  ut genom fönsret…
+  * När jag tittar **utom** fönstret… → när jag tittar  **ut genom** fönsret…
 
 
-   * På det sättet kan kommunen motionera alla medborgare att träna → på det sättet kan kommunen motivera alla medborgare att träna.
+   * På det sättet kan kommunen **motionera** alla medborgare att träna → på det sättet kan kommunen **motivera** alla medborgare att träna.
    
-   * (PIlot 3, Elena, A14AT1) Jag bor samma med min bror --> Jag bor tilsammans med min bror
+   * Jag bor **samma** med min bror --> Jag bor **tilsammans** med min bror
+
+---
+### L-DER
+
+
+_Deviant (existisng!) derivational affix used_
+
+**Examples**
+
+   * ...de är stress**iga** på grund av studier. → ...de är stress**ade** på grund av studier.
    
-![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Jag%20bor%20samma%3AL%20med%20min%20bror%20.%2F%2F%E2%90%A4%20Jag%20bor%20tillsammans%20med%20min%20bror%20.)
+   * Internet **uppmanar** vår förståelse. -->	Internet **utmanar** vår förståelse.
+   
 
 
 ---
@@ -40,17 +67,8 @@ This error code is used to mark for example gender error in personal pronouns, a
    
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
  
-
 ---
-### L-DER
 
-
-_Deviant derivational affix used_
-
-**Examples**
-
-   * ...de är stress**iga** på grund av studier → 
-   * ...de är stress**ade** på grund av studier
 
 ---
 ### L-ID
@@ -408,9 +426,6 @@ _Impossible to interpret the writer’s intention with a word, phrase or sentenc
 ## Follow-up correction code (1)
 ---
 
-## C
-
-_Consistence. This group covers necessary (follow-up) corrections in the text that come as a result of previous correction, i.e. originally there was no mistake in the segment, but due to an introduced correction in the neighbouring context, a correction is necessary in the segment. By using this code we indicate that the error was not made originally by the student._
 
 **Examples**
 
@@ -445,7 +460,7 @@ _Error that cannot be categorized according to other codes_
   
   ![](https://ws.spraakbanken.gu.se/ws/swell/png?N%C3%A4r%20jag%20tittar%20utom%3AL%20f%C3%B6nstret%E2%80%A6%3AO%2F%2FN%C3%A4r%20jag%20tittar%20ut%20%20genom%20f%C3%B6nsret%E2%80%A6)
   
-  * (PIlot 3, Elena, A14AT1) Jag bor samma med min bror --> Jag bor tilsammans med min bror
+  * Jag bor samma med min bror --> Jag bor tilsammans med min bror
    
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Jag%20bor%20samma%3AL%20med%20min%20bror%20.%2F%2F%E2%90%A4%20Jag%20bor%20tillsammans%20med%20min%20bror%20.)
 
