@@ -1,4 +1,4 @@
-# Swell code book (taxonomy för correction annotation + examples)
+# Swell code book (taxonomy för correction annotation + examples) [under revision!]
 
 This code book contains the taxonomy for the SweLL-correction annotation. The codes are presented in alfabetical order with exemples. You find illustrations from the annotation tool for sevaral of the examples in the appendix to the code book.
 
@@ -81,12 +81,16 @@ Covers deviations with respect to idiomatic expressions. Can stretch over groups
 
    * ...genom att **göra vissa åtgärder** → ...genom att **vidta vissa åtgärder** 
 
-   * Det är svårt för oss **i vinter** → Det är svårt för oss **på vintern**.
-   
-   * (Pilot 3, Elena, A14AT1) Jag tycker båda landet **är bättre och sämre shillnaden**. --> Jag tycker båda länderna **har för- och nackdelar**.
-   
-![](https://ws.spraakbanken.gu.se/ws/swell/png?Jag%20tycker%20b%C3%A5da%20landet%3AM-NUM%20%C3%A4r~%C3%A4r%3AL-ID%3AO%20b%C3%A4ttre~%C3%A4r%20och~%C3%A4r%20s%C3%A4mre~%C3%A4r%20shillnaden~%C3%A4r%20.%2F%2FJag%20tycker%20b%C3%A5da%20l%C3%A4nderna%20har~%C3%A4r%20f%C3%B6r-~%C3%A4r%20och~%C3%A4r%20nackdelar~%C3%A4r%20.)
+   * .. människor måste **hålla sig i takt med** utvecklingen. --> … människor måste **gå i takt med** utvecklingen.
+---
+### L-M 
 
+_Missing content word_
+
+**Examples**
+
+examples needed here!
+                      
 
 ---
 ### L-REF
@@ -98,12 +102,147 @@ This error code is used to mark for example gender error in personal pronouns, a
 **Examples**
 
    * Jag har en bror, **hon** heter xx → Jag har en bror, **han** heter xx.
-   * (Pilot 3, Elena, E2ET1) Stämmer det att **våra sociala media** skapar individualism och ensamhet ? Eller **det** skapar  kontakter och trivs ?  
+   * Stämmer det att **våra sociala media** skapar individualism och ensamhet ? Eller **det** skapar  kontakter och trivs? --> Eller skapar **de** kontakter...  
    
-![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
- 
 ---
 
+## Morfological codes (9?)
+  
+---
+
+### M-ADJ/ADV
+
+_Corrections concerning the confusions of adjective and adverbial endings_
+
+**Examples**
+
+  * Sociala medier – bra eller **dålig**?	--> Sociala medier – bra eller **dåligt**?  
+
+  * Användaren mår **dålig**. --> Användaren mår **dåligt**.
+
+  * Hur påverkar det våra måenden **långsiktig**? Hur påverkar det våra måenden **långsiktigt**? 
+
+---
+
+### M-Case (Heter AGR i vertyget just nu!)
+
+_corrections regarding the use of genitive (nouns) and dativ forms (pronouns)
+
+**Examples**
+
+  * 50 **kilometer** avstånd --> 50 **kilometers** avstånd  
+
+  * om kan bidra till **samhället** utveckling	som kan bidra till **samhällets** utveckling
+
+  * Det ger **man** en positiv energi. --> 	Det ger **en** en positiv energi.
+
+  * Folk hinner inte prata med **de**. -->	Folk hinner inte prata med **dem**.
+
+  * Ingen förstår **hon**. --> Ingen förstår **henne** . 
+
+---
+
+### M-DEF
+
+_Deviation in definite/indefinite forms._
+
+May apply to groups of words.
+
+**Examples**
+
+  * Vi gick till McDonalds och åt **maten** → Vi gick till McDonalds och åt **mat**.
+   
+  * Jag trivs bättre på **jobb** här. -->	Jag trivs bättre på **jobbet** här.
+
+  * När kommer **den buss**? --> När kommer **bussen**?
+
+  * Den första **telefonnät** --> Det första **telefonnätet**
+
+---
+
+### M-F
+
+_ Deviant paradigm selection, but correct grammatical category_
+
+**Examples**
+
+  *Jag sittade länge och väntade på bussen igår → jag satt länge och väntade på bussen igår. 
+  
+  *Vädret kommer att blir dåligare nästa vecka → vädret kommer att bli sämre nästa vecka.
+  
+   * Jag har tre **båter**. --> Jag har tre **båtar**.
+   
+   * Jag **lager** mat. --> Jag **lagar** mat.
+   
+   * Jag vill ha **högare** lön. --> Jag vill ha **högre** lön.
+   
+   * X-stad är **närmere**. --> X-stad är **närmare**.
+   
+   * I Sverige är **mer kalt** än xxx --> I Sverige är det **kallare** än i xxx
+
+---
+
+### M-GEND
+
+_Correction regarding grammatical gender_
+
+**Examples**
+
+  * Det är **en** mycket **trevlig** område. → det är **ett** mycket **trevligt** område.
+
+  * **Det** är inte **konstig** att → **Det** är inte **konstigt** att...
+  
+  * **Den** viktigaste är... -->	**Det** viktigaste är... 
+  * **Den** första telefonnät --> **Det** första telefonnätet
+  * Kommunikationen är **möjligt**. --> 	Kommunikationen är **möjlig**. 
+
+  ---
+
+### M-NUM
+
+_Deviation in definite/indefinite forms.  May apply to groups of words._
+
+Mark elements that should agree with each other, if they are not “separated”! [flytta till guidelines]
+
+**Examples**
+
+  *  Stress kan komma i **många form** → Stress kan komma i **många former**.
+  
+  * Så fort **bilder** är **tagen**		Så fort **bilderna** är **tagna**
+  
+  * De surfar **onödiga information**. -->	De surfar **onödig information**.  
+
+  * Alla sitter bakom sina **skärmens** sken. -->	Alla sitter bakom sina **skärmars** sken.
+  
+  * I X-stad jobbade jag på **många nätside**. --> I X-stad jobbade jag på **många nätsidor**. 
+
+
+---
+
+### M-VERB
+
+_Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
+
+**Examples**
+
+  *Det betyder inte att vi **glomma bort** vår tradition. → Det betyder inte att vi **ska glömma/att vi glömmer bort** vår tradition.
+  
+  *(Temp) Jag **trivs** där för att jag hade fler vänner ..  --> Jag **trivdes** där för att jag hade fler vänner.
+  
+  *(Temp) Slutligen tror jag att sociala medier **blev** en essentiell del…  --> Slutligen tror jag att sociala medier **har blivit**
+  
+  *(Passiv) Världen **utvecklar** i teknologin i varje minut… --> Världen **utvecklas** i teknologin i varje minut…
+
+
+---
+
+### M-other
+
+_ambigeous cases with several possible target hypothesies
+
+**Examples**
+
+  * det är ett **lite** hus
 
 
 
@@ -148,120 +287,6 @@ _Error within compounds (oversplitting, overcompounding)_
    
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Kommunikation%3AO-COMP%20f%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20%28%202012%20%29%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20ansikte%20mot%20ansikte%20.%2F%2F%E2%90%A4%20Kommunikationsf%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20(%202012%20)%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20'%3A'%3AP-M%20ansikte%20mot%20ansikte%20.)
    
----
-## Morfological codes (9?)
-
----
-
-### M-Case (Heter AGR i vertyget just nu!)
-
-genitiv och dativ (pronomen)
-
-**Examples**
-
-* 50 kilometer avstånd                                 	50 kilometers avstånd  
-* om kan bidra till samhället utveckling	som kan bidra till samhällets utveckling
-
----
-
-### M-DEF
-
-_Deviation in definite/indefinite forms._
-
-May apply to groups of words.
-
-**Examples**
-
-   * Vi gick till McDonalds och åt maten → Vi gick till McDonalds och åt mat.
-   
-   * (Pilot 3, Elena, A14AT1)
-   
- 
-![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
-
----
-
-### M-GEND
-
-_Gender error_
-
-**Examples**
-
-  * Det är en mycket trevlig område → det är ett mycket trevligt område.
-  
-  
-  * (Pilot 3, Elena, A14AT1)
-  
-![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
-
-**Examples**
-
-  * Det är inte konstig att → Det är inte konstigt att
-
----
-
-### M-Komp (heter M-INFL i verktyget just nu)
-
-adjektiv komparation
-
-**Examples**
-
-  * hon är stor än mig_
-  
-  ---
-
-### M-NUM
-
-_Deviation in definite/indefinite forms.  May apply to groups of words._
-
-Mark elements that should agree with each other, if they are not “separated”!
-
-**Examples**
-
-  *  Stress kan komma i många form → Stress kan komma i många former.
-  
----
-
-### M-VERB
-
-_Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
-
-**Examples**
-
-  *Det betyder inte att vi glomma bort vår tradition → Det betyder inte att vi ska glömma/att vi glömmer bort vår tradition.
-  
----
-
-### M-F
-
-_Deviant paradigm selection, but interpreted to be in accordance with a morpho-syntactic category in Swedish; overgeneralization, including adjectives used as adverbials (without t)_
-
-**Examples**
-
-  *Jag sittade länge och väntade på bussen igår → jag satt länge och väntade på bussen igår. 
-  
-  *Vädret kommer att blir dåligare nästa vecka → vädret kommer att bli sämre nästa vecka.
-  
-   * N: Jag har tre **båter**
-   * V: Jag **lager** mat
-   * A: Jag vill ha **högare** lön.
-   * ADV: Hon lagar **väldig** god mat
-   
-   
- * (Pilot 3, Elena, A14AT1) I Sverige är mer kalt än xxx --> I Sverige är kallare än i xxx
-    
-![](https://ws.spraakbanken.gu.se/ws/swell/png?I%20Sverige%20%C3%A4r%20mer~mer%3AM-F%20kalt~mer%20%C3%A4n%20'OBS!_country_of_origin_ort'%20'%5C'.'%2F%2FI%20Sverige%20%C3%A4r%20kallare~mer%20%C3%A4n%20i%3AS-M%20'OBS!_country_of_origin_ort'%20.)
-   
----
-
-### M-other
-
-_ambigeous cases with several possible target hypothesies
-
-**Examples**
-
-  * det är ett **lite** hus
-  
 ---
 
 ## Syntactical codes (6)
@@ -468,6 +493,37 @@ _Error that cannot be categorized according to other codes_
   * Jag bor samma med min bror --> Jag bor tilsammans med min bror
    
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Jag%20bor%20samma%3AL%20med%20min%20bror%20.%2F%2F%E2%90%A4%20Jag%20bor%20tillsammans%20med%20min%20bror%20.)
+
+### L-REF (referens correction)
+
+  *  Stämmer det att **våra sociala media** skapar individualism och ensamhet ? Eller **det** skapar  kontakter och trivs ?  
+   
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
+
+### M-F (diviant paradigm selection but correct grammatical category
+
+   * I Sverige är mer kalt än xxx --> I Sverige är kallare än i xxx
+    
+![](https://ws.spraakbanken.gu.se/ws/swell/png?I%20Sverige%20%C3%A4r%20mer~mer%3AM-F%20kalt~mer%20%C3%A4n%20'OBS!_country_of_origin_ort'%20'%5C'.'%2F%2FI%20Sverige%20%C3%A4r%20kallare~mer%20%C3%A4n%20i%3AS-M%20'OBS!_country_of_origin_ort'%20.)
+
+### M-DEF
+
+  
+  * (Pilot 3, Elena, A14AT1)
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
+   
+### M_GEN
+
+  * (Pilot 3, Elena, A14AT1)
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
+
+---
+   
+   * ??(Pilot 3, Elena, A14AT1) Jag tycker båda landet **är bättre och sämre shillnaden**. --> Jag tycker båda länderna **har för- och nackdelar**.
+   
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Jag%20tycker%20b%C3%A5da%20landet%3AM-NUM%20%C3%A4r~%C3%A4r%3AL-ID%3AO%20b%C3%A4ttre~%C3%A4r%20och~%C3%A4r%20s%C3%A4mre~%C3%A4r%20shillnaden~%C3%A4r%20.%2F%2FJag%20tycker%20b%C3%A5da%20l%C3%A4nderna%20har~%C3%A4r%20f%C3%B6r-~%C3%A4r%20och~%C3%A4r%20nackdelar~%C3%A4r%20.)
 
 
 
