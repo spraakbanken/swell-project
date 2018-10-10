@@ -11,7 +11,14 @@
 ---
 ## Specific guidelines for different correction types
 
-### Lexical errors - general function
+### Lexical corrections - general function
 ---
-The correction-taxonomy contains five diffent codes for lexical corrections. 
+The correction-taxonomy contains six (?) diffent codes for lexical corrections. 
+
+* L (wrong word or phrase)
+* L-DER (expl) 
+* L-FL (non-swedish word)
+* L-ID (expl)
+* L-M (missing content word)
+* L-Ref (reference correction)
   
