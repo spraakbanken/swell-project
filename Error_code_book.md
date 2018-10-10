@@ -14,12 +14,12 @@ _ This group covers necessary (follow-up) corrections in the text that come as a
 * Det ger en en positiv **energi därmed** kan man bli av med stress.. --> Det ger en en positiv **energi. Därmed** kan man bli av med stress…
 
 ---
-## Lexical codes (5)
+## Lexical codes (6?)
 ---
 
 ### L
 
-_Wrong word or phrase_
+_Wrong word or phrase. Includes even phrasal verbs and reflexives with missin particle/reflexive marker._
 
 This error code can be used only to mark existing Swedish words that have been used in an incorrect way or context
 
@@ -38,6 +38,8 @@ This error code can be used only to mark existing Swedish words that have been u
    * På det sättet kan kommunen **motionera** alla medborgare att träna → på det sättet kan kommunen **motivera** alla medborgare att träna.
    
    * Jag bor **samma** med min bror --> Jag bor **tilsammans** med min bror
+   
+   * Alla blir **busiga** med sina sociala medier. --> Alla blir **upptagna** med sina sociala medier [should this example be here or under L-Fl?]
 
 ---
 ### L-DER
@@ -51,25 +53,21 @@ _Deviant (existisng!) derivational affix used_
    
    * Internet **uppmanar** vår förståelse. -->	Internet **utmanar** vår förståelse.
    
-
-
 ---
-### L-REF
+### L-FL
 
-_Reference error_
+_Foreign word (not conventionally used in Swedish)_
 
-This error code is used to mark for example gender error in personal pronouns, as revieled by the context.
+Even if it similar to a Swedish word and only the spelling is different. 
 
 **Examples**
 
-   * Jag har en bror, **hon** heter xx → Jag har en bror, **han** heter xx.
-   * (Pilot 3, Elena, E2ET1) Stämmer det att **våra sociala media** skapar individualism och ensamhet ? Eller **det** skapar  kontakter och trivs ?  
+   * Jag och min **family** → jag och min **familj**
    
-![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
- 
----
+   * Mitt mamma och mitt **sister** → mitt mamma och mitt **syster**.
 
-
+   * Det fanns flera rum, två kök, **balkony** och trädgård → det fanns flera rum, två kök, **balkong**  och trädgård.
+   
 ---
 ### L-ID
 
@@ -89,19 +87,26 @@ Covers deviations with respect to idiomatic expressions. Can stretch over groups
    
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Jag%20tycker%20b%C3%A5da%20landet%3AM-NUM%20%C3%A4r~%C3%A4r%3AL-ID%3AO%20b%C3%A4ttre~%C3%A4r%20och~%C3%A4r%20s%C3%A4mre~%C3%A4r%20shillnaden~%C3%A4r%20.%2F%2FJag%20tycker%20b%C3%A5da%20l%C3%A4nderna%20har~%C3%A4r%20f%C3%B6r-~%C3%A4r%20och~%C3%A4r%20nackdelar~%C3%A4r%20.)
 
+
 ---
-### L-FL
+### L-REF
 
-_Foreign word (not conventionally used in Swedish)_
+_Reference error_
 
-Even if it similar to a Swedish word and only the spelling is different.
+This error code is used to mark for example gender error in personal pronouns, as revieled by the context.
 
 **Examples**
 
-   * Jag och min family → jag och min familj
-   * Mitt mamma och mitt sister → mitt mamma och mitt syster.
+   * Jag har en bror, **hon** heter xx → Jag har en bror, **han** heter xx.
+   * (Pilot 3, Elena, E2ET1) Stämmer det att **våra sociala media** skapar individualism och ensamhet ? Eller **det** skapar  kontakter och trivs ?  
+   
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
+ 
+---
 
-   * Det fanns flera rum, två kök, balkony och trädgård → det fanns flera rum, två kök, balkong  och trädgård.
+
+
+
 
 ---
 ## Orthographic codes (3)
