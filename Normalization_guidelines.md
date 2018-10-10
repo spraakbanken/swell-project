@@ -2,7 +2,7 @@
 
 ## Background
 
-A key assumption of our approach is that it is beneficial to separate error coding into two steps, both in terms of workflow and representation: _normalisation_ (that is, correction of the learner text according to the target hypotheses) and the actual _annotation_ of the corrections. Based on this separation, our system (Svala) automatically constructs a parallel corpus of the learner and normalised texts, with word alignments that may be corrected by the annotator. Strictly speaking, normalisation therefore involves not only correction of the learner text but also correction of misaligned links.
+A key assumption of our approach is that it is beneficial to separate error coding into two steps, both in terms of workflow and representation: _normalisation_ (that is, correction of the learner text according to the target hypotheses) and the actual _annotation_ of the corrections. Based on this separation, our system (Svala) automatically constructs a parallel corpus of the learner and normalised texts, with word alignments that may be corrected by the annotator. Normalisation therefore involves not only correction of the learner text but also correction of misaligned links.
 
 There are several motivations for this separation:
 
