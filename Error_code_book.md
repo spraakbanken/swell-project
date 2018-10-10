@@ -1,6 +1,6 @@
 # Swell code book (error taxonomy + examples)
 
-This code book contains the taxonomy for the SweLL-error annotation. The codes are presented in alfabetical order with exemples. You find an additional collection of examples with illustrations from the annotation tool in the appendix to the code book.
+This code book contains the taxonomy for the SweLL-error annotation. The codes are presented in alfabetical order with exemples. You find illustrations from the annotation tool for sevaral of the examples in the appendix to the code book.
 
 ---
 ## Lexical codes (5)
@@ -15,12 +15,9 @@ This error code can be used only to mark existing Swedish words that have been u
 **Examples**
 
    * Traditioner ger människorna tid att stå still och fundera över livet → att stanna upp och fundera över livet.
-   
-  ![](https://ws.spraakbanken.gu.se/ws/swell/png?Traditioner%20ger%20m%C3%A4nniskorna%20tid%20att%20st%C3%A5~st%C3%A5%3AL%20still~st%C3%A5%20och%20fundera%20%C3%B6ver%20livet%2F%2FTraditioner%20ger%20m%C3%A4nniskorna%20tid%20att%20stanna~st%C3%A5%20upp~st%C3%A5%20och%20fundera%20%C3%B6ver%20livet)
   
   * När jag tittar utom fönstret… → när jag tittar  ut genom fönsret…
-  
-  ![](https://ws.spraakbanken.gu.se/ws/swell/png?N%C3%A4r%20jag%20tittar%20utom%3AL%20f%C3%B6nstret%E2%80%A6%3AO%2F%2FN%C3%A4r%20jag%20tittar%20ut%20%20genom%20f%C3%B6nsret%E2%80%A6)
+
 
    * På det sättet kan kommunen motionera alla medborgare att träna → på det sättet kan kommunen motivera alla medborgare att träna.
    
@@ -437,6 +434,20 @@ _Error that cannot be categorized according to other codes_
 #Appendix 
 ---
 ## Illustrated examples
+---
+### L (wrong-word)
+
+* Traditioner ger människorna tid att stå still och fundera över livet → att stanna upp och fundera över livet.
+   
+  ![](https://ws.spraakbanken.gu.se/ws/swell/png?Traditioner%20ger%20m%C3%A4nniskorna%20tid%20att%20st%C3%A5~st%C3%A5%3AL%20still~st%C3%A5%20och%20fundera%20%C3%B6ver%20livet%2F%2FTraditioner%20ger%20m%C3%A4nniskorna%20tid%20att%20stanna~st%C3%A5%20upp~st%C3%A5%20och%20fundera%20%C3%B6ver%20livet)
+  
+    * När jag tittar utom fönstret… → när jag tittar  ut genom fönsret…
+  
+  ![](https://ws.spraakbanken.gu.se/ws/swell/png?N%C3%A4r%20jag%20tittar%20utom%3AL%20f%C3%B6nstret%E2%80%A6%3AO%2F%2FN%C3%A4r%20jag%20tittar%20ut%20%20genom%20f%C3%B6nsret%E2%80%A6)
+  
+  * (PIlot 3, Elena, A14AT1) Jag bor samma med min bror --> Jag bor tilsammans med min bror
+   
+![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Jag%20bor%20samma%3AL%20med%20min%20bror%20.%2F%2F%E2%90%A4%20Jag%20bor%20tillsammans%20med%20min%20bror%20.)
 
 
 
