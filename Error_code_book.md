@@ -221,11 +221,13 @@ Mark elements that should agree with each other, if they are not “separated”
 
 ### M-other
 
-_ambigeous cases with several possible target hypothesies
+_Ambigeous cases with several possible target hypothesies - to be applied when there is no convincing arguments for any  other morphological code._ 
 
 **Examples**
 
   * det är ett **lite** hus
+  
+  * ??Och **tavlan** kring detta	-->	Och **tävla** kring detta
 
 ---
 
@@ -235,13 +237,13 @@ _Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
 
 **Examples**
 
-  *Det betyder inte att vi **glomma bort** vår tradition. → Det betyder inte att vi **ska glömma/att vi glömmer bort** vår tradition.
+  * Det betyder inte att vi **glomma bort** vår tradition. → Det betyder inte att vi **ska glömma/att vi glömmer bort** vår tradition.
   
-  *(Temp) Jag **trivs** där för att jag hade fler vänner ..  --> Jag **trivdes** där för att jag hade fler vänner.
+  * Jag **trivs** där för att jag hade fler vänner ..  --> Jag **trivdes** där för att jag hade fler vänner.
   
-  *(Temp) Slutligen tror jag att sociala medier **blev** en essentiell del…  --> Slutligen tror jag att sociala medier **har blivit**
+  * Slutligen tror jag att sociala medier **blev** en essentiell del…  --> Slutligen tror jag att sociala medier **har blivit**
   
-  *(Passiv) Världen **utvecklar** i teknologin i varje minut… --> Världen **utvecklas** i teknologin i varje minut…
+  * Världen **utvecklar** i teknologin i varje minut… --> Världen **utvecklas** i teknologin i varje minut…
 
 
 ---
@@ -255,13 +257,11 @@ _Orthographic / spelling error_
 
 **Examples**
 
-   * Det tåg 6 timmar från Tehran till Göteborg → Det tog 6 timmar från Tehran till Göteborg.
+   * Det **tåg** 6 timmar från Tehran till Göteborg → Det **tog** 6 timmar från Tehran till Göteborg.
    
-   * (Pilot 3, Elena, A14AT1) Det finns monga affärer. --> Det finns många affärer.
+   *  Det finns **monga** affärer. --> Det finns **många** affärer.
    
-![](https://ws.spraakbanken.gu.se/ws/swell/png?De%20finns%20monga%3AO%20aff%C3%A4rer%20%2C%20Ja%20har%20n%C3%A4ra%20till%20buss%20och%20transport%20'%5C'.'%2F%2FDe%20finns%20m%C3%A5nga%20aff%C3%A4rer%20%2C%20jag%20har%20n%C3%A4ra%20till%20buss%20och%20transport%20.)
-
-
+  
 ---
 ### O-CAP
 
@@ -269,7 +269,9 @@ _Error with capitalization (upper / lower)_
 
 **Examples**
 
-   * Det fanns en affär och vi gick dit. vi köpte flera saker → Det fanns en affär och vi gick dit. Vi köpte flera saker.
+   * Det fanns en affär och vi gick dit. **vi** köpte flera saker → Det fanns en affär och vi gick dit. **Vi** köpte flera saker.
+   
+   * På **Måndag** är det den 3 Mars. -->	På **måndag** är det den 3 mars.
 
 ### O-COMP
 ---
@@ -278,13 +280,15 @@ _Error within compounds (oversplitting, overcompounding)_
 
 **Examples**
 
-   * Jag kände mig jätte konstigt → Jag kände mig jättekonstigt.
-   * Det ligger ett kultur hus nära min bostad → det ligger ett kulturhus när min bostad.
+   * Jag kände mig **jätte konstigt** → Jag kände mig **jättekonstigt**.
    
-   * (Pilot 3, Elena, E2ET1) Kommunikation förändring --> Kommunikationsförändring
+   * Det ligger ett **kultur hus** nära min bostad → Det ligger ett **kulturhus** när min bostad.
    
-![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Kommunikation%3AO-COMP%20f%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20%28%202012%20%29%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20ansikte%20mot%20ansikte%20.%2F%2F%E2%90%A4%20Kommunikationsf%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20(%202012%20)%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20'%3A'%3AP-M%20ansikte%20mot%20ansikte%20.)
+   *  **Kommunikation förändring** --> **Kommunikationsförändring**
    
+   * **Digitalkommunikationen** -->	den **digitala kommunikationen** 
+   
+
 ---
 
 ## Syntactical codes (6)
@@ -498,7 +502,7 @@ _Error that cannot be categorized according to other codes_
    
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
 
-### M-F (diviant paradigm selection but correct grammatical category
+### M-F (diviant paradigm selection but correct grammatical category)
 
    * I Sverige är mer kalt än xxx --> I Sverige är kallare än i xxx
     
@@ -511,11 +515,24 @@ _Error that cannot be categorized according to other codes_
   
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
    
-### M_GEN
+### M-GEN
 
   * (Pilot 3, Elena, A14AT1)
   
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Han%20har%20egen%3AM-GEN%20rummet%3AM-DEF%20och%20jag%20egen%3AM-GEN%20.%2F%2FHan%20har%20ett~%3AM-DEF%3AS-M%20eget%20rum%20och%20jag%20ett~%3AM-DEF%3AS-M%20eget%20.)
+
+### O
+
+ * Det finns monga affärer. --> Det finns många affärer.
+   
+![](https://ws.spraakbanken.gu.se/ws/swell/png?De%20finns%20monga%3AO%20aff%C3%A4rer%20%2C%20Ja%20har%20n%C3%A4ra%20till%20buss%20och%20transport%20'%5C'.'%2F%2FDe%20finns%20m%C3%A5nga%20aff%C3%A4rer%20%2C%20jag%20har%20n%C3%A4ra%20till%20buss%20och%20transport%20.)
+
+### O-COMP
+
+   * (Pilot 3, Elena, E2ET1) Kommunikation förändring --> Kommunikationsförändring
+   
+![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20Kommunikation%3AO-COMP%20f%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20%28%202012%20%29%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20ansikte%20mot%20ansikte%20.%2F%2F%E2%90%A4%20Kommunikationsf%C3%B6r%C3%A4ndring%20fr%C3%A5n%201800-talet%20fram%20tills%20idag%20%E2%90%A4%20%E2%90%A4%20%C3%85str%C3%B6m%20(%202012%20)%20skriver%20att%20i%20b%C3%B6rjan%20av%201800-talet%20var%20kommunikationen%20s%C3%A5%20enkel%20i%20Sverige%20'%3A'%3AP-M%20ansikte%20mot%20ansikte%20.)
+
 
 ---
    
