@@ -106,7 +106,7 @@ This error code is used to mark for example gender error in personal pronouns, a
    
 ---
 
-## Morfological codes (9?)
+## Morfological codes (8?)
   
 ---
 
@@ -219,6 +219,16 @@ Mark elements that should agree with each other, if they are not “separated”
 
 ---
 
+### M-other
+
+_ambigeous cases with several possible target hypothesies
+
+**Examples**
+
+  * det är ett **lite** hus
+
+---
+
 ### M-VERB
 
 _Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
@@ -236,18 +246,6 @@ _Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
 
 ---
 
-### M-other
-
-_ambigeous cases with several possible target hypothesies
-
-**Examples**
-
-  * det är ett **lite** hus
-
-
-
-
----
 ## Orthographic codes (3)
 ---
 
