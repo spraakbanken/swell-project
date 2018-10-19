@@ -555,7 +555,7 @@ _Error that cannot be categorized according to other codes_
 
   *  År 1972 togs den sista manuella växeln ur bruk anger Björkvist (2012) . --> År 1972 togs den sista manuella växeln ur bruk , anger Björkvist (2012) .
   
-![](https://ws.spraakbanken.gu.se/ws/swell/png?%C3%85r%201972%20togs%20den%20sista%20manuella%20v%C3%A4xeln%20ur%20bruk%20anger%20Bj%C3%B6rkqvist%20%28%202012%20%29%20.%2F%2F%C3%85r%201972%20togs%20den%20sista%20manuella%20v%C3%A4xeln%20ur%20bruk%20%2C%3AP-M%20anger%20Bj%C3%B6rkqvist%20(%202012%20)%20.
+![](https://ws.spraakbanken.gu.se/ws/swell/png%C3%85r%201972%20togs%20den%20sista%20manuella%20v%C3%A4xeln%20ur%20bruk%20anger%20Bj%C3%B6rkqvist%20%28%202012%20%29%20.%2F%2F%C3%85r%201972%20togs%20den%20sista%20manuella%20v%C3%A4xeln%20ur%20bruk%20%2C%3AP-M%20anger%20Bj%C3%B6rkqvist%20(%202012%20)%20.
 
 ---
 
