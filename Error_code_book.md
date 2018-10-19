@@ -166,7 +166,7 @@ May apply to groups of words.
 
 ### M-F
 
-_ Deviant paradigm selection, but correct grammatical category_
+_Deviant paradigm selection, but correct grammatical category_
 
 **Examples**
 
@@ -410,7 +410,7 @@ _Grammatical word missing, e.g. particle, reflexive pronoun, connector, auxiliry
 
   * Sådana känslor **gör användaren mår dåligt** -->	Sådana känslor gör **att användaren mår dåligt**
 
-  * [??] Jag gillar inte tapeterna i min kusins lägenhet men **han inte byta dem** eftersom det är hyresrätt → ...**han får/kan inte byta dem**...
+  * [L-M?] Jag gillar inte tapeterna i min kusins lägenhet men **han inte byta dem** eftersom det är hyresrätt → ...**han får/kan inte byta dem**...
   
   * Man måste **akta att man** inte ramlar --> man måste **akta sig att man** inte ramlar
   
