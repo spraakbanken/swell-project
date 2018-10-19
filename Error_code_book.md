@@ -291,6 +291,59 @@ _Error within compounds (oversplitting, overcompounding)_
 
 ---
 
+## Punctuation codes (4)
+---
+
+### P-W
+
+_Wrong punctuation_
+
+**Examples**
+
+  * Mina barn heter Josef; Salma; Zara och Sami → Mina barn heter Josef, Salma, Zara och Sami.
+
+---
+
+### P-R
+
+_Redundanr punctuation_
+
+**Examples**
+
+  * Jag minns inte exakt. vad det var men det var gott → Jag minns inte exakt vad det var men det var gott. 
+
+---
+
+### P-M
+
+_Missing punctuation_
+
+**Examples**
+
+  * Jag har **fyra barn två pojkar** och två flickor → jag har **fyra barn, två pojkar** och två flickor.
+  
+  *  År 1972 **togs den sista manuella växeln ur bruk anger Björkvist** (2012) . --> År 1972 **togs den sista manuella växeln ur bruk , anger Björkvist** (2012) .
+  
+---
+
+### SENT-segmentation (?)
+
+_Merging, or splitting a sentence.  Note! This error type needs to be tested whether it can be coded through other codes
+Only to be used where other punctuation codes cannot be applied._
+
+**Examples**
+
+  * (Pilot 3, Elena, A11AT1)  Usage of "och" instead of full stop:
+
+![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent-segment-och.png)
+
+  * (Pilot 3, Elena, A11AT1) Merging full stops with tokens before and/or after:
+  
+![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent_segm_merged.png)
+
+  * (Pilot 3, Elena, A11AT1) Neglecting usage of full stops or other indication of a new sentence:
+  
+![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent_segm_absent.png)
 ## Syntactical codes (6)
 ---
 
@@ -381,62 +434,10 @@ _Word or phrase order - other_
   * insert exemples here
 
 ---
-## Punctuation codes (4)
----
 
-### P-W
-
-_Wrong punctuation_
-
-**Examples**
-
-  * Mina barn heter Josef; Salma; Zara och Sami → Mina barn heter Josef, Salma, Zara och Sami.
-
----
-
-### P-R
-
-_Redundanr punctuation_
-
-**Examples**
-
-  * Jag minns inte exakt. vad det var men det var gott → Jag minns inte exakt vad det var men det var gott. 
-
----
-
-### P-M
-
-_Missing punctuation_
-
-**Examples**
-
-  * Jag har fyra barn två pojkar och två flickor → jag har tre barn, en pojke och två flickor.
-  
-  * (Pilot 3, Elena, E2ET1) År 1972 togs den sista manuella växeln ur bruk anger Björkvist (2012) . --> År 1972 togs den sista manuella växeln ur bruk , anger Björkvist (2012) .
-  
-![](https://ws.spraakbanken.gu.se/ws/swell/png?%C3%85r%201972%20togs%20den%20sista%20manuella%20v%C3%A4xeln%20ur%20bruk%20anger%20Bj%C3%B6rkqvist%20%28%202012%20%29%20.%2F%2F%C3%85r%201972%20togs%20den%20sista%20manuella%20v%C3%A4xeln%20ur%20bruk%20%2C%3AP-M%20anger%20Bj%C3%B6rkqvist%20(%202012%20)%20.)
 
   
----
 
-### SENT-segmentation (?)
-
-_Merging, or splitting a sentence.  Note! This error type needs to be tested whether it can be coded through other codes
-Only to be used where other punctuation codes cannot be applied._
-
-**Examples**
-
-  * (Pilot 3, Elena, A11AT1)  Usage of "och" instead of full stop:
-
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent-segment-och.png)
-
-  * (Pilot 3, Elena, A11AT1) Merging full stops with tokens before and/or after:
-  
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent_segm_merged.png)
-
-  * (Pilot 3, Elena, A11AT1) Neglecting usage of full stops or other indication of a new sentence:
-  
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent_segm_absent.png)
   
 
 
@@ -540,7 +541,14 @@ _Error that cannot be categorized according to other codes_
    
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Jag%20tycker%20b%C3%A5da%20landet%3AM-NUM%20%C3%A4r~%C3%A4r%3AL-ID%3AO%20b%C3%A4ttre~%C3%A4r%20och~%C3%A4r%20s%C3%A4mre~%C3%A4r%20shillnaden~%C3%A4r%20.%2F%2FJag%20tycker%20b%C3%A5da%20l%C3%A4nderna%20har~%C3%A4r%20f%C3%B6r-~%C3%A4r%20och~%C3%A4r%20nackdelar~%C3%A4r%20.)
 
+---
 
+### P-M
+
+
+  *  År 1972 togs den sista manuella växeln ur bruk anger Björkvist (2012) . --> År 1972 togs den sista manuella växeln ur bruk , anger Björkvist (2012) .
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?%C3%85r%201972%20togs%20den%20sista%20manuella%20v%C3%A4xeln%20ur%20bruk%20anger%20Bj%C3%B6rkqvist%20%28%202012%20%29%20.%2F%2F%C3%85r%201972%20togs%20den%20sista%20manuella%20v%C3%A4xeln%20ur%20bruk%20%2C%3AP-M%20anger%20Bj%C3%B6rkqvist%20(%202012%20)%20.
 
 
 
