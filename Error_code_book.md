@@ -300,7 +300,7 @@ _Wrong punctuation_
 
 **Examples**
 
-  * Mina barn heter Josef; Salma; Zara och Sami → Mina barn heter Josef, Salma, Zara och Sami.
+  * Mina barn heter **Josef; Salma; Zara** och Sami → Mina barn heter **Josef, Salma, Zara** och Sami.
 
 ---
 
@@ -310,7 +310,7 @@ _Redundanr punctuation_
 
 **Examples**
 
-  * Jag minns inte exakt. vad det var men det var gott → Jag minns inte exakt vad det var men det var gott. 
+  * Jag minns inte **exakt. vad det var** men det var gott → Jag minns inte **exakt vad det var** men det var gott. 
 
 ---
 
@@ -324,6 +324,9 @@ _Missing punctuation_
   
   *  År 1972 **togs den sista manuella växeln ur bruk anger Björkvist** (2012) . --> År 1972 **togs den sista manuella växeln ur bruk , anger Björkvist** (2012) .
   
+  * Det ger en en positiv **energi därmed kan man** bli av med stress... --> Det ger en en positiv **energi. Därmed kan man** bli av med stress…
+
+  
 ---
 
 ### SENT-segmentation (?)
@@ -332,6 +335,10 @@ _Merging, or splitting a sentence.  Note! This error type needs to be tested whe
 Only to be used where other punctuation codes cannot be applied._
 
 **Examples**
+
+  * En annan stor kommunikationsförändring ägde rum 1923 när telefonväxeln **blev automatisk då folk kunde** äga privata telefoner och ha mer privata konversationer. --> En annan stor kommunikationsförändring ägde rum 1923 när telefonväxeln **blev automatisk och då folk kunde** äga privata telefoner och ha mer privata konversationer
+
+
 
   * (Pilot 3, Elena, A11AT1)  Usage of "och" instead of full stop:
 
