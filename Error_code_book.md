@@ -1,6 +1,6 @@
 # Swell code book (taxonomy för correction annotation + examples) [under revision!]
 
-This code book contains the taxonomy for the SweLL-correction annotation. The codes are presented in alfabetical order with exemples. You find illustrations from the annotation tool for sevaral of the examples in the appendix to the code book.
+This code book contains the taxonomy for the SweLL-correction annotation. The codes are presented in alfabetical order with exemples. You also find illustrations from the annotation tool for sevaral of the examples in the appendix to the code book.
 
 ---
 ## C (consistence)
@@ -375,13 +375,15 @@ _Word order error with finite verb placement_
 
 **Examples**
 
-  * Vor du bor? → Var bor du?
-  * I morn jag åker. → I morn åker jag.
-  * När jag ätiti, jag sover. → När jag ätit, sover jag.
+  * Vor **du bor**? → Var **bor du**?
+ 
+  * I morgon **jag åker**. → I morgon **åker jag**.
   
-  * (Pilot 3, Elena, E2ET1) Eller det skapar kontakter och trivs ? --> Eller skapar de kontakter och trivsel ?
+  * När jag ätiti, **jag sover**. → När jag ätit, **sover jag**.
   
-![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
+  * Eller **det skapar** kontakter och trivs ? --> Eller **skapar de** kontakter och trivsel?
+  
+  * Efteråt **man surfar** på internet --> Efteråt **surfar man** på internet 
   
 ---
 
@@ -443,14 +445,12 @@ _Word or phrase redundant_
 _Word or phrase order - other_
 
 **Examples**
-
-  * (MC Fund) Efteråt man surfar på internet  	Efteråt surfar man på internet 
-(NP) Bostaden min 		Min bostad
-(NP) Hejdlös sociala medier användning orsakar ensamhet	
-Hejdlös användning av sociala medier orsakar ensamhet
-(VPart) Man kan inte vänta att lägga de upp på sociala medier  
-Man kan inte vänta att lägga upp dem på sociala medier  
-
+  
+  * **Bostaden min** -->	**Min bostad**
+  
+  * Hejdlös **sociala medier användning** orsakar ensamhet --> Hejdlös **användning av sociala medier** orsakar ensamhet
+  
+  * Man kan inte vänta att **lägga de upp** på sociala medier --> Man kan inte vänta att **lägga upp dem** på sociala medier  
 
 ---
 ## Intelligebility (1)
@@ -462,7 +462,8 @@ _Impossible to interpret the writer’s intention with a word, phrase or sentenc
 
 **Examples**
 
-  * En argumentera på är viktigt 
+  * En argumentera på är viktigt hur man bor är bor på en bra hem.
+  
 ---
 ## Unidentified
 ---
@@ -472,6 +473,7 @@ _Impossible to interpret the writer’s intention with a word, phrase or sentenc
 _Error that cannot be categorized according to other codes_
 
 ---
+
 
 
 #Appendix 
