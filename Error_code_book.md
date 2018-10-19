@@ -476,7 +476,7 @@ _Error that cannot be categorized according to other codes_
 
 
 
-#Appendix 
+# Appendix 
 ---
 ## Illustrated examples
 ---
