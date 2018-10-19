@@ -13,6 +13,10 @@ _ This group covers necessary (follow-up) corrections in the text that come as a
 
 * Det ger en en positiv **energi därmed** kan man bli av med stress.. --> Det ger en en positiv **energi. Därmed** kan man bli av med stress…
 
+* **Min bostanden** ser ut som lilla centrum med vlere affere --> **Mitt bostadsområde** ser ut som ...
+  
+  Vi replace _bostad_ (non-neuter word) with _bostadsområde_ (neuter word), which influences the choice of pronoun _min_ (non-neuter) versus _mitt_ (neuter) according to the gender agreement rules.
+
 ---
 ## Lexical codes (6?)
 ---
@@ -339,78 +343,29 @@ Only to be used where other punctuation codes cannot be applied._
   * En annan stor kommunikationsförändring ägde rum 1923 när telefonväxeln **blev automatisk då folk kunde** äga privata telefoner och ha mer privata konversationer. --> En annan stor kommunikationsförändring ägde rum 1923 när telefonväxeln **blev automatisk och då folk kunde** äga privata telefoner och ha mer privata konversationer
 
 
+  * Jag heter xxx och jag pratar arabiska och engelska och lite svenska och vi har 3 rum i huset... --> Jag heter xxx och jag pratar arabiska och engelska och lite **svenska. Vi har** 3 rum i huset...
 
-  * Jag heter xxx och jog protar engelska och arabiska och lite svenska och vi
-
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent-segment-och.png)
-
-  * (Pilot 3, Elena, A11AT1) Merging full stops with tokens before and/or after:
+  *  Merging full stops with tokens before and/or after: **.tack** --> **. Tack**
   
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent_segm_merged.png)
-
-
+---
 ## Syntactical codes (6)
----
-
-### S-Msubj
-
--Subject missing
-
-**Examples**
-
-  * Det är inte bara arbetet och arbetslivet [...] kan ge stress → 
-    Det är inte bara arbetet och arbetslivet som kan ge stress
-    
----
-
-### S-M
-
-_Word, phrase missing_
-
-  * Jag gillar inte tapeterna i min kusins lägenhet men han inte byta dem eftersom det är hyresrätt → ...han får/kan inte byta        dem...
-  
-  * (Pilot 3, Elena, A14At1) Jag trivs. --> Jag trivs bra.
-  
-![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20jag%20trivs%20.%2F%2F%E2%90%A4%20Jag%20trivs%20bra%3AS-M%20.)
-  
-  * (Pilot 3, Elena, E2ET1) Om utveckling försätter vidare kommer det att vi givetvis ska vara ensamma . --> Om utveckling försätter vidare kommer det att **leda till att** vi givetvis ska vara ensamma . 
-
-![](https://ws.spraakbanken.gu.se/ws/swell/png?Om%20utveckling%20f%C3%B6rs%C3%A4tter%20vidare%20kommer%20det%20att%20vi%20givetvis%20ska%20vara%20ensamma%20.%2F%2FOm%20utveckling%20f%C3%B6rs%C3%A4tter%20vidare%20kommer%20det%20att%20leda~%40t725%3AL-ID%3AS-M%20till~%40t725%20att%40t725~%40t725%20vi%20givetvis%20ska%20vara%20ensamma%20.)
-
----
-
-### S-R
-
-_Word or phrase redundant_
-
-**Examples**
-
-  * (Pilot 3, Elena, E2ET1) På 2000- talet kom många kommunikationsappar , bland annat **var** Facebook , Twitter , Instegram och Snapchat , påpekar Rose ( 2012 ) . --> På 2000- talet kom många kommunikationsappar , bland annat Facebook , Twitter , Instegram och Snapchat , påpekar Rose ( 2012 ) .
-
-
-![](https://ws.spraakbanken.gu.se/ws/swell/png?P%C3%A5%202000-%20talet%20kom%20m%C3%A5nga%20kommunikation%3AO-COMP%20appar%20bland%20annat%20var%3AS-R%20Facebook%20%2C%20Twitter%20%2C%20Instegram%20och%20Snapchat%20p%C3%A5pekar%20Rose%20%28%202012%20%29%20.%2F%2FP%C3%A5%202000-%20talet%20kom%20m%C3%A5nga%20kommunikationsappar%20%2C%3AP-M%20bland%20annat%20Facebook%20%2C%20Twitter%20%2C%20Instegram%20och%20Snapchat%20%2C%3AP-M%20p%C3%A5pekar%20Rose%20(%202012%20)%20.)
-
----
-
-### S-adv 
-
-_Word order error with adverbial placement_
-
-**Examples**
-
-  * Jag ofta är vaken länge på kvällarna. → Jag är ofta vaken länge på kvällarna.
-  * Jag är jättetrött eftersom jag sover inte på nätterna. → Jag är jättetrött eftersom jag inte  sover på nätterna.
-  
 ---
 
 ### S-adv
 
-_Word order error involving finite verb placement_
+_Word order error involving adverbial placement_
 
 **Examples**
 
-  * Jag ofta är vaken länge på kvällarna. → Jag är ofta vaken länge på kvällarna.
-  * Jag är jättetrött eftersom jag sover inte på nätterna. → Jag är jättetrött eftersom jag inte  sover på nätterna.
+  * Jag **ofta är vaken** länge på kvällarna. → Jag **är ofta vaken** länge på kvällarna.
+  
+  * Jag är jättetrött **eftersom jag sover inte** på nätterna. → Jag är jättetrött **eftersom jag inte  sover** på nätterna.
+  
+  * Å ena sidan **idag har**… -->	Å ena sidan **har idag**… 
+  
+  * …som i sin tur **har tydligt påverkat** ... --> ...som i sin tur **tydligt har påverkat** ... 
+  
+  * …och **med hela världen dela** sina idéer och tankar. --> …och **dela sina idéer och tankar med hela världen.**
 
 ---
 
@@ -427,6 +382,59 @@ _Word order error with finite verb placement_
   * (Pilot 3, Elena, E2ET1) Eller det skapar kontakter och trivs ? --> Eller skapar de kontakter och trivsel ?
   
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
+  
+---
+
+### S-Msubj
+
+_Subject missing_
+
+**Examples**
+
+  * Det är inte bara arbetet och **arbetslivet [...] kan ge stress** → Det är inte bara arbetet och arbetslivet **som kan ge stress**
+  
+  * **Regnar** ute. -->	**Det regnar** ute. 
+  
+  * Det är viktigt **att veta vad händer**. -->  	Det är viktigt **att veta vad som händer**.   
+
+    
+---
+
+### S-M
+
+_Grammatical word missing, e.g. particle, reflexive pronoun, connector, auxiliry verbs[??]_
+
+**Examples**
+
+  * Sådana känslor **gör användaren mår dåligt** -->	Sådana känslor gör **att användaren mår dåligt**
+
+  * [??] Jag gillar inte tapeterna i min kusins lägenhet men **han inte byta dem** eftersom det är hyresrätt → ...**han får/kan inte byta dem**...
+  
+  * Man måste **akta att man** inte ramlar --> man måste **akta sig att man** inte ramlar
+  
+  * Jag **slår ord** i ordnoken när jag inte vet... --> Jag **slår upp ord** i ordboken när jag inte vet...
+  
+---
+
+### S-R
+
+_Word or phrase redundant_
+
+**Examples**
+
+  * På 2000- talet kom många kommunikationsappar , bland annat **var** Facebook , Twitter , Instegram och Snapchat , påpekar Rose ( 2012 ) . --> På 2000- talet kom många kommunikationsappar , bland annat Facebook , Twitter , Instegram och Snapchat , påpekar Rose ( 2012 ) .
+
+  * Man behöver inte **att klä på sig**… 	--> Man behöver inte **klä på sig**…
+
+  * Det är ett personligt ansvar **för att välja** --> Det är ett personligt ansvar **att välja** ...
+  
+  * X-stad är **närmare till X-land** än X-stad. --> X-stad är **närmare X-land** än X-stad. 
+  
+  * De första mobiltelefonerna kom **i 1957**. -->	De första mobiltelefonerna kom **1957**.
+  
+  * De nya kommunikationssätten har **medfört med stora möjligheter** --> De nya kommunikationssätten har **medfört stora möjligheter**
+
+  * … sociala medier blev en essentiell del av våra liv **som vi inte kan slänga det** i den moderna världen --> … sociala medier blev en essentiell del av våra liv **som vi inte kan slänga** i den moderna världen
 
 ---
 
@@ -436,14 +444,12 @@ _Word or phrase order - other_
 
 **Examples**
 
-  * insert exemples here
-
----
-
-
-  
-
-  
+  * (MC Fund) Efteråt man surfar på internet  	Efteråt surfar man på internet 
+(NP) Bostaden min 		Min bostad
+(NP) Hejdlös sociala medier användning orsakar ensamhet	
+Hejdlös användning av sociala medier orsakar ensamhet
+(VPart) Man kan inte vänta att lägga de upp på sociala medier  
+Man kan inte vänta att lägga upp dem på sociala medier  
 
 
 ---
@@ -456,22 +462,9 @@ _Impossible to interpret the writer’s intention with a word, phrase or sentenc
 
 **Examples**
 
-  * (Pilot3:  added by Elena, A14AT1) Syntactically doesn't make sense 
+  * Does not make sense syntactically:
 
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20En~En%3AX%20agumentera%20p%C3%A5%40s35~%40s35%3AX%20%C3%A4r%20viktigt%20hur%20man%20bor%20%C3%A4r%40s41~%40s41%3AX%20bor~%40s41%20p%C3%A5~%40s41%20en%3AM-GEN%20bra%20hem%20.%2F%2F%E2%90%A4%20Jag~En%20vill~En%20'%20argumentera'%20att~%40s35%20det~%40s35%20%C3%A4r%20viktigt%20hur%20man%20bor%20och~%40s41%20att~%40s41%20man~%40s41%20har~%40s41%20ett%20bra%20hem%20.)
-
----
-## Follow-up correction code (1)
----
-
-
-**Examples**
-
-  * (Pilot 3, Elena, A14AT1) Min bostanden ser ut som lilla centrum med vlere affere --> Mitt bostadsområde ser ut som ...
-  
-  Vi replace _bostad_ (non-neuter word) with _bostadsområde_ (neuter word), which influences the choice of pronoun _min_ (non-neuter) versus _mitt_ (neuter) according to the gender agreement rules.
-  
-![](https://ws.spraakbanken.gu.se/ws/swell/png?Min%3AC%20bostanden%3AL%20ser%20ut%20som%20lilla%20centrum%20med%20vlere%3AO%20affere%3AM-NUM%3AO%20.%2F%2FMitt%20bostadsomr%C3%A5de%20ser%20ut%20som%20lilla%20centrum%20med%20flera%20aff%C3%A4rer%20.)
 
 ---
 ## Unidentified
@@ -488,6 +481,16 @@ _Error that cannot be categorized according to other codes_
 ---
 ## Illustrated examples
 ---
+
+### C (concistens)
+
+  * (Pilot 3, Elena, A14AT1) Min bostanden ser ut som lilla centrum med vlere affere --> Mitt bostadsområde ser ut som ...
+  
+  Vi replace _bostad_ (non-neuter word) with _bostadsområde_ (neuter word), which influences the choice of pronoun _min_ (non-neuter) versus _mitt_ (neuter) according to the gender agreement rules.
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Min%3AC%20bostanden%3AL%20ser%20ut%20som%20lilla%20centrum%20med%20vlere%3AO%20affere%3AM-NUM%3AO%20.%2F%2FMitt%20bostadsomr%C3%A5de%20ser%20ut%20som%20lilla%20centrum%20med%20flera%20aff%C3%A4rer%20.)
+
+
 ### L (wrong-word)
 
 * Traditioner ger människorna tid att stå still och fundera över livet → att stanna upp och fundera över livet.
@@ -568,6 +571,31 @@ _Error that cannot be categorized according to other codes_
   *  Merging full stops with tokens before and/or after:
   
 ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Sent_segm_merged.png)
+
+---
+
+### S-finV
+
+  * ...eller **det skapar kontakter** och trivs ? --> ...eller **skapar de kontakter** och trivsel ?
+  
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Eller%20det~det%3AL-REF%3AM-GEN%20skapar%3AS-finV%20kontakter%20och%20trivs%3AL%20%3F%2F%2FEller%20skapar%20de~det%20kontakter%20och%20trivsel%20%3F)
+
+---
+
+### S-R
+
+  * På 2000- talet kom många kommunikationsappar , bland annat **var** Facebook , Twitter , Instegram och Snapchat , påpekar Rose ( 2012 ) . --> På 2000- talet kom många kommunikationsappar , bland annat Facebook , Twitter , Instegram och Snapchat , påpekar Rose ( 2012 ) .
+
+
+![](https://ws.spraakbanken.gu.se/ws/swell/png?P%C3%A5%202000-%20talet%20kom%20m%C3%A5nga%20kommunikation%3AO-COMP%20appar%20bland%20annat%20var%3AS-R%20Facebook%20%2C%20Twitter%20%2C%20Instegram%20och%20Snapchat%20p%C3%A5pekar%20Rose%20%28%202012%20%29%20.%2F%2FP%C3%A5%202000-%20talet%20kom%20m%C3%A5nga%20kommunikationsappar%20%2C%3AP-M%20bland%20annat%20Facebook%20%2C%20Twitter%20%2C%20Instegram%20och%20Snapchat%20%2C%3AP-M%20p%C3%A5pekar%20Rose%20(%202012%20)%20.)
+
+---
+
+### X
+
+  * Does not make sense syntactically:
+
+![](https://ws.spraakbanken.gu.se/ws/swell/png?%E2%90%A4%20En~En%3AX%20agumentera%20p%C3%A5%40s35~%40s35%3AX%20%C3%A4r%20viktigt%20hur%20man%20bor%20%C3%A4r%40s41~%40s41%3AX%20bor~%40s41%20p%C3%A5~%40s41%20en%3AM-GEN%20bra%20hem%20.%2F%2F%E2%90%A4%20Jag~En%20vill~En%20'%20argumentera'%20att~%40s35%20det~%40s35%20%C3%A4r%20viktigt%20hur%20man%20bor%20och~%40s41%20att~%40s41%20man~%40s41%20har~%40s41%20ett%20bra%20hem%20.)
 
 
 
