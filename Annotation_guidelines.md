@@ -43,7 +43,7 @@ The SweLL-taxonomy further cantain eight morfological codes.
 * M-GEND (dorrection regarding grammatical gender)
 * M-NUM (deviation in number agreement)
 * M-other (ambigeous cases with several possible target hypothesies)
-* M-VERB 
+* M-VERB (covers deviations in the verb phrase, i.e. aspect, tempus, modus)
 
 ### Some specific guidelines regarding morfological correction
 
