@@ -25,3 +25,109 @@ The correction-taxonomy contains six (?) diffent codes for lexical corrections.
 * L-M (missing content word)
 * L-Ref (reference correction)
   
+---
+
+
+## Morfological codes (8?)
+  
+---
+
+### Morforlogical correction - general function
+
+The SweLL-taxonomy further cantain eight morfological codes.
+
+* M-ADJ/ADV (confusions of adjective and adverbial endings)
+* M-Case (corrections regarding the use of genitive (nouns) and dativ forms (pronouns))
+* M-DEF (deviation in definite/indefinite forms)
+
+May apply to groups of words.
+
+**Examples**
+
+  * Vi gick till McDonalds och åt **maten** → Vi gick till McDonalds och åt **mat**.
+   
+  * Jag trivs bättre på **jobb** här. -->	Jag trivs bättre på **jobbet** här.
+
+  * När kommer **den buss**? --> När kommer **bussen**?
+
+  * Den första **telefonnät** --> Det första **telefonnätet**
+
+---
+
+### M-F
+
+_Deviant paradigm selection, but correct grammatical category_
+
+**Examples**
+
+  *Jag sittade länge och väntade på bussen igår → jag satt länge och väntade på bussen igår. 
+  
+  *Vädret kommer att blir dåligare nästa vecka → vädret kommer att bli sämre nästa vecka.
+  
+   * Jag har tre **båter**. --> Jag har tre **båtar**.
+   
+   * Jag **lager** mat. --> Jag **lagar** mat.
+   
+   * Jag vill ha **högare** lön. --> Jag vill ha **högre** lön.
+   
+   * X-stad är **närmere**. --> X-stad är **närmare**.
+   
+   * I Sverige är **mer kalt** än xxx --> I Sverige är det **kallare** än i xxx
+
+---
+
+### M-GEND
+
+_Correction regarding grammatical gender_
+
+**Examples**
+
+  * Det är **en** mycket **trevlig** område. → det är **ett** mycket **trevligt** område.
+
+  * **Det** är inte **konstig** att → **Det** är inte **konstigt** att...
+  
+  * **Den** viktigaste är... -->	**Det** viktigaste är... 
+  * **Den** första telefonnät --> **Det** första telefonnätet
+  * Kommunikationen är **möjligt**. --> 	Kommunikationen är **möjlig**. 
+
+  ---
+
+### M-NUM
+
+_Deviation in definite/indefinite forms.  May apply to groups of words._
+
+Mark elements that should agree with each other, if they are not “separated”! [flytta till guidelines]
+
+**Examples**
+
+  *  Stress kan komma i **många form** → Stress kan komma i **många former**.
+  
+  * Så fort **bilder** är **tagen**		Så fort **bilderna** är **tagna**
+  
+  * De surfar **onödiga information**. -->	De surfar **onödig information**.  
+
+  * Alla sitter bakom sina **skärmens** sken. -->	Alla sitter bakom sina **skärmars** sken.
+  
+  * I X-stad jobbade jag på **många nätside**. --> I X-stad jobbade jag på **många nätsidor**. 
+
+
+---
+
+### M-other
+
+_Ambigeous cases with several possible target hypothesies - to be applied when there is no convincing arguments for any  other morphological code._ 
+
+**Examples**
+
+  * det är ett **lite** hus
+  
+  * ??Och **tavlan** kring detta	-->	Och **tävla** kring detta
+
+---
+
+### M-VERB
+
+### Some specific guidelines regarding morfological correction
+
+## M-DEF
+_corrections regarding the use of definite/indefinite form can apply both to single words, groups of words and a missing article??_
