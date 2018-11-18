@@ -23,7 +23,7 @@ _This group covers necessary (follow-up) corrections in the text that come as a 
 
 ### L
 
-_Wrong word or phrase. Includes even phrasal verbs and reflexives with missin particle/reflexive marker._
+_Wrong word or phrase. Includes even phrasal verbs and reflexives with missing particle/reflexive marker._
 
 This error code can be used only to mark existing Swedish words that have been used in an incorrect way or context
 
