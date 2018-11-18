@@ -75,7 +75,7 @@ _This code is to be applied when there is no convincing arguments for any  other
 
 ---
 
-## Orthographical codes (2)
+## Orthographical codes (3)
 
 ---
 
@@ -83,6 +83,7 @@ _This code is to be applied when there is no convincing arguments for any  other
 
 The taxonomy disinguishes two different types of orthographical corrections
 
+* O (orthographic/spelling correction)
 * O-CAP (correction  regarding capitalization (upper / lower))
 * O-COMP (correction regarding compounds, that is oversplitting or overcompounding)
 
