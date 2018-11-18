@@ -91,4 +91,92 @@ The taxonomy disinguishes two different types of orthographical corrections
 
 ### Some specific guidelines regarding orthographical corrections
 
+???
+
+---
+
+
+## Punctuation codes (4)
+---
+
+### Punctuation correction - general functions
+
+The are four different punctuation code in the SweLL-taxonomy
+
+* P-W (wrong punctuation)
+* P-R (redundant punctuation)
+* P-M (missing punctuation)
+
+---
+
+### Some specific guideline regarding punctuation correction
+
+?
+  
+---
+
+### Sentence segmentation code (1)
+---
+
+### Sentence segmentation correction - general function
+
+The taxonomy also contains one code regarding sentence-segmentation corrections
+
+* SENT-segmentation (merging, or splitting a sentence)
+---
+
+### Some specific guideline regarding sentence segmentation correction
+
+_[Note! This error type needs to be tested whether it can be coded through other codes]
+This code is only to be used where punctuation codes cannot be applied._
+
+---
+
+## Syntactical codes (6)
+---
+
+### Syntactical corrections - general function
+
+The SweLL-taxonomy contains six codes regarding syntactical corrections
+
+* S-adv (word order error involving adverbial placement)
+* S-finV (word order error with finite verb placement)
+* S-Msubj (subject missing)
+* S-M (grammatical word missing, e.g. particle, reflexive pronoun, connector, auxiliry verbs[??])
+* S-R (word or phrase redundant)
+* S-WO (word or phrase order - other)
+  
+---
+
+### Some specific guidelines regarding syntatical corrections
+
+## S-Msubj vs L-M/(S-M?)
+
+_[Here we need to adress the possible overlap/ambiguity between the lexical and syntactical codes when it comes to missing words/syntactical functions]
+
+---
+
+## Intelligebility (1)
+---
+
+### Intelligebility corrections - general function
+
+There is one code for marking intelligeble parts of a learner text
+
+* X (impossible to interpret the writer’s intention with a word, phrase or sentence)
+  
+---
+
+## Unidentified
+---
+
+### Unidentifies´d corrections - general function
+
+The taxonomy also contains one code for marking corrections that cannot be categorized according to other codes
+
+*Uni
+
+---
+
+
 
