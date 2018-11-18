@@ -204,9 +204,8 @@ _Correction regarding grammatical gender_
 
 ### M-NUM
 
-_Deviation in definite/indefinite forms.  May apply to groups of words._
+_Deviation in number agreement.  May apply to groups of words._
 
-Mark elements that should agree with each other, if they are not “separated”! [flytta till guidelines]
 
 **Examples**
 
