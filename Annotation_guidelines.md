@@ -27,6 +27,16 @@ The correction-taxonomy contains six (?) diffent codes for lexical corrections.
   
 ---
 
+### Some specific guiudelines regarding lexical corrections
+
+## L-FL
+
+_L-FL applies to the use of an **existing** non-swedish word, i.e. a foreign word that is NOT conventionally used in Swedish and can be identified as an existing word in another language. Naturally annotators will not be able to identify all such cases, since we cannot expect them to be competent in all relevant languages, but it is still relevant to mark cases where possible_
+
+## L or L-FL?
+
+_Crosslinguistic infuence lexical that can be indentified from the context but where the writer has formed a "Swedish" word from e.g. an Englinsh stem (see example below) is marked as L (wrong word), NOT L-FL_
+
 
 ## Morfological codes (8?)
   
