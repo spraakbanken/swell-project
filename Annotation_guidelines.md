@@ -45,6 +45,8 @@ The SweLL-taxonomy further cantain eight morfological codes.
 * M-other (ambigeous cases with several possible target hypothesies)
 * M-VERB (covers deviations in the verb phrase, i.e. aspect, tempus, modus)
 
+---
+
 ### Some specific guidelines regarding morfological correction
 
 ## M-DEF
@@ -58,3 +60,22 @@ _corrections regarding the deviations in number agreement  can apply  to single 
 
 ## M-other
 _This code is to be applied when there is no convincing arguments for any  other morphological code._ 
+
+---
+
+## Orthographical codes (2)
+
+---
+
+### Orthographiacal correction - general function
+
+The taxonomy disinguishes two different types of orthographical corrections
+
+* O-CAP (correction  regarding capitalization (upper / lower))
+* O-COMP (correction regarding compounds, that is oversplitting or overcompounding)
+
+---
+
+### Some specific guidelines regarding orthographical corrections
+
+
