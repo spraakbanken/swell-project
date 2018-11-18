@@ -37,6 +37,8 @@ _L-FL applies to the use of an **existing** non-swedish word, i.e. a foreign wor
 
 _Crosslinguistic infuence lexical that can be indentified from the context but where the writer has formed a "Swedish" word from e.g. an Englinsh stem (see example below) is marked as L (wrong word), NOT L-FL_
 
+[insert illutrated example --> busiga --> buisy här!]
+
 
 ## Morfological codes (8?)
   
