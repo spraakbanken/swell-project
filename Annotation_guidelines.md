@@ -40,7 +40,7 @@ _Crosslinguistic infuence lexical that can be indentified from the context but w
 [insert illutrated example --> busiga --> buisy här!]
 
 
-## Morfological codes (8?)
+## Morfological codes (8)
   
 ---
 
