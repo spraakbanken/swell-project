@@ -8,11 +8,11 @@ There are several motivations for the separation:
 
 1. By letting the annotator correct the text prior to error annotation (whether in smaller or larger chunks), they will be in a better position to build a coherent understanding of the learner's linguistic competence and to form target hypotheses that are consistent with this understanding.
 
-2. Since error correction and error annotation are conceptually distinct tasks, it is logical to perform them independently. It might even be beneficial to outsource normalisation to researchers in second-language acquisition, that is, to people who are experts in constructing target hypotheses for learner texts. In contrast, annotation of corrections might be handled just as well by students.
+2. Since error correction and error annotation are conceptually distinct tasks, it makes sense that they can be performed independently. This also makes it possible to assign them to different annotators, for example, normalisation to researchers in second-language acquisition (who are experts in constructing target hypotheses for learner texts) and annotation of corrections to students.
 
-3. There is currently no consensus on how to measure inter-annotator agreement for normalisation. Consequently, inter-annotator agreement for error annotation should be calculated based on a given normalisation. Because of the separation of normalisation and error annotation, this is straightforward.
+3. There is currently no consensus on how to measure inter-annotator agreement for normalisation. Hence, inter-annotator agreement for error annotation can only be calculated for a given normalisation. Because of the separation of normalisation and error annotation, this is straightforward.
 
-4. An additional, independent advantage of the separation of normalisation and annotation is that the resulting parallel corpus will be a highly valuable resource for development of automatic methods for identifying learner errors.
+4. An independent advantage of the separation of normalisation and annotation is that the resulting parallel corpus will be a highly valuable resource for development of automatic methods for identifying learner errors.
 
 ## Why are different normalisations possible?
 
