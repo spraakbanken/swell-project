@@ -138,7 +138,7 @@ The SweLL-taxonomy contains six codes regarding syntactical corrections
 
 ### Some specific guidelines regarding syntatical corrections
 
-## S-Msubj vs L-M/(S-M?)
+### S-Msubj vs L-M/(S-M?)
 
 _[Here we need to adress the possible overlap/ambiguity between the lexical and syntactical codes when it comes to missing words/syntactical functions]
 
