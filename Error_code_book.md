@@ -110,7 +110,7 @@ This error code is used to mark for example gender error in personal pronouns, a
    
 ---
 
-## Morfological codes (8?)
+## Morfological codes (8)
   
 ---
 
@@ -452,7 +452,7 @@ _Word or phrase order - other_
   * Man kan inte vänta att **lägga de upp** på sociala medier --> Man kan inte vänta att **lägga upp dem** på sociala medier  
 
 ---
-## Intelligebility (1)
+## Intelligebility 
 ---
 
 ## X
