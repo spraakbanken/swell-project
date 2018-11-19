@@ -106,29 +106,17 @@ The are four different punctuation code in the SweLL-taxonomy
 * P-W (wrong punctuation)
 * P-R (redundant punctuation)
 * P-M (missing punctuation)
+* SENT-segmentation (merging, or splitting a sentence)
 
 ---
 
 ### Some specific guideline regarding punctuation correction
 
-?
-  
----
+## SENT-segmentation 
 
-### Sentence segmentation code (1)
----
-
-### Sentence segmentation correction - general function
-
-The taxonomy also contains one code regarding sentence-segmentation corrections
-
-* SENT-segmentation (merging, or splitting a sentence)
----
-
-### Some specific guideline regarding sentence segmentation correction
-
-_[Note! This error type needs to be tested whether it can be coded through other codes]
+_[Note! This correction type needs to be tested whether we need it or whether it can be covered by other codes]
 This code is only to be used where punctuation codes cannot be applied._
+
 
 ---
 
