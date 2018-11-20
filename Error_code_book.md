@@ -251,6 +251,13 @@ _Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
 
 ---
 
+## OBS!
+
+_Code for marking elements you want to return to for review_
+
+---
+
+
 ## Orthographic codes (3)
 ---
 
