@@ -5,7 +5,7 @@ This code book contains the taxonomy for the SweLL-correction annotation. The co
 ---
 ## C (consistence)
 
-_This group covers necessary (follow-up) corrections in the text that come as a result of previous correction, i.e. originally there was no mistake in the segment, but due to an introduced correction in the neighbouring context, a correction is necessary in the segment. By using this code we indicate that the error was not made originally by the student._
+_This code covers necessary (follow-up) corrections in the text that come as a result of previous correction, i.e. originally there was no mistake in the segment, but due to an introduced correction in the neighbouring context, a correction is necessary in the segment. By using this code we indicate that the error was not made originally by the student._
 
 **Examples**
 
@@ -148,7 +148,7 @@ _corrections regarding the use of genitive (nouns) and dativ forms (pronouns)
 
 ### M-DEF
 
-_Deviation in definite/indefinite forms._
+_Deviation in definite/indefinite forms, including missing/reduntant article._
 
 May apply to groups of words.
 
@@ -161,6 +161,8 @@ May apply to groups of words.
   * När kommer **den buss**? --> När kommer **bussen**?
 
   * Den första **telefonnät** --> Det första **telefonnätet**
+  
+  * Min bostad är stor och har fin färg, fint hus -->
 
 ---
 
@@ -224,7 +226,7 @@ _Deviation in number agreement.  May apply to groups of words._
 
 ### M-other
 
-_Ambigeous cases with several possible target hypothesies - to be applied when there is no convincing arguments for any  other morphological code._ 
+_Ambigeous cases with several interpretaions  - to be applied when there is no convincing arguments for any  other morphological code._ 
 
 **Examples**
 
@@ -335,6 +337,8 @@ _Missing punctuation_
   *  År 1972 **togs den sista manuella växeln ur bruk anger Björkvist** (2012) . --> År 1972 **togs den sista manuella växeln ur bruk , anger Björkvist** (2012) .
   
   * Det ger en en positiv **energi därmed kan man** bli av med stress... --> Det ger en en positiv **energi. Därmed kan man** bli av med stress…
+  
+  * Min mamma lagar så god **mat jag** trivs med hennes mat --> min mamma lagar så god mat **. Jag** trivs med hennes mat
 
   
 ---
@@ -410,7 +414,7 @@ _Subject missing_
 
 ### S-M
 
-_Grammatical word missing, e.g. particle, reflexive pronoun, connector, auxiliry verbs[??]_
+_Grammatical word missing, e.g. particle, prepositions, reflexive pronoun, connector, auxiliry verbs[??]_
 
 **Examples**
 
@@ -422,6 +426,7 @@ _Grammatical word missing, e.g. particle, reflexive pronoun, connector, auxiliry
   
   * Jag **slår ord** i ordnoken när jag inte vet... --> Jag **slår upp ord** i ordboken när jag inte vet...
   
+  * Jag **trivs mycket**  bo med dem --> jag **trivs mycket** med att bo med dem
 ---
 
 ### S-R
