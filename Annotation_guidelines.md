@@ -14,6 +14,8 @@ The purpose of correction annotation is to categorize the corrections made in a 
 ---
 ## Specific guidelines for different correction types
 
+### Concistence corrections - general function
+
 ### Lexical corrections - general function
 ---
 The correction-taxonomy contains six (?) diffent codes for lexical corrections. 
@@ -115,7 +117,7 @@ The are four different punctuation code in the SweLL-taxonomy
 ## SENT-segmentation 
 
 _[Note! This correction type needs to be tested whether we need it or whether it can be covered by other codes]
-This code is only to be used where punctuation codes cannot be applied._
+This code is only to be used where other punctuation codes cannot be applied._
 
 
 ---
