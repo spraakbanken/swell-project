@@ -16,8 +16,11 @@ The purpose of correction annotation is to categorize the corrections made in a 
 
 ### Concistence corrections - general function
 
+
+_This code covers necessary (follow-up) corrections in the text that come as a result of previous correction, i.e. originally there was no mistake in the segment, but due to an introduced correction in the neighbouring context, a correction is necessary in the segment. By using this code we indicate that the error was not made originally by the student._
+
 ### Lexical corrections - general function
----
+
 The correction-taxonomy contains six (?) diffent codes for lexical corrections. 
 
 * L (wrong word or phrase)
@@ -117,7 +120,7 @@ The are four different punctuation code in the SweLL-taxonomy
 ## SENT-segmentation 
 
 _[Note! This correction type needs to be tested whether we need it or whether it can be covered by other codes]
-This code is only to be used where other punctuation codes cannot be applied._
+This code is only to be used where other punctuation codes cannot be applied, i.e. when a word in the source text is replaced by punctuation_
 
 
 ---
@@ -132,7 +135,7 @@ The SweLL-taxonomy contains six codes regarding syntactical corrections
 * S-adv (word order error involving adverbial placement)
 * S-finV (word order error with finite verb placement)
 * S-Msubj (subject missing)
-* S-M (grammatical word missing, e.g. particle, reflexive pronoun, connector, auxiliry verbs[??])
+* S-M (grammatical word missing, e.g. particle, prepositioner, reflexive pronoun, connector, auxiliry verbs[??])
 * S-R (word or phrase redundant)
 * S-WO (word or phrase order - other)
   
