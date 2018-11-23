@@ -107,7 +107,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20
-      - The same as above applies to < age-string > , rendered in strings
+      - The same as above applies to < age-string > , rendered in strings. In that case the assistant should manually edit the original file and change a string into a corresponding number, e.g. "arrton" -- > "18". The automatic rendering will apply in the same way as in < age-digits > (but spellt out, maybe?)
       - **_??? There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. We need to have an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Added as an issue for anonymization tool. (Elena, A10AT1) ???_**
          
 
