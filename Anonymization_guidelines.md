@@ -230,6 +230,25 @@ https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn
 
 (litet skräpig data; vi påbörjade arbetet med att skapa en namn-saldo, men det stannade av. saldo-namn.xml innehåller senaste versionen av namn-morfologin)
 
+## About workplaces (category 3) and professtions (15):
+(3.)
+Companies (<work>):
+https://sv.wikipedia.org/wiki/Lista_över_företag_på_Stockholmsbörsen_–_medelstora_företag
+http://www.largestcompanies.se/topplistor/sverige/de-storsta-foretagen-efter-omsattning
+
+Universities and schools (<institution>, <school>):
+https://sv.wikipedia.org/wiki/Lista_över_universitet_och_högskolor_i_Sverige
+
+<Other_institutions> ?
+
+
+(15.)
+<profession>: t.ex.
+https://www.gymnasium.se/yrkesguiden/alla-yrken-10957 
+https://www.saco.se/studieval/yrken-a-o/ 
+
+<education> ?
+
 ## More notes:
 
 * See pages 4-5, notes from SweLL meeting, August 2018:
