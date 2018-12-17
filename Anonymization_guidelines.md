@@ -232,22 +232,22 @@ https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn
 
 ## About workplaces (category 3) and professtions (15):
 (3.)
-Companies (<work>):
+Companies ( < work > ):
 https://sv.wikipedia.org/wiki/Lista_över_företag_på_Stockholmsbörsen_–_medelstora_företag
 http://www.largestcompanies.se/topplistor/sverige/de-storsta-foretagen-efter-omsattning
 
-Universities and schools (<institution>, <school>):
+Universities and schools ( < institution > , < school > ):
 https://sv.wikipedia.org/wiki/Lista_över_universitet_och_högskolor_i_Sverige
 
-<Other_institutions> ?
+< Other_institutions > ?
 
 
 (15.)
-<profession>: t.ex.
+< profession > : t.ex.
 https://www.gymnasium.se/yrkesguiden/alla-yrken-10957 
 https://www.saco.se/studieval/yrken-a-o/ 
 
-<education> ?
+< education > ?
 
 ## More notes:
 
