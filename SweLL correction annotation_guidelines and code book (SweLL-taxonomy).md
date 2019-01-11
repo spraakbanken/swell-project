@@ -15,7 +15,7 @@ Något mer generellt om hur taxonomin är uppbyggd - vilka olika nivåer det fin
 ---
 ##  General implications
 ---
-  * This is where you find the code book: https://github.com/spraakbanken/swell-project/blob/master/Error_code_book.md 
+  * You find the SweLL-code book further down in this document (after the guideline for correction annotation). It contains          explanations and examples for all the correction codes in the SweLL-taxonomy.
   * If the same text segment contains more that one error type, add all error tags that are necessary
   * If the same text segment contains more that one error type, add all error tags that are necessary
   * Likewise, if we see there are guidelines missing, we should add a suggestion, or flag for further consideration - with    examples, so that the suggestion is interpretable!
