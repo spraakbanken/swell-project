@@ -1,4 +1,4 @@
-# Normalization guidelines
+# Normalisation guidelines
 
 ## Background and motivation
 
@@ -6,7 +6,7 @@ By normalisation we mean emendation of the original learner text to a version wh
 
 1. To render the text in a version which is amenable to automatic linguistic processing.
 
-2. To make explicit, and obtain a separate representation, of the corrections (that is, the target hypotheses).
+2. To make explicit, and to obtain a separate representation, of the corrections (that is, the target hypotheses).
 
 <!--- A key assumption of our approach is that it is beneficial to separate error coding into two steps, both in terms of workflow and representation: _normalisation_ (that is, correction of the learner text according to the target hypotheses) and the actual _annotation_ of the corrections. Based on this separation, our system (Svala) automatically constructs a parallel corpus of the learner and normalised texts, with word alignments that may be corrected by the annotator. Normalisation therefore involves not only correction of the learner text but also correction of misaligned links.
 
@@ -18,11 +18,11 @@ There are several motivations for the separation:
 
 3. There is currently no consensus on how to measure inter-annotator agreement for normalisation. Hence, inter-annotator agreement for error annotation can only be calculated for a given normalisation. Because of the separation of normalisation and error annotation, this is straightforward.
 
-4. An independent advantage of the separation of normalisation and annotation is that the resulting parallel corpus will be a highly valuable resource for development of automatic methods for identifying learner errors. --->
+4. An independent advantage of the separation of normalisation and annotation is that the resulting parallel corpus will be a highly valuable resource for development of automatic methods for identifying learner errors.
 
-## Why are different normalisations possible?
+## Why are different normalisations possible? --->
 
-Normalisation is not an unambiguous concept, and there will typically be multiple possible normalisations of a learner text, just as there are several correct translations of a sentence. (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) Generally speaking, there are two reasons for why different normalisations are possible:
+Ideally, the minimal target hypothesis corresponds to a purely form-based change which amounts tp the minimal changes needed to turn the learner sentence into a grammatical sentence in the target language. In practice, however, there will typically be multiple possible normalisations of a deviating expression in a learner text, just as there are several possible correct translations of a sentence. There are two reasons for this:
 
 1. Different target hypotheses can be assumed
 
@@ -41,6 +41,8 @@ Normalisation is not an unambiguous concept, and there will typically be multipl
    Min bostad   är stor och har gul färg , och ligger i ett fint hus   &nbsp; &larr; Bigger change
 
    Min bostad   är stor och gul , och ligger i ett fint hus   &nbsp; &larr; Even bigger change
+
+(Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) 
 
 ## Principles for normalisation
 
