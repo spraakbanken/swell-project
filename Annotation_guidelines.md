@@ -7,11 +7,13 @@ The purpose of correction annotation is to categorize the corrections made in a 
 
 # The SweLL-taxanomy
 
-## Structure
+## General structure
+
+Något mer generellt om hur taxonomin är uppbyggd - vilka olika nivåer det finns osv - och varför
 
 
 ---
-## General
+##  General implications
 ---
   * This is where you find the code book: https://github.com/spraakbanken/swell-project/blob/master/Error_code_book.md 
   * If the same text segment contains more that one error type, add all error tags that are necessary
