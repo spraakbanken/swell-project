@@ -7,6 +7,8 @@ The purpose of correction annotation is to categorize the corrections made in a 
 
 # The SweLL-taxanomy
 
+## Structure
+
 
 ---
 ## General
