@@ -2,7 +2,7 @@
 
 ## Background and motivation
 
-By normalisation we mean emendation of the original learner text to a version which is correct with respect to spelling, morphology and syntax. This corresponds to the Minimal Target Hypothesis in the German learner corpus Falko (Reznicek et al. 2012, page 42 ff.). The purpose of normalisation is twofold:
+By normalisation we mean emendation of the original learner text to a version which is correct with respect to spelling, morphology and syntax. This corresponds to the Minimal Target Hypothesis in the German learner corpus Falko (Reznicek et al. 2012, page 42 ff.). The purpose of normalisation is twofold: [Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko/FalkoHandbuchV2/at_download/file)
 
 1. To render the text in a version which is amenable to automatic linguistic processing.
 
