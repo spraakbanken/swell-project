@@ -63,11 +63,7 @@ The minimal target hypothesis is a rendering of the learner expression in a form
  
  2. Don't change the meaning, pragmatics or style. A consequence of not changing the style is that grammaticality becomes a rather broad notion.
 
-   Examples of things we don't correct
-
-   Main-clause word order in dependent clause with "att": "Allt är bra för att jag kan inte bo ensam"
-   
-   "Orsaken beror på..."
+  a
 
 3. If minimising the number of tokens changed conflicts with retaining the meaning, then keep the meaning (permitting more tokens to be changed).
 
