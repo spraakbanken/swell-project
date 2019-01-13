@@ -20,7 +20,7 @@ An important purpose of the target hypothesis is to maximise inter-annotator agr
    
    Jag trivs mycket bra med dem   &nbsp; &larr; Target hypothesis 2
    
-   Here, it is not clear if by "mycket bor" the learner meant "mycket med att bo" or "mycket bra".
+   Here, it is not clear if by "mycket bor" the learner meant "mycket med att bo" or "mycket bra". Since our notion of minimal target hypothesis involves changing the meaning as little as possible, we prefer "mycket med att bo" despite the fact that this changes more tokens (see further below).
 
 2. Assuming a particular target hypothesis, several normalisations are still possible. (This is analogous to the fact that there are several possible correct translations of a sentence.)
 
@@ -32,7 +32,9 @@ An important purpose of the target hypothesis is to maximise inter-annotator agr
 
    Min bostad   är stor och gul , och ligger i ett fint hus   &nbsp; &larr; Even bigger change
 
-(Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) 
+As exemplified above, our notion of minimal target hypothesis involves changing as few tokens as possible provided that the sentence can be kept grammatical (and provided that we do not change the meaning).
+
+<!--- (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) --->
 
 ## Principles for normalisation
 
