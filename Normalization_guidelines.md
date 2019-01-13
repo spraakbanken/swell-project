@@ -65,7 +65,11 @@ The minimal target hypothesis is a rendering of the learner expression in a form
 
 3. If minimising the number of tokens changed conflicts with retaining the meaning, then keep the meaning (permitting more tokens to be changed).
 
-   a
+   Examples of things we don't correct
+
+   Main-clause word order in dependent clause with "att": "Allt är bra för att jag kan inte bo ensam"
+   
+   "Orsaken beror på..."
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
