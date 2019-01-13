@@ -40,7 +40,7 @@ A key purpose of the target hypothesis is to maximise inter-annotator agreement 
 
 ### Definition
 
-The minimal target hypothesis is a rendering of the learner expression in a form that is correct with respect to orthography, spelling, morphology and syntax, while changing as few tokens as possible, and not changing the meaning, pragmatics or style. _Lexical choice?_
+The minimal target hypothesis is a rendering of the learner expression in a form that is correct with respect to orthography, spelling, morphology and syntax, while involving as few changes of tokens as possible, and as little change of meaning, pragmatics or style as possible. _Lexical choice?_
 
 Examples:
 
@@ -61,7 +61,7 @@ Examples:
    Här kommer arbetslösheten som en stor faktor till stress, lika viktigt som stressen på grund av arbetsbelastning. &nbsp; &larr; More idiomatic but requires too much change of the original text
  --->   
  
- 2. Don't change the style (which also means that grammaticality becomes a broader notion).
+ 2. Don't change the style. (A consequence of this is that grammaticality becomes a rather broader notion.)
 
    Examples of things we don't correct:
 
@@ -71,15 +71,9 @@ Examples:
 
 ### Principle of minimal change
 
-Secondly, if several normalisations are possible, use the following criteria to discriminate between them in order of decreasing priority:
-
 1. If changing as few tokens as possible conflicts with not changing the meaning, keep the meaning.
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
-
-
-
-Minimal change is equivalent to the _minimal target hypothesis_ in the [Falko corpus](https://www.linguistik.hu-berlin.de/en/institut-en/professuren-en/korpuslinguistik/mitarbeiter-innen-en/marc/ReznicekEA_toAppear.pdf) in the sense that it a) differs minimally from the learner text and b) is grammatical at the expense of ignoring errors concerning semantics, pragmatics and style.
 
 ### Principle of content and function words
 
