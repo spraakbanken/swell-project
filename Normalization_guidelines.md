@@ -1,5 +1,10 @@
 # Normalisation guidelines
 
+Improvements needed:
+1. More (Swedish-specific) principles
+2. More examples
+3. Illustration of the examples in SVALA, displaying source text, alignments and target text
+
 ## Background and motivation
 
 By normalisation we mean editing of the original learner text to a version which is correct with respect to the lower linguistic levels (spelling, morphology and syntax). Our notion of normalisation thus corresponds to the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). In contrast, we do not (yet) perform normalisation with respect to the higher levels (semantics, pragmatics and stylistics), corresponding to the Extended Target Hypothesis in Falko. Normalisation of a learner text constitutes an implicit representation of the deviations of the text from a postulated standard variant, making it possible to perform an error annotation based on the differences between the learner and corrected texts.
