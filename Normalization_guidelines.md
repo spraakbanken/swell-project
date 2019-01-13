@@ -2,8 +2,8 @@
 
 Improvements needed:
 1. More (Swedish-specific) principles
-2. More examples
-3. An appendix with illustrations of the examples in SVALA, displaying source text, alignments and target text
+2. More examples of each principle
+3. An appendix with illustrations of the principles and examples in SVALA, displaying source text, alignments and target text
 
 ## Background and motivation
 
