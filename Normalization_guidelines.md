@@ -3,7 +3,7 @@
 Improvements needed:
 1. More (Swedish-specific) principles
 2. More examples
-3. Illustration of the examples in SVALA, displaying source text, alignments and target text
+3. An appendix with illustrations of the examples in SVALA, displaying source text, alignments and target text
 
 ## Background and motivation
 
@@ -78,7 +78,7 @@ The minimal target hypothesis is a rendering of the learner expression in a form
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
-### Principle of content and function words
+### Principle of content words
 
 Keep the form of the content word and change its surrounding context, rather than keeping the function word
 
