@@ -2,11 +2,13 @@
 
 ## Background and motivation
 
-By normalisation we mean emendation of the original learner text to a version which is correct with respect to spelling, morphology and syntax. This corresponds to the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). The purpose of normalisation is twofold: 
+By normalisation we mean editing of the original learner text to a version which is correct with respect to spelling, morphology and syntax. Our notion of normalisation thus corresponds to the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). In contrast, we do not (yet) normalise higher levels (semantics, pragmatics and stylistics), corresponding to the Extended Target Hypothesis in Falko.
 
-1. To render the text in a version which is amenable to automatic linguistic processing.
+The purpose of normalisation is twofold: 
 
-2. To make explicit, and to obtain a separate representation, of the corrections (that is, the target hypotheses).
+1. To render the text in a version which is amenable to automatic annotation using a linguistic analysis pipeline such as ([efselab](https://github.com/robertostling/efselab)).
+
+2. To obtain an explicit, separate representation of the corrections (that is, the target hypotheses).
 
 <!--- A key assumption of our approach is that it is beneficial to separate error coding into two steps, both in terms of workflow and representation: _normalisation_ (that is, correction of the learner text according to the target hypotheses) and the actual _annotation_ of the corrections. Based on this separation, our system (Svala) automatically constructs a parallel corpus of the learner and normalised texts, with word alignments that may be corrected by the annotator. Normalisation therefore involves not only correction of the learner text but also correction of misaligned links.
 
