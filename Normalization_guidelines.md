@@ -8,7 +8,7 @@ The purpose of normalisation is twofold:
 
 1. To render the text in a version which is amenable to automatic annotation using a standard linguistic analysis pipeline such as [efselab](https://github.com/robertostling/efselab).
 
-2. To obtain an separate, explicit representation of the corrections (that is, the target hypotheses).
+2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses).
 
 An important purpose of the target hypothesis is to maximise inter-annotator agreement by minimising the amount of interpretation needed and the changes involved. Still, there will typically be multiple possible normalisations of a deviating expression in a learner text. There are two reasons for this:
 
@@ -38,9 +38,11 @@ As exemplified above, our notion of minimal target hypothesis involves changing 
 
 ## Principles for normalisation
 
-The purpose of this section is to provide more detailed guidance on how to construct a minimal target hypothesis for a sentence that deviates from the norm of the standard language.
+This section provide more detail on how to construct a minimal target hypothesis for a sentence that deviates from the norm of the standard language.
 
 ### General principles
+
+The minimal target hypothesis attempts to minimise the number of deviations from the original learner text, and is confined to deviations in terms of spelling, morphology and syntax. Lexical choice?
 
 First, _always_ keep to the following two principles:
 
