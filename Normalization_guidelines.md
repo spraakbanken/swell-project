@@ -44,7 +44,7 @@ The minimal target hypothesis is a rendering of the learner expression in a form
 
 ### Principle of minimal change
 
-1. Change as few tokens as possible
+1. Change as few tokens as possible.
 
    In item (2) above, inserting "och ligger i ett fint hus" is more idiomatic but not preferred since it changes more words than "ett fint hus"
    
@@ -69,7 +69,7 @@ The minimal target hypothesis is a rendering of the learner expression in a form
    
    "Orsaken beror på..."
 
-3. If minimising the number of tokens changed conflicts with not changing the meaning, keep the meaning.
+3. If there is a conflict between minimising the number of tokens changed and the meaning changed, then keep the meaning.
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
