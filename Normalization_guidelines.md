@@ -2,7 +2,7 @@
 
 ## Background and motivation
 
-By normalisation we mean editing of the original learner text to a version which is correct with respect to the lower levels (spelling, morphology and syntax). Our notion of normalisation thus corresponds to the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). In contrast, we do not (yet) perform normalisation with respect to the higher levels (semantics, pragmatics and stylistics), corresponding to the Extended Target Hypothesis in Falko. Normalisation of a learner text constitutes an implicit representation of deviations of the learner text from a postulated standard variant, and the combination of the learner and corrected texts then makes an error annotation possible.
+By normalisation we mean editing of the original learner text to a version which is correct with respect to the lower levels (spelling, morphology and syntax). Our notion of normalisation thus corresponds to the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). In contrast, we do not (yet) perform normalisation with respect to the higher levels (semantics, pragmatics and stylistics), corresponding to the Extended Target Hypothesis in Falko. Normalisation of a learner text thus constitutes an implicit representation of deviations of the text from a postulated standard variant, and an error annotation of the differences between the learner and corrected texts is then possible.
 
 The purpose of normalisation is twofold: 
 
