@@ -16,7 +16,7 @@ A key purpose of the target hypothesis is to maximise inter-annotator agreement 
 
    Jag trivs mycket bor med dem   &nbsp; &larr; Original
 
-   Jag trivs mycket med att bo med dem   &nbsp; &larr; Target hypothesis 1: preferred change
+   Jag trivs mycket med att bo med dem   &nbsp; &larr; Target hypothesis 1 (_preferred_)
    
    Jag trivs mycket bra med dem   &nbsp; &larr; Target hypothesis 2
    
@@ -26,7 +26,7 @@ A key purpose of the target hypothesis is to maximise inter-annotator agreement 
 
    Mit Bostaden är stor och ser gul farg fint hus   &nbsp; &larr; Original
 
-   Min bostad   är stor och har gul färg , ett fint hus   &nbsp; &larr; Preferred change
+   Min bostad   är stor och har gul färg , ett fint hus   &nbsp; &larr; Smaller change (_preferred_)
 
    Min bostad   är stor och har gul färg , och ligger i ett fint hus   &nbsp; &larr; Bigger change
 
@@ -63,13 +63,13 @@ The minimal target hypothesis is a rendering of the learner expression in a form
  
  2. Don't change the meaning, pragmatics or style. A consequence of not changing the style is that grammaticality becomes a rather broad notion.
 
-3. If minimising the number of tokens changed conflicts with retaining the meaning, then keep the meaning (permitting more tokens to be changed).
-
    Examples of things we don't correct
 
    Main-clause word order in dependent clause with "att": "Allt är bra för att jag kan inte bo ensam"
    
    "Orsaken beror på..."
+
+3. If minimising the number of tokens changed conflicts with retaining the meaning, then keep the meaning (permitting more tokens to be changed).
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
@@ -103,7 +103,11 @@ Frequency in Korp (all corpora selected): "hitta lägenhet" 1904, "hitta en läg
 
 ### Principle of positive assumption
 
-In cases where it is difficult to decide whether an expression is correct or incorrect, assume the the learner was correct. [Do we have grammatical examples?] This principle is also useful in transcription, and then concerns squiggles that could be interpreted in different ways. For example, in some handwriting it is difficult to distinguish "a" from "o". We may then assume, for example, that a partly illegible word should be read as the present verb form "dansar" (English: danse) rather than the illegal form "dansor". Similarly, we may assume strokes above "a" or "o" to be correct diacritics for the Swedish characters "å", "ä" or "ö", rather than errors.
+In cases where it is difficult to decide whether an expression is correct or incorrect, assume the the learner was correct. 
+
+_Do we have grammatical examples of this?_
+
+Note: This principle is also useful in transcription, in case of squiggles that could be interpreted in different ways. For example, in some handwriting it is difficult to distinguish "a" from "o". We may then assume, for example, that a partly illegible word should be read as the present verb form "dansar" (English: danse) rather than the illegal form "dansor". Similarly, we may assume strokes above "a" or "o" to be correct diacritics for the Swedish characters "å", "ä" or "ö", rather than errors.
 
 -----------------------------
 
