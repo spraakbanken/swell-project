@@ -40,31 +40,11 @@ A key purpose of the target hypothesis is to maximise inter-annotator agreement 
 
 ### Definition
 
-The minimal target hypothesis is a rendering of the learner expression in a form that is correct with respect to orthography, spelling, morphology and syntax, while changing as few tokens as possible.
+The minimal target hypothesis is a rendering of the learner expression in a form that is correct with respect to orthography, spelling, morphology and syntax, while changing as few tokens as possible, and not changing the meaning, pragmatics or style. _Lexical choice?_
 
-involves changing as few tokens as possible, while not changing (or changing as little as possible) the meaning, pragmatics and style. _Lexical choice?_
+Examples:
 
-First, _always_ keep to the following two principles:
-
-1. Change the sentence to make it grammatically correct (which is admittedly a broad concept)
-
-2. Don't change the style (it may sound like coming from a five-year old as long as it's grammatical)
-
-   Examples of things we don't correct:
-
-   Main-clause word order in dependent clause with "att": "Allt är bra för att jag kan inte bo ensam"
-   
-   "Orsaken beror på..."
-
-### Principle of minimal change
-
-Secondly, if several normalisations are possible, use the following criteria to discriminate between them in order of decreasing priority:
-
-1. If changing as few tokens as possible conflicts with not changing the meaning, keep the meaning.
-
-   In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
-
-2. Change as few words as possible
+1. Change as few tokens as possible
 
    In item (2) above, inserting "och ligger i ett fint hus" is more idiomatic but not preferred since it changes more words than "ett fint hus"
    
@@ -80,6 +60,24 @@ Secondly, if several normalisations are possible, use the following criteria to 
 
    Här kommer arbetslösheten som en stor faktor till stress, lika viktigt som stressen på grund av arbetsbelastning. &nbsp; &larr; More idiomatic but requires too much change of the original text
  --->   
+ 
+ 2. Don't change the style (which also means that grammaticality becomes a broader notion).
+
+   Examples of things we don't correct:
+
+   Main-clause word order in dependent clause with "att": "Allt är bra för att jag kan inte bo ensam"
+   
+   "Orsaken beror på..."
+
+### Principle of minimal change
+
+Secondly, if several normalisations are possible, use the following criteria to discriminate between them in order of decreasing priority:
+
+1. If changing as few tokens as possible conflicts with not changing the meaning, keep the meaning.
+
+   In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
+
+
 
 Minimal change is equivalent to the _minimal target hypothesis_ in the [Falko corpus](https://www.linguistik.hu-berlin.de/en/institut-en/professuren-en/korpuslinguistik/mitarbeiter-innen-en/marc/ReznicekEA_toAppear.pdf) in the sense that it a) differs minimally from the learner text and b) is grammatical at the expense of ignoring errors concerning semantics, pragmatics and style.
 
