@@ -42,7 +42,7 @@ A key purpose of the target hypothesis is to maximise inter-annotator agreement 
 
 The minimal target hypothesis is a rendering of the learner expression in a form that is correct with respect to orthography, spelling, morphology and syntax, while involving as few changes of tokens as possible, and as little change of meaning, pragmatics or style as possible. _Lexical choice?_
 
-Examples:
+### Principle of minimal change
 
 1. Change as few tokens as possible
 
@@ -61,7 +61,7 @@ Examples:
    Här kommer arbetslösheten som en stor faktor till stress, lika viktigt som stressen på grund av arbetsbelastning. &nbsp; &larr; More idiomatic but requires too much change of the original text
  --->   
  
- 2. Don't change the style. (A consequence of this is that grammaticality becomes a rather broader notion.)
+ 2. Don't change the meaning, pragmatics or style. (A consequence of not changing the style is that grammaticality becomes a rather broad notion.)
 
    Examples of things we don't correct:
 
@@ -69,9 +69,7 @@ Examples:
    
    "Orsaken beror på..."
 
-### Principle of minimal change
-
-1. If changing as few tokens as possible conflicts with not changing the meaning, keep the meaning.
+3. If minimising the number of tokens changed conflicts with not changing the meaning, keep the meaning.
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
