@@ -10,7 +10,7 @@ The purpose of normalisation is twofold:
 
 2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses).
 
-An important purpose of the target hypothesis is to maximise inter-annotator agreement by minimising the amount of interpretation needed and the changes involved. Still, there will typically be multiple possible normalisations of a deviating expression in a learner text. There are two reasons for this:
+A key purpose of the target hypothesis is to maximise inter-annotator agreement by minimising the amount of interpretation needed and the number of changes involved. Still, there will typically be multiple possible normalisations of a deviating expression in a learner text. There are two reasons for this:
 
 1. Different target hypotheses can be assumed.
 
@@ -20,7 +20,7 @@ An important purpose of the target hypothesis is to maximise inter-annotator agr
    
    Jag trivs mycket bra med dem   &nbsp; &larr; Target hypothesis 2
    
-   Here, it is not clear if by "mycket bor" the learner meant "mycket med att bo" or "mycket bra". Since our notion of minimal target hypothesis requires changing the meaning as little as possible, we prefer "mycket med att bo" despite the fact that this involved more tokens that are changed (see further below).
+   Here, it is not clear if by "mycket bor" the learner meant "mycket med att bo" or "mycket bra". Since our notion of minimal target hypothesis requires not changing the meaning (or at least changing it as little as possible), we prefer "mycket med att bo" despite the fact that this involved more tokens that are changed (see further below).
 
 2. Assuming a particular target hypothesis, several normalisations are still possible. (This is analogous to the fact that there are several possible correct translations of a sentence.)
 
@@ -32,17 +32,17 @@ An important purpose of the target hypothesis is to maximise inter-annotator agr
 
    Min bostad   är stor och gul , och ligger i ett fint hus   &nbsp; &larr; Even bigger change
 
-As exemplified above, our notion of minimal target hypothesis involves changing as few tokens as possible provided that the sentence be grammatical (and provided that we do not change the meaning, pragmatics or style).
+   As exemplified above, our notion of minimal target hypothesis involves changing as few tokens as possible to render the sentence in a grammatical form, while (as far as possible) not changing the meaning, pragmatics or style.
 
 <!--- (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) --->
 
 ## Principles for normalisation
 
-This section provide more detail on how to construct a minimal target hypothesis for a sentence that deviates from the norm of the standard language.
+This section attempts to make the principles of normalisation, and of constructing a minimal target hypothesis, more concrete.
 
 ### General principles
 
-The minimal target hypothesis attempts to minimise the number of deviations from the original learner text, and is confined to deviations in terms of spelling, morphology and syntax. Lexical choice?
+The minimal target hypothesis is a rendering of the learner expression in a form that involves changing as few tokens as possible, while not changing (or changing as little as possible) the meaning, pragmatics and style. _Lexical choice?_
 
 First, _always_ keep to the following two principles:
 
@@ -60,7 +60,7 @@ First, _always_ keep to the following two principles:
 
 Secondly, if several normalisations are possible, use the following criteria to discriminate between them in order of decreasing priority:
 
-1. Keep the meaning. This is the most important criterion!
+1. In cases where the principle of changing as few tokens as possible conflicts with not changing the meaning, keep the meaning.
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
