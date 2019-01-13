@@ -61,15 +61,15 @@ The minimal target hypothesis is a rendering of the learner expression in a form
    Här kommer arbetslösheten som en stor faktor till stress, lika viktigt som stressen på grund av arbetsbelastning. &nbsp; &larr; More idiomatic but requires too much change of the original text
  --->   
  
- 2. Don't change the meaning, pragmatics or style. (A consequence of not changing the style is that grammaticality becomes a rather broad notion.)
-
+ 2. Don't change the meaning, pragmatics or style. A consequence of not changing the style is that grammaticality becomes a rather broad notion.
+ 
    Examples of things we don't correct:
 
    Main-clause word order in dependent clause with "att": "Allt är bra för att jag kan inte bo ensam"
    
    "Orsaken beror på..."
 
-3. If there is a conflict between minimising the number of tokens changed and the meaning changed, then keep the meaning.
+3. If minimising the number of tokens changed conflicts with retaining the meaning, then keep the meaning (permitting more tokens to be changed).
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
