@@ -36,13 +36,13 @@ A key purpose of the target hypothesis is to maximise inter-annotator agreement 
 
 <!--- (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) --->
 
-## Principles for normalisation
+## Principles of normalisation
 
-This section attempts to make the principles of normalisation, and of constructing a minimal target hypothesis, more concrete.
+### Definition
 
-### General principles
+The minimal target hypothesis is a rendering of the learner expression in a form that is correct with respect to orthography, spelling, morphology and syntax, while changing as few tokens as possible.
 
-The minimal target hypothesis is a rendering of the learner expression in a form that involves changing as few tokens as possible, while not changing (or changing as little as possible) the meaning, pragmatics and style. _Lexical choice?_
+involves changing as few tokens as possible, while not changing (or changing as little as possible) the meaning, pragmatics and style. _Lexical choice?_
 
 First, _always_ keep to the following two principles:
 
@@ -60,7 +60,7 @@ First, _always_ keep to the following two principles:
 
 Secondly, if several normalisations are possible, use the following criteria to discriminate between them in order of decreasing priority:
 
-1. In cases where the principle of changing as few tokens as possible conflicts with not changing the meaning, keep the meaning.
+1. If changing as few tokens as possible conflicts with not changing the meaning, keep the meaning.
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
