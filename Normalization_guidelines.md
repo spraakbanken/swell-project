@@ -61,9 +61,9 @@ The minimal target hypothesis is a rendering of the learner expression in a form
    Här kommer arbetslösheten som en stor faktor till stress, lika viktigt som stressen på grund av arbetsbelastning. &nbsp; &larr; More idiomatic but requires too much change of the original text
  --->   
  
- 2. Don't change the meaning, pragmatics or style. A consequence of not changing the style is that grammaticality becomes a rather broad notion.
+ 2. As far as possible, do not change the meaning, pragmatics or style. A consequence of not changing the style is that grammaticality becomes a rather broad notion.
 
-&nbsp;&nbsp; &nbsp; &nbsp; Examples of things we don't correct
+&nbsp;&nbsp; &nbsp; &nbsp; Examples of style that we do not correct:
 
 &nbsp;&nbsp; &nbsp; &nbsp; Main-clause word order in dependent clause with "att": "Allt är bra för att jag kan inte bo ensam"
    
