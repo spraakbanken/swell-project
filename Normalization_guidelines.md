@@ -8,21 +8,21 @@ The purpose of normalisation is twofold:
 
 1. To render the text in a version which is amenable to automatic annotation using a standard linguistic analysis pipeline such as [efselab](https://github.com/robertostling/efselab).
 
-2. To obtain an explicit, separate representation of the corrections (that is, the target hypotheses).
+2. To obtain an separate, explicit representation of the corrections (that is, the target hypotheses).
 
+An important purpose of the target hypothesis is to maximise inter-annotator agreement by minimising the amount of interpretation needed and the changes involved. Still, there will typically be multiple possible normalisations of a deviating expression in a learner text, just as there are . There are two reasons for this:
 
-
-Ideally, the minimal target hypothesis corresponds to a purely form-based change which amounts tp the minimal changes needed to turn the learner sentence into a grammatical sentence in the target language. In practice, however, there will typically be multiple possible normalisations of a deviating expression in a learner text, just as there are several possible correct translations of a sentence. There are two reasons for this:
-
-1. Different target hypotheses can be assumed
+1. Different target hypotheses can be assumed.
 
    Jag trivs mycket bor med dem   &nbsp; &larr; Original
 
    Jag trivs mycket med att bo med dem   &nbsp; &larr; Target hypothesis 1: preferred change
    
    Jag trivs mycket bra med dem   &nbsp; &larr; Target hypothesis 2
+   
+   Here, it is not clear if by "mycket bor" the learner meant "mycket med att bo" or "mycket bra".
 
-2. Assuming a particular target hypothesis, several normalisations are still possible
+2. Assuming a particular target hypothesis, several normalisations are still possible. (This is analogous to the fact that there are several possible correct translations of a sentence.)
 
    Mit Bostaden är stor och ser gul farg fint hus   &nbsp; &larr; Original
 
