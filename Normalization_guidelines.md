@@ -78,9 +78,17 @@ The minimal target hypothesis is a rendering of the learner expression in a form
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
+### Principle of verb as core
+
+(Suggestion adapted from ([Reznicek et al. 2012, page 45](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko).) If a verb does not match its arguments, retain the verb and adjust the arguments. Dummies are added for missing mandatory objects. The same applies to verb-dependent prepositional objects.
+
+### Principle of nominal congruence hierarchy 
+
+(Suggestion adapted from ([Reznicek et al. 2012, page 46](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko).) In the absence of agreement between determiner, attribute(s) and nominal head, the head is retained.
+
 ### Principle of content words
 
-Keep the form of the content word and change its surrounding context, rather than keeping the function word
+(Is this a consequence of the previous principle?) Keep the form of the content word and change its surrounding context, rather than keeping the function word
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;det är mycket skillnader
 
