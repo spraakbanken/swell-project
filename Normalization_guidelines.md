@@ -1,7 +1,7 @@
 # Normalisation guidelines
 
 Improvements needed:
-1. The current principles are language-independent with Swedish examples. We probably also need more specific principles or rules that work directly off Swedish grammar
+1. The current principles are language-independent with Swedish examples. We probably also need more specific principles or rules that work directly off Swedish grammar (as in the Falko manual for German)
 2. More examples of each principle
 3. An appendix with illustrations of the principles and examples in SVALA, displaying source text, alignments and target text
 
