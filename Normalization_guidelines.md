@@ -80,11 +80,11 @@ The minimal target hypothesis is a rendering of the learner expression in a form
 
 ### Principle of verb as core
 
-(Suggestion adapted from Falko ([Reznicek et al. 2012, page 45](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). If a verb does not match its arguments, retain the verb and adjust the arguments. Dummies are added for missing mandatory objects. The same applies to verb-dependent prepositional objects.
+(Suggestion adapted from Falko ([Reznicek et al. 2012, page 45](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)).) If a verb does not match its arguments, retain the verb and adjust the arguments. Dummies are added for missing mandatory objects. The same applies to verb-dependent prepositional objects.
 
 ### Principle of nominal congruence hierarchy 
 
-(Suggestion adapted from Falko ([Reznicek et al. 2012, page 46](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). In the absence of agreement between determiner, attribute(s) and nominal head, the head is retained.
+(Suggestion adapted from Falko ([Reznicek et al. 2012, page 46](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)).) In the absence of agreement between determiner, attribute(s) and nominal head, the head is retained.
 
 ### Principle of content words
 
