@@ -1,4 +1,4 @@
-# Normalisation guidelines
+# Normalization guidelines
 
 <!--- Improvements needed:
 1. The current principles are language-independent with Swedish examples. We probably also need more specific principles or rules that work directly off Swedish grammar (as in the Falko manual for German)
@@ -7,7 +7,7 @@
 
 ## Motivation and purpose
 
-By normalisation we mean editing of the original learner text to a version which is correct with respect to the lower linguistic levels (orthography, morphology and syntax). Our notion of normalisation thus corresponds to the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). In contrast, we do not (yet) perform normalisation with respect to the higher levels (semantics, pragmatics and stylistics), corresponding to the Extended Target Hypothesis in Falko. Normalisation of a learner text constitutes an implicit representation of the deviations of the text from a postulated standard variant, making it possible to perform an error annotation based on the differences between the learner and corrected texts.
+By normalization we mean editing of the original learner text such that the sentences are correct with respect to the lower linguistic levels (orthography, morphology and syntax) and where they have coherent, descernible meaning. The latter is a difference compared to the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). In contrast, we do not (yet) perform normalization with respect to the higher levels (semantics, pragmatics and stylistics), corresponding to the Extended Target Hypothesis in Falko. Normalization of a learner text constitutes an implicit representation of the deviations of the text from a postulated standard variant, making it possible to perform an error annotation based on the differences between the learner and corrected texts.
 
 The purpose of normalisation is twofold: 
 
@@ -15,7 +15,7 @@ The purpose of normalisation is twofold:
 
 2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses).
 
-A key purpose of the target hypothesis is to maximise inter-annotator agreement by minimising the amount of interpretation needed and the number of changes involved. Still, there will typically be multiple possible normalisations of a deviating expression in a learner text. There are two reasons for this:
+A key purpose of the target hypothesis is to maximize inter-annotator agreement by minimising the amount of interpretation needed and the number of changes involved. Still, there will typically be multiple possible normalisations of a deviating expression in a learner text. There are two reasons for this:
 
 1. Different target hypotheses can be assumed.
 
