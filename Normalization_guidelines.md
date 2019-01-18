@@ -41,7 +41,7 @@ Although we strive to write guidelines to maximize inter-annotator agreement wit
 
 <!--- (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) --->
 
-## General principles of normalisation
+## General principles of normalization
 
 ### Definition
 
@@ -121,9 +121,6 @@ In cases where it is difficult to decide whether an expression is correct or inc
 _Do we have grammatical examples of this?_
 
 Note: This principle is also useful in transcription, in case of squiggles that could be interpreted in different ways. For example, in some handwriting it is difficult to distinguish "a" from "o". We may then assume, for example, that a partly illegible word should be read as the present verb form "dansar" (English: danse) rather than the illegal form "dansor". Similarly, we may assume strokes above "a" or "o" to be correct diacritics for the Swedish characters "å", "ä" or "ö", rather than errors.
-
-## General principles of normalisation
-
 
 -----------------------------
 
