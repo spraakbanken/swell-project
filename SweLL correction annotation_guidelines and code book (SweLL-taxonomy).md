@@ -654,10 +654,8 @@ _Word or phrase order - other_
   * Man kan inte vänta att **lägga de upp** på sociala medier --> Man kan inte vänta att **lägga upp dem** på sociala medier  
 
 ---
-## Intelligebility 
----
 
-## X
+## X (intelligebility) 
 
 _Impossible to interpret the writer’s intention with a word, phrase or sentence. Some wild guess may be added, but not necessarily._
 
