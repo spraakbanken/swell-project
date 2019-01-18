@@ -7,7 +7,9 @@
 
 ## Motivation and purpose
 
-By normalization we mean editing of the original learner text such that the sentences are correct with respect to the lower linguistic levels (orthography, morphology and syntax) and where they have coherent, descernible meaning. The latter is a difference compared to the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). In contrast, we do not (yet) perform normalization with respect to the higher levels (semantics, pragmatics and stylistics), corresponding to the Extended Target Hypothesis in Falko. Normalization of a learner text constitutes an implicit representation of the deviations of the text from a postulated standard variant, making it possible to perform an error annotation based on the differences between the learner and corrected texts.
+By normalization we mean editing of the original learner text such that the sentences a) are correct with respect to the lower linguistic levels (orthography, morphology and syntax) and b) make sense semantically. The first point is compatible with the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). The latter point goes beyond the Minimal Target Hypothesis in Falko, however, which does not have to be semantically coherent as long as it is syntactic. A German example (from [Boyd, slide 7](https://sweclarin.se/sites/sweclarin.se/files/event_atachements/L2wsh_Boyd_slides.pdf)) is the
+
+In contrast, we do not (yet) perform normalization with respect to the higher levels (semantics, pragmatics and stylistics), corresponding to the Extended Target Hypothesis in Falko. Normalization of a learner text constitutes an implicit representation of the deviations of the text from a postulated standard variant, making it possible to perform an error annotation based on the differences between the learner and corrected texts.
 
 The purpose of normalisation is twofold: 
 
