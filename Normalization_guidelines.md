@@ -7,15 +7,15 @@
 
 ## Motivation and purpose
 
-The goal of normalization of a learner text is to produce an implicit representation of the deviations of the text from a postulated standard variant, thereby making it possible to annotate the differences between the learner and corrected texts. More specifically, by normalization we mean editing of the original learner text such that the sentences a) are correct with respect to orthography, morphology and syntax and b) are semantically coherent. The first point is compatible with the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). The latter point goes beyond the Minimal Target Hypothesis in Falko, however, which does not have to make sense as long as it is syntactically correct. A German example (from [Boyd 2018, slide 7](https://sweclarin.se/sites/sweclarin.se/files/event_atachements/L2wsh_Boyd_slides.pdf)) is "Rufst du deine Antwort an?" ("Do you call your answer?"), which is semantically anomalous, but where a semantically coherent target hypothesis would be "Rufst du mich wegen deiner Antwort an?" ("Will you call me to answer?"). One reason that our target hypothesis goes beyond the Minimal Target Hypothesis in Falko is that SVALA only has a single target hypothesis, whereas in Falko there is also an Extended Target Hypothesis which involves correction of semantics, pragmatics and stylistics.
+Normalization of a learner text aims at correcting the it in accordance with a postulated standard variant of the language, thereby making it possible to study the deviations from this. More specifically, by normalization in SVALA we mean editing of the original learner text such that the sentences a) are correct with respect to orthography, morphology and syntax and b) are semantically coherent. The first point is compatible with the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). The latter point goes beyond the Minimal Target Hypothesis in Falko, however, which does not have to make sense as long as it is syntactically correct. A German example (from [Boyd 2018, slide 7](https://sweclarin.se/sites/sweclarin.se/files/event_atachements/L2wsh_Boyd_slides.pdf)) is "Rufst du deine Antwort an?" ("Do you call your answer?"), which is semantically anomalous, but where a semantically coherent target hypothesis would be "Rufst du mich wegen deiner Antwort an?" ("Will you call me to answer?"). A reason that our target hypothesis goes beyond the Minimal Target Hypothesis in Falko is that SVALA only has a single level of target hypotheses, whereas in Falko there is also the Extended Target Hypothesis, involving correction of semantics, pragmatics and stylistics.
 
-The purpose of normalisation is twofold: 
+The purpose of normalization is twofold: 
 
 1. To render the text in a version which is amenable to automatic annotation using a standard linguistic analysis pipeline such as [efselab](https://github.com/robertostling/efselab).
 
 2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses).
 
-A key purpose of the target hypothesis is to maximize inter-annotator agreement by minimising the amount of interpretation needed and the number of changes involved. Still, there will typically be multiple possible normalisations of a deviating expression in a learner text. There are two reasons for this:
+Although we strive to write guidelines to maximize inter-annotator agreement with respect to normalization, there will typically (if not always) be multiple possible normalizations of a deviating expression in a learner text. There are two reasons for this:
 
 1. Different target hypotheses can be assumed.
 
@@ -27,7 +27,7 @@ A key purpose of the target hypothesis is to maximize inter-annotator agreement 
    
    Here, it is not clear if by "mycket bor" the learner meant "mycket med att bo" or "mycket bra". Since our notion of minimal target hypothesis requires not changing the meaning (or at least changing it as little as possible), we prefer "mycket med att bo" despite the fact that this involved more tokens that are changed (see further below).
 
-2. Assuming a particular target hypothesis, several normalisations are still possible. (This is analogous to the fact that there are several possible correct translations of a sentence.)
+2. Assuming a particular target hypothesis, several normalizations are still possible. (This is analogous to the fact that there are several possible correct translations of a sentence.)
 
    Mit Bostaden är stor och ser gul farg fint hus   &nbsp; &larr; Original
 
