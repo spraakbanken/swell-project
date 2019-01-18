@@ -2,28 +2,30 @@
 # SweLL correction annotation guidelines
 
 
-[ANPASSA RUBRIKERNA TILL NORMALISERINGSGUISELINES]
+# Motovation and purpose
 
 The purpose of correction annotation is to categorize the corrections made in a learner text so the learner corpus becomes searchable for different types of deviations from the target language norm. The annotation of the learner texts according to the SweLL-projects correction-taxonomy is hence an important step in making the learner language collected in the corpus analyzable for SLA-research purposes. The normalization (see normalization guidelines) and in prolonging also the correction annotation of learner language always includes an element of interpretation since we cannot be exactly sure what the learner had in mind when attempting to express a certain content with a certain linguistic structure or expression. This document therefore contains guidence on how to apply the SeLL-annotation taxonomy in order to minimize ambiguity and ensure the greatest possible inter-annotater agreement. We first give some general guidelines and thereafter describe specific abigiuos cases that might accure in relation to the differnt corrections types.
 
----
-
-# The SweLL-taxanomy
-
-## General structure
-
-Något mer generellt om hur taxonomin är uppbyggd - vilka olika nivåer det finns osv - och varför
+> problematisering här
+> kriterier för feltaxonomin
+ Något mer generellt om hur taxonomin är uppbyggd - vilka olika nivåer det finns osv - och varför
 
 
 ---
-##  General guidelines
+##  General principles of correction annotation
 ---
-  * You find the SweLL-code book further down in this document (after the guideline for correction annotation). It contains          explanations and examples for all the correction codes in the SweLL-taxonomy.
-  * If the links between source text (original) and target text (normalized) are wrong, you correct them in correction annotation mode befor you tagg the correction! If you are not sure how the links should be corrected mark it as OBS!
-  * If the same text segment contains more that one error type, add all error tags that are necessary
-  * If the same text segment contains more that one error type, add all error tags that are necessary
-  * Likewise, if we see there are guidelines missing, we should add a suggestion, or flag for further consideration - with    examples, so that the suggestion is interpretable!
+
+### Taxonomy for annotation
+
+  SweLL correction annotation is done on the basis of the SweLL correction annotation taxonomy. The taxonomy is described as a whole in the SweLL corr-code book, which contains explanations and examples for all the correction codes in the SweLL-taxonomy.
   
+### Wrong alignment between source text and normalization
+
+If the links between source text (original) and target text (normalized) are wrong, you correct them in correction annotation mode befor you tagg the correction! If you are not sure how the links should be corrected mark it as OBS!
+
+### More than one correction type within the same segment
+
+If the same text segment contains more that one correction type, add all tags that are necessary.
   
 ---
 
