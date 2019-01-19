@@ -14,9 +14,11 @@ Normalization in SVALA means editing of the original learner text in such a way 
 
 The purpose of normalization is twofold: 
 
-1. To render the text in a version which is amenable to automatic annotation using a standard linguistic analysis pipeline such as [efselab](https://github.com/robertostling/efselab).
+1. To render the text in a version which is amenable to automatic annotation using a standard linguistic analysis pipeline. (For Swedish, such a pipeline is [efselab](https://github.com/robertostling/efselab).)
 
-2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses).
+2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses). Such a representation can be used for many purposes.
+
+   a) jhjhj
 
 Although we strive to write guidelines to maximize inter-annotator agreement with respect to normalization, there will typically (if not always) be multiple possible normalizations of a deviating expression in a learner text. There are two reasons for this:
 
