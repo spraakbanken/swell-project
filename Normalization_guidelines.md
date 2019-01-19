@@ -18,9 +18,11 @@ The purpose of normalization is twofold:
 
 2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses). Such a representation is highly useful by allowing for many new types of search of the corpus.
 
-   a) Finding occurrences of a construction that are missing in the sense that they could or should have been used, for example, when something that ought to have been expressed using a passive was not.
+   a) Finding occurrences of a construction that are missing in the sense that they could or should have been used, 
+      for example, when something that ought to have been expressed using a passive was not.
 
-   b) Finding cases of constructions in learner and corrected text that do not match, for example, when an adjective in the learner text corresponds to an adverb in the corrected text.
+   b) Finding cases of constructions in learner and corrected text that do not match, for example, when an adjective 
+      in the learner text corresponds to an adverb in the corrected text.
 
 Although we strive to write guidelines to maximize inter-annotator agreement with respect to normalization, there will typically (if not always) be multiple possible normalizations of a deviating expression in a learner text. There are two reasons for this:
 
