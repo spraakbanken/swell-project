@@ -16,7 +16,7 @@ The purpose of normalization is twofold:
 
 1. To render the text in a version which is amenable to automatic annotation using a standard linguistic analysis pipeline. (For Swedish, such a pipeline is [efselab](https://github.com/robertostling/efselab).)
 
-2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses). Such a representation can be used for many purposes.
+2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses). Such a representation is highly useful by allowing for many new types of search of the corpus.
 
    a) Finding occurrences of a construction that are missing in the sense that they could or should have been used, for example, when something that ought to have been expressed using a passive was not.
 
