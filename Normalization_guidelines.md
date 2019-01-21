@@ -67,7 +67,7 @@ The basic principle of normalization in SVALA is that of miminal change. This me
    Här kommer arbetslösheten som en stor faktor till stress, lika viktigt som stressen på grund av arbetsbelastning. &nbsp; &larr; More idiomatic but requires too much change of the original text
  --->   
  
- 2. As far as possible, do not change the meaning, pragmatics or style.
+ 2. Change the meaning as little as possible, and do not change pragmatics or style.
 
 &nbsp;&nbsp; &nbsp; &nbsp; Examples of style that we do not correct:
 
@@ -75,7 +75,7 @@ The basic principle of normalization in SVALA is that of miminal change. This me
    
 &nbsp;&nbsp; &nbsp; &nbsp; "Orsaken beror på..."
 
-3. If minimizing the number of tokens changed conflicts with retaining the meaning, then keep the meaning (permitting more tokens to be changed).
+3. If there is a conflict between minimizing the number of tokens and retaining the meaning, then give priority to retaining the meaning (permitting more tokens to be changed).
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
