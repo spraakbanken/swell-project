@@ -48,13 +48,11 @@ Although we strive to write guidelines to maximize inter-annotator agreement wit
 
 <!--- (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) --->
 
-## General principles of normalization
+## Principle of minimal change
 
-### Definition
+The basic principle of normalization in SVALA is that of miminal change. This means changing as few tokens as possible and the meaning as little as possible while correcting orthography, morphology and syntax and ensuring that the sentence is semantically coherent. In case of conflict between these, token changes are preferred to meaning changes. The pragmatics and style should not be changed.
 
-The minimal target hypothesis is a rendering of the learner expression in a form that is correct with respect to orthography, spelling, morphology and syntax, while involving as few changes of tokens as possible, and as little change of meaning, pragmatics or style as possible. _Lexical choice?_
-
-### Principle of minimal change
+### Example
 
 1. Change as few tokens as possible.
 
