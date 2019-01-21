@@ -34,7 +34,7 @@ Although we strive to write guidelines to maximize inter-annotator agreement wit
    
    Here, it is not clear if by "mycket bor" the learner meant "mycket med att bo" or "mycket bra". Since our notion of minimal target hypothesis requires not changing the meaning (or at least changing it as little as possible), we prefer "mycket med att bo" despite the fact that this involved more tokens that are changed (see further below).
 
-2. Assuming a particular target hypothesis, several normalizations are still possible. (This is analogous to the fact that there are several possible correct translations of a sentence.)
+2. Assuming a particular target hypothesis, several normalizations may be possible.
 
    Mit Bostaden är stor och ser gul farg fint hus   &nbsp; &larr; Original
 
@@ -43,10 +43,6 @@ Although we strive to write guidelines to maximize inter-annotator agreement wit
    Min bostad   är stor och har gul färg , och ligger i ett fint hus   &nbsp; &larr; Bigger change
 
    Min bostad   är stor och gul , och ligger i ett fint hus   &nbsp; &larr; Even bigger change
-
-   As exemplified above, our notion of minimal target hypothesis involves changing as few tokens as possible to render the sentence in a grammatical form, while (as far as possible) not changing the meaning, pragmatics or style.
-
-<!--- (Our tool currently only allows for a single target hypothesis, so there is no way of encoding multiple hypotheses.) --->
 
 ## Principle of minimal change
 
@@ -71,7 +67,7 @@ The basic principle of normalization in SVALA is that of miminal change. This me
    Här kommer arbetslösheten som en stor faktor till stress, lika viktigt som stressen på grund av arbetsbelastning. &nbsp; &larr; More idiomatic but requires too much change of the original text
  --->   
  
- 2. As far as possible, do not change the meaning, pragmatics or style. A consequence of not changing the style is that grammaticality becomes a rather broad notion.
+ 2. As far as possible, do not change the meaning, pragmatics or style.
 
 &nbsp;&nbsp; &nbsp; &nbsp; Examples of style that we do not correct:
 
@@ -83,13 +79,15 @@ The basic principle of normalization in SVALA is that of miminal change. This me
 
    In item (1) above (different target hypotheses), changing "bor" to "bra" is a bigger change than changing "bor" to "med att bo" because it replaces one word with another word with a different meaning
 
+## Specific principles
+
 ### Principle of verb as core
 
-(Suggestion adapted from Falko ([Reznicek et al. 2012, page 45](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)).) If a verb does not match its arguments, retain the verb and adjust the arguments. Dummies are added for missing mandatory objects. The same applies to verb-dependent prepositional objects.
+If a verb does not match its arguments, retain the verb and adjust the arguments. Dummies are added for missing mandatory objects. The same applies to verb-dependent prepositional objects. (Adapted from Falko ([Reznicek et al. 2012, page 45](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)). Is it relevant? Swedish examples?) 
 
 ### Principle of nominal congruence hierarchy 
 
-(Suggestion adapted from Falko ([Reznicek et al. 2012, page 46](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)).) In the absence of agreement between determiner, attribute(s) and nominal head, the head is retained.
+In the absence of agreement between determiner, attribute(s) and nominal head, the head is retained. (Adapted from Falko ([Reznicek et al. 2012, page 46](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)).) 
 
 ### Principle of content words
 
