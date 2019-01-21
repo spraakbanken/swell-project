@@ -10,7 +10,7 @@ Normalization of a learner text aims at correcting it in accordance with a postu
 
 ## Motivation and purpose
 
-Normalization in SVALA means editing of the original learner text in such a way that the sentences a) are correct with respect to orthography, morphology and syntax and b) are semantically coherent. The first point corresponds to the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)), whereas the latter point goes beyond this by allowing changes that affect meaning. A German example that highlights the difference (from [Boyd 2018, slide 7](https://sweclarin.se/sites/sweclarin.se/files/event_atachements/L2wsh_Boyd_slides.pdf)) is the Minimal Target Hypothesis "Rufst du deine Antwort an?", which is semantically anomalous ("Do you call your answer?") but syntactically correct. To represent correction of semantics, pragmatics and stylistics, there is an additional level in Falko called the Extended Target Hypothesis, in this case "Rufst du mich wegen deiner Antwort an?" ("Will you call me to answer?"), which is semantically coherent. The reason that the target hypothesis in SVALA goes beyond the Minimal Target Hypothesis in Falko is that SVALA only has a single level of target hypotheses. 
+Normalization in SVALA means editing of the original learner text in such a way that the sentences a) are correct with respect to orthography, morphology and syntax and b) are semantically coherent. The first point corresponds to the Minimal Target Hypothesis in the German learner corpus Falko ([Reznicek et al. 2012, page 42 ff.](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/forschung/falko)), whereas the latter point goes beyond this by allowing changes that affect meaning. A German example that highlights the difference (from [Boyd 2018, slide 7](https://sweclarin.se/sites/sweclarin.se/files/event_atachements/L2wsh_Boyd_slides.pdf)) is the Minimal Target Hypothesis "Rufst du deine Antwort an?", which is semantically anomalous ("Do you call your answer?") but syntactically correct. To represent correction of semantics, pragmatics and stylistics, there is an additional level in Falko called the Extended Target Hypothesis, which in this case would be "Rufst du mich wegen deiner Antwort an?" ("Will you call me regarding your answer?"). The reason that the target hypothesis in SVALA is more inclusive than the Minimal Target Hypothesis in Falko is that SVALA only has a single level of target hypotheses. 
 
 The purpose of normalization is twofold: 
 
@@ -18,7 +18,7 @@ The purpose of normalization is twofold:
 
 2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses). Such a representation is highly useful by allowing for many new types of search of the corpus.
 
-    * Finding occurrences of a construction that are missing in the sense that they could or should have been used, for example, when something that ought to have been expressed using a passive was not.
+    * Finding potential or missing occurrences of a construction in the sense that they could or should have been used, for example, when something that ought to have been expressed using a passive was not.
 
     * Finding cases of constructions in learner and corrected text that do not match, for example, when an adjective in the learner text corresponds to an adverb in the corrected text.
 
