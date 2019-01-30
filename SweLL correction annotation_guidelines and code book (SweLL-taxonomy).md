@@ -41,9 +41,9 @@ _This code covers necessary (follow-up) corrections in the text that come as a r
 The correction-taxonomy contains six (?) diffent codes for lexical corrections. 
 
 * L (wrong word or phrase)
-* L-DER (expl) 
+* L-DER (Deviant existisng (!) derivational affix used) 
 * L-FL (non-swedish word)
-* L-ID (expl)
+* L-ID (corrections with respect to idiomatic expressions)
 * L-M (missing content word)
 * L-Ref (reference correction)
   
