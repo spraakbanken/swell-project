@@ -569,6 +569,7 @@ _Word order error involving adverbial placement_
   * …som i sin tur **har tydligt påverkat** ... --> ...som i sin tur **tydligt har påverkat** ... 
   
   * …och **med hela världen dela** sina idéer och tankar. --> …och **dela sina idéer och tankar med hela världen.**
+  * om hur **under 600 år** Finland var en del av Sverige --> om hur Finland var en del av Sverige **under 600 år**
 
 ---
 
