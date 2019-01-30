@@ -155,6 +155,7 @@ The SweLL-taxonomy contains six codes regarding syntactical corrections
 * S-M (grammatical word missing, e.g. particle, prepositioner, reflexive pronoun, connector, auxiliry verbs[??])
 * S-R (word or phrase redundant)
 * S-WO (word or phrase order - other)
+* S-CON (problematic syntactical construction)
   
 ---
 
@@ -654,6 +655,15 @@ _Word or phrase order - other_
   * Man kan inte vänta att **lägga de upp** på sociala medier --> Man kan inte vänta att **lägga upp dem** på sociala medier  
 
 ---
+
+### S-CON
+
+_Problematic syntactical construction
+
+**Exaples**
+
+ * **Att växa upp som en flicka** så var det väldigt många orättvisor man fick vänja sig vid. --> **När man växte upp som en flicka** så var det väldigt många orättvisor man fick vänja sig vid.
+ 
 
 ## X (intelligebility) 
 
