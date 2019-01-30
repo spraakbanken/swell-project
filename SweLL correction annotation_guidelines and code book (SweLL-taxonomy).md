@@ -2,7 +2,7 @@
 # SweLL correction annotation guidelines
 
 
-## Motovation and purpose
+## Motivation and purpose
 
 The purpose of correction annotation is to categorize the corrections made in a learner text so the learner corpus becomes searchable for different types of deviations from the target language norm. The annotation of the learner texts according to the SweLL-projects correction-taxonomy is hence an important step in making the learner language collected in the corpus analyzable for SLA-research purposes. The normalization (see normalization guidelines) and in prolonging also the correction annotation of learner language always includes an element of interpretation since we cannot be exactly sure what the learner had in mind when attempting to express a certain content with a certain linguistic structure or expression. This document therefore contains guidence on how to apply the SeLL-annotation taxonomy in order to minimize ambiguity and ensure the greatest possible inter-annotater agreement. We first give some general guidelines and thereafter describe specific abigiuos cases that might accure in relation to the differnt corrections types.
 
