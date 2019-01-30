@@ -228,6 +228,8 @@ This error code can be used only to mark existing Swedish words that have been u
 
   
   * När jag tittar **utom** fönstret… → när jag tittar  **ut genom** fönsret…
+  
+  * Jag bor i D-område **på en lägenhet** --> jag bor i D-område **i en lägenhet** .
 
 
    * På det sättet kan kommunen **motionera** alla medborgare att träna → på det sättet kan kommunen **motivera** alla medborgare att träna.
