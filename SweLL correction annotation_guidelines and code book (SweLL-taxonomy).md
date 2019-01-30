@@ -96,7 +96,7 @@ The SweLL-taxonomy further cantain eight morfological codes.
 _corrections regarding the use of definite/indefinite form, applies also to a missing/redundant article. If there are sevaral corrections within the same noun phrase, e.g. article + adjective + noun, they are to be tagged individually._
   * Example (see also code book): 
   
-  [skärmdump]  
+ 
 ## M-F
 _something about can do here_
 
@@ -378,7 +378,7 @@ _Deviant paradigm selection, but correct grammatical category_
 
 **Examples**
 
-  *Jag sittade länge och väntade på bussen igår → jag satt länge och väntade på bussen igår. 
+  *Jag **sittade** länge och väntade på bussen igår → jag **satt** länge och väntade på bussen igår. 
   
   *Vädret kommer att blir dåligare nästa vecka → vädret kommer att bli sämre nästa vecka.
   
