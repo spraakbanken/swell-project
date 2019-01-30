@@ -607,7 +607,7 @@ _Subject missing_
 
 ### S-M
 
-_Grammatical word missing, e.g. particle, prepositions, reflexive pronoun, connector, auxiliry verbs[??]_
+_Grammatical word missing, e.g. particle, prepositions, reflexive pronoun, connector, auxiliry verbs - not including def/indef articles (see M-DEF)!_
 
 **Examples**
 
