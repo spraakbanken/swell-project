@@ -51,6 +51,15 @@ The correction-taxonomy contains six (?) diffent codes for lexical corrections.
 
 ### Some specific guiudelines regarding lexical corrections
 
+## L
+
+_Includes even phrasal verbs, reflexives with missing particle/reflexive marker, and multiword prepositions_.
+
+ *Example (see also code book):
+ 
+ [skärmdump]
+
+
 ## L-FL
 
 _L-FL applies to the use of an **existing** non-swedish word, i.e. a foreign word that is NOT conventionally used in Swedish and can be identified as an existing word in another language. Naturally annotators will not be able to identify all such cases, since we cannot expect them to be competent in all relevant languages, but it is still relevant to mark cases where possible_
@@ -84,7 +93,8 @@ The SweLL-taxonomy further cantain eight morfological codes.
 ### Some specific guidelines regarding morfological correction
 
 ## M-DEF
-_corrections regarding the use of definite/indefinite form can apply both to single words, groups of words and a missing/redundant article_
+_corrections regarding the use of definite/indefinite form, applies also to a missing/redundant article. If there are sevaral corrections within the same noun phrase, e.g. article + adjective + noun, they are to be tagged individually._
+  * Example (see also code book): 
 
 ## M-F
 _something about can do here_
@@ -214,7 +224,7 @@ _This code covers necessary (follow-up) corrections in the text that come as a r
 
 ### L
 
-_Wrong word or phrase. Includes even phrasal verbs and reflexives with missing particle/reflexive marker._
+_Wrong word or phrase. Includes even phrasal verbs, reflexives with missing particle/reflexive marker, and multiword prepositions._
 
 This error code can be used only to mark existing Swedish words that have been used in an incorrect way or context
 
@@ -237,6 +247,8 @@ This error code can be used only to mark existing Swedish words that have been u
    * Jag bor **samma** med min bror --> Jag bor **tilsammans** med min bror
    
    * Alla blir **busiga** med sina sociala medier. --> Alla blir **upptagna** med sina sociala medier [should this example be here or under L-Fl?]
+   
+   * använda engelska **stället av** svenska --> använda engelska **i stället för** svenska
 
 ---
 ### L-DER
