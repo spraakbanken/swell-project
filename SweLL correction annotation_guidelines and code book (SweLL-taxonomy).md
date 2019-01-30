@@ -663,11 +663,11 @@ _Word or phrase order - other_
 
 _Problematic syntactical construction
 
-**Exaples**
+**Examples**
 
  * **Att växa upp som en flicka** så var det väldigt många orättvisor man fick vänja sig vid. --> **När man växte upp som en flicka** så var det väldigt många orättvisor man fick vänja sig vid.
  
- * hon fortsätter att skriva om **att inte avskaffa den obligatoriska svenskan på skolan är fördel för ungomar** --> hon fortsätter skriva om **att det är en fördel för ungdomarna att inte avskaffa den obligatoriska svenskan**
+ * Hon fortsätter att skriva om **att inte avskaffa den obligatoriska svenskan på skolan är fördel för ungomar** --> hon fortsätter skriva om **att det är en fördel för ungdomarna att inte avskaffa den obligatoriska svenskan**.
  
  ---
  
