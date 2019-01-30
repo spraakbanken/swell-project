@@ -96,6 +96,9 @@ The SweLL-taxonomy further cantain eight morfological codes.
 _corrections regarding the use of definite/indefinite form, applies also to a missing/redundant article. If there are sevaral corrections within the same noun phrase, e.g. article + adjective + noun, they are to be tagged individually._
   * Example (see also code book): 
   
+  ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/M-DEF.png)
+  
+
  
 ## M-F
 _something about can do here_
