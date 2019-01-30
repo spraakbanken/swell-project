@@ -664,7 +664,8 @@ _Problematic syntactical construction
 
  * **Att växa upp som en flicka** så var det väldigt många orättvisor man fick vänja sig vid. --> **När man växte upp som en flicka** så var det väldigt många orättvisor man fick vänja sig vid.
  
-
+ ---
+ 
 ## X (intelligebility) 
 
 _Impossible to interpret the writer’s intention with a word, phrase or sentence. Some wild guess may be added, but not necessarily._
