@@ -286,7 +286,7 @@ _Missing content word_
 
 **Examples**
 
-examples needed here!
+ * **Hon fördelen med att behålla** den obligatoriska svenskan --> hon **beskriver fördelen** med att behålla den obligatoriska svenskan.
                       
 
 ---
@@ -666,6 +666,8 @@ _Problematic syntactical construction
 **Exaples**
 
  * **Att växa upp som en flicka** så var det väldigt många orättvisor man fick vänja sig vid. --> **När man växte upp som en flicka** så var det väldigt många orättvisor man fick vänja sig vid.
+ 
+ * hon fortsätter att skriva om **att inte avskaffa den obligatoriska svenskan på skolan är fördel för ungomar** --> hon fortsätter skriva om **att det är en fördel för ungdomarna att inte avskaffa den obligatoriska svenskan**
  
  ---
  
