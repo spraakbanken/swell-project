@@ -177,11 +177,25 @@ The SweLL-taxonomy contains six codes regarding syntactical corrections
 
 ### S-adv
 
-_Applies to ALL word oder corrections involving adverbial placement -  placement of sentence adverbial in relation to finite verb and all other kinds of missplaced adverbials (see code book and example below).
+_Applies to ALL word oder corrections involving adverbial placement -  placement of sentence adverbial in relation to finite verb and all other kinds of missplaced adverbials (see code book and examples below).
 
-* Example:
+**Examples:**
 
- ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/S-ADV.png)
+  * Jag **ofta är vaken** länge på kvällarna. → Jag **är ofta vaken** länge på kvällarna.
+
+  * ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/S-ADV.png)
+  
+ ---
+ 
+### S-CON
+
+_Applies to problematic syntactical comstructions, whwre the deviation is more complex and therefore not covered of one of the other syntactical taggs (see code book and exemple below)_
+
+**Example:**
+
+ * * ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/S-CON.png)
+ 
+ ---
 
 ### S-Msubj vs L-M/(S-M?)
 
