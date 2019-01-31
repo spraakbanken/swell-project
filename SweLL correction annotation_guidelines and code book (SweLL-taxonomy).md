@@ -76,11 +76,13 @@ _Wrong content word/phrase. Includes even phrasal verbs, reflexives with missing
 
 _L-FL applies to the use of an **existing** non-swedish word, i.e. a foreign word that is NOT conventionally used in Swedish and can be identified as an existing word in another language. Naturally annotators will not be able to identify all such cases, since we cannot expect them to be competent in all relevant languages, but it is still relevant to mark cases where possible_
 
-## L or L-FL?
+## O or L-FL?
 
 _Crosslinguistic infuence lexical that can be indentified from the context but where the writer has formed a "Swedish" word from e.g. an Englinsh stem (see example below) is marked as L (wrong word), NOT L-FL_
 
 [insert illutrated example --> busiga --> buisy här!]
+
+![](https://ws.spraakbanken.gu.se/ws/swell/png?Du%20kan%20g%C3%A5%20och%20ha%3AL%20kaffee%3AO%20p%C3%A5%20fritiden%20eller%20can%3AO%3AS-finV%20du~du%20bjuda%20de%3AM-CASE%20p%C3%A5%20middagen%3AM-DEF%20p%C3%A5%20helgen%20.%2F%2FDu%20kan%20g%C3%A5%20och%20dricka%20kaffe%20p%C3%A5%20fritiden%20eller%20du~du%20kan%20bjuda%20dem%20p%C3%A5%20middag%20p%C3%A5%20helgen%20.)
 
 
 ## Morfological codes (8)
