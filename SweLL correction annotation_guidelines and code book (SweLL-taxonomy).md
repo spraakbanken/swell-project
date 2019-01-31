@@ -189,7 +189,7 @@ _Applies to ALL word oder corrections involving adverbial placement -  placement
  
 ### S-CON
 
-_Applies to problematic syntactical comstructions, whwre the deviation is more complex and therefore not covered of one of the other syntactical taggs (see code book and exemple below)_
+_Applies to problematic syntactical comstructions, whwre the deviation is more complex and therefore not covered of one of the other syntactical taggs (marked as OBS! in exemple below!)_
 
 **Example:**
 
