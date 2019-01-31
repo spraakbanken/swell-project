@@ -804,6 +804,20 @@ _Error that cannot be categorized according to other codes_
 
 ---
 
+### S-adv
+
+ * ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/S-ADV.png)
+
+
+
+---
+
+### S-con (under OBS!-taggen)
+
+* ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/S-CON.png)
+
+---
+
 ### S-finV
 
   * ...eller **det skapar kontakter** och trivs ? --> ...eller **skapar de kontakter** och trivsel ?
