@@ -101,7 +101,7 @@ _corrections regarding the use of definite/indefinite form, applies also to a mi
 
  
 ## M-F
-_something about can do here_
+_Applies to deviant paradigm selection, where the learner has chosen the correct grammatical category. This makes it possible to mark certain cases where the learner has acquired partial knowledge of the target language system but not something about can do here_
 
 ## M-NUM
 _corrections regarding the deviations in number agreement  can apply  to single words or groups of words. Mark elements that should agree with each other, if they are not “separated”![förtydliga!!]_
@@ -163,8 +163,8 @@ This code is only to be used where other punctuation codes cannot be applied, i.
 
 The SweLL-taxonomy contains six codes regarding syntactical corrections
 
-* S-adv (word order error involving adverbial placement)
-* S-finV (word order error with finite verb placement)
+* S-adv (word order correction involving adverbial placement)
+* S-finV (word order correction with finite verb placement)
 * S-Msubj (subject missing)
 * S-M (grammatical word missing, e.g. particle, prepositioner, reflexive pronoun, connector, auxiliry verbs[??])
 * S-R (word or phrase redundant)
@@ -174,6 +174,14 @@ The SweLL-taxonomy contains six codes regarding syntactical corrections
 ---
 
 ### Some specific guidelines regarding syntatical corrections
+
+### S-adv
+
+_Applies to ALL word oder corrections involving adverbial placement -  placement of sentence adverbial in relation to finite verb and all other kinds of missplaced adverbials (see code book and example below).
+
+* Example:
+
+ ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/S-ADV.png)
 
 ### S-Msubj vs L-M/(S-M?)
 
@@ -447,7 +455,7 @@ _Ambigeous cases with several interpretaions  - to be applied when there is no c
 
 ### M-VERB
 
-_Covers deviations in the verb phrase, i.e. aspect, tempus, modus_
+_Covers deviations in the verb phrase, i.e. aspect, tempus, modus, that is not covered by one of the morpholocal subcategories (M-CASE, M-NUM, M-F)._
 
 **Examples**
 
