@@ -33,6 +33,7 @@ To show the alignment between the source text and the correction you sometimes n
 
  * compound verb forms
  * multi word expresseions
+   --> specificera vilka här!
  * extendes noun phrases
  * word order deviations involving e.g. multiword adverbials.
  
