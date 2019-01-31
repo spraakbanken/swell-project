@@ -33,7 +33,7 @@ To show the alignment between the source text and the correction you sometimes n
 
  * compound verb forms
  * multi word expresseions
-   --> specificera vilka här!
+   --> if the actual expression is well formed but used in a deviant way.
  * extendes noun phrases
  * word order deviations involving e.g. multiword adverbials.
  
@@ -52,7 +52,7 @@ _This code covers necessary (follow-up) corrections in the text that come as a r
 
 The correction-taxonomy contains six (?) diffent codes for lexical corrections. 
 
-* L (wrong word or phrase)
+* L-W (wrong content word or phrase)
 * L-DER (Deviant existisng (!) derivational affix used) 
 * L-FL (non-swedish word)
 * L-ID (corrections with respect to idiomatic expressions)
@@ -63,9 +63,9 @@ The correction-taxonomy contains six (?) diffent codes for lexical corrections.
 
 ### Some specific guiudelines regarding lexical corrections
 
-## L
+## L-W
 
-_Includes even phrasal verbs, reflexives with missing particle/reflexive marker, and multiword prepositions_.
+_Wrong content word/phrase. Includes even phrasal verbs, reflexives with missing particle/reflexive marker, and multiword prepositions_.
 
  *Example (see also code book):
  
@@ -110,13 +110,17 @@ _corrections regarding the use of definite/indefinite form, applies also to a mi
   
   ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/M-DEF.png)
   
-
+ ---
  
 ## M-F
 _Applies to deviant paradigm selection, where the learner has chosen the correct grammatical category. This makes it possible to mark certain cases where the learner has acquired partial knowledge of the target language system but not something about can do here_
 
+---
+
 ## M-NUM
 _corrections regarding the deviations in number agreement  can apply  to single words or groups of words. Mark elements that should agree with each other, if they are not “separated”![förtydliga!!]_
+
+---
 
 ## M-other
 _This code is to be applied when there is no convincing arguments for any  other morphological code._ 
@@ -214,6 +218,12 @@ _Applies to problematic syntactical comstructions, whwre the deviation is more c
 _[Here we need to adress the possible overlap/ambiguity between the lexical and syntactical codes when it comes to missing words/syntactical functions]
 
 ---
+
+### S-W
+
+Wrong function word, e.g. preposition (also multiword presposition), auxilary verb; particle and reflexive marker_.
+
+
 
 ## Intelligebility (1)
 ---
@@ -690,6 +700,12 @@ _Word or phrase redundant_
   * De nya kommunikationssätten har **medfört med stora möjligheter** --> De nya kommunikationssätten har **medfört stora möjligheter**
 
   * … sociala medier blev en essentiell del av våra liv **som vi inte kan slänga det** i den moderna världen --> … sociala medier blev en essentiell del av våra liv **som vi inte kan slänga** i den moderna världen
+
+---
+
+### S-W
+
+
 
 ---
 
