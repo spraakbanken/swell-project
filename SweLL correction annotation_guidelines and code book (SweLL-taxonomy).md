@@ -26,6 +26,17 @@ If the links between source text (original) and target text (normalized) are wro
 ### More than one correction type within the same segment
 
 If the same text segment contains more that one correction type, add all tags that are necessary.
+
+### Grouping av tokens
+
+To show the alignment between the source text and the correction you sometimes need to group token together. That is done by first marking all the token you want to group and then clicking the "group" butten on the meny to the left. Examples tokens that need to be grouped are
+
+ * compound verb forms
+ * multi word expresseions
+ * extendes noun phrases
+ * word order deviations involving e.g. multiword adverbials.
+ 
+ ---
   
 ---
 
