@@ -424,8 +424,6 @@ _Deviant paradigm selection, but correct grammatical category_
    
    * Jag vill ha **högare** lön. --> Jag vill ha **högre** lön.
    
-   * X-stad är **närmere**. --> X-stad är **närmare**.
-   
    * I Sverige är **mer kalt** än xxx --> I Sverige är det **kallare** än i xxx
 
 ---
