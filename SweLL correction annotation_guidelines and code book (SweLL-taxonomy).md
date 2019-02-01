@@ -29,15 +29,8 @@ If the same text segment contains more that one correction type, add all tags th
 
 ### Grouping of tokens
 
-To show the alignment between the source text and the correction you sometimes need to group token together. That is done by first marking all the token you want to group and then clicking the "group" butten on the meny to the left. Examples of tokens that need to be grouped are
-
- * compound verb forms
- * multi word expresseions
-   --> if the actual expression is well formed but used in a deviant way.
- * extendes noun phrases
- * word order deviations involving e.g. multiword adverbials.
+To show the alignment between the source text and the correction you sometimes need to group token together. That is done by first marking all the tokens (for Mac: hold shift!) you want to group and then clicking the "group" butten on the meny to the left. 
  
- ---
   
 ---
 
@@ -108,10 +101,22 @@ The SweLL-taxonomy further cantain eight morfological codes.
 ### Some specific guidelines regarding morfological correction
 
 ## M-DEF
-_corrections regarding the use of definite/indefinite form, applies also to a missing/redundant article. If there are sevaral corrections within the same noun phrase, e.g. article + adjective + noun, they are to be tagged individually. Use of pronoun i objectsform instead of definite article (dem-de) is also interpreted as an M-DEF-correction_
-  * Example (see also code book): 
+_corrections regarding the use of definite/indefinite form, applies also to a missing/redundant article. If there are sevaral corrections within the same noun phrase, e.g. article + adjective + noun, they are to be tagged individually._ 
+
+  * Example: 
   
   ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/M-DEF.png)
+
+
+If the learner has produced a congruent definate/indefinate noun phrase but used it in the wrong context, the main word in the phrase is tagged as an M-DEF-correcten and the changes in it's determiners are tagged as consequence- corrections (C)._
+
+ *Example:
+ 
+ 
+ Use of pronoun i objectsform instead of definite article (dem-de) is also interpreted as an M-DEF-correction._
+
+ * Example:
+
   
  ---
  
