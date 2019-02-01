@@ -58,6 +58,7 @@ The correction-taxonomy contains six (?) diffent codes for lexical corrections.
 * L-ID (corrections with respect to idiomatic expressions)
 * L-M (missing content word)
 * L-Ref (reference correction)
+* L-R (content word redundant)
   
 ---
 
@@ -85,7 +86,7 @@ _Crosslinguistic infuence lexical that can be indentified from the context but w
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?Du%20kan%20g%C3%A5%20och%20ha%3AL%20kaffee%3AO%20p%C3%A5%20fritiden%20eller%20can%3AO%3AS-finV%20du~du%20bjuda%20de%3AM-CASE%20p%C3%A5%20middagen%3AM-DEF%20p%C3%A5%20helgen%20.%2F%2FDu%20kan%20g%C3%A5%20och%20dricka%20kaffe%20p%C3%A5%20fritiden%20eller%20du~du%20kan%20bjuda%20dem%20p%C3%A5%20middag%20p%C3%A5%20helgen%20.)
 
 
-## Morfological codes (8)
+## Morfological codes (7)
   
 ---
 
@@ -363,6 +364,16 @@ This error code is used to mark for example gender error in personal pronouns, a
    * Jag har en bror, **hon** heter xx → Jag har en bror, **han** heter xx.
    * Stämmer det att **våra sociala media** skapar individualism och ensamhet ? Eller **det** skapar  kontakter och trivs? --> Eller skapar **de** kontakter...  
    
+---
+
+### L-R
+
+_Redundant content word_
+
+**Examples**
+
+[in här] 
+
 ---
 
 ## Morfological codes (8)
