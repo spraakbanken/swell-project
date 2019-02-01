@@ -107,7 +107,7 @@ The SweLL-taxonomy further cantain eight morfological codes.
 ### Some specific guidelines regarding morfological correction
 
 ## M-DEF
-_corrections regarding the use of definite/indefinite form, applies also to a missing/redundant article. If there are sevaral corrections within the same noun phrase, e.g. article + adjective + noun, they are to be tagged individually._
+_corrections regarding the use of definite/indefinite form, applies also to a missing/redundant article. If there are sevaral corrections within the same noun phrase, e.g. article + adjective + noun, they are to be tagged individually. Use of pronoun i objectsform instead of definite article (dem-de) is also interpreted as an M-DEF-correction_
   * Example (see also code book): 
   
   ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/M-DEF.png)
