@@ -71,5 +71,3 @@
 ## B12BT1 Mats+Julia
 
 ![](https://spraakbanken.github.io/swell-project/b12bt1mj.png)
-
-## B12BT1 Mats+Julia
