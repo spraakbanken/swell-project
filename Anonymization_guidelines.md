@@ -157,9 +157,11 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       
 
 ### 14. Extra (something else, not covered but the previous categories)
-  * Description: < oblig >, < nonoblig >
-   - < oblig > need to be replaced because of sensitivity
-   - < nonoblig > might be sensitive and replaced later
+  * By default we consider all "Extra" tags as obligatory to pseudonymize. However, the intention is to re-evaluate the category after the initial anonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". (!In that case, the following could apply:
+  
+  !Description: < oblig >, < nonoblig >
+  ! - < oblig > need to be replaced because of sensitivity
+  ! - < nonoblig > might be sensitive and replaced later)
 
 ### 15. Mark up but do not pseudonymize: 
   * Profession < prof >
@@ -171,8 +173,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
  
   * Sensitive information < sensitive >
       - Descriptor: 
-        * e.g. political or religious views, number of siblings, family members 
-  * Markup: assign a single "sensitive" @placeholder (or should we have one pre token? )
+        * e.g. political or religious views, sexual or racial information, number of siblings, family members 
+  * Markup: assign a single "sensitive" @placeholder to one (most indicative?) token per sentence. By default we assume that the whole sentence should be examined before the essay is published for the research community. 
 
       Example: 
       
