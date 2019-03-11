@@ -171,11 +171,12 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       - < prof > profession
       - < edu > education 
       
- ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
+![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
  
   * Sensitive information < sensitive >
       - Descriptor: 
         * e.g. political or religious views, sexual or racial information, number of siblings, family members 
+  
   * Markup: assign a single "sensitive" @placeholder to one (most indicative?) token per sentence, e.g. "glad" in the example below. By default we assume that the whole sentence should be examined before the essay is published for the research community. 
 
       Example: 
@@ -184,7 +185,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 -->
 
-*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och **< sensitive > **. 
+*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket **glad < sensitive >** för att det var första dag ser vi en fri demstration*. 
 
 
 ### 16. Comments < OBS! >
