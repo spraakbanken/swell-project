@@ -157,11 +157,11 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       
 
 ### 14. Extra (something else, not covered but the previous categories)
-  * By default we consider all "Extra" tags as obligatory to pseudonymize. However, the intention is to re-evaluate the category after the initial anonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". (!In that case, the following could apply:
+  * By default we consider all "Extra" tags as obligatory to pseudonymize. However, the intention is to re-evaluate the category after the initial anonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". [//]: # (In that case, the following could apply:
   
-  !Description: < oblig >, < nonoblig >
-  ! - < oblig > need to be replaced because of sensitivity
-  ! - < nonoblig > might be sensitive and replaced later)
+  [//]: # Description: < oblig >, < nonoblig >
+  [//]: #  - < oblig > need to be replaced because of sensitivity
+  [//]: #  - < nonoblig > might be sensitive and replaced later)
 
 ### 15. Mark up but do not pseudonymize: 
   * Profession < prof >
