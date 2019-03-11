@@ -177,7 +177,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       - Descriptor: 
         * e.g. political or religious views, sexual or racial information, number of siblings, family members 
   
-  * Markup: assign a single "sensitive" @placeholder to one (most indicative?) token per sentence, e.g. "glad" in the example below. By default we assume that the whole sentence should be examined before the essay is published for the research community. 
+      - Markup: assign a single "sensitive" @placeholder to one (most indicative?) token per sentence, e.g. "glad" in the example below. By default we assume that the whole sentence should be examined before the essay is published for the research community. 
 
       Example: 
       
