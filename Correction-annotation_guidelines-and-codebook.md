@@ -275,7 +275,7 @@ _This code covers necessary (follow-up) corrections in the text that come as a r
   Vi replace _bostad_ (non-neuter word) with _bostadsområde_ (neuter word), which influences the choice of pronoun _min_ (non-neuter) versus _mitt_ (neuter) according to the gender agreement rules.
 
 ---
-## Lexical codes (6)
+## Lexical codes (4)
 ---
 
 ### L
