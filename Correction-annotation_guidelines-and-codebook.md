@@ -595,7 +595,7 @@ Only to be used where other punctuation codes cannot be applied._
   *  Merging full stops with tokens before and/or after: **.tack** --> **. Tack**
   
 ---
-## Syntactical codes (6)
+## Syntactical codes (8)
 ---
 
 ### S-adv
