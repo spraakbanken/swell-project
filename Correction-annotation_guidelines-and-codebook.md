@@ -334,30 +334,7 @@ Even if it similar to a Swedish word and only the spelling is different.
    * Det fanns flera rum, två kök, **balkony** och trädgård → det fanns flera rum, två kök, **balkong**  och trädgård.
    
 ---
-### L-ID
 
-_Idiomaticity_ 
-
-Covers deviations with respect to idiomatic expressions. Can stretch over groups of words. Nothing exactly is wrong, but "you don't say so " in Swedish.
-
-**Examples**
-
-   * Arbetstagare är också stressade av **mycket arbetsbelastning** →  Arbetstagare är också stressade av **hög arbetsbelastning**
-
-   * ...genom att **göra vissa åtgärder** → ...genom att **vidta vissa åtgärder** 
-
-   * .. människor måste **hålla sig i takt med** utvecklingen. --> … människor måste **gå i takt med** utvecklingen.
----
-### L-M 
-
-_Missing content word_
-
-**Examples**
-
- * **Hon fördelen med att behålla** den obligatoriska svenskan --> hon **beskriver fördelen** med att behålla den obligatoriska svenskan.
-                      
-
----
 ### L-REF
 
 _Reference error_
@@ -371,15 +348,6 @@ This error code is used to mark for example gender error in personal pronouns, a
    
 ---
 
-### L-R
-
-_Redundant content word_
-
-**Examples**
-
-[in här] 
-
----
 
 ## Morfological codes (8)
   
@@ -649,6 +617,16 @@ _Word order error involving adverbial placement_
 
 ---
 
+### S-COMP
+
+_Diviations regarding the choice between multiword expressions and compounds - including phrasel verbs_
+
+**Example**
+
+ * **det vardagliga livet** -->  **vardagslivet**
+ * **livsskillnaden** --> **skillnaden i liv** 
+ * **svenska undervisningar** --> **svenskundervisning**
+
 ### S-finV
 
 _Word order error with finite verb placement_
@@ -683,11 +661,12 @@ _Subject missing_
 ---
 
 ### S-M
-
-_Grammatical word missing, e.g. particle, prepositions, reflexive pronoun, connector, auxiliry verbs - not including def/indef articles (see M-DEF)!_
+_word missing - not including def/indef articles (see M-DEF)!_
 
 **Examples**
 
+  * **Hon fördelen med att behålla** den obligatoriska svenskan --> hon **beskriver fördelen** med att behålla den obligatoriska svenskan.
+               
   * Sådana känslor **gör användaren mår dåligt** -->	Sådana känslor gör **att användaren mår dåligt**
 
   * [L-M?] Jag gillar inte tapeterna i min kusins lägenhet men **han inte byta dem** eftersom det är hyresrätt → ...**han får/kan inte byta dem**...
@@ -718,12 +697,6 @@ _Word or phrase redundant_
   * De nya kommunikationssätten har **medfört med stora möjligheter** --> De nya kommunikationssätten har **medfört stora möjligheter**
 
   * … sociala medier blev en essentiell del av våra liv **som vi inte kan slänga det** i den moderna världen --> … sociala medier blev en essentiell del av våra liv **som vi inte kan slänga** i den moderna världen
-
----
-
-### S-W
-
-
 
 ---
 
