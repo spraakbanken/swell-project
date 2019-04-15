@@ -71,7 +71,7 @@ Sometimes students can be very creative and “invent” their own letters (see 
 
 In the case, if there is no way to reflect that letter in writing, choose the closest one in shape, keeping to the positive assumption described in 5. For example, in the second example in Fig.3, the options could be o and å, but å holds the positive assumption, så the transcribed version should contain the word _går_. 
 
-If there is no way you can report a corresponding "created" letter, use dollar-sign $ as if it is an intelligeble letter.
+If there is no way you can report a corresponding "created" letter, use dollar-sign $ as if it is an unintelligeble letter.
 
 ![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_newLetters3.png)
 
