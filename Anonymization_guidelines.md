@@ -1,6 +1,8 @@
-# Anonymization guidelines
+# Pseudonymization guidelines
 
-The purpose of anonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, areas, cities, or political, religious and other views and need to be replaced or overseen to ensure anonymity. Your task is to 1) identify all information that can relate to the specific person who wrote the text, and categorize what type of information it is so that the person can be de-identified by changing/hiding the specific information. This document contains instructions for how to proceed. 
+The purpose of anonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, areas, cities, or political, religious and other views and need to be replaced or overseen to ensure anonymity. Your task is to 1) identify all information that can relate to the specific person who wrote the text, and categorize what type of information it is so that the person can be de-identified by changing/hiding the specific information. The replacement of the personal information is performed automaticaly given the assigned label. 
+
+This document contains instructions for how to proceed. 
 
 ## Basic principles
 
@@ -211,7 +213,7 @@ Jag heter Mohammed och bor i Göteborg. Jag flyttade till Sverige för 1 år sed
 
 ## Details about geonames (from mail med SweLLers, 3 april 2018): 
 
-För att anonymisera ”platserna”, kan vi använda  http://www.geonames.org
+För att pseudonymisera ”platserna”, kan vi använda  http://www.geonames.org
 
 Det finns en hel del info och zip-filer där, så klicka på ”info”-länken (eller använd länken nedan) för att läsa förklaringar
 http://download.geonames.org/export/dump/readme.txt
@@ -225,7 +227,7 @@ Det verkar att de mest användbara listorna (för oss) är:
 * alternateNamesV2.zip (innehåller städer över hela världen. Om man filtrerar på koden ”se” (eller ”sv”?) så får man städer med svensk ortografi
 * cities1000.zip (här listas alla städer med invånare över 1000, samt också vilket land de tillhör/country codes, men de listas med alla möjliga skrift, så vi behöver använda denna fil ihop med alternateNamesV2.zip och matcha på geonameid)
 
-Vi behöver leka lite med dessa filer. Enligt info-länken, så fins det även koder för kontinenter, till exempel. Filerna är superstora, så dator kan lätt hänga sig om man försöker öppna filerna…
+Vi behöver leka lite med dessa filer. Enligt info-länken, så finns det även koder för kontinenter, till exempel. Filerna är superstora, så dator kan lätt hänga sig om man försöker öppna filerna…
 Jag klistrar in denna info till vårt anonymiserngsdokument.
 
 ## Details about personal names (from mail med Markus, 28 mars 2018): 
