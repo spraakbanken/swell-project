@@ -202,6 +202,9 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 religion, ethnicity, sexual orientation, political views, events that might reveal a person, physical and mental disabilities
 Number of siblings, family members
 
+## Information about languages spoken by the writer is not psedonymized
+Although information about languages spoken by the writer may help identifying the writer, such information is not pseudonymized, since this information is nevertheless included in the metadata which will be available for the corpus users.
+
 ## To be included: 
 Examples
 Original:
