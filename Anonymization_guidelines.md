@@ -179,15 +179,17 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       - Descriptor: 
         * e.g. political or religious views, sexual or racial information, number of siblings, family members 
   
-      - Markup: assign a single "sensitive" @placeholder to one (most indicative?) token per sentence, e.g. "glad" in the example below. By default we assume that the whole sentence should be examined before the essay is published for the research community. 
+      - Markup: assign a "sensitive" @placeholder to at least one token per sentence. When deciding which and how many tokens to mark with the “sensitive” label, a guiding principle is that pseudomization of the marked tokens could potentially suffice. However, the whole sentence will be reviewed later on before final decisions about these pseudonymizations are made, and fewer rathen than more tokens shold be marked. A possible solution for the example below is to mark the tokens “glad”, “fri” and “demstration”.
+      
+      - Note: Senstive information which could be covered by other pseudonymization categories should be assigned these other labels, e.g. “Turkiet” and “Ardogan” in the example below.
 
       Example: 
       
-*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket **glad** för att det var första dag ser vi en fri demstration*. 
+*I en dag såg vi en stor demstration det var för mycket människor vill inte **Turkiets < country, genitive >** statsminister **Ardogan < surname >** och vi kände mycket **glad** för att det var första dag ser vi en **fri** **demstration***. 
 
 -->
 
-*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket **glad < sensitive >** för att det var första dag ser vi en fri demstration*. 
+*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket **glad < sensitive >** för att det var första dag ser vi en **fri < sensitive >** **demstration < sensitive >***. 
 
 
 ### 16. Comments < OBS! >
