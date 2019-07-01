@@ -20,21 +20,21 @@ This document contains instructions for how to proceed.
 
 5. Categories that can be used for discrimination, such as political views, religious convictions, sexual orientation, should also be marked - but not necessarily masked right away? A decision would need to be made by an annotator. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
-## Supra-categories : <span style="color:red">[NEW]</span>
+## Supra-categories 
 
 May be applied on top of other categories, as (extra)linguistic information. Only marked forms are tagged, i.e. genitive case is marked, whereas common case - not (by default everything is assumed to have common case).
 
-### Running numbers: <span style="color:red">[NEW]</span>
+### Running numbers
 Applies to all named entities (NE) and their *@placeholders*. Each unique named entity type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. At the moment this should be done manually. 
 
-**NEED A PICTURE HERE**
+<**NEED A PICTURE HERE**>
 
 ### Morphology: 
  * Case: < genitive > , e.g. Volvos
  * Form: < definite > , e.g. Statsbiliotekets <span style="color:red">[NEW]</span>
  * Number: < plural > , e.g. Mölndalsbor <span style="color:red">[NEW]</span>
  
- **NEED A PICTURE HERE**
+ <**NEED A PICTURE HERE**>
 
 ## Pseudonymize: 
 
