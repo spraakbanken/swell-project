@@ -30,9 +30,9 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 <**NEED A PICTURE HERE**>
 
 ### Morphology: 
- * Case: < genitive > , e.g. Volvos
- * Form: < definite > , e.g. Statsbiliotekets <span style="color:red">[NEW]</span>
- * Number: < plural > , e.g. Mölndalsbor <span style="color:red">[NEW]</span>
+ * Case: < gen > , e.g. Volvos
+ * Form: < def > , e.g. Statsbiliotekets <span style="color:red">[NEW]</span>
+ * Number: < pl > , e.g. Mölndalsbor <span style="color:red">[NEW]</span>
  
  <**NEED A PICTURE HERE**>
 
@@ -41,11 +41,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 ### 1. Personal Names: 
 
 
-  * Types: < firstname > , < middlename > , < surname > , < ini >
+  * Types: < firstname_male > , < firstname_female > , < firstname_unknown > , < middlename > , < surname > , < initials >
   * < firstname > vs < surname > are sometimes difficult to distinguish between. In uncertain cases, follow the standard Swedish order: < firstname > < middlename > < surname >
-  * Descriptor:
-      - Gender: male, female, unknown < m > , < f > , < unk > <!--       - Case: genitive < gen > -->
-      <!-- - Initial:  < ini > -->
    
 <!--     - Running number:  1, 2…   [enumerate each unique name type entity with a number starting with 1] -->
 
@@ -68,7 +65,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 ### 2. Geographic data (country, city, zip codes, area names, …)
   * Types: <!-- < country_of_origin > , -->
-  < country > , < geo > , < zip_code > , < region > , < city-SWE > , < city > , < area > , < place > , < street_nr >
+  < country > , < geo > , < zip_code > , < region > , < city_swe > , < city > , < area > , < place > , < street_nr >
        - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal
        - < country > : except Sweden
        - < city > : city including villages (på svenska “ort”)    
@@ -105,23 +102,23 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       
 <!--      - **_Do we need to replace "tunnelbana" och "buss-stationer" in the following context: "Det finns en tunnelbana , heter XXX och många buss-stationer nära" (Elena, A18AT1)? They seem to be generally descriptive, though probably can help identify the city that the person lives in. If yes, how do we represent "plural" in "buss-stationer"?_** -->
 
-### 5. Age: < age-digits >, < age-string >
+### 5. Age: < age_digits >, < age_string >
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20
-      - The same as above applies to < age-string > , rendered in strings. In that case the assistant should manually edit the original file and change a string into a corresponding number, e.g. "arrton" -- > "18". The automatic rendering will apply in the same way as in < age-digits > (but spellt out, maybe?)
+      - The same as above applies to < age_string > , rendered in strings. In that case the assistant should manually edit the original file and change a string into a corresponding number, e.g. "arrton" -- > "18". The automatic rendering will apply in the same way as in < age_digits > (but spellt out, maybe?)
       - **_??? There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. We need to have an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Added as an issue for anonymization tool. (Elena, A10AT1) ???_**
          
 
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
-  * Types: < day > , < month-digit >, < month-word >, < year >, < date-digits >. Keep the delimiters as in original (, . - /)
+  * Types: < day > , < month_digit >, < month_word >, < year >, < date_digits >. Keep the delimiters as in original (, . - /)
   <!-- * Descriptor: --> 
   * Pseudonymization: 
       - < day > - > random number between 1-28
-      - < month-digit > - > random replace 1-12
-      - < month-word > - > random replace: januari, februari, ...
+      - < month_digit > - > random replace 1-12
+      - < month_word > - > random replace: januari, februari, ...
       - < year > - > 5-year interval: e.g. 2013 is replaced by a random number from a range of numbers (+ - 2), i.e. 2011-2015
-      - < date-digits > - used for all dates that are written as a sequence of numbers with delimiters. Replace all numbers with "1" and keep delimiters, e.g.   
+      - < date_digits > - used for all dates that are written as a sequence of numbers with delimiters. Replace all numbers with "1" and keep delimiters, e.g.   
          * 2018-12-01 --> @date_digits --> 1111-11-11
          * 18/01/12 -->  @date_digits --> 11/11/11 
          * 180112 --> @date_digits --> 111111
