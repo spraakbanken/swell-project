@@ -1,41 +1,36 @@
 # Instruktioner för SweLL-kiosken
 
+**TODO**: Dubbelkolla att detaljerna i instruktionerna stämmer.
+
 ## Uppstart
 
-Stäng av datorn och anslut USB-dosan med SweLL-kiosken på. Sätt på
-datorn och välj att starta från USB-dosan. Denna bör identifieras som
-Sandisk Ultra, och om det finns fler sådana att välja på så börjar du
-med den första. Hur du väljer startmedium beror på vilken typ av dator
-du har. Mer information finns nedan.
+Starta datorn och logga in med det lösenord som är förknippat med den datorn.
 
-### PC
+Om inte kioskportalen öppnas automatiskt, gå in i programmenyn och starta *SweLL kioskportal*.
+Det är en genväg till sidan *http://localhost:8000/* som öppnas i webbläsaren Chromium.
 
-#### HP
+## Transkribera på kioskdatorn
 
-Tryck ner *Esc* när du sätter på datorn. Välj därefter startmeny
-(*F9*).
+Skriv i programmet *Textredigerare* och spara som *(uppsats-ID).txt* (t ex *A1AT1.txt*) i katalogen */usr/local/swell/essays*.
 
-### Mac
+## Överföra uppsatser från USB-minne
 
-Tryck ner *⌥* (*Option*) när du startar datorn.
+Anslut ett USB-minne till datorn.
+Öppna minnet i utforskaren och kopiera uppsatser till */usr/local/swell/essays*.
+Filnamnen måste följa mönstret *(uppsats-ID).txt* (t ex *A1AT1.txt*).
 
-## Kopiera uppsatser till kioskdatorn
+## Importera uppsatser till kioskportalen
 
-Anslut ett USB-minne till datorn och följ instruktionerna som visas på
-skärmen.
+Öppna kioskportalen och klicka på *Importera*.
 
-## Ansluta USB-minnen för andra ändamål
-
-Om du ansluter ett USB-minne och svarar *Nej* på frågan om du vill
-kopiera uppsatser till kioskdatorn så kan du använda USB-minnet för
-andra ändamål, t ex att kopiera en skärmdump till en annan
-dator. Detta gör du isf via filhanteraren (*Filer*).
+Originalfilerna för de importerade uppsatserna flyttas till */usr/local/swell/originals*.
 
 ## Ersätta importerad uppsats
 
-När du importerar en uppsats med ett redan existerande *essay-ID* så
-ersätts den tidigare versionen, inklusive de anonymiseringar du redan
-har gjort.
+Gå till sidan *Uppgifter* i kioskportalen.
+Om du har påbörjat anonymisering av uppsatsen, klicka först på *Återställ*.
+Klicka sedan på *Ta bort*.
+Lägg den relevanta originalfilen i */usr/local/swell/essays* (flytta tillbaka från *originals*, skriv en ny fil eller överför från USB-minne).
 
 ## Ansluta till nätverk
 
