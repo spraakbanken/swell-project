@@ -23,14 +23,22 @@ Filnamnen måste följa mönstret *(uppsats-ID).txt* (t ex *A1AT1.txt*).
 
 Öppna kioskportalen och klicka på *Importera*.
 
+Under importen görs tokenisering av texten, vilken innebär att mellanrum infogas omkring skiljetecken, och att tecknet ␤ ersätter radbrytningar.
+
 Originalfilerna för de importerade uppsatserna flyttas till */usr/local/swell/originals*.
+
+## Anonymiseringarbete
+
+1. Öppna sidan *Uppgifter* i kioskportalen.
+2. Klicka på *Påbörja* vid en uppgift. Uppgiften öppnas i redigeringsverktyget Svala.
+3. Följ [anonymiseringsriktlinjerna](Anonymization_guidelines.md).
 
 ## Ersätta importerad uppsats
 
-Gå till sidan *Uppgifter* i kioskportalen.
-Om du har påbörjat anonymisering av uppsatsen, klicka först på *Återställ*.
-Klicka sedan på *Ta bort*.
-Lägg den relevanta originalfilen i */usr/local/swell/essays* (flytta tillbaka från *originals*, skriv en ny fil eller överför från USB-minne).
+1. Öppna sidan *Uppgifter* i kioskportalen.
+2. Om du har påbörjat anonymisering av uppsatsen, klicka först på *Återställ*.
+3. Klicka sedan på *Ta bort*.
+4. Lägg den relevanta originalfilen i */usr/local/swell/essays* (flytta tillbaka från *originals*, skriv en ny fil eller överför från USB-minne).
 
 ## Ansluta till nätverk
 
