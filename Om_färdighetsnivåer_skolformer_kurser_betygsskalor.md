@@ -1,7 +1,7 @@
 # Metadata om färdighetsnivåer, skolformer, kurser och betygsskalor
 Metadata om skrivuppgifter med avseende på skolformer, ämnen, kurser, provtyper och betygsskalor behandlas inte på samma sätt i de blanketter som de materialinsamlande lärarna har fyllt i som i portalen. Strukturen i portalen är den struktur som ska användas i den information om korpusen som görs tillgänglig för användarna när korpusen publiceras.
 
-I portalen ges metadata av detta slag i fyra olika fält: *Skolform*, *Kurs etc.*, *Betygsskala* samt *Nivå*.
+I portalen ges metadata av detta slag i fyra olika fält: *Skolform*, *Kurs etc.*, *Betygsskala* samt *Ungefärlig färdighetsnivå*.
 ## Skolform
 Det finns tre alternativa värden för fältet skolform i portalen: *Ungdomsgymnasiet*, *Vuxenutbildningen* och *Universitetet*.
 ## Kurs etc.
@@ -44,10 +44,10 @@ A–F	| A, B, C, D, E, F |SFI, grundläggande SVA, SVA
 SFI-inplacering	| SFI A, SFI B, SFI C, SFI D | Inplaceringsprov SFI
 Uppgiften har inte betyg |	de flesta kurstyper
 
-## Nivå
-Fältet *Nivå* anger en ungefärlig färdighetsnivå för skriven svenska som man kan anta att eleven har utifrån den kurs hen går. Dessa ungefärliga färdighetsnivåer har lagts in i metadata framför allt för att underlätta användningen av korpusen för personer som inte är helt bekanta med det svenska utbildningssystemet. Nivån anger alltså inte resultatet av ett färdighetstest e.d., utan utgår helt från en antagen ungefärlig korrelation mellan kurstyper och färdighetsnivåer.
+## Ungefärlig färdighetsnivå
+Fältet *Ungefärlig färdighetsnivå* anger en ungefärlig färdighetsnivå för skriven svenska som man kan anta att eleven har utifrån den kurs hen går. Dessa ungefärliga färdighetsnivåer har lagts in i metadata framför allt för att underlätta användningen av korpusen för personer som inte är helt bekanta med det svenska utbildningssystemet. Nivån anger alltså inte resultatet av ett färdighetstest e.d., utan utgår helt från en antagen ungefärlig korrelation mellan kurstyper och färdighetsnivåer.
 
-Det finns tre alternativa värden för fältet *Nivå*: *Nybörjare*, *Fortsättning* och *Avancerad*.
+Det finns tre alternativa värden för fältet *Ungefärlig färdighetsivå*: *Nybörjare*, *Fortsättning* och *Avancerad*.
 
 **Nybörjare** innebär elever i det svenska skolsystemet som går kurser i Svenska för invandrare i vuxenutbildningen, eller i ungdomsgymnasiets Språkintroduktion för nyanlända på de lägre nivåerna.
 
