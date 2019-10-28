@@ -1,38 +1,39 @@
 # Metadata om färdighetsnivåer, skolformer, kurser och betygsskalor
 Metadata om skrivuppgifter med avseende på skolformer, ämnen, kurser, provtyper och betygsskalor behandlas inte på samma sätt i de blanketter som de materialinsamlande lärarna har fyllt i som i portalen. Strukturen i portalen är den struktur som ska användas i den information om korpusen som görs tillgänglig för användarna när korpusen publiceras.
-I portalen ges metadata av detta slag i fyra olika fält: skolform, kurs etc., betygsskala samt nivå.
+
+I portalen ges metadata av detta slag i fyra olika fält: *Skolform*, *Kurs etc.*, *Betygsskala* samt *Nivå*.
 ## Skolform
-Det finns tre alternativa värden för fältet skolform i portalen: *undomsgymnasiet*, *vuxenutbildningen* och *universitetet*.
+Det finns tre alternativa värden för fältet skolform i portalen: *Ungdomsgymnasiet*, *Vuxenutbildningen* och *Universitetet*.
 ## Kurs etc.
-Fältet *kurs etc.* innehåller kurs- och nivåbeteckningar, men också provbeteckningar (*Inplaceringsprov SFI* och *Tisus*). Tabellen nedan visar vilka alternativ som finns för fältet kurs etc. samt de skolformer där kurserna/proven ges.
+Fältet *Kurs etc.* innehåller kurs- och nivåbeteckningar, men också provbeteckningar (*Inplaceringsprov SFI* och *Tisus*). Tabellen nedan visar vilka alternativ som finns för fältet *Kurs etc.* samt de skolformer där kurserna/proven ges.
 
 Kurs etc. | Skolform där kursen/provet ges
 --------- | ------------------------------
-Språkintroduktion för nyanlända | ungdomsgymnasiet
-Inplaceringsprov SFI | vuxenutbildningen
-SFI A	| vuxenutbildningen
-SFI B	| vuxenutbildningen
-SFI C	| vuxenutbildningen
-SFI D	| vuxenutbildningen
-Grundläggande SVA dk 1	| vuxenutbildningen
-Grundläggande SVA dk 2	| vuxenutbildningen
-Grundläggande SVA dk 3	| vuxenutbildningen
-Grundläggande SVA dk 4	| vuxenutbildningen
-SVA 1	| ungdomsgymnasiet/vuxenutbildningen
-SVA 2	| ungdomsgymnasiet/vuxenutbildningen
-SVA 3	| ungdomsgymnasiet/vuxenutbildningen
-Förberedande | universitetet
-Behörighetsgivande	| universitetet
-Tisus	| universitetet
+Språkintroduktion för nyanlända | Ungdomsgymnasiet
+Inplaceringsprov SFI | Vuxenutbildningen
+SFI A	| Vuxenutbildningen
+SFI B	| Vuxenutbildningen
+SFI C	| Vuxenutbildningen
+SFI D	| Vuxenutbildningen
+Grundläggande SVA dk 1	| Vuxenutbildningen
+Grundläggande SVA dk 2	| Vuxenutbildningen
+Grundläggande SVA dk 3	| Vuxenutbildningen
+Grundläggande SVA dk 4	| Vuxenutbildningen
+SVA 1	| Ungdomsgymnasiet/Vuxenutbildningen
+SVA 2	| Ungdomsgymnasiet/Vuxenutbildningen
+SVA 3	| Ungdomsgymnasiet/Vuxenutbildningen
+Förberedande kurs | Universitetet
+Behörighetsgivande kurs	| Universitetet
+Tisus	| Universitetet
 
 ## Betygsskala
-Fältet *betygsskala* anger vilken betygsskala som har använts vid betygsättningen av uppgiften i de fall de uppsatser som hör ihop med uppgiften har ett betyg som är tillgängligt i våra metadata.
+Fältet *Betygsskala* anger vilken betygsskala som har använts vid betygsättningen av uppgiften i de fall de uppsatser som hör ihop med uppgiften har ett betyg som är tillgängligt i våra metadata.
 
-Alternativet ”SFI-inplacering” innebär att de uppsatser som hör ihop med uppgiften har bedömts med avseende på vilken SFI-kurs som eleven har placerats in på.
+Alternativet *SFI-inplacering* innebär att de uppsatser som hör ihop med uppgiften har bedömts med avseende på vilken SFI-kurs som eleven bör placeras in på.
 
-Alternativet ”Uppgiften har inte betyg” används både i de fall då de tillhörande uppsatserna över huvud taget inte har betygsatts och i de fall uppsatserna i och för sig har betygsatts, men då uppgifter om dessa betyg saknas i våra metadata.
+Alternativet *Uppgiften har inte betyg* används både i de fall då de tillhörande uppsatserna över huvud taget inte har betygsatts och i de fall uppsatserna i och för sig har betygsatts, men då uppgifter om dessa betyg saknas i våra metadata.
 
-Tabellen nedan visar vilka alternativ som finns för fältet betygsskala, de möjliga betygen på de tillhörande uppsatserna för respektive betygsskala, samt på vilka kurstyper/provtyper respektive betygsskala används.
+Tabellen nedan visar vilka alternativ som finns för fältet *Betygsskala*, de möjliga betygen på de tillhörande uppsatserna för respektive betygsskala, samt på vilka kurstyper/provtyper respektive betygsskala används.
 
 Betygsskala |	Möjliga betyg på de tillhörande uppsatserna |	Förekommer på uppsatser från följande kurstyper/provtyper
 ---|---|---
@@ -44,9 +45,9 @@ SFI-inplacering	| SFI A, SFI B, SFI C, SFI D | Inplaceringsprov SFI
 Uppgiften har inte betyg |	de flesta kurstyper
 
 ## Nivå
-Fältet *nivå* anger en ungefärlig färdighetsnivå för skriven svenska som man kan anta att eleven har utifrån den kurs hen går. Dessa ungefärliga färdighetsnivåer har lagts in i metadata framför allt för att underlätta användningen av korpusen för personer som inte är helt bekanta med det svenska utbildningssystemet. Nivån anger alltså inte resultatet av ett färdighetstest e.d., utan utgår helt från en antagen ungefärlig korrelation mellan kurstyper och färdighetsnivåer.
+Fältet *Nivå* anger en ungefärlig färdighetsnivå för skriven svenska som man kan anta att eleven har utifrån den kurs hen går. Dessa ungefärliga färdighetsnivåer har lagts in i metadata framför allt för att underlätta användningen av korpusen för personer som inte är helt bekanta med det svenska utbildningssystemet. Nivån anger alltså inte resultatet av ett färdighetstest e.d., utan utgår helt från en antagen ungefärlig korrelation mellan kurstyper och färdighetsnivåer.
 
-Det finns tre alternativa värden för fältet nivå: *nybörjare*, *fortsättning* och *avancerad*.
+Det finns tre alternativa värden för fältet *Nivå*: *Nybörjare*, *Fortsättning* och *Avancerad*.
 
 **Nybörjare** innebär elever i det svenska skolsystemet som går kurser i Svenska för invandrare i vuxenutbildningen, eller i ungdomsgymnasiets Språkintroduktion för nyanlända på de lägre nivåerna.
 
