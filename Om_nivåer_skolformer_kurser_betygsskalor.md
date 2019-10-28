@@ -11,7 +11,8 @@ Det finns tre alternativa värden för fältet *Ungefärlig nivå*: *Nybörjare*
 
 **Fortsättning** innebär elever i det svenska skolsystemet som går kurser i svenska som andraspråk på grundläggande vux i vuxenutbildningen, eller i undomsgymnasiets Språkintroduktion för nyanlända på de högre nivåerna.
 
-**Avancerad** innebär elever i det svenska skolsystemet som går kurser i svenska som andraspråk på gymnasial vux i vuxenutbildningen eller i ungdomsgymnasiet, eller på universitetet (föreberedande eller behörighetsgivande kurs), alternativt elever som har godkänt betyg på Tisus (test i svenska för universitets- och högskolestudier).## Skolform
+**Avancerad** innebär elever i det svenska skolsystemet som går kurser i svenska som andraspråk på gymnasial vux i vuxenutbildningen eller i ungdomsgymnasiet, eller på universitetet (föreberedande eller behörighetsgivande kurs), alternativt elever som har godkänt betyg på Tisus (test i svenska för universitets- och högskolestudier).
+## Skolform
 Det finns tre alternativa värden för fältet skolform i portalen: *Ungdomsgymnasiet*, *Vuxenutbildningen* och *Universitetet*.
 ## Kurs etc.
 Fältet *Kurs etc.* innehåller kurs- och nivåbeteckningar, men också provbeteckningar (*Inplaceringsprov SFI* och *Tisus*). Tabellen nedan visar vilka alternativ som finns för fältet *Kurs etc.* samt de skolformer där kurserna/proven ges.
