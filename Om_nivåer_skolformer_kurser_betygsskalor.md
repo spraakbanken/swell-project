@@ -52,4 +52,4 @@ G/U |	Godkänd (G), Underkänd (U) |Tisus, de flesta universitetskurser (förber
 VG/G/U | Väl godkänd (VG), Godkänd (G), Underkänd (U) | Vissa universitetskurser (förberedande, behörighetsgivande)
 A–F	| A, B, C, D, E, F |SFI, grundläggande SVA, SVA
 SFI-inplacering	| SFI A, SFI B, SFI C, SFI D | Inplaceringsprov SFI
-Uppgiften har inte betyg |	de flesta kurstyper
+Uppgiften har inte betyg | | de flesta kurstyper
