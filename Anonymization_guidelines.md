@@ -1,6 +1,6 @@
 # Pseudonymization guidelines
 
-The purpose of anonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, areas, cities, or political, religious and other views and need to be replaced or overseen to ensure anonymity. Your task is to 1) identify all information that can relate to the specific person who wrote the text, and categorize what type of information it is so that the person can be de-identified by changing/hiding the specific information. The replacement of the personal information is performed automaticaly given the assigned label. 
+The purpose of pseudonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, areas, cities, or political, religious and other views and need to be replaced or overseen to ensure anonymity. Your task is to 1) identify all information that can relate to the specific person who wrote the text, and categorize what type of information it is so that the person can be de-identified by changing/hiding the specific information. The replacement of the personal information is performed automaticaly given the assigned label. 
 
 This document contains instructions for how to proceed. 
 
@@ -12,27 +12,27 @@ This document contains instructions for how to proceed.
 
 3. Keep track of whether the token is “original” or “masked”
 
-4. Categories that need to be marked in the texts, but not necessarily replaced. We would  make an assessment later when we have enough statistics over the learners behind the essays: 
+4. Categories that need to be marked in the texts, but not necessarily replaced. We will  make an assessment later when we have enough statistics over the learners behind the essays: 
   * country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in our database are from the named countries [Consider to merge this with <country>]
   * country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
   * number of family members (_Jag har fem bröder och fyra systrar_) - we will need to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
   * professions (_Jag är webbutvikler_) 
 
-5. Categories that can be used for discrimination, such as political views, religious convictions, sexual orientation, should also be marked - but not necessarily masked right away? A decision would need to be made by an annotator. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
+5. Categories that can be used for discrimination, such as political views, religious convictions, sexual orientation, should also be marked - but not necessarily masked right away. A decision will need to be made by an annotator. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
 ## Supra-categories 
 
-May be applied on top of other categories, as (extra)linguistic information. Only marked forms are tagged, i.e. genitive case is marked, whereas common case - not (by default everything is assumed to have common case).
+May be applied on top of other categories, as (extra)linguistic information. Only marked forms are tagged, i.e. genitive case is marked, whereas nominative case - not (by default everything is assumed to have nominative case).
 
 ### Running numbers
-Applies to all named entities (NE) and their *@placeholders*. Each unique named entity type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. At the moment this should be done manually. 
+Applies to all named entities (NE) and their *@placeholders*. Each unique named entity type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. This is done automatically, but the automatically assigned running number may be changed manually. A manual change of the running number is necessary when the same entity (for instance the same city) is referred to by non-identical strings (for instance due to mis-spelling).
 
 <**NEED A PICTURE HERE**>
 
 ### Morphology: 
  * Case: < gen > , e.g. Volvos
- * Form: < def > , e.g. Statsbiliotekets <span style="color:red">[NEW]</span>
- * Number: < pl > , e.g. Mölndalsbor <span style="color:red">[NEW]</span>
+ * Definiteness: < def > , e.g. Statsbiliotekets
+ * Number: < pl > , e.g. Mölndalsbor
  
  <**NEED A PICTURE HERE**>
 
