@@ -32,7 +32,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 ### Morphology: 
  * Case: < gen > , e.g. Volvos
- * Definiteness: < def > , e.g. Statsbiliotekets
+ * Definiteness: < def > , e.g. Stadsbiliotekets
  * Number: < pl > , e.g. Mölndalsbor
  
  <**NEED A PICTURE HERE**>
