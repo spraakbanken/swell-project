@@ -14,7 +14,7 @@ This document contains instructions for how to proceed.
 
 4. Categories that need to be marked in the texts, but not necessarily replaced. We will  make an assessment later when we have enough statistics over the learners behind the essays: 
   * country: the same pseudonymization tag, < country >, is used for: 
-    - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in our database are from the named countries [Consider to merge this with <country>]
+    - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in our database are from the named countries
     - country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
   * number of family members (_Jag har fem bröder och fyra systrar_) - we will need to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
   * professions (_Jag är webbutvikler_) 
