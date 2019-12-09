@@ -66,8 +66,9 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 ### 2. Geographic data (country, city, zip codes, area names, …)
   * Types: <!-- < country_of_origin > , -->
-  < country > , < geo > , < zip_code > , < region > , < city_swe > , < city > , < area > , < place > , < street_nr >
-       - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal
+  < country > , < zip_code > , < region > , < city_swe > , < city > , < area > , < place > , < geo > , < street_nr >
+       - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal.
+       - < area > vs < city >: geographical or political units which are parts of great city areas, such as *Hallunda* in Stockholm, are primarily marked as < area > rather than as < city >, especially if the greater city in question is also mentioned in the text. The tag < city > may however also be used, especially for units which are traditionally considered as independent cities, such as *Solna* or *Sundbyberg*. The distinction between < city > and < area > is however not essential in these cases, and in some instances either tag may be used.
        - < country > : except Sweden
        - < city > : city including villages (på svenska “ort”)    
        - < geo > : forest, lake, mountain, etc
