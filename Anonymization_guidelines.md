@@ -188,7 +188,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 
 ### 16. Comments < OBS! >, document comments
-   * The < OBS! > tag is used for marking place to return to or for making comments which may be useful for later stages in the work with making the text ready for the corpus (i.e. normalization and correction annotation). The < OBS! > label is connected to an "edge comment" field where work notes may be made. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
+   * The < OBS! > tag is used for marking a place to return to or for making comments which may be useful for later stages in the work with making the text ready for the corpus (i.e. normalization and correction annotation). The < OBS! > label is connected to an "edge comment" field where work notes may be made. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
    * There is also a *document comment* field in which notes about the text as a whole may be made. These notes may provide essential information for later stages (normalization, correction annotation), or in some cases information which is meant for the corpus user and which is thus meant to be kept in the published corpus.
    
 
