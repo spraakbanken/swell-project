@@ -84,29 +84,30 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
       - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
-### 3. Institution: < institution > , < school > , < work > , < other_institution >
-   * To use for: Schools, working place, team, etc. indications revealing the person’s school, working place, sport team, ...
+### 3. Institution: < school > , < work > , < other_institution >
+  * The institution tags are used to pseudonymize institutions mentioned in the texts which may be used to identify the writer, such as the school, work or sport's team of the writer (or a person related to the writer)
+    - < school > is used for all education-providing institutions (primary school, secondary school, university, etc.)
+    - < work > is used for an institution which is revealed as the writer's working place (or the working place of a person related to the writer). When an institution is identified as a working place, the tag < work > is applied instead of other tags which may otherwise be applied. For instance: If a text reveals that the writer works in a named school, the tag < work >, rather than the tag < school > is used to pseudonymize the name of the school.
+    - < other_institution > is used for all other institutions in need for pseudonymization, such as a sport's team or an NGO
   * Pseudonymization: 
       - Replace from a list of school names and companies (e.g. from Yellow pages) 
-      
+   
 
-
-### 4. Transportation: < transport >, < transport_line >
-  * < transport >: bus, metro, tram, train, express. Do not necessarily need to be replaced when used in generic terms, e.g. *I have several busses and a metro station near my house.* 
-  * < transport_line > : number, color
-  * Descriptor: 
+### 4. Transportation: < transport_name >, < transport_nr >
+  * < transport_name >: used for transport lines or transport system with specific names, e.g. *gröna linjen, Lidingöbanan, Pågatågen*
+    - *Tvärbanan*, and similar words which may be interpreted both as category words and as names for a specific line, are pseudonymized with this tag.
+    - Words which clearly refer to transportation types rather than to specific lines, such as *tunnelbana, buss, pendeltåg* etc. should not be pseudonymized, although some of them reveal a city or limit the number of possible cities
+  * < transport_nr > : used for the number of a specific line, e.g. "buss *528*", "linje *3*". The tag should be placed only on the *number*.
   * Pseudonymization: 
-      - < transport > : Replace randomly with bus, metro, tram, or train 
-      - < transport_line > : In case of line number, replace actual number with 1, in case of several numbers in sequence, enumerate (1, 2, 3…)
-      - Only replace entity when specific stops/stations are mentioned, not when transportation types are mentioned in general terms, e.g. in *Det finns en tunnelbana , heter Stadsbiblioteket och många buss-stationer nära* the only @placeholder would be used for *Stadsbiblioteket*
-      
-<!--      - **_Do we need to replace "tunnelbana" och "buss-stationer" in the following context: "Det finns en tunnelbana , heter XXX och många buss-stationer nära" (Elena, A18AT1)? They seem to be generally descriptive, though probably can help identify the city that the person lives in. If yes, how do we represent "plural" in "buss-stationer"?_** -->
+    - < transport_name > : Replace with *A-linjen, B-linjen* etc. 
+    - < transport_nr > : Replace actual number with 1, in case of several numbers in sequence, enumerate (1, 2, 3…)
+  * **Note**: Names of stations and stops, such as *Mariatorget, Centralen* are pseudonymized with the tag < place > in the *geographic data* group.
 
 ### 5. Age: < age_digits >, < age_string >
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20
-      - The same as above applies to < age_string > , rendered in strings. In that case the assistant should manually edit the original file and change a string into a corresponding number, e.g. "arrton" -- > "18". The automatic rendering will apply in the same way as in < age_digits > (but spellt out, maybe?)
+      - The same as above applies to < age_string > , rendered in strings. **The actual implementation of this pseudonymization category remains to be figured out.**
       - **_??? There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. We need to have an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Added as an issue for anonymization tool. (Elena, A10AT1) ???_**
          
 
@@ -165,19 +166,14 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   [//]: #  (- < nonoblig > might be sensitive and replaced later)
 
 ### 15. Mark up but do not pseudonymize: 
-  * Profession < prof >
-      * Descriptor: < prof >, < edu> 
-      - < prof > profession
-      - < edu > education 
-      
+  * < prof >, professions, e.g. *webbutvecklare*
+  * < edu >, education: Use for degrees etc., e.g. *datavetare*, "jag har en examen i *kemi*"
+  * < fam>, family members: Use for words for family members, friends, etc., e.g. *mamma, farfar, son, kusin, kompis, vän*.
+            
 ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
  
   * Sensitive information < sensitive >
-      - Descriptor: 
-        * e.g. political or religious views, sexual or racial information, number of siblings, family members 
-  
       - Markup: assign a "sensitive" @placeholder to at least one token per sentence. When deciding which and how many tokens to mark with the “sensitive” label, a guiding principle is that pseudomization of the marked tokens could potentially suffice. However, the whole sentence will be reviewed later on before final decisions about these pseudonymizations are made, and fewer rather than more tokens should be marked. A possible solution for the example below is to mark the tokens “glad”, “fri” and “demstration”.
-      
       - Note: Senstive information which could be covered by other pseudonymization categories should be assigned these other labels, e.g. “Turkiet” and “Ardogan” in the example below.
 
       Example: 
@@ -189,8 +185,9 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 *I en dag såg vi en stor demstration det var för mycket människor vill inte **Turkiets < country, genitive >** statsminister **Ardogan < surname >** och vi kände mycket **glad < sensitive >** för att det var första dag ser vi en **fri < sensitive >** **demstration < sensitive >***. 
 
 
-### 16. Comments < OBS! >
-   * Use for marking place to return to. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
+### 16. Comments < OBS! >, document comments
+   * The < OBS! > tag is used for marking place to return to or for making comments which may be useful for later stages in the work with making the text ready for the corpus (i.e. normalization and correction annotation). The < OBS! > label is connected to an "edge comment" field where work notes may be made. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
+   * There is also a *document comment* field in which notes about the text as a whole may be made. These notes may provide essential information for later stages (normalization, correction annotation), or in some cases information which is meant for the corpus user and which is thus meant to be kept in the published corpus.
    
 
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?'Alice%5C's'%3A1%3AOBS!%3A'firstname_female'%3Agen%20wallet%20was%20stolen%20.%2F%2F'Alice%5C's'%20wallet%20was%20stolen%20.)
