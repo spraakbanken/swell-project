@@ -89,7 +89,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 ### 3. Institution: < school > , < work > , < other_institution >
   * The institution tags are used to pseudonymize institutions mentioned in the texts which may be used to identify the writer, such as the school, work or sport's team of the writer (or a person related to the writer)
     - < school > is used for all education-providing institutions (primary school, secondary school, university, etc.)
-    - < work > is used for an institution which is revealed as the writer's working place (or the working place of a person related to the writer). When an institution is identified as a working place, the tag < work > is applied instead of other tags which may otherwise be applied. For instance: If a text reveals that the writer works in a named school, the tag < work >, rather than the tag < school > is used to pseudonymize the name of the school.
+    - < work > is used for an institution which is revealed as the writer's working place (or the working place of a person related to the writer). When an institution is identified as a working place, the tag < work > is applied instead of other tags which may otherwise be applied. For instance: If a text reveals that the writer works in a named school, the tag < work >, rather than the tag < school >, is used to pseudonymize the name of the school.
     - < other_institution > is used for all other institutions in need for pseudonymization, such as a sport's team or an NGO
   * Pseudonymization: 
       - Replace from a list of school names and companies (e.g. from Yellow pages) 
