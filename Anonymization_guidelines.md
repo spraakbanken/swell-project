@@ -97,7 +97,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 ### 4. Transportation: < transport_name >, < transport_nr >
   * < transport_name >: used for transport lines or transport systems with specific names, e.g. *gröna linjen, Lidingöbanan, Pågatågen*
-    - *Tvärbanan*, and similar words which may be interpreted both as category words and as names for a specific line, are pseudonymized with this tag.
+    - *Tvärbanan*, and similar words which may be interpreted both as type nouns and as names for a specific line, are pseudonymized with this tag.
     - Words which clearly refer to transportation types rather than to specific lines, such as *tunnelbana, buss, pendeltåg* etc. should not be pseudonymized, although some of them reveal a city or limit the number of possible cities
   * < transport_nr > : used for the number of a specific line, e.g. "buss *528*", "linje *3*". The tag should be placed only on the *number*.
   * Pseudonymization: 
