@@ -23,14 +23,13 @@ This document contains instructions for how to proceed.
 
 ## Supra-categories 
 
-May be applied on top of other categories, as (extra)linguistic information. Only marked forms are tagged, i.e. genitive case is marked, whereas nominative case - not (by default everything is assumed to have nominative case).
-
 ### Running numbers
 Applies to all named entities (NE) and their *@placeholders*. Each unique named entity type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. This is done automatically, but the automatically assigned running number may be changed manually. A manual change of the running number is necessary when the same entity (for instance the same city) is referred to by non-identical strings (for instance due to mis-spelling).
 
 <**NEED A PICTURE HERE**>
 
 ### Morphology: 
+ * May be applied on top of other categories, as (extra)linguistic information. Only marked forms are tagged, i.e. genitive case is marked, whereas nominative case is not (by default everything is assumed to have nominative case).
  * Case: < gen > , e.g. Volvos
  * Definiteness: < def > , e.g. Stadsbiliotekets
  * Number: < pl > , e.g. Mölndalsbor
