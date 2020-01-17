@@ -1,25 +1,35 @@
 # Pseudonymization guidelines
 
-The purpose of pseudonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, areas, cities, or political, religious and other views and need to be replaced or overseen to ensure anonymity. Your task is to 1) identify all information that can relate to the specific person who wrote the text, and categorize what type of information it is so that the person can be de-identified by changing/hiding the specific information. The replacement of the personal information is performed automaticaly given the assigned label. 
+The purpose of pseudonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, addresses and phone numbers, city names and other geographical names, etc.
+
+On top of this, some information is also marked as "sensitive" during the pseudonymization process. This is information which does not in itself disclose the identity of the writer, but which would be particularly harming to reveal were the identity of the writer to be disclosed in spite of the de-identifying efforts. Sensitive information is for instance information on political or religious views of the writer. The information marked as sensitive will be reviewed before publication of the corpus to evaluate whether it needs to be hidden or not.
+
+Your task is 1) to identify all information that can relate to the specific person who wrote the text, and categorize what type of information it is so that the person can be de-identified by changing/hiding the specific information, and 2) to mark potentially sensitive information related to the writer. The replacement of the personal information is performed automaticaly given the assigned label. 
 
 This document contains instructions for how to proceed. 
 
 ## Basic principles
 
-1. Remove/change the information that can reveal a person behind the essay(s), yet keep to the “minimal change” rule. The data should be usable in research scenarios.  _Example?_ 
+1. Remove/change the information that can reveal a person behind the essay(s), yet keep to the “minimal change” rule. The data should be usable in research scenarios.  _Example?_
 
-2. Annotators have to make the assessment of the risks and needs for pseudonymization (an element of subjectivity)
+2. Data on deviations from standard Swedish (mis-spellings etc.) will be lost for the pseudonymized strings. This also holds for text segments the form of which is dependent on the pseudonymized string (for instance prepositions preceeding pseudonymized city och country names).
 
-3. Keep track of whether the token is “original” or “masked”
+3. Annotators have to make the assessment of the risks and needs for pseudonymization (an element of subjectivity).
 
-4. Categories that need to be marked in the texts, but not necessarily replaced. We will  make an assessment later when we have enough statistics over the learners behind the essays: 
+4. Tokens should not be pseudonymized solely on the basis of them belonging to a specific category listed among the pseudonymization categories, but on the basis of them potentially revealing the identity of the writer. For instance, not all country or city names are pseudonymized, but only those which, **together with the context**, 1) may be connected to the writer (e.g. because the city may be identified as the writer's home town), and 2) reveal information which is specific enough to be used to identify the writer. Accordingly, in a text where Istanbul is mentioned as a city where the writer has lived or as a city where a family member of the writer lives (etc.), _Istanbul_ should be pseudonymized. But not so in a text providing general information about Istanbul. And while the information that the writer stems from the Baltic countries may be reason to pseudonymize _Baltikum_ (as a region), the information that the writer stems from Europe does not necessitate pseudonymization, since Europe is such a large region which may be assumed to be the home region for a large number of potential writers.
+
+5. Keep track of whether the token is “original” or “masked”. (This is done automatically by the annotating tool.)
+
+6. Categories that need to be marked in the texts, but not necessarily replaced. We will  make an assessment later when we have enough statistics over the learners behind the essays, as well as the assembled texts and metadata on each particular writer: 
   * country: the same pseudonymization tag, < country >, is used for: 
     - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in our database are from the named countries
     - country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
+    - **Note:** Mentions of _Sweden_ as a country of origin or residence are not marked.
   * number of family members (_Jag har fem bröder och fyra systrar_) - we will need to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
-  * professions (_Jag är webbutvikler_) 
+  * professions (_Jag är webbutvikler_)
+  * education
 
-5. Categories that can be used for discrimination, such as political views, religious convictions, sexual orientation, should also be marked - but not necessarily masked right away. A decision will need to be made by an annotator. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
+7. Categories that can be used for discrimination, such as political views, religious convictions or sexual orientation, should also be marked (with the tag < sensitive >) without being masked right away. A decision will be made later in the process, before publication. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
 ## Supra-categories 
 
@@ -57,25 +67,30 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 <!--     - Change token by token [BEA, WHAT IS MEANT BY THIS?] -->
 
   * To consider: 
-      - allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym 
+      - allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym. This is handled automatically, through the procedure with running numbers (see above). 
       - random substitution for each unique name in the text given a list of names or
       - select a few names (while keeping the gender and cross-reference info) and use these names - throughout all texts
-      - Use typical names for various ethnicities
+      - Use typical names for various ethnicities <!-- Why? This seems like a principle which is completely contarary to the object of pseudonymization. /LR -->
       
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20Alice~Alice%3A'firstname_female'%3A1%20and~and%20Bob~Bob%3A'firstname_male'%3A2%20went~went%20to~to%20Paris~Paris%3Acity%20.%40s6~%40s6%20'Alice%5C's'~'Alice%5C's'%3A'firstname_female'%3A1%3Agen%20wallet~wallet%20was~was%20stolen~stolen%20.%40s11~%40s11%2F%2F'firstname_female'~Alice%201~Alice%20and~and%20'firstname_male'~Bob%202~Bob%20went~went%20to~to%20city~Paris%20.~%40s6%20'firstname_female'~'Alice%5C's'%201~'Alice%5C's'%20gen~'Alice%5C's'%20wallet~wallet%20was~was%20stolen~stolen%20.~%40s11)
 
 
 ### 2. Geographic data (country, city, zip codes, area names, …)
   * Types: <!-- < country_of_origin > , -->
-  < country > , < zip_code > , < region > , < city_swe > , < city > , < area > , < place > , < geo > , < street_nr >
-       - < region > versus < area > : < region > is a larger unit, like *län* in Sweden ; < area > is a smaller part of something, e.g. of a city, like *Balltorp* in Mölndal.
-       - < area > vs < city >: geographical or political units which are parts of great city areas, such as *Hallunda* in Stockholm, are primarily marked as < area > rather than as < city >, especially if the greater city in question is also mentioned in the text. The tag < city > may however also be used, especially for units which are traditionally considered as independent cities, such as *Solna* or *Sundbyberg*. The distinction between < city > and < area > is not essential in these cases, and in some instances either tag may be used.
+  < country > , < zip_code > , < region > , < city > , < area > , < place > , < geo > , < street_nr >, < foreign >
+       - < foreign > : this tag is combined with the following tags when applied to places outside of Sweden: < region > , < city > , < area > , < place > , < geo >. For places in Sweden the same five tags are used _without_ the additional tag < foreign >.
        - < country > : except Sweden
-       - < city > : city including villages (på svenska “ort”)    
-       - < geo > : forest, lake, mountain, etc
        - < zip_code > : zip/area code
-       - < place > : specific place, street, square, bridge, name of a bus/tram/metro stop
+       - < region > : geographical/political unit larger than a city but not equivalent to a country. E.g. _Sörmland_, _Stockholms län_, _Region Blekinge_, _Svealand_, _Sydirak_, _Toscana_, _Baltikum_. Regions outside of Sweden are marked with the additional tag < foreign >.
+       - < city > : city including villages (på svenska “ort”). Cities outside Sweden are marked with the additional tag < foreign >.
+       - < area > : part of a city, e.g. _Södermalm_, _Greenwich village_. Areas outside Sweden are marked with the additional tag < foreign >.
+       - < place > : specific place, street, square, bridge, name of a bus/tram/metro stop. Places outside Sweden are marked with the additional tag < foreign >.
+       - < geo > : This tag is used for any additional type of geographic name not among the other categories, for instance forests, lakes, mountains, etc. Geographical names referring to entities outside Sweden are marked with the additional tag < foreign >.
        - < street_nr > : street or place number
+  * Uncertain categorization:
+       - In some cases local knowledge or extensive research is needed in order to determine the most suitable category for a geographic name: It may be hard to figure out whether a name rather refers to a region or to a city, to a city or to an area, etc. Such extensive research is not motivated by the objective of the pseudonymization; what's important is that information potentially revealing the identity of the writer is pseudonymized, and that the categorization (and subsequent replacement) of the pseudonymized entities in the text are consistent with the rest of the information given in the text.
+       - < area > vs < city >: This distinction is particularly blurry; there exist no general criteria to distinguish between independent cities and city-parts. The problem arises primarily with names of geographical or political units which are parts of great city areas, such as *Hallunda* in Stockholm. Here, the default strategy is to mark these units as < city > rather than as < area >. The tag < area > is kept for 1) well-established names for inner-city areas, such as _Södermalm_ in Stockholm or _Vesterbro_ in Copenhagen, and 2) areas which are described as parts of cities _in the text in question_.
+       
        
  ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
       
@@ -88,7 +103,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
 ### 3. Institution: < school > , < work > , < other_institution >
-  * The institution tags are used to pseudonymize institutions mentioned in the texts which may be used to identify the writer, such as the school, work or sport's team of the writer (or a person related to the writer)
+  * The institution tags are used to pseudonymize institutions mentioned in the texts which may be used to identify the writer, such as the school, work or sport's team of the writer (or a person related to the writer).
     - < school > is used for all education-providing institutions (primary school, secondary school, university, etc.)
     - < work > is used for an institution which is revealed as the writer's working place (or the working place of a person related to the writer). When an institution is identified as a working place, the tag < work > is applied instead of other tags which may otherwise be applied. For instance: If a text reveals that the writer works in a named school, the tag < work >, rather than the tag < school >, is used to pseudonymize the name of the school.
     - < other_institution > is used for all other institutions in need for pseudonymization, such as a sport's team or an NGO
@@ -99,17 +114,17 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 ### 4. Transportation: < transport_name >, < transport_nr >
   * < transport_name >: used for transport lines or transport systems with specific names, e.g. *gröna linjen, Lidingöbanan, Pågatågen*
     - *Tvärbanan*, and similar words which may be interpreted both as type nouns and as names for specific lines, are pseudonymized with this tag.
-    - Words which clearly refer to transportation types rather than to specific lines, such as *tunnelbana, buss, pendeltåg* etc. should not be pseudonymized, although some of them reveal a city or limit the number of possible cities
+    - Words which clearly refer to transportation types rather than to specific lines, such as *tunnelbana, buss, pendeltåg* etc. should not be pseudonymized, although some of them reveal a city or limit the number of possible cities.
   * < transport_nr > : used for the number of a specific line, e.g. "buss *528*", "linje *3*". The tag should be placed only on the *number*.
   * Pseudonymization: 
     - < transport_name > : Replace with *A-linjen, B-linjen* etc. 
-    - < transport_nr > : Replace actual number with 1, in case of several numbers in sequence, enumerate (1, 2, 3…)
-  * **Note**: Names of stations and stops, such as *Mariatorget, Centralen* are pseudonymized with the tag < place > in the *geographic data* group.
+    - < transport_nr > : Replace actual number with 1, in case of several numbers in the same text, enumerate (1, 2, 3…)
+  * **Note**: Names of stations and stops, such as *Mariatorget, Centralen*, are pseudonymized with the tag < place > in the *geographic data* group.
 
 ### 5. Age: < age_digits >, < age_string >
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
-      - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20
+      - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20. (This is done automatically by the annotation tool.)
       - The same as above applies to < age_string > , rendered in strings. **The actual implementation of this pseudonymization category remains to be figured out.**
       - **_??? There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. We need to have an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Added as an issue for anonymization tool. (Elena, A10AT1) ???_**
          
@@ -160,7 +175,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       
 
 ### 14. Extra (something else, not covered but the previous categories)
-  * By default we consider all "Extra" tags as obligatory to pseudonymize. However, the intention is to re-evaluate the category after the initial anonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". 
+  * By default we consider all "Extra" tags as obligatory to pseudonymize. However, the intention is to re-evaluate the category after the initial pseudonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". 
   
   [//]: # (In that case, the following could apply:)
   
@@ -175,9 +190,9 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
             
 ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
  
-  * Sensitive information < sensitive >
-      - Markup: assign a "sensitive" @placeholder to at least one token per sentence. When deciding which and how many tokens to mark with the “sensitive” label, a guiding principle is that pseudomization of the marked tokens could potentially suffice. However, the whole sentence will be reviewed later on before final decisions about these pseudonymizations are made, and fewer rather than more tokens should be marked. A possible solution for the example below is to mark the tokens “glad”, “fri” and “demstration”.
-      - Note: Senstive information which could be covered by other pseudonymization categories should be assigned these other labels, e.g. “Turkiet” and “Ardogan” in the example below.
+  * < sensitive >, sensitive information:
+      - Markup: assign a "sensitive" @placeholder to at least one token per sentence. When deciding which and how many tokens to mark with the < sensitive > label, a guiding principle is that pseudomization of the marked tokens could potentially suffice. However, the whole sentence will be reviewed later on before final decisions about these pseudonymizations are made, and fewer rather than more tokens should be marked. A possible solution for the example below is to mark the tokens “glad”, “fri” and “demstration”.
+      - **Note**: Sensitive information which could be covered by other pseudonymization categories should be assigned these other labels, e.g. “Turkiet” and “Ardogan” in the example below.
 
       Example: 
       
@@ -188,18 +203,19 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 *I en dag såg vi en stor demstration det var för mycket människor vill inte **Turkiets < country, genitive >** statsminister **Ardogan < surname >** och vi kände mycket **glad < sensitive >** för att det var första dag ser vi en **fri < sensitive >** **demstration < sensitive >***. 
 
 
-### 16. Comments < OBS! >, document comments
-   * The < OBS! > tag is used for marking a place to return to or for making comments which may be useful for later stages in the work with making the text ready for the corpus (i.e. normalization and correction annotation). The < OBS! > label is connected to an "edge comment" field where work notes may be made. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
+### 16. Comments < OBS! >, < Com! >, document comments
+   * The < OBS! > tag is used for marking a place to return to or for making comments which may be useful for later stages in the work with making the text ready for the corpus (i.e. normalization and correction annotation).
+   * The < Com! > tag is used for marking specific text sequences in need of comments which are judged to be useful for the future users of the corpus and which are thus intended to be kept in the published corpus.
+   * Both the < OBS! > tag and the < Com! > tag are connected to an "edge comment" field where notes may be made. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
    * There is also a *document comment* field in which notes about the text as a whole may be made. These notes may provide essential information for later stages (normalization, correction annotation), or in some cases information which is meant for the corpus user and which is thus meant to be kept in the published corpus.
    
 
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?'Alice%5C's'%3A1%3AOBS!%3A'firstname_female'%3Agen%20wallet%20was%20stolen%20.%2F%2F'Alice%5C's'%20wallet%20was%20stolen%20.)
 
 ## For < sensitive > we need to evaluate if subgroups are needed: 
-religion, ethnicity, sexual orientation, political views, events that might reveal a person, physical and mental disabilities
-Number of siblings, family members
+religion, ethnicity, sexual orientation, political views, physical and mental disabilities
 
-## Information about languages spoken by the writer is not psedonymized
+## Information about languages spoken by the writer is not pseudonymized
 Although information about languages spoken by the writer may help identifying the writer, such information is not pseudonymized, since this information is nevertheless included in the metadata which will be available for the corpus users.
 
 ## To be included: 
