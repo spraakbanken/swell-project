@@ -70,7 +70,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       - allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym. This is handled automatically, through the procedure with running numbers (see above). 
       - random substitution for each unique name in the text given a list of names or
       - select a few names (while keeping the gender and cross-reference info) and use these names - throughout all texts
-      - Use typical names for various ethnicities <!-- Why? This seems like a principle which is completely contarary to the object of pseudonymization. /LR -->
+
       
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20Alice~Alice%3A'firstname_female'%3A1%20and~and%20Bob~Bob%3A'firstname_male'%3A2%20went~went%20to~to%20Paris~Paris%3Acity%20.%40s6~%40s6%20'Alice%5C's'~'Alice%5C's'%3A'firstname_female'%3A1%3Agen%20wallet~wallet%20was~was%20stolen~stolen%20.%40s11~%40s11%2F%2F'firstname_female'~Alice%201~Alice%20and~and%20'firstname_male'~Bob%202~Bob%20went~went%20to~to%20city~Paris%20.~%40s6%20'firstname_female'~'Alice%5C's'%201~'Alice%5C's'%20gen~'Alice%5C's'%20wallet~wallet%20was~was%20stolen~stolen%20.~%40s11)
 
