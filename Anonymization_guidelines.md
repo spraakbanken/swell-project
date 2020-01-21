@@ -175,6 +175,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       
 
 ### 14. Extra (something else, not covered but the previous categories)
+  * When the pseudonymizer comes across some kind of information in a text which may potentially be used to identify the writer, but which is not covered by any of the other pseudonymization categories, the tag < extra > is used.
+  * The < extra > tag may for instance be used to mark information about very specific events in the writer's life.
   * By default we consider all "Extra" tags as obligatory to pseudonymize. However, the intention is to re-evaluate the category after the initial pseudonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". 
   
   [//]: # (In that case, the following could apply:)
