@@ -12,7 +12,7 @@ This document contains instructions for how to proceed.
 
 1. Remove/change the information that can reveal a person behind the essay(s), yet keep to the “minimal change” rule. The data should be usable in research scenarios.  _Example?_
 
-2. Data on deviations from standard Swedish (mis-spellings etc.) will be lost for the pseudonymized strings. This also holds for text segments the form of which is dependent on the pseudonymized string (for instance prepositions preceeding pseudonymized city och country names).
+2. Data on deviations from standard Swedish (mis-spellings etc.) will be lost for the pseudonymized strings. This also holds for text segments the form of which is dependent on the pseudonymized string (for instance prepositions preceeding pseudonymized city and country names).
 
 3. Annotators have to make the assessment of the risks and needs for pseudonymization (an element of subjectivity).
 
