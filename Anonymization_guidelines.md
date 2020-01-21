@@ -31,6 +31,8 @@ This document contains instructions for how to proceed.
 
 7. Categories that can be used for discrimination, such as political views, religious convictions or sexual orientation, should also be marked (with the tag < sensitive >) without being masked right away. A decision will be made later in the process, before publication. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
+8. Although information about languages spoken by the writer may help identifying the writer, such information is not pseudonymized, since this information is nevertheless included in the metadata which will be available for the corpus users.
+
 ## Supra-categories 
 
 May be applied on top of other categories, as (extra)linguistic information.
@@ -216,9 +218,6 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 ## For < sensitive > we need to evaluate if subgroups are needed: 
 religion, ethnicity, sexual orientation, political views, physical and mental disabilities
-
-## Information about languages spoken by the writer is not pseudonymized
-Although information about languages spoken by the writer may help identifying the writer, such information is not pseudonymized, since this information is nevertheless included in the metadata which will be available for the corpus users.
 
 ## To be included: 
 Examples
