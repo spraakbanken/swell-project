@@ -78,21 +78,19 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 
 ### 2. Geographic data (country, city, zip codes, area names, …)
-  * Types: <!-- < country_of_origin > , -->
-  < country > , < zip_code > , < region > , < city > , < area > , < place > , < geo > , < street_nr >, < foreign >
-       - < foreign > : this tag is combined with the following tags when applied to places outside of Sweden: < region > , < city > , < area > , < place > , < geo >. For places in Sweden the same five tags are used _without_ the additional tag < foreign >.
+  * Types: < country > , < zip_code > , < region > , < city > , < area > , < place > , < geo > , < street_nr >, < foreign >
+       - < foreign > : this tag is combined with the following tags when applied to places outside of Sweden: < region > , < city >, < place > , < geo >. For places in Sweden the same four tags are used _without_ the additional tag < foreign >.
        - < country > : except Sweden
        - < zip_code > : zip/area code
        - < region > : geographical/political unit larger than a city but not equivalent to a country. E.g. _Sörmland_, _Stockholms län_, _Region Blekinge_, _Svealand_, _Sydirak_, _Toscana_, _Baltikum_. Regions outside of Sweden are marked with the additional tag < foreign >.
        - < city > : city including villages (på svenska “ort”). Cities outside Sweden are marked with the additional tag < foreign >.
-       - < area > : part of a city, e.g. _Södermalm_, _Greenwich village_. Areas outside Sweden are marked with the additional tag < foreign >.
+       - < area > : part of a city, e.g. _Vesterbro_, _Greenwich village_. The tag < area > is only used for non-Swedish settings, and is always (reduntantly) combined with the tag < foreign >.
        - < place > : specific place, street, square, bridge, name of a bus/tram/metro stop. Places outside Sweden are marked with the additional tag < foreign >.
        - < geo > : This tag is used for any additional type of geographic name not among the other categories, for instance forests, lakes, mountains, etc. Geographical names referring to entities outside Sweden are marked with the additional tag < foreign >.
        - < street_nr > : street or place number
   * Uncertain categorization:
        - In some cases local knowledge or extensive research is needed in order to determine the most suitable category for a geographic name: It may be hard to figure out whether a name rather refers to a region or to a city, to a city or to an area, etc. Such extensive research is not motivated by the objective of the pseudonymization; what's important is that information potentially revealing the identity of the writer is pseudonymized, and that the categorization (and subsequent replacement) of the pseudonymized entities in the text are consistent with the rest of the information given in the text.
-       - < area > vs < city >: This distinction is particularly blurry; there exist no general criteria to distinguish between independent cities and city-parts. The problem arises primarily with names of geographical or political units which are parts of great city areas, such as *Hallunda* in Stockholm. Here, the default strategy is to mark these units as < city > rather than as < area >. The tag < area > is kept for 1) well-established names for inner-city areas, such as _Södermalm_ in Stockholm or _Vesterbro_ in Copenhagen, and 2) areas which are described as parts of cities _in the text in question_.
-       
+            
        
  ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
       
