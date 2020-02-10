@@ -727,7 +727,7 @@ Moreover, in some cases the S-Comp tag may be applied although neither the origi
 
 In this particular case, the string in the original text may be interpreted as a compound between a two-word phrase (_sociala medier_) and the word _användning_. According to the norms of written standard Swedish, such compounds should be written as _sociala medier-användning_ etc. While such a minimal correction is not an unthinkable solution for the normalization, the normalizer has here judged a restructuring of the NP as a better solution, and the correction should be tagged S-Comp.
 
-### Non-Swedish words and sequences
+#### Non-Swedish words and sequences
 
 There are a number of ways to handle non-Swedish words during normalization and correction annotation. Many of the fundamental choices are made during the normalization process rather than during the correction annotation process.
 
