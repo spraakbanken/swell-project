@@ -102,9 +102,13 @@ _Examples_
 #### O-Comp (spaces and hyphens between words)
 
 The O-Comp tag is used for corrections which involve the removal of a space between two words which have been interpreted as making up a compound in the normalized text version, or, more rarely, the  adding of a space between two words. It may also be used for corrections regarding the use of hyphens in compounds.
+
 This tag should only be used for corrections concerning the mere orthographic rendering – with or without a space or a hyphen – of a compound or a multi-word expression, and not for corrections which are rather to be interpreted as involving an actual alternation between a compound and a multi-word expression. The latter case is covered by the S-Comp tag. (See the S-Comp section, and the section on compounds vs multi-word expressions.)
-Examples
-•	Jag kände mig jätte konstig  jättekonstig
+
+_Examples_
+
+*	Jag kände mig **jätte konstig** -> **jättekonstig**
+
 •	Det ligger ett kultur hus nära min bostad  kulturhus
 •	kultur-hus  kulturhus
 •	New York bor  New York-bor
