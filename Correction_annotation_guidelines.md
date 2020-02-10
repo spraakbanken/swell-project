@@ -1,15 +1,14 @@
-# Introduction
-## The purpose of the correction annotation
+# Correction annotation guidelines
+## Introduction
+### The purpose of the correction annotation
 The purpose of the correction annotation is to make the learner corpus searchable for different types of deviations from a standard language norm. The annotation of the learner texts according to the correction-taxonomy of the SweLL project is hence an important step in making the learner language assembled in the corpus analyzable for research and educational purposes.
-## The purposes of this document
+### The purposes of this document
 This document has three interconnected purposes:
 * It documents choices made by the SweLL project group regarding the principles of the correction annotation.
-
 * It provides guidance for annotators on how to apply the SweLL annotation taxonomy in order to ensure the greatest possible inter-annotator agreement.
-
 * It provides the essential material for a thorough description of the correction annotation for future users of the Swell corpus. This projected description will accompany the published corpus.
 
-The organization of the document
+### The organization of the document
 The rest of this document is divided into two main sections: one section with general directions for the correction annotation, and one section on the SweLL correction annotation taxonomy.
 General directions for the correction annotation
 What is a correction? What is annotated?
