@@ -77,12 +77,18 @@ In the following the annotation categories and their tags will be presented in t
 ### O – Orthographic corrections
 
 The O tags represent the orthographic correction category. It includes three sub-categories.
-O (regular spelling correction)
+
+#### O (regular spelling correction)
+
 The plain O tag is used for regular spelling corrections, i.e. when the string of letters is different in the original text and the normalized text, due to a spelling mistake.
-Examples
-•	Det tåg 6 timmar från Teheran till Göteborg  tog
-•	Det finns monga affärer  många
-O-Cap (upper/lower case)
+
+**Examples**
+*	Det **tåg** 6 timmar från Teheran till Göteborg -> **tog**
+
+* Det finns **monga** affärer -> **många**
+
+#### O-Cap (upper/lower case)
+
 The O-Cap tag is used for corrections regarding the choice between upper and lower case letters.
 Examples
 •	Det fanns en affär och vi gick dit. vi köpte flera saker  Det fanns en affär och vi gick dit. Vi köpte flera saker.
