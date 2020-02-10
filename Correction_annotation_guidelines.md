@@ -82,10 +82,11 @@ The O tags represent the orthographic correction category. It includes three sub
 
 The plain O tag is used for regular spelling corrections, i.e. when the string of letters is different in the original text and the normalized text, due to a spelling mistake.
 
-**Examples**
-*	Det **tåg** 6 timmar från Teheran till Göteborg -> **tog**
+_Examples_
 
-* Det finns **monga** affärer -> **många**
+*	Det **tåg** 6 timmar från Teheran till Göteborg --> **tog**
+
+* Det finns **monga** affärer _-> **många**
 
 #### O-Cap (upper/lower case)
 
