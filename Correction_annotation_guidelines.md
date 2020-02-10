@@ -84,9 +84,9 @@ The plain O tag is used for regular spelling corrections, i.e. when the string o
 
 _Examples_
 
-*	Det **tåg** 6 timmar från Teheran till Göteborg --> **tog**
+*	Det **tåg** 6 timmar från Teheran till Göteborg -> **tog**
 
-* Det finns **monga** affärer _-> **många**
+* Det finns **monga** affärer -> **många**
 
 #### O-Cap (upper/lower case)
 
