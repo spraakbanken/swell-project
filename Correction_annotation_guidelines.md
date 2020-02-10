@@ -213,19 +213,32 @@ _One word replaced by a multi-word expression_:
 
 *	EXEMPEL SKA IN HÄR
 
-Multi-word expression replaced by one word:
-•	EXEMPEL SKA IN HÄR
-Multi-word expression (fixed phrase) replaced by another multi-word expression:
-•	såsom våra ”moderna” språk är ibland en blandning av flera utrotade minoritetsspråk som under tiden skapade något nytt och unik  såsom våra ”moderna” språk ibland är en blandning av flera utrotade minoritetsspråk som med tiden skapade något nytt och unikt
-Phrasal verb replaced by an expression with another main verb:
-•	Traditioner ger människorna tid att stå still och fundera över livet → … att stanna upp och fundera över livet.
-Verbal particle replaced by another verbal particle, but verb kept:
-•	Han torkade bort bordet  Han torkade av bordet
+_Multi-word expression (fixed phrase) replaced by one word_:
+
+*	EXEMPEL SKA IN HÄR
+
+_Multi-word expression (fixed phrase) replaced by another multi-word expression_:
+
+*	såsom våra ”moderna” språk är ibland en blandning av flera utrotade minoritetsspråk som **under tiden** skapade något nytt och unik -> såsom våra ”moderna” språk ibland är en blandning av flera utrotade minoritetsspråk som **med tiden** skapade något nytt och unikt
+
+_Phrasal verb replaced by an expression with another main verb_:
+
+*	Traditioner ger människorna tid att **stå still** och fundera över livet → … att **stanna upp** och fundera över livet.
+
+_Verbal particle replaced by another verbal particle, but verb kept_:
+
+*	Han torkade **bort** bordet -> Han torkade **av** bordet
+
 In cases like this the verbal particle – not the whole phrasal verb – is marked with the tag L-W.
-Note (1): Corrections consisting in the mere removal or addition of the reflexive sig or a verbal particle are not tagged with L-W, but with S-R or S-M respectively – even if both the bare verb and the phrasal verb may be characterized as lexical units. 
-Note (2): While the marked element in the original text has to be either a word or a clear case of a fixed phrase, the substitute expression in the normalized text does not necessarily have to be a word or an indisputable case of a fixed phrase, but it suffices that it is a common endocentric phrase, such as mellan dem in the following exampel, which replaces sinsemellan in the original text:
-•	plötsligt bröt muren sinsemellan  plötsligt rasade muren mellan dem
-M – Morphological corrections
+
+**Note (1)**: Corrections consisting in the mere removal or addition of the reflexive sig or a verbal particle are not tagged with L-W, but with S-R or S-M respectively – even if both the bare verb and the phrasal verb may be characterized as lexical units. 
+
+**Note (2)**: While the marked element in the original text has to be either a word or a clear case of a fixed phrase, the substitute expression in the normalized text does not necessarily have to be a word or an indisputable case of a fixed phrase, but it suffices that it is a common endocentric phrase, such as _mellan dem_ in the following exampel, which replaces _sinsemellan_ in the original text:
+
+*	plötsligt bröt muren **sinsemellan** -> plötsligt rasade muren **mellan dem**
+
+### M – Morphological corrections
+
 The M tags represent the category morphological corrections. It covers corrections related to inflections. This includes primarily corrections of individual inflectional forms, but in some cases also corrections of more complex grammatical constructions closely related to inflectional forms. The latter concerns basic definiteness constructions (see M-Def), the periphrastic comparative and superlative adjective constructions (see M-F), and tense-related verbal constructions involving auxiliaries (see M-Verb).
 The category of morphological corrections includes eight sub-categories.
 M-Adj/adv (adjective corrected to adverb)
