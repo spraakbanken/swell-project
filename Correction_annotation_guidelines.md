@@ -109,22 +109,38 @@ _Examples_
 
 *	Jag kände mig **jätte konstig** -> **jättekonstig**
 
-•	Det ligger ett kultur hus nära min bostad  kulturhus
-•	kultur-hus  kulturhus
-•	New York bor  New York-bor
-•	New Yorkbor  New York-bor
-•	itisdags  i tisdags
-•	ochsåvidare  och så vidare
+* Det ligger ett **kultur hus** nära min bostad -> **kulturhus**
+
+*	**kultur-hus** -> **kulturhus**
+
+*	**New York bor** -> **New York-bor**
+
+*	**New Yorkbor** -> **New York-bor**
+
+*	**itisdags** -> **i tisdags**
+
+*	**ochsåvidare** -> **och så vidare**
+
 Corrections which involve both a removal of a space and a change of the form of the first part of the compound are tagged both with O-Comp and L-Der:
-•	Kommunikation förändring  Kommunikationsförändring
-L – Lexical corrections
+
+*	**Kommunikation förändring** -> **Kommunikationsförändring**
+
+### L – Lexical corrections
+
 The L tags represent the lexical correction category. It includes four sub-categories.
-L-Der (word formation)
-The L-Der tag represents the correction category deviant word formation. It is used for corrections of the internal morphological structure of word stems, both with regard to compounding and to derivation.
+
+#### L-Der (word formation)
+
+The L-Der tag represents the correction category _deviant word formation_. It is used for corrections of the internal morphological structure of word stems, both with regard to compounding and to derivation.
+
 The L-Der tag is exclusively used for links between one-token units. It covers the following correction types:
-•	A derivational affix has been corrected, e.g.:
-De är stressiga på grund av studier  De är stressade på grund av studier
-•	A derivational affix has been added, e.g. ändring  förändring
+
+*	A derivational affix has been corrected, e.g.:
+
+  De är **stressiga** på grund av studier -> De är **stressade** på grund av studier
+  
+* A derivational affix has been added, e.g. **ändring** -> **förändring**
+
 •	A derivational affix has been removed, e.g. förstöra  störa
 •	The form of the first part of a compound has been corrected (for instance by adding or removing a “foge-s”), e.g. tvångsvenska  tvångssvenska; sagabok  sagobok
 •	A verbal particle of a compound form of a particle verb has been added, removed or corrected, e.g.:
