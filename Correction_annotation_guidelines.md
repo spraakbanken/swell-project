@@ -1,15 +1,22 @@
 # Correction annotation guidelines
+
 ## Introduction
+
 ### The purpose of the correction annotation
 The purpose of the correction annotation is to make the learner corpus searchable for different types of deviations from a standard language norm. The annotation of the learner texts according to the correction-taxonomy of the SweLL project is hence an important step in making the learner language assembled in the corpus analyzable for research and educational purposes.
+
 ### The purposes of this document
 This document has three interconnected purposes:
+
 * It documents choices made by the SweLL project group regarding the principles of the correction annotation.
+
 * It provides guidance for annotators on how to apply the SweLL annotation taxonomy in order to ensure the greatest possible inter-annotator agreement.
+
 * It provides the essential material for a thorough description of the correction annotation for future users of the Swell corpus. This projected description will accompany the published corpus.
 
 ### The organization of the document
 The rest of this document is divided into two main sections: one section with general directions for the correction annotation, and one section on the SweLL correction annotation taxonomy.
+
 ## General directions for the correction annotation
 ### What is a correction? What is annotated?
 By _correction_ we mean a difference between the original learner text and the normalized version of the text. The correction annotation is thus a categorization of such differences.
@@ -19,33 +26,56 @@ This means that the correction annotation only indirectly indicates properties o
 While the purpose of the correction annotation is to make the texts searchable for deviations from a standard language norm, such deviations are only possible to categorize on the basis of assumptions of the learner’s intended content, along with judgements of the acceptability and suitability of standard language expressions communicating that content. This means that _any_ annotation of “deviations”, “errors” etc. in learner texts is actually an annotation of a _relationship_ between (a segment of) the analyzed text and an assumed standard language version of the text (segment). By the choice of the term _correction annotation_ (rather than, for instance, _error annotation_) the SweLL project emphasizes these conditions of learner language analysis. The normalized text versions make explicit this necessary assumption about the standard version of the text to which the original text is related. (The principles underlying the normalization are described in the normalization guidelines.)
 
 A consequence of the fundamental principle of annotating _corrections_, understood as differences between the original text and _one specific_ interpretation of this text, rather than “errors in general”, is that certain clear deviations from the norms of written standard Swedish in the original texts are left without annotations – because they are not deviations _in relation to the normalized text_. This occurs for instance when a misspelled word in the original text has been corrected to another word altogether. Such a correction will be annotated as an instance of a faulty choice of word (L-W), and since the word in the original text cannot be analyzed as a misspelling of the word in the normalized text, the spelling error will be left without annotation.
+
 ### Tags
 The correction annotation is created by marking links between the original text and the normalized text with tags representing the categories in the SweLL correction annotation taxonomy, which is presented below. The tags are available in the Svala annotation tool in a list to the left on the screen.
+
 A link may be tagged with one or several tags.
-Links between the original version and the normalized version of the text
+
+### Links between the original version and the normalized version of the text
 The links on which the tags are placed are visualized as lines in the Svala annotation tool. They run between elements of the original text and corresponding elements of the normalized text. The linked text elements typically consist of one token in each text version, but they may also consist of more than one token in one of the texts or in both texts. Moreover, links may run between a text element in one text version and “nothing”. This is normally the case when tokens have been added or removed in the normalized version of the text.
+
 During the normalization process, preliminary links between the original and the normalized texts are created automatically. These links may be adjusted during the correction annotation process. The correct link must be in place before a tag is inserted. Links may be adjusted in the following way:
-In order to break a link, place the marker on one of the linked text elements or on the link itself, and press the orphan button on the menu to the left.
-In order to create a new link, mark all of the tokens which you wish to link (at least one token in the original text and at least one token in the normalized text) by clicking the tokens while holding ctrl (PC) or shift (Mac). Then press the group button on the menu to the left.
-Document comments
-The Document comment field provides an opportunity to comment on deviations from the standard norm regarding text properties which cannot be adequately reflected by tags on individual links. This field may for instance be used when the verb tense choices in the text are inconsistent at a global text level, but when corrections of individual verb forms have generally not been made, since there is consistency more locally in the text.
+
+In order to break a link, place the marker on one of the linked text elements or on the link itself, and press the _orphan_ button on the menu to the left.
+
+In order to create a new link, mark all of the tokens which you wish to link (at least one token in the original text and at least one token in the normalized text) by clicking the tokens while holding ctrl (PC) or shift (Mac). Then press the _group_ button on the menu to the left.
+
+### Document comments
+The _Document comment_ field provides an opportunity to comment on deviations from the standard norm regarding text properties which cannot be adequately reflected by tags on individual links. This field may for instance be used when the verb tense choices in the text are inconsistent at a global text level, but when corrections of individual verb forms have generally not been made, since there is consistency more locally in the text.
+
 The field may also be used for any kind of general comment on the text which the annotator regards as essential for the future corpus user.
-The Swell correction annotation taxonomy
+
+## The Swell correction annotation taxonomy
 In this section the Swell correction annotation taxonomy is presented, and directions on how to apply and interpret the tags associated with the correction categories are provided.
+
 First, the general structure of the taxonomy is described. After that, the annotation categories are presented in the order in which they occur in the Svala annotation tool. After the presentation of all the correction categories follows a section on a few specific categorization issues, cutting through several correction categories. This includes the following sections:
-•	Compounds vs multi-word expressions
-•	Non-Sweidsh words and sequences
-•	Verbal particles and reflexives
-The general structure of the taxonomy
+
+*	Compounds vs multi-word expressions
+
+*	Non-Swedish words and sequences
+
+*	Verbal particles and reflexives
+
+### The general structure of the taxonomy
 The SweLL correction annotation taxonomy contains five main categories of correction types:
-•	Orthographic corrections (O), including “regular spelling corrections” (corrections of the string of letters), corrections between upper and lower case, and corrections of the use of spaces and hyphens between words.
-•	Lexical corrections (L), including 1) corrections of the choice of word and 2) corrections of the internal morphological structure of word stems – i.e. corrections regarding the formation of words through compounding and derivation.
-•	Morphological corrections (M), by which we specifically mean corrections concerning inflectional morphology. This category also covers some extra-morphological corrections which are closely related to inflectional forms and grammatical categories involving inflections.
-•	Punctuation corrections (P), including corrections of the choice of punctuation marks as well as the adding or removal of punctuation marks, and also instances of merging or splitting sentences.
-•	Syntactical corrections (S), i.e. corrections regarding the internal structure of multi-word phrases and clauses, including corrections of missing or redundant words, word order, the choice between a compound and a multi-word expression, and more complex syntactic corrections such as corrections between a finite clause structure and an infinitive phrase.
+
+*	**Orthographic corrections (O)**, including “regular spelling corrections” (corrections of the string of letters), corrections between upper and lower case, and corrections of the use of spaces and hyphens between words.
+
+*	**Lexical corrections (L)**, including 1) corrections of the choice of word and 2) corrections of the internal morphological structure of word stems – i.e. corrections regarding the formation of words through compounding and derivation.
+
+*	**Morphological corrections (M)**, by which we specifically mean corrections concerning _inflectional morphology_. This category also covers some extra-morphological corrections which are closely related to inflectional forms and grammatical categories involving inflections.
+
+*	**Punctuation corrections (P)**, including corrections of the choice of punctuation marks as well as the adding or removal of punctuation marks, and also instances of merging or splitting sentences.
+
+*	**Syntactical corrections (S)**, i.e. corrections regarding the internal structure of multi-word phrases and clauses, including corrections of missing or redundant words, word order, the choice between a compound and a multi-word expression, and more complex syntactic corrections such as corrections between a finite clause structure and an infinitive phrase.
+
 In addition to the correction tags included in these five main correction categories, the Svala tool provides six other tags, including tags for corrections made as a consequence of other corrections (C), corrections not covered by any of the defined correction categories (Unid), unintelligible strings (X), strings cited from a foreign language (Cit-FL), and finally two tags for notes and comments – OBS! for internal work notes, and Com! for comments intended for the corpus users.
-In the following the annotation categories and their tags will be presented in the order in which they appear in the Svala annotation tool – i.e. the O tags first, followed by the four other main correction categories in alphabetic order (L, M, P, S), and, finally, the remaining six tags under the heading Other tags.
-O – Orthographic corrections
+
+In the following the annotation categories and their tags will be presented in the order in which they appear in the Svala annotation tool – i.e. the O tags first, followed by the four other main correction categories in alphabetic order (L, M, P, S), and, finally, the remaining six tags under the heading _Other tags_.
+
+### O – Orthographic corrections
+
 The O tags represent the orthographic correction category. It includes three sub-categories.
 O (regular spelling correction)
 The plain O tag is used for regular spelling corrections, i.e. when the string of letters is different in the original text and the normalized text, due to a spelling mistake.
