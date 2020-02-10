@@ -754,26 +754,46 @@ In this example, it is likely that the incorrect usage of the correct Swedish wo
 #### Verbal particles and reflexives
 
 Several tags are used for corrections involving phrasal or compound verbs made up by a verb and verbal particle or a reflexive marker, primarily O-Comp, S-Comp, L-Der, L-W, S-M and S-R. This section provides an overview of the usage of these six tags for this category of corrections.
-•	O-Comp: A space is removed between a verbal particle and a following verb, making up a compound verb:
-o	upp mana  uppmana
-•	S-Comp: A compound form of a particle verb is changed to a phrasal form, or the other way around.
-o	Enligt Hyltenstam så kan minoritetsspråk räddas om man inblandar dem äldre som kan språket  Enligt Hyltenstam så kan minoritetsspråk räddas om man blandar in de äldre som kan språket
-o	Tåget går av från spår 3  Tåget avgår från spår 3
-•	L-Der: A particle of a compound particle verb is changed, removed or added. Both the original and the normalized string consist of one single token. The original string may or may not be an existing Swedish word.
-o	Internet uppmanar vår förståelse  Internet utmanar vår förståelse
-o	Han inhämtade väskorna från hotellrummet  Han hämtade väskorna från hotellrummet
-o	Hon minde honom om mötet på eftermiddagen  Hon påminde honom om mötet på eftermiddagen
-•	L-W, placed on the whole phrasal verb: Either the original string or the normalized string (or both) is a phrasal verb, and the verb itself is changed, not just the particle/reflexive marker.
-o	Traditioner ger människorna tid att stå still och fundera över livet → … att stanna upp och fundera över livet.
-•	L-W, placed on the particle: A verbal particle is replaced by another verbal particle, but the verb is kept.
-o	Han torkade bort bordet  Han torkade av bordet
-•	S-M: An independent (non-compound) verbal particle or a reflexive marker is added.
-o	men känner bara fysiskt närvarande  men känner sig bara fysiskt närvarande
-o	Jag slår ord i ordboken när jag inte vet  Jag slår upp ord i ordboken när jag inte vet...
-•	S-R: An independent (non-compound) verbal particle or a reflexive is removed.
-o	De promenerade sig i parken  De promenerade i parken
-o	Hon gav bort honom en blomma  Hon gav honom en blomma
-Appendix with illustrated examples
+
+*	O-Comp: A space is removed between a verbal particle and a following verb, making up a compound verb:
+
+     - **upp mana** -> **uppmana**
+     
+*	S-Comp: A compound form of a particle verb is changed to a phrasal form, or the other way around:
+
+     -	Enligt Hyltenstam så kan minoritetsspråk räddas om man **inblandar** dem äldre som kan språket -> Enligt Hyltenstam så kan minoritetsspråk räddas om man **blandar in** de äldre som kan språket
+     
+     -	Tåget **går av** från spår 3 -> Tåget **avgår** från spår 3
+     
+*	L-Der: A particle of a compound particle verb is changed, removed or added. Both the original and the normalized string consist of one single token. The original string may or may not be an existing Swedish word.
+
+     -	Internet **uppmanar** vår förståelse -> Internet **utmanar** vår förståelse
+     
+     -	Han **inhämtade** väskorna från hotellrummet -> Han **hämtade** väskorna från hotellrummet
+     
+     -	Hon **minde** honom om mötet på eftermiddagen -> Hon **påminde** honom om mötet på eftermiddagen
+     
+*	L-W, placed on the whole phrasal verb: Either the original string or the normalized string (or both) is a phrasal verb, and the verb itself is changed, not just the particle/reflexive marker:
+
+     -	Traditioner ger människorna tid att **stå still** och fundera över livet → … att **stanna upp** och fundera över livet.
+     
+*	L-W, placed on the particle: A verbal particle is replaced by another verbal particle, but the verb is kept:
+
+     -	Han torkade **bort** bordet -> Han torkade **av** bordet
+     
+*	S-M: An independent (non-compound) verbal particle or a reflexive marker is added:
+
+     -	men känner bara fysiskt närvarande -> men känner **sig** bara fysiskt närvarande
+     
+     -	Jag slår ord i ordboken när jag inte vet -> Jag slår **upp** ord i ordboken när jag inte vet...
+     
+*	S-R: An independent (non-compound) verbal particle or a reflexive is removed.
+
+     -	De promenerade **sig** i parken -> De promenerade i parken
+     
+     -	Hon gav **bort** honom en blomma -> Hon gav honom en blomma
+     
+## Appendix with illustrated examples
 
 
 
