@@ -1,5 +1,5 @@
 
-# SweLL correction annotation guidelines
+# SweLL correction annotation guidelines (Old version by Julia and Mats, renamed by Lisa when replaced by new version)
 
 
 ## Motivation and purpose
