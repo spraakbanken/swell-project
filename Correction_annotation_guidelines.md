@@ -18,6 +18,7 @@ This document has three interconnected purposes:
 The rest of this document is divided into two main sections: one section with general directions for the correction annotation, and one section on the SweLL correction annotation taxonomy.
 
 ## General directions for the correction annotation
+
 ### What is a correction? What is annotated?
 By _correction_ we mean a difference between the original learner text and the normalized version of the text. The correction annotation is thus a categorization of such differences.
 
@@ -91,10 +92,15 @@ _Examples_
 #### O-Cap (upper/lower case)
 
 The O-Cap tag is used for corrections regarding the choice between upper and lower case letters.
-Examples
-•	Det fanns en affär och vi gick dit. vi köpte flera saker  Det fanns en affär och vi gick dit. Vi köpte flera saker.
-•	På Måndag är det den 3 Mars.  På måndag är det den 3 mars.
-O-Comp (spaces and hyphens between words)
+
+_Examples_
+
+*	Det fanns en affär och vi gick dit. **vi** köpte flera saker -> Det fanns en affär och vi gick dit. **Vi** köpte flera saker.
+
+*	På **Måndag** är det den 3 **Mars**. -> På **måndag** är det den 3 **mars**.
+
+#### O-Comp (spaces and hyphens between words)
+
 The O-Comp tag is used for corrections which involve the removal of a space between two words which have been interpreted as making up a compound in the normalized text version, or, more rarely, the  adding of a space between two words. It may also be used for corrections regarding the use of hyphens in compounds.
 This tag should only be used for corrections concerning the mere orthographic rendering – with or without a space or a hyphen – of a compound or a multi-word expression, and not for corrections which are rather to be interpreted as involving an actual alternation between a compound and a multi-word expression. The latter case is covered by the S-Comp tag. (See the S-Comp section, and the section on compounds vs multi-word expressions.)
 Examples
