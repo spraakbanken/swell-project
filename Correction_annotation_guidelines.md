@@ -239,70 +239,134 @@ In cases like this the verbal particle – not the whole phrasal verb – is mar
 
 ### M – Morphological corrections
 
-The M tags represent the category morphological corrections. It covers corrections related to inflections. This includes primarily corrections of individual inflectional forms, but in some cases also corrections of more complex grammatical constructions closely related to inflectional forms. The latter concerns basic definiteness constructions (see M-Def), the periphrastic comparative and superlative adjective constructions (see M-F), and tense-related verbal constructions involving auxiliaries (see M-Verb).
+The M tags represent the category _morphological corrections_. It covers corrections related to inflections. This includes primarily corrections of individual inflectional forms, but in some cases also corrections of more complex grammatical constructions closely related to inflectional forms. The latter concerns basic definiteness constructions (see M-Def), the periphrastic comparative and superlative adjective constructions (see M-F), and tense-related verbal constructions involving auxiliaries (see M-Verb).
+
 The category of morphological corrections includes eight sub-categories.
-M-Adj/adv (adjective corrected to adverb)
+
+#### M-Adj/adv (adjective corrected to adverb)
+
 The M-Adj/adv tag is used for corrections involving the change of an adjective to its t-form, when the t-form is called for due to the adjective being used as an adverb.
-Examples
-•	Användaren mår dålig  dåligt
-•	Hur påverkar detta våra måenden långsiktig?  långsiktigt
-M-Case
+
+_Examples_
+
+*	Användaren mår **dålig** -> **dåligt**
+
+*	Hur påverkar detta våra måenden **långsiktig?** -> **långsiktigt**
+
+#### M-Case
+
 The M-Case tag is used for corrections regarding the choice of case form for nouns (nominative vs genitive) and pronouns (nominative vs accusative).
-Examples
-•	50 kilometer avstånd  kilometers
-•	Som kan bidra till samhället utveckling  samhällets
-•	Det ger man en positiv energi  Det ger en en positiv energi
-•	Folk hinner inte prata med de  Folk hinner inte prata med dem
-•	Ingen förstår hon  Ingen förstår henne
-M-Def (definiteness)
+
+_Examples_
+
+*	50 **kilometer** avstånd -> **kilometers**
+
+*	Som kan bidra till **samhället** utveckling -> **samhällets**
+
+*	Det ger **man** en positiv energi -> Det ger **en** en positiv energi
+
+*	Folk hinner inte prata med **de** -> Folk hinner inte prata med **dem**
+
+*	Ingen förstår **hon** -> Ingen förstår **henne**
+
+#### M-Def (definiteness)
+
 The M-Def tag is used for corrections regarding definiteness constructions. The kinds of corrections which are involved in this correction category are:
-•	Change between indefinite and definite forms of nouns (bok vs boken; rum vs rummet)
-•	Change between, removal of and addition of indefinite and definite articles (en, ett; den, det, de). In these cases the M-Def tag has higher priority than the S-M and S-R tags.
-•	Change between indefinite and definite forms of adjectives and adjective-like pronouns (stor/stort vs stora; egen/eget vs egna)
-Examples
-•	Vi gick till McDonalds och åt maten  mat
-•	Jag trivs bättre på jobb här  jobbet
-•	Jag har läst ditt mejlet  ditt mejl
-•	min stor dag  min stora dag
-•	De gränserna som fanns mellan kvinnor och män har nästan försvunnit  De gränser som fanns
-•	När kommer den buss  När kommer bussen
-•	Då kommer svenska språket försvinna ur Finska samhället  Då kommer svenska språket försvinna från det finska samhället
-•	Han har egen rummet och jag egen  Han har ett eget rum och jag ett eget
-M-F (wrong form, correct grammatical category)
+
+*	Change between indefinite and definite forms of nouns (_bok_ vs _boken_; _rum_ vs _rummet_)
+
+*	Change between, removal of and addition of indefinite and definite articles (_en_, _ett_; _den_, _det_, _de_). **In these cases the M-Def tag has higher priority than the S-M and S-R tags.**
+
+*	Change between indefinite and definite forms of adjectives and adjective-like pronouns (_stor_/_stort_ vs _stora_; _egen_/_eget_ vs _egna_)
+
+_Examples_
+
+*	Vi gick till McDonalds och åt **maten** -> **mat**
+
+*	Jag trivs bättre på **jobb** här -> **jobbet**
+
+*	Jag har läst ditt **mejlet** -> ditt **mejl**
+
+*	min **stor** dag -> min **stora** dag
+
+*	De **gränserna** som fanns mellan kvinnor och män har nästan försvunnit -> De **gränser** som fanns
+
+*	När kommer **den buss** -> När kommer **bussen**
+
+*	Då kommer svenska språket försvinna ur Finska samhället -> Då kommer svenska språket försvinna från **det** finska samhället
+
+*	Han har egen **rummet** och jag egen -> Han har **ett** eget rum och jag **ett** eget
+
+#### M-F (wrong form, correct grammatical category)
+
 The M-F tag is used when a declension/conjugation form (typically a suffix) which is used to express a specific grammatical category (e.g. number or plural) has been corrected to a form belonging to another declension/conjugation within the same grammatical category. The tag is used for the following correction types:
-Nouns:
-•	Correction of a plural suffix: båter  båtar
-Note: Unsuffixed noun forms will be interpreted as singular when corrected to a suffixed plural form, although unsuffixed plurals exist. Corrections like båt  båtar will thus be tagged with the M-Num tag and not with the M-F tag.
-Verbs:
-•	Correction of a present tense suffix: jag lager mat  jag lagar mat
-•	Correction of a past tense suffix: böjade  böjde
-•	Correction of a supine suffix: kunnit  kunnat
-•	Correction from a verb form with a basic stem form and a suffix (past tense or supine) to a stem-changed verb form (with or without suffix): sjungde  sjöng; drickit  druckit
-Adjectives:
-•	Correction of a comparative suffix: högare  högre
-•	Correction of a superlative suffix: högast  högst
-•	Correction from an adjective form (comparative or superlative) with a basic stem form and a suffix to a stem-changed form: långare  längre; ungast  yngst
-•	Correction of the choice between a periphrastic and an inflectional comparative or superlative construction: I Sverige är mer kallt än i xx  I Sverige är det kallare än i xx
-M-Gend (gender)
+
+_Nouns_:
+
+*	Correction of a plural suffix: **båter** -> **båtar**
+
+**Note**: Unsuffixed noun forms will be interpreted as singular when corrected to a suffixed plural form, although unsuffixed plurals exist. Corrections like _båt_ -> _båtar_ will thus be tagged with the M-Num tag and not with the M-F tag.
+
+_Verbs_:
+
+*	Correction of a present tense suffix: jag **lager** mat -> jag **lagar** mat
+
+*	Correction of a past tense suffix: **böjade** -> **böjde**
+
+*	Correction of a supine suffix: **kunnit** -> **kunnat**
+
+*	Correction from a verb form with a basic stem form and a suffix (past tense or supine) to a stem-changed verb form (with or without suffix): **sjungde** -> **sjöng**; **drickit** -> **druckit**
+
+_Adjectives_:
+
+*	Correction of a comparative suffix: **högare** -> **högre**
+
+*	Correction of a superlative suffix: **högast** -> **högst**
+
+*	Correction from an adjective form (comparative or superlative) with a basic stem form and a suffix to a stem-changed form: **långare** -> **längre**; **ungast** -> **yngst**
+
+*	Correction of the choice between a periphrastic and an inflectional comparative or superlative construction: I Sverige är **mer kallt** än i xx -> I Sverige är det **kallare** än i xx
+
+#### M-Gend (gender)
+
 The M-Gend tag is used to mark corrections of gender forms (neuter vs non-neuter) of nouns, articles, adjectives, and pronouns with adjective-like functions.
-Examples
-•	Det är en mycket trevlig område  Det är ett mycket trevligt område
-•	Den viktigaste är att …  Det viktigaste är att …
-•	Den första telefonnät  Det första telefonnätet
-•	Kommunikationen är möjligt  Kommunikationen är möjlig
-•	Han har egen rummet och jag egen  Han har ett eget rum och jag ett eget (cf. the same example under M-Def)
+
+_Examples_
+
+*	Det är **en** mycket **trevlig** område -> Det är **ett** mycket **trevligt** område
+
+*	**Den** viktigaste är att … -> **Det** viktigaste är att …
+
+*	**Den** första telefonnät -> **Det** första telefonnätet
+
+*	Kommunikationen är **möjligt** -> Kommunikationen är **möjlig**
+
+*	Han har **egen** rummet och jag **egen** -> Han har ett **eget** rum och jag ett **eget** (cf. the same example under M-Def)
+
 The M-Gend tag is also used for corrections of the overuse of the distinctly masculine form of adjectives:
-•	min käre mamma  min kära mamma
+
+*	min **käre** mamma -> min **kära** mamma
+
 (Since the masculine form is never obligatory, corrections from the feminine/common form to the masculine form are not made during the normalization, and thus do never occur in the correction annotation process.)
-Note: Gender corrections of pronouns which are due to their anaphoric reference will be covered by the L-Ref tag.
-M-Num (number)
+
+**Note**: Gender corrections of pronouns which are due to their anaphoric reference will be covered by the L-Ref tag.
+
+#### M-Num (number)
+
 The M-Num tag is used to mark number corrections of nouns, articles, adjectives, and pronouns with adjective-like functions.
-Examples
-•	Stress kan komma i många form  Stress kan komma i många former
-•	Så fort bilder är tagen  Så fort bilderna är tagna
-•	Alla sitter bakom sina skärmens sken  Alla sitter bakom sina skärmars sken
-Note: Number corrections of pronouns which are due to their anaphoric reference will be covered by the L-Ref tag.
-M-Other
+
+_Examples_
+
+*	Stress kan komma i många **form** -> Stress kan komma i många **former**
+
+*	Så fort bilder är **tagen** -> Så fort bilderna är **tagna**
+
+*	Alla sitter bakom sina **skärmens** sken -> Alla sitter bakom sina **skärmars** sken
+
+**Note**: Number corrections of pronouns which are due to their anaphoric reference will be covered by the L-Ref tag.
+
+#### M-Other
+
 The M-Other tag is used for corrections involving inflectional morphology for which none of the other M tags are suited, or for ambiguous cases when different sound interpretations of the correction lead to different M tags.
 Examples
 •	det är ett lite hus  litet
