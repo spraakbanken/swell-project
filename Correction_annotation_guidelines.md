@@ -135,20 +135,26 @@ The L-Der tag represents the correction category _deviant word formation_. It is
 
 The L-Der tag is exclusively used for links between one-token units. It covers the following correction types:
 
-*	A derivational affix has been corrected, e.g.:
-
-  De är **stressiga** på grund av studier -> De är **stressade** på grund av studier
+*	A derivational affix has been corrected, e.g.: De är **stressiga** på grund av studier -> De är **stressade** på grund av studier
   
 * A derivational affix has been added, e.g. **ändring** -> **förändring**
 
-•	A derivational affix has been removed, e.g. förstöra  störa
-•	The form of the first part of a compound has been corrected (for instance by adding or removing a “foge-s”), e.g. tvångsvenska  tvångssvenska; sagabok  sagobok
-•	A verbal particle of a compound form of a particle verb has been added, removed or corrected, e.g.:
-o	Internet uppmanar vår förståelse  Internet utmanar vår förståelse
-o	Han inhämtade väskorna från hotellrummet  Han hämtade väskorna från hotellrummet
-o	Hon minde honom om mötet på eftermiddagen  Hon påminde honom om mötet på eftermiddagen
+*	A derivational affix has been removed, e.g. **förstöra** -> **störa**
+
+*	The form of the first part of a compound has been corrected (for instance by adding or removing a “foge-s”), e.g. **tvångsvenska** -> **tvångssvenska**; **sagabok** -> **sagobok**
+
+*	A verbal particle of a compound form of a particle verb has been added, removed or corrected, e.g.:
+
+     - Internet uppmanar vår förståelse  Internet utmanar vår förståelse
+     
+     - Han inhämtade väskorna från hotellrummet  Han hämtade väskorna från hotellrummet
+     
+     - Hon minde honom om mötet på eftermiddagen  Hon påminde honom om mötet på eftermiddagen
+     
 (See the special section on verbal particles and reflexives.)
-Note (1): Corrections of verbal particles of phrasal forms of particle verbs are not tagged with the L-Der tag, but with the L-W tag. (See the special section on verbal particles and reflexives.)
+
+**Note (1)**: Corrections of verbal particles of phrasal forms of particle verbs are not tagged with the L-Der tag, but with the L-W tag. (See the special section on verbal particles and reflexives.)
+
 Note (2): The L-Der tag is not used for corrections which involve the addition of a -t suffix to an adjective which is used as an adverb, since this correction category is treated as a morphological correction with its own tag, M-Adj/adv.
 L-FL (foreign word corrected to Swedish)
 The L-FL tag is used for words from a foreign (non-Swedish) language which have been corrected to a Swedish word. It may also be applied to words which have certain non-Swedish traits due to influence from a foreign language.
