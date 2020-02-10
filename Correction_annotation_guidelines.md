@@ -738,13 +738,21 @@ When a word (or sequence) in an original text is recognized as belonging to a fo
 1)	The word/sequence is judged as a genre appropriate usage of cited foreign language (explicitly signaled citations, code switching etc.). -> Not corrected, tagged Cit-FL during normalization.
 
 2)	The word is not judged as a genre appropriate usage of cited foreign language and is thus corrected to a Swedish word during normalization:
-a)	The form used may be interpreted as a misspelled Swedish word.  Corrected during normalization, tagged O during correction annotation: kaffee  kaffe; can  kan
-b)	The form used may be interpreted as a Swedish word with an incorrect usage of derivational affixes etc.  Corrected during normalization, tagged L-Der during correction annotation: national helgdag  nationell helgdag
-c)	Neither a or b applies.  Corrected during normalization, tagged L-FL during correction annotation: balkony  balkong; family  familj; gas bojler  gaskokare
-Note: A word in the original text which is identifiable as a Swedish word, but which is used with another meaning in a way which is likely to be due to influence from a similar non-Swedish word, should be corrected and marked as L-W (not as L-FL):
-•	Alla blir busiga med sina sociala medier.  Alla blir upptagna med sina sociala medier
-In this example, it is likely that the incorrect usage of the correct Swedish word busiga is influenced by the word’s similarity to the English word busy – and it is partly based on this assumption that the writer’s intended meaning has been interpreted as upptagna. But since busiga is a correct Swedish word, with a distinctly Swedish morphological structure, the correction is tagged as L-W rather than as L-FL.
-Verbal particles and reflexives
+
+     a)	The form used may be interpreted as a misspelled Swedish word. -> Corrected during normalization, tagged O during correction annotation: **kaffee** -> **kaffe**; **can** -> **kan**
+     
+     b)	The form used may be interpreted as a Swedish word with an incorrect usage of derivational affixes etc. -> Corrected during normalization, tagged L-Der during correction annotation: **national helgdag** -> **nationell helgdag**
+     
+     c)	Neither a or b applies. -> Corrected during normalization, tagged L-FL during correction annotation: **balkony** -> **balkong**; **family** -> **familj**; **gas bojler** -> **gaskokare**
+     
+**Note**: A word in the original text which is identifiable as a Swedish word, but which is used with another meaning in a way which is likely to be due to influence from a similar non-Swedish word, should be corrected and marked as L-W (not as L-FL):
+
+*	Alla blir **busiga** med sina sociala medier. -> Alla blir **upptagna** med sina sociala medier
+
+In this example, it is likely that the incorrect usage of the correct Swedish word _busiga_ is influenced by the word’s similarity to the English word _busy_ – and it is partly based on this assumption that the writer’s intended meaning has been interpreted as 'upptagna'. But since _busiga_ is a correct Swedish word, with a distinctly Swedish morphological structure, the correction is tagged as L-W rather than as L-FL.
+
+#### Verbal particles and reflexives
+
 Several tags are used for corrections involving phrasal or compound verbs made up by a verb and verbal particle or a reflexive marker, primarily O-Comp, S-Comp, L-Der, L-W, S-M and S-R. This section provides an overview of the usage of these six tags for this category of corrections.
 •	O-Comp: A space is removed between a verbal particle and a following verb, making up a compound verb:
 o	upp mana  uppmana
