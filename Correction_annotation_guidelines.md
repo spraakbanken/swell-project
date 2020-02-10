@@ -181,22 +181,38 @@ The L-FL tag is used for corrections with the following characteristics:
 
 #### L-Ref (pronoun reference)
 
-The L-Ref tag represents the correction category reference correction. It includes anaphoric pronouns which have been corrected in order to have the grammatical form (gender, number, reflexive/non-reflexive) which suits its reference as revealed by the context.
-Examples
-•	Jag har en bror, hon heter xx  han heter xx
-•	Stämmer det att våra sociala media skapar individualism och ensamhet? Eller skapar det kontakter och trivs?  Eller skapar de kontakter …
-•	Innan trädet blev borta dem fick fars äpplen och sin fru lagade saft och mos av äpplena  Innan trädet var borta fick de fars äpplen och hans fru lagade saft och mos av äpplena
-L-W (wrong word or phrase)
-The L-W tag represents the correction category wrong word or phrase. It is used when a word/fixed phrase in the original text is identifiable as a Swedish word/fixed phrase, but has been replaced with another word or construction in the normalized text. Among the kind of multi-word expressions which may be marked with this tag are phrasal verbs and multi-word prepositions.
+The L-Ref tag represents the correction category _reference correction_. It includes anaphoric pronouns which have been corrected in order to have the grammatical form (gender, number, reflexive/non-reflexive) which suits its reference as revealed by the context.
+
+_Examples_
+
+*	Jag har en bror, **hon** heter xx -> **han** heter xx
+
+*	Stämmer det att våra sociala media skapar individualism och ensamhet? Eller skapar **det** kontakter och trivs? -> Eller skapar **de** kontakter …
+
+*	Innan trädet blev borta dem fick fars äpplen och **sin** fru lagade saft och mos av äpplena -> Innan trädet var borta fick de fars äpplen och **hans** fru lagade saft och mos av äpplena
+
+#### L-W (wrong word or phrase)
+
+The L-W tag represents the correction category _wrong word or phrase_. It is used when a word/fixed phrase in the original text is identifiable as a Swedish word/fixed phrase, but has been replaced with another word or construction in the normalized text. Among the kind of multi-word expressions which may be marked with this tag are phrasal verbs and multi-word prepositions.
+
 FLER EXEMPEL SKA IN HÄR!
-One word replaced by one word:
-•	Uppfinningen som transformerade hela kommunikationsområdet  Uppfinningen som förändrade hela kommunikationsområdet
-•	Jag bor i D-område på en lägenhet  Jag bor i D-område i en lägenhet .
-•	På det sättet kan kommunen motionera alla medborgare att träna → På det sättet kan kommunen motivera alla medborgare att träna.
-•	Jag bor samma med min bror  Jag bor tillsammans med min bror
-•	Alla blir busiga med sina sociala medier.  Alla blir upptagna med sina sociala medier (See the section on non-Swedish words and sequences for further comments on this example.)
-One word replaced by a multi-word expression:
-•	EXEMPEL SKA IN HÄR
+
+_One word replaced by one word_:
+
+*	Uppfinningen som **transformerade** hela kommunikationsområdet -> Uppfinningen som **förändrade** hela kommunikationsområdet
+
+*	Jag bor i D-område **på** en lägenhet -> Jag bor i D-område **i** en lägenhet
+
+*	På det sättet kan kommunen **motionera** alla medborgare att träna → På det sättet kan kommunen **motivera** alla medborgare att träna.
+
+*	Jag bor **samma** med min bror -> Jag bor **tillsammans** med min bror
+
+*	Alla blir **busiga** med sina sociala medier. -> Alla blir **upptagna** med sina sociala medier (See the section on non-Swedish words and sequences for further comments on this example.)
+
+_One word replaced by a multi-word expression_:
+
+*	EXEMPEL SKA IN HÄR
+
 Multi-word expression replaced by one word:
 •	EXEMPEL SKA IN HÄR
 Multi-word expression (fixed phrase) replaced by another multi-word expression:
