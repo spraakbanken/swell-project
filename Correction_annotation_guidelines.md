@@ -145,29 +145,42 @@ The L-Der tag is exclusively used for links between one-token units. It covers t
 
 *	A verbal particle of a compound form of a particle verb has been added, removed or corrected, e.g.:
 
-     - Internet uppmanar vår förståelse  Internet utmanar vår förståelse
+     - Internet **uppmanar** vår förståelse -> Internet **utmanar** vår förståelse
      
-     - Han inhämtade väskorna från hotellrummet  Han hämtade väskorna från hotellrummet
+     - Han **inhämtade** väskorna från hotellrummet -> Han **hämtade** väskorna från hotellrummet
      
-     - Hon minde honom om mötet på eftermiddagen  Hon påminde honom om mötet på eftermiddagen
+     - Hon **minde** honom om mötet på eftermiddagen -> Hon **påminde** honom om mötet på eftermiddagen
      
 (See the special section on verbal particles and reflexives.)
 
 **Note (1)**: Corrections of verbal particles of phrasal forms of particle verbs are not tagged with the L-Der tag, but with the L-W tag. (See the special section on verbal particles and reflexives.)
 
-Note (2): The L-Der tag is not used for corrections which involve the addition of a -t suffix to an adjective which is used as an adverb, since this correction category is treated as a morphological correction with its own tag, M-Adj/adv.
-L-FL (foreign word corrected to Swedish)
+**Note (2)**: The L-Der tag is not used for corrections which involve the addition of a -t suffix to an adjective which is used as an adverb, since this correction category is treated as a morphological correction with its own tag, M-Adj/adv.
+
+#### L-FL (foreign word corrected to Swedish)
+
 The L-FL tag is used for words from a foreign (non-Swedish) language which have been corrected to a Swedish word. It may also be applied to words which have certain non-Swedish traits due to influence from a foreign language.
-Examples
-•	Det fanns flera rum, två kök, balkony och trädgård  balkong
-•	Jag och min family  familj
+
+_Examples_
+
+*	Det fanns flera rum, två kök, **balkony** och trädgård -> **balkong**
+
+*	Jag och min **family** -> **familj**
+
 The L-FL tag is used for corrections with the following characteristics:
-•	The word in the original text is recognizable as a word from a foreign language to the annotator (who is obviously not equally proficient in all languages). Alternatively, the annotator recognizes certain non-Swedish traits in the word which are due to influence from a foreign language.
-•	The word in the original text may or may not be correctly formed and used according to the norms of the assumed influencing language.
-•	The word in the original text may have both Swedish and foreign traits, but if it is identifiable as an existing well-established Swedish word which has been replaced by an altogether different word, it should not be marked as L-FL, but as L-W. This holds even if the deviant choice of words is clearly due to lexical influence from the foreign language. For instance, the following example should be marked as L-W, although it is likely that the faulty use of busiga is influenced by the English word busy. (See the section on non-Swedish words and sequences below.)
-o	Alla blir busiga med sina sociala medier.  Alla blir upptagna med sina sociala medier
-•	It is not reasonable to interpret the correction as a correction of a spelling mistake or a word formation mistake. In that case the correction should be tagged with the O tag or the L-Der tag respectively. In other words: The O and L-Der tags have higher priority than the L-FL tag. (See the section on non-Swedish words and sequences below.)
-L-Ref (pronoun reference)
+
+*	The word in the original text is recognizable as a word from a foreign language _to the annotator_ (who is obviously not equally proficient in all languages). Alternatively, _the annotator_ recognizes certain non-Swedish traits in the word which are due to influence from a foreign language.
+
+*	The word in the original text may or may not be correctly formed and used according to the norms of the assumed influencing language.
+
+*	The word in the original text may have both Swedish and foreign traits, but if it is identifiable as an existing well-established Swedish word which has been replaced by an altogether different word, it should not be marked as L-FL, but as L-W. This holds even if the deviant choice of words is clearly due to lexical influence from the foreign language. For instance, the following example should be marked as L-W, although it is likely that the faulty use of _busiga_ is influenced by the English word busy. (See the section on non-Swedish words and sequences below.)
+
+     - Alla blir **busiga** med sina sociala medier. -> Alla blir **upptagna** med sina sociala medier
+     
+*	It is not reasonable to interpret the correction as a correction of a spelling mistake or a word formation mistake. In that case the correction should be tagged with the O tag or the L-Der tag respectively. In other words: The O and L-Der tags have higher priority than the L-FL tag. (See the section on non-Swedish words and sequences below.)
+
+#### L-Ref (pronoun reference)
+
 The L-Ref tag represents the correction category reference correction. It includes anaphoric pronouns which have been corrected in order to have the grammatical form (gender, number, reflexive/non-reflexive) which suits its reference as revealed by the context.
 Examples
 •	Jag har en bror, hon heter xx  han heter xx
