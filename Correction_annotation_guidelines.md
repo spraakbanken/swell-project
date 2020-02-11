@@ -743,7 +743,7 @@ When a word (or sequence) in an original text is recognized as belonging to a fo
      
      b)	The form used may be interpreted as a Swedish word with an incorrect usage of derivational affixes etc. -> Corrected during normalization, tagged L-Der during correction annotation: **national helgdag** -> **nationell helgdag**
      
-     c)	Neither a or b applies. -> Corrected during normalization, tagged L-FL during correction annotation: **balkony** -> **balkong**; **family** -> **familj**; **gas bojler** -> **gaskokare**
+     c)	Neither a nor b applies. -> Corrected during normalization, tagged L-FL during correction annotation: **balkony** -> **balkong**; **family** -> **familj**; **gas bojler** -> **gaskokare**
      
 **Note**: A word in the original text which is identifiable as a Swedish word, but which is used with another meaning in a way which is likely to be due to influence from a similar non-Swedish word, should be corrected and marked as L-W (not as L-FL):
 
