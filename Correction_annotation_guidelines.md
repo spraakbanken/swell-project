@@ -782,9 +782,10 @@ The insertion of the full stop is tagged as a punctuation correction (P-M). The 
 
 The change from _bostanden_ to _bostadsområde_ is marked as a lexical correction (L-W) and a morphological correction (M-DEF). The gender change of the pronoun, from _min_ (non-neuter) to _mitt_ (neuter) is made necessary because of the change of word (from the non-neuter _bostad_ to the neuter _bostadsområde_), and is thus marked as a consistency correction (C).
 
-*	Hon fortsätter att skriva att inte avskaffa den obligatoriska svenskan på skolan är fördel för ungdomar. -> Hon fortsätter att skriva att **det** är en fördel för ungdomar att inte avskaffa den obligatoriska svenskan i skolan.
+*	För det första **är** vi **går** skolan från dagsskolan till allika nivå för att vi hittar jobb sen tjänar vi lön .
+För det första **går** vi i skolan från förskolan till olika nivåer för att vi ska hitta ett jobb , sen får vi lön .
 
-In this case the insertion of the pronominal subject copy (_det_) may be seen as the necessary effect of postponing the infinitive phrase (_inte avskaffa den obligatoriska svenskan i skolan_). The movement of the infinitive phrase is tagged with S-WO, and the added det is marked with C. 
+The removal of _är_ is marked as S-R, while the movement of _går_ to the finite verb position (where it replaces the likewise finite verb _är_) is tagged with C.
 
 #### Cit-FL (cited foreign word judged acceptable in the normalization)
 
@@ -826,9 +827,17 @@ _Stanna_ is a reasonable guess about the intention with _sta_, but not well foun
 
 #### Unid (unidentified correction)
 
-Finally, the Unid tag is used for corrections which are not covered by any of the correction categories defined in the taxonomy.
+The Unid tag is used when the syntactic structure of the normalized text segment may rather be described as _created_ than as _corrected_. The normalization is a radical change of or addition to the original text. The original text does however give a fair indication of the intended _meaning_ (otherwise the correction would be X-marked), but it gives a very poor basis for assuming a specific syntactic structure.
 
-The Unid tag is a last option which should only be considered after all other solutions have been carefully considered.
+_Examples_
+
+* **Det därför tycker jag om det är** simma lungt och blåser -> **Jag tycker om det för att jag tycker om att** simma lugnt och när det blåser
+
+* Jag hoppas att du **intressant för din ny livs** -> Jag hoppas att du **tycker att ditt nya liv är intressant**
+
+* Så hur mycket pojkarna bettalad **värt inte** deras äppelträd eftersom trädet var viktig för dem -> Så hur mycket pojkarna betalade **var mindre än vad** deras äppelträd **var värt** eftersom trädet var viktigt för dem .
+
+The Unid tag may also be used for any other type of correction which cannot be covered by any of the other correction categories defined in the taxonomy.
 
 **Note**: The Unid tag should only be applied in cases when a correction has actually been made, and when the original text gives fairly sound support for the interpretation presented in the normalized version. Text segments which are so difficult to interpret that they are either left unchanged or normalized on the basis of guesses rather than solid interpretations should be tagged with X.
 
