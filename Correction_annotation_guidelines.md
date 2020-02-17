@@ -276,11 +276,11 @@ _Multi-word expression replaced by another multi-word expression_:
 
 *	såsom våra ”moderna” språk är ibland en blandning av flera utrotade minoritetsspråk som **under tiden** skapade något nytt och unik -> såsom våra ”moderna” språk ibland är en blandning av flera utrotade minoritetsspråk som **med tiden** skapade något nytt och unikt
 
-_Phrasal verb replaced by an expression with another verb_:
+_Phrasal verb replaced by another phrasal verb, both verb and particle exchanged_:
 
 *	Traditioner ger människorna tid att **stå still** och fundera över livet → … att **stanna upp** och fundera över livet.
 
-_Compound particle verb replaced by a phrasal verb with another verb and another particle_:
+_Compound particle verb replaced by a phrasal verb, both verb and particle replaced_:
 
 * Konsekvenserna man skulle få ifall undervisning i svenska blev frivillig så skulle mer än hälften av finska befolkningen **avskaffa** svenskan som modersmålsundervisning och istället fokusera på finska då dem sällan använder svenskan . -> Konsekvenserna man skulle få ifall undervisning i svenska blev frivilligt är att då skulle mer än hälften av den finska befolkningen **välja bort** svenskan som modersmålsundervisning och istället fokusera på finska då de sällan använder svenskan .
 
