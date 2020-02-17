@@ -327,6 +327,17 @@ _Examples_
 
 *	Hur påverkar detta våra måenden **långsiktig?** -> **långsiktigt**
 
+* Jag tror att man måste hitta balansen mellan rikdom och andra saker som är **riktiga** viktiga -> Jag tror att man måste hitta balansen mellan rikedom och andra saker som är **riktigt** viktiga
+
+The M-Adj/adv is also used for similar changes, when an adjective-like word is changed to a morphologically closely related but morphologically distinct adverb form:
+
+* När jag kommer **första** i 2012 , jag bodde i en social lagenhet med 3 andra person -> När jag **först** kom 2012 bodde jag i en kommunal lägenhet med 3 andra personer
+
+Moreover, the M-Adj/adv tag is used when an adjectival form of the word _liten_ is changed to the adverb form of the same word, i.e. _lite_. This holds also when the form _litet_ is changed to the form _lite_. Although the form _litet_ is occasionally used as an adverb in standard Swedish, it is too archaic to be used in most of the Swell text genres, and adverbial uses of the form _litet_ are thus normally corrected to the form _lite_ during normalization. Such changes are also tagged with M-Adj/adv:
+
+* Bostad i D-hemland är **litet** het topik för att diskussera -> Bostäder i D-hemland är ett **lite** hett ämne att diskutera .
+
+
 #### M-Case
 
 The M-Case tag is used for corrections regarding the choice of case form for nouns (nominative vs genitive) and pronouns (nominative vs accusative).
