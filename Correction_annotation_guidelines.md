@@ -306,10 +306,10 @@ _Examples_
 
 **Note (3)**: An expression tagged with L-W should be _replaced_ rather than _corrected_. This means:
 
-   - If both the original string and the normalized string are multi-word expressions containing one and the same lexical word, as well as one or more grammatical words which are changed, the L-W tag should be placed on the grammatical word(s) and not on the lexical word, as in the example above where _under tiden_ is exchanged for _med tiden_.
-   - If both the original string and the normalized string contain the same lexical morphemes but with another internal structure, the S-Comp tag should be applied rather than the L-W tag. Example: _avsnittet av texten_ -> _textavsnittet_
-   - If both the original string and the normalized string are multi-word expressions with the same main word (for instance the central noun of a noun phrase), one or several S-tags should be used rather than the L-W tag. The following correction is thus not marked as L-W but as S-Other: _min plats_ -> _platsen där jag bor_
-      - If both the original and the normalized string are single words, all root morphemes of the word should be changed. Otherwise the L-Der tag should be applied. Example: _dagsskola_ -> _förskola_
+* If both the original string and the normalized string are multi-word expressions containing one and the same lexical word, as well as one or more grammatical words which are changed, the L-W tag should be placed on the grammatical word(s) and not on the lexical word, as in the example above where _under tiden_ is exchanged for _med tiden_.
+* If both the original string and the normalized string contain the same lexical morphemes but with another internal structure, the S-Comp tag should be applied rather than the L-W tag. Example: _avsnittet av texten_ -> _textavsnittet_
+* If both the original string and the normalized string are multi-word expressions with the same main word (for instance the central noun of a noun phrase), one or several S-tags should be used rather than the L-W tag. The following correction is thus not marked as L-W but as S-Other: _min plats_ -> _platsen där jag bor_
+* If both the original and the normalized string are single words, all root morphemes of the word should be changed. Otherwise the L-Der tag should be applied. Example: _dagsskola_ -> _förskola_
 
 ### M – Morphological corrections
 
