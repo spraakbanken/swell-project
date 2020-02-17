@@ -599,7 +599,7 @@ The S-Comp tag is used for:
 
      -	Hejdlös **sociala medier användning** orsakar ensamhet -> Hejdlös **användning av sociala medier** orsakar ensamhet (See the section on compounds vs multi-word phrases for further discussion of this example.)
 
-* other corrections involving the restructuring of the same lexical morphemes
+* other corrections involving the restructuring of the same lexical morphemes within a phrase
 
      - Skillnader är stor av **Sveriges bostad** -> Skillnaderna är stora mot **bostäder i Sverige**
 
@@ -625,7 +625,7 @@ _Examples_
 
 *	När jag ätiti, jag **sover** -> När jag ätit, **sover** jag
 
-*	Eller det **skapar** kontakter och trivs?  Eller **skapar** de kontakter och trivsel?
+*	Eller det **skapar** kontakter och trivs? -> Eller **skapar** de kontakter och trivsel?
 
 #### S-M (word missing, other)
 
@@ -679,26 +679,33 @@ If the "semantic subject" is placed in an ordinary subject position in the origi
 
 * Hon försätter skriva om **att inte avskaffa den obligatoriska svenskan på skolan** är fördel för ungdomar . -> Hon fortsätter skriva om att **det** är en fördel för ungdomar **att inte avskaffa den obligatoriska svenskan i skolan**
 
+**Note (3)** When _det_ (and possibly _att_) is added to an infinitive phrase functioning as a subject, _det_ should not be tagged with S-Msubj, but with S-M:
+
+* Hon skriver också om **att ha svenska som obligatorisk i Finland** visar att alla är ju finnar och att " finlandssvenska " är bara påhittat . -> Hon skriver också om att **det att ha obligatorisk svenska i Finland** visar att alla är ju finnar och att " finlandssvenska " är bara påhittat .
+
+
 #### S-Other
 
 The S-Other tag is used for a number of correction types:
 
 1.	The basic construction type is corrected, for instance:
- a.	The overall phrase or clause type, including changes between:
-	- noun phrase and infinitive phrase
-  - infinitive phrase and finite clause
-  - subordinate clause and main clause (but not S-Adv) (C5CT1)
+ a.	The overall phrase or clause type is changed, including changes between:
+	- noun phrase and infinitive phrase:
+	   - jag behover pengar f$r **liv** och **betalning** av min hus -> jag behöver pengar för **att leva** och **betala** för mitt hus
+	   - I artikeln " Tre röster om svenskan ställning i Finland " ( Parnass , 2013:3 ) skriver Catharina Söderbergh om tre personer som har sagt sin åsikt om tvångssvenskan och **hur svenskan befinner sig** . -> I artikeln " Tre röster om svenskans ställning i Finland " ( Parnass 2013:3 ) skriver Catharina Söderbergh om tre personer som har sagt sin åsikt om tvångssvenskan och **läget för svenskan** .
+        - infinitive phrase and finite clause:
+		- **Att växa** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid. -> **När man växte** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid.
+        - subordinate clause and main clause
  b. A construction with an ordinary subject has been changed to a construction with an expletive _det_ and an object-positioned subject (_egentligt subjekt_)
+ 	- på andra sidan finns **människor som har så mycket pengar att de kan köpa halva världen** -> Å andra sidan finns **det** **människor som har så mycket pengar att de kan köpa halva världen**
  c. A construction with a heavy subject in an ordinary subject position has been changed to a construction with _det_ as subject, and the heavy subject has been moved further back in the clause (_postponerat subjekt_)
+ 	- - Hon försätter skriva om **att inte avskaffa den obligatoriska svenskan på skolan** är fördel för ungdomar -> Hon fortsätter skriva om att **det** är en fördel för ungdomar **att inte avskaffa den obligatoriska svenskan i skolan**
  d. Change between passive and active construction
-2.	The structure of a phrase or a clause is changed in a way which involves changing the syntactic function of the words involved
-     - du blir bättre -> det blir bättre för dig
-     - min plats -> platsen där jag bor
+ 	- I texten **sägs det av henne** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten . -> I texten **säger hon** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten .
+2.	The structure of clause is changed in a way which involves changing the syntactic function of the words involved
+        - **du blir bättre -> det blir bättre för dig**
 3. The structure of a phrase or a clause is otherwise changed in a way which cannot be covered by the other S-tags, separately or together, but the change is still rather a _correction_ than a _creation_ of the structure. (In the latter case the Unid tag should be used.)
-
-
-
-*	**Att växa** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid. -> **När man växte** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid.
+       - **min plats -> platsen där jag bor** (The S-Comp tag may not be applied, since the correction involves the addition of a lexical morpheme.)
 
 #### S-R (word redundant)
 
