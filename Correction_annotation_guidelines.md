@@ -688,19 +688,18 @@ If the "semantic subject" is placed in an ordinary subject position in the origi
 
 The S-Other tag is used for a number of correction types:
 
-1.	The basic construction type is corrected, for instance:
- a.	The overall phrase or clause type is changed, including changes between:
-	- noun phrase and infinitive phrase:
-	   - jag behover pengar f$r **liv** och **betalning** av min hus -> jag behöver pengar för **att leva** och **betala** för mitt hus
-	   - I artikeln " Tre röster om svenskan ställning i Finland " ( Parnass , 2013:3 ) skriver Catharina Söderbergh om tre personer som har sagt sin åsikt om tvångssvenskan och **hur svenskan befinner sig** . -> I artikeln " Tre röster om svenskans ställning i Finland " ( Parnass 2013:3 ) skriver Catharina Söderbergh om tre personer som har sagt sin åsikt om tvångssvenskan och **läget för svenskan** .
-        - infinitive phrase and finite clause:
-		- **Att växa** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid. -> **När man växte** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid.
-        - subordinate clause and main clause
- b. A construction with an ordinary subject has been changed to a construction with an expletive _det_ and an object-positioned subject (_egentligt subjekt_)
+1.	The basic construction type is corrected, including:
+- changes between a noun phrase and an infinitive phrase:
+	- jag behover pengar f$r **liv** och **betalning** av min hus -> jag behöver pengar för **att leva** och **betala** för mitt hus
+	- I artikeln " Tre röster om svenskan ställning i Finland " ( Parnass , 2013:3 ) skriver Catharina Söderbergh om tre personer som har sagt sin åsikt om tvångssvenskan och **hur svenskan befinner sig** . -> I artikeln " Tre röster om svenskans ställning i Finland " ( Parnass 2013:3 ) skriver Catharina Söderbergh om tre personer som har sagt sin åsikt om tvångssvenskan och **läget för svenskan** .
+- changes between an infinitive phrase and finite clause:
+	- **Att växa** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid. -> **När man växte** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid.
+- changes between a subordinate clause and a main clause
+- the change of a construction with an ordinary subject to a construction with an expletive _det_ and an object-positioned subject (_egentligt subjekt_)
  	- på andra sidan finns **människor som har så mycket pengar att de kan köpa halva världen** -> Å andra sidan finns **det** **människor som har så mycket pengar att de kan köpa halva världen**
- c. A construction with a heavy subject in an ordinary subject position has been changed to a construction with _det_ as subject, and the heavy subject has been moved further back in the clause (_postponerat subjekt_)
- 	- - Hon försätter skriva om **att inte avskaffa den obligatoriska svenskan på skolan** är fördel för ungdomar -> Hon fortsätter skriva om att **det** är en fördel för ungdomar **att inte avskaffa den obligatoriska svenskan i skolan**
- d. Change between passive and active construction
+ - changes between a construction with a heavy subject in an ordinary subject position to a construction with _det_ as subject, and the heavy subject further back in the clause (_postponerat subjekt_)
+	- Hon försätter skriva om **att inte avskaffa den obligatoriska svenskan på skolan** är fördel för ungdomar -> Hon fortsätter skriva om att **det** är en fördel för ungdomar **att inte avskaffa den obligatoriska svenskan i skolan**
+- changes between a passive construction and an active construction:
  	- I texten **sägs det av henne** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten . -> I texten **säger hon** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten .
 2.	The structure of clause is changed in a way which involves changing the syntactic function of the words involved
         - **du blir bättre -> det blir bättre för dig**
