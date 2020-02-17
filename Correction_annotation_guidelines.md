@@ -282,9 +282,9 @@ _Verbal particle replaced by another verbal particle, but verb kept; the verbal 
 
 *	Han torkade **bort** bordet -> Han torkade **av** bordet
 
-_Fixed expression consisting of one preposition and a noun replaced by another fixed expression consisting of another preposition but the same noun; the preposition rather than the full fixed expression is tagged with L-W_:
+_Fixed expression consisting of a lexical word (e.g. a noun) and a grammatical word (e.g. a preposition) replaced by another fixed expression consisting of the same lexical word but another grammatical word; the grammatical word rather than the full fixed expression is tagged with L-W_:
 
-* såsom våra ”moderna” språk är ibland en blandning av flera utrotade minoritetsspråk som **under tiden** skapade något nytt och unik -> såsom våra ”moderna” språk ibland är en blandning av flera utrotade minoritetsspråk som **med tiden** skapade något nytt och unikt .
+* såsom våra ”moderna” språk är ibland en blandning av flera utrotade minoritetsspråk som **under** tiden skapade något nytt och unik -> såsom våra ”moderna” språk ibland är en blandning av flera utrotade minoritetsspråk som **med** tiden skapade något nytt och unikt .
 
 **Note (1)**: Corrections consisting in the mere removal or addition of the reflexive sig or a verbal particle are not tagged with L-W, but with S-R or S-M respectively – even if both the bare verb and the phrasal verb may be characterized as lexical units. 
 
@@ -306,9 +306,10 @@ _Examples_
 
 **Note (3)**: An expression tagged with L-W should be _replaced_ rather than _corrected_. This means:
 
-   - If both the original string and the normalized string are multi-word expressions, the main word of the phrase has to be changed. Otherwise one or several S-tags should be used for the correction (or, as in examples above, only the actually corrected part of the expression should be marked with L-W)
-   - If one of the strings is a one-word expression and the other is a multi-word expression, at least one lexical morpheme has to be changed. Otherwise the S-Comp tag should be applied.
-   - If both the original and the normalized string are single words, all root morphemes of the word should be changed. Otherwise the L-Der tag should be applied.
+   - If both the original string and the normalized string are multi-word expressions containing one and the same lexical word, as well as one or more grammatical words which are changed, the L-W tag should be placed on the grammatical word(s) and not on the lexical word, as in the example above where _under tiden_ is exchanged for _med tiden_.
+   - If both the original string and the normalized string contain the same lexical morphemes but with another internal structure, the S-Comp tag should be applied rather than the L-W tag. Example: _avsnittet av texten_ -> _textavsnittet_
+   - If both the original string and the normalized string are multi-word expressions with the same main word (for instance the central noun of a noun phrase), one or several S-tags should be used rather than the L-W tag. The following correction is thus not marked as L-W but as S-Other: _min plats_ -> _platsen där jag bor_
+      - If both the original and the normalized string are single words, all root morphemes of the word should be changed. Otherwise the L-Der tag should be applied. Example: _dagsskola_ -> _förskola_
 
 ### M – Morphological corrections
 
