@@ -69,7 +69,7 @@ The SweLL correction annotation taxonomy contains five main categories of correc
 
 *	**Punctuation corrections (P)**, including corrections of the choice of punctuation marks as well as the adding or removal of punctuation marks, and also instances of merging or splitting sentences.
 
-*	**Syntactical corrections (S)**, i.e. corrections regarding the internal structure of multi-word phrases and clauses, including corrections of missing or redundant words, word order, the choice between a compound and a multi-word expression, and more complex syntactic corrections such as corrections between a finite clause structure and an infinitive phrase.
+*	**Syntactical corrections (S)**, i.e. corrections regarding the structure of multi-word phrases and clauses, including corrections of missing or redundant words, word order, the choice between a compound and a multi-word expression, and more complex syntactic corrections such as corrections between a finite clause structure and an infinitive phrase.
 
 In addition to the correction tags included in these five main correction categories, the Svala tool provides six other tags, including tags for corrections made as a consequence of other corrections (C), corrections not covered by any of the defined correction categories (Unid), unintelligible strings (X), strings cited from a foreign language (Cit-FL), and finally two tags for notes and comments – OBS! for internal work notes, and Com! for comments intended for the corpus users.
 
