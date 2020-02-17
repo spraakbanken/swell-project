@@ -461,7 +461,7 @@ _Examples_
 
 The M-Other tag is used for:
 
-* corrections between the comparational forms of adjectives, including correction between non-morphologically words functioning as different comparational forms of the same adjective (e.g. _dålig_ and _sämre_ or _många_ and _fler_):
+* corrections between the comparational forms of adjectives, including corrections between non-morphologically related words functioning as different comparational forms of the same adjective (e.g. _dålig_ and _sämre_ or _många_ and _fler_):
 
      - I slutligen kan jag säga utifrån texterna jag läste att det finns **många** nackdelar än fördelar med att avskaffa den obligatorisk svenskan i Finland -> Slutligen kan jag säga , utifrån texterna jag har läst , att det finns **fler** nackdelar än fördelar med att avskaffa den obligatoriska svenskan i Finland
 
@@ -581,21 +581,33 @@ _Examples_
 
 #### S-Comp (compound vs multi-word expression)
 
-The S-Comp tag is used for corrections regarding the choice between a compound and a multi-word expression. This includes the choice between a compound and a phrasal structure for the combination of a verb and a verbal particle. (See the special section on verbal particles and reflexives.)
+The S-Comp tag is used for:
 
-_Examples_
+* corrections regarding the choice between a compound and a multi-word expression. This includes the choice between a compound and a phrasal structure for the combination of a verb and a verbal particle. (See the special section on verbal particles and reflexives.)
 
-•	**det vardagliga livet** -> **vardagslivet**
+     - **det vardagliga livet** -> **vardagslivet**
 
-*	**livsskillnaden** -> **skillnaden i liv**
+     -	**livsskillnaden** -> **skillnaden i liv**
 
-*	**svenska undervisningar** -> **svenskundervisning**
+     -	**svenska undervisningar** -> **svenskundervisning**
 
-*	Enligt Hyltenstam så kan minoritetsspråk räddas om man **inblandar** dem äldre som kan språket -> Enligt Hyltenstam så kan minoritetsspråk räddas om man **blandar in** de äldre som kan språket
+     - **avsnittet av texten** -> **textavsnittet**
 
-*	Om det händer att det finns planhalvor så kan det bero på blyghet, osäkerhet, rädsla eller **socialfobi** -> **social fobi** (See the section on compounds vs multi-word phrases for further discussion of this example.)
+     -	Enligt Hyltenstam så kan minoritetsspråk räddas om man **inblandar** dem äldre som kan språket -> Enligt Hyltenstam så kan minoritetsspråk räddas om man **blandar in** de äldre som kan språket
+     
+     -	Om det händer att det finns planhalvor så kan det bero på blyghet, osäkerhet, rädsla eller **socialfobi** -> **social fobi** (See the section on compounds vs multi-word phrases for further discussion of this example.)
 
-*	Hejdlös **sociala medier användning** orsakar ensamhet -> Hejdlös **användning av sociala medier** orsakar ensamhet (See the section on compounds vs multi-word phrases for further discussion of this example.)
+     -	Hejdlös **sociala medier användning** orsakar ensamhet -> Hejdlös **användning av sociala medier** orsakar ensamhet (See the section on compounds vs multi-word phrases for further discussion of this example.)
+
+* other corrections involving the restructuring of the same lexical morphemes
+
+     - Skillnader är stor av **Sveriges bostad** -> Skillnaderna är stora mot **bostäder i Sverige**
+
+     - Cecila Christner skriver om hur det svenska språket i skolor blir kallad tvångsvenska **i samma tid** svenska har blivit icke populärt i Finland -> Cecilia Christner skriver om hur det svenska språket i skolorna blir kallat tvångssvenska **samtidigt** som svenska har blivit impopulärt i Finland
+
+* corrections involving the change between an expression with a lexical negation and an expression a derivational negation:
+
+     - Cecila Christner skriver om hur det svenska språket i skolor blir kallad tvångsvenska i samma tid svenska har blivit **icke populärt** i Finland -> Cecilia Christner skriver om hur det svenska språket i skolorna blir kallat tvångssvenska samtidigt som svenska har blivit **impopulärt** i Finland
 
 **Note**: Corrections regarding the mere orthographic rendering of a string with or without a space should not be marked with the S-Comp tag but with the O-Comp tag. (See O-Comp and the section on compounds vs multi-word expressions below.)
 
@@ -639,7 +651,7 @@ _Examples_
 
 #### S-Msubj (subject missing)
 
-The S-Msubj tag is used to mark corrections involving the addition of a subject which is missing in the original text. This includes cases when the pronoun/subordinating conjunction som has been inserted as a subject.
+The S-Msubj tag is used to mark corrections involving the addition of a subject which is missing in a clause in the original text. This includes cases when the pronoun/subordinating conjunction _som_ has been inserted as a subject.
 
 The S-Msubj tag has higher priority than the S-M tag.
 
@@ -650,6 +662,22 @@ _Examples_
 *	Det är inte bara arbetet och arbetslivet kan ge stress -> Det är inte bara arbetet och arbetslivet **som** kan ge stress
 
 *	Det är viktigt att veta vad händer -> Det är viktigt att veta vad **som** händer
+
+* I annan text " Tre röster om svenskans ställning i Finland " Parnass 2013:3 som är skriven av författaren Catharina Söderbergh beskriver dem tre olika ställningar som finns om svenska inom Finland -> I en annan text , " Tre röster om svenskans ställning i Finland " ( Parnass 2013:3 ) , som är skriven av författaren Catharina Söderbergh , beskriver **författaren** de tre olika inställningar som finns till svenska i Finland
+
+**Note (1)**: The S-Msubj tag should only be applied in those cases when the clause is already present in the original case. If a subject is part of a clause which has been added in the normalization, the S-M tag should be applied:
+
+* Jag studerar på eftermiddag Sfi och förmiddag praktik -> Jag studerar sfi på eftermiddagen och på förmiddagen har **jag** praktik
+
+**Note (2)**: When an expletive _det_ is added as a subject in a clause which already in the original version includes a phrase which has the semantic function of a subject, but which in the normalized version is placed in the object position (as an _egentligt subjekt_), or further back in the clause as a _postponerat subjekt_, _det_ should be marked with S-Msubj only if the "semantic subject" was already in its object or late position in the original text, and the original text thus did not have a subject in a subject position:
+
+* Finns många nya lagenheterna i dyrare delar i huvudstaden -> **Det** finns många nya lägenheter i dyrare delar i huvudstaden
+
+If the "semantic subject" is placed in an ordinary subject position in the original text, but moved further back in the normalized version, _det_ should be marked as S-Other (as well as the moved subject):
+
+* på andra sidan finns **människor som har så mycket pengar att de kan köpa halva världen** -> Å andra sidan finns **det** **människor som har så mycket pengar att de kan köpa halva världen**
+
+* Hon försätter skriva om **att inte avskaffa den obligatoriska svenskan på skolan** är fördel för ungdomar . -> Hon fortsätter skriva om att **det** är en fördel för ungdomar **att inte avskaffa den obligatoriska svenskan i skolan**
 
 #### S-Other
 
