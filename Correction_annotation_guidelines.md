@@ -209,9 +209,9 @@ The L-FL tag is used for corrections with the following characteristics:
      
 *	It is not reasonable to interpret the correction as a correction of a spelling mistake or a word formation mistake. In that case the correction should be tagged with the O tag or the L-Der tag respectively. In other words: The O and L-Der tags have higher priority than the L-FL tag. (See the section on non-Swedish words and sequences below.)
 
-#### L-Ref (pronoun reference)
+#### L-Ref (anaphoric expressions)
 
-The L-Ref tag represents the correction category _reference correction_. It includes anaphoric pronouns which have been corrected in order to have the grammatical form (gender, number, reflexive/non-reflexive) which suits its reference as revealed by the context.
+The L-Ref is used for anaphoric pronominal expressions which have been corrected in order to have the grammatical form and semantic content (gender, number, reflexive/non-reflexive, sexus, directional/locational etc.) which suits its correlate.
 
 _Examples_
 
@@ -220,6 +220,20 @@ _Examples_
 *	Stämmer det att våra sociala media skapar individualism och ensamhet? Eller skapar **det** kontakter och trivs? -> Eller skapar **de** kontakter …
 
 *	Innan trädet blev borta dem fick fars äpplen och **sin** fru lagade saft och mos av äpplena -> Innan trädet var borta fick de fars äpplen och **hans** fru lagade saft och mos av äpplena
+
+* Östling skriver om politiker som tycker att obligatorisk språkundervisningen och prov på nynorska krävs för att försäkra ett minoritets språk som har ett gamal kulturarv knutet till **den** . -> Östling skriver om politiker som tycker att obligatorisk språkundervisning och prov på nynorska krävs för att skydda ett minoritetsspråk som har ett gammalt kulturarv knutet till **sig** .
+
+* “ Finns det något som är mer värt än pengar ? ” Jag vet faktiskt inte , **den** är en svår fråga . -> “ Finns det något som är mer värt än pengar ? ” Jag vet faktiskt inte , **det** är en svår fråga .
+
+* Om man jobbar åtta timmar varje vardag för att få pengar , sedan är det lite hycklande att säga något som , ” Ja , det finns jo viktigare saker i livet ! ” **Den** är en tredjedel av din dag ! -> Om man jobbar åtta timmar varje vardag för att få pengar , är det sedan lite hycklande att säga något som : ” Ja , det finns ju viktigare saker i livet ! ” **Det** är en tredjedel av din dag !
+
+* Jag tycker om Gotland och **den** ligger i Sverige . -> Jag tycker om Gotland , och **det** ligger i Sverige .
+
+* I artikeln " Svenskan tynar i Finland " ( Forsknings & Framsteg 2009:2 ) Cecilia Christner Raid om varför man ens lär sig svenska idag i Finland **som** beror på historiska event . -> I artikeln " Svenskan tynar i Finland " ( Forskning & Framsteg 2009:2 ) skriver Cecilia Christner Riad om varför man ens lär sig svenska idag i Finland , **vilket** beror på historiska händelser .
+
+The L-Ref tag may also be used when a noun which is used anaphorically has been exchanged for a pronoun, or the other way around, in order for the specificity of the anaphoric expression to suit its textual position:
+
+* Heter Jag Karin och Jag har änmält mig till danskursen och bitalad för det men tyvär fick Jag inte tid för att koma . Jag kunde inte att komma för jobbar och pl$ggar Jag tillsamman och **det** passar inte med min tiden -> Jag heter Karin och jag har anmält mig till danskursen och betalat för den , men tyvärr hade jag inte tid att komma . Jag kunde inte komma för att jag både jobbar och pluggar , och **kursen** passar inte med mina tider
 
 #### L-W (wrong word or phrase)
 
