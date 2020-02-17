@@ -354,6 +354,11 @@ _Examples_
 
 *	Ingen förstår **hon** -> Ingen förstår **henne**
 
+**Note**: When the form _dem_ is changed to the form _de_ used as a definite article, the correction is tagged as L-W, not as M-Case:
+
+* den obligatoriska svenskundervisningen i **dem** finska skolorna -> den obligatoriska svenskundervisningen i **de** finska skolorna
+
+
 #### M-Def (definiteness)
 
 The M-Def tag is used for corrections regarding definiteness constructions. The kinds of corrections which are involved in this correction category are:
@@ -388,7 +393,7 @@ The M-F tag is used when a declension/conjugation form (typically a suffix) whic
 
 _Nouns_:
 
-*	Correction of a plural suffix: **båter** -> **båtar**
+*	Correction of a plural suffix: **båter** -> **båtar**, **huvudprobelmer** -> **huvudproblem**
 
 **Note**: Unsuffixed noun forms will be interpreted as singular when corrected to a suffixed plural form, although unsuffixed plurals exist. Corrections like _båt_ -> _båtar_ will thus be tagged with the M-Num tag and not with the M-F tag.
 
@@ -426,6 +431,8 @@ _Examples_
 
 *	Kommunikationen är **möjligt** -> Kommunikationen är **möjlig**
 
+* ifall undervisning i svenska blev **frivillig** -> **frivilligt**
+
 *	Han har **egen** rummet och jag **egen** -> Han har ett **eget** rum och jag ett **eget** (cf. the same example under M-Def)
 
 The M-Gend tag is also used for corrections of the overuse of the distinctly masculine form of adjectives:
@@ -452,11 +459,17 @@ _Examples_
 
 #### M-Other
 
-The M-Other tag is used for corrections involving inflectional morphology for which none of the other M tags are suited, or for ambiguous cases when different sound interpretations of the correction lead to different M tags.
+The M-Other tag is used for:
 
-_Examples_
+* corrections between the comparational forms of adjectives, including correction between non-morphologically words functioning as different comparational forms of the same adjective (e.g. _dålig_ and _sämre_ or _många_ and _fler_):
 
-*	det är ett **lite** hus -> **litet**
+     - I slutligen kan jag säga utifrån texterna jag läste att det finns **många** nackdelar än fördelar med att avskaffa den obligatorisk svenskan i Finland -> Slutligen kan jag säga , utifrån texterna jag har läst , att det finns **fler** nackdelar än fördelar med att avskaffa den obligatoriska svenskan i Finland
+
+     - Morfar ville visa de att det finns nånting som är **viktigaste** , deras förändringen t.ex. -> Morfar ville visa dem att det finns nånting som är **viktigare** , deras förändring t.ex.
+
+* corrections involving inflectional morphology for which none of the other M tags are suited, or for ambiguous cases when different sound interpretations of the correction lead to different M tags:
+
+     - Enligt Hermanssons artikel debatten om huruvida nynorska skulle behållas eller om **dens** öde skulle vara upp till folket och marknaden att bestämma över resulterar i blandade åsikter . -> Enligt Hermanssons artikel resulterar debatten om huruvida nynorskan ska bevaras eller om **dess** öde ska vara upp till folket och marknaden att bestämma över i blandade åsikter .
 
 **Note**: Take care not to overuse the M-Other tag. The other M tags should be carefully considered before choosing this one.
 
