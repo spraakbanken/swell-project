@@ -183,7 +183,7 @@ _Examples_
 
 * Jag ska **solen** och bada -> Jag ska **sola** och bada
 
-* Jag behöver pengar för liv och **betalning** av mitt hus -> Jag behöver pengar för att leva och **betala** mitt hus
+* Jag behöver pengar för liv och **betalning** av min hus -> Jag behöver pengar för att leva och **betala** mitt hus
 
 #### L-FL (foreign word corrected to Swedish)
 
@@ -194,6 +194,8 @@ _Examples_
 *	Det fanns flera rum, två kök, **balkony** och trädgård -> **balkong**
 
 *	Jag och min **family** -> **familj**
+
+* varför man ens lär sig svenska idag i Finland som beror på historiska **event** -> varför man ens lär sig svenska idag i Finland , vilket beror på historiska **händelser**
 
 The L-FL tag is used for corrections with the following characteristics:
 
@@ -772,6 +774,11 @@ When a word (or sequence) in an original text is recognized as belonging to a fo
      b)	The form used may be interpreted as a Swedish word with an incorrect usage of derivational affixes etc. -> Corrected during normalization, tagged L-Der during correction annotation: **national helgdag** -> **nationell helgdag**
      
      c)	Neither a nor b applies. -> Corrected during normalization, tagged L-FL during correction annotation: **balkony** -> **balkong**; **family** -> **familj**; **gas bojler** -> **gaskokare**
+
+In the following example, a text passage in norwegian is marked as a citation, and is thus kept in the normalization and tagged with Cit-FL. The citation is immediately followed by another norwegian word, which is changed to a Swedish word in the normalization, and tagged L-FL:
+
+* I samma artikel skriver Bengt Östling om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . **" Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk "** , **lyder** det i ett debattinlägg . -> I samma artikel skriver Bengt Östling att om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . **" Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk "** , **låter** det i ett debattinlägg .
+
      
 **Note**: A word in the original text which is identifiable as a Swedish word, but which is used with another meaning in a way which is likely to be due to influence from a similar non-Swedish word, should be corrected and marked as L-W (not as L-FL):
 
