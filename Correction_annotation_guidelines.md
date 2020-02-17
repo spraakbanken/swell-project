@@ -665,11 +665,11 @@ _Examples_
 
 * I annan text " Tre röster om svenskans ställning i Finland " Parnass 2013:3 som är skriven av författaren Catharina Söderbergh beskriver dem tre olika ställningar som finns om svenska inom Finland -> I en annan text , " Tre röster om svenskans ställning i Finland " ( Parnass 2013:3 ) , som är skriven av författaren Catharina Söderbergh , beskriver **författaren** de tre olika inställningar som finns till svenska i Finland
 
-**Note (1)**: The S-Msubj tag should only be applied in those cases when the clause is already present in the original case. If a subject is part of a clause which has been added in the normalization, the S-M tag should be applied:
+**Note (1)**: The S-Msubj tag should only be applied in those cases when the clause is already present in the original text. If the added subject is part of a clause which has altogether been added in the normalization, the S-M tag should be applied:
 
 * Jag studerar på eftermiddag Sfi och förmiddag praktik -> Jag studerar sfi på eftermiddagen och på förmiddagen har **jag** praktik
 
-**Note (2)**: When an expletive _det_ is added as a subject in a clause which already in the original version includes a phrase which has the semantic function of a subject, but which in the normalized version is placed in the object position (as an _egentligt subjekt_), or further back in the clause as a _postponerat subjekt_, _det_ should be marked with S-Msubj only if the "semantic subject" was already in its object or late position in the original text, and the original text thus did not have a subject in a subject position:
+**Note (2)**: When _det_ is added as a subject in a clause which already in the original version includes a phrase which has the semantic function of a subject, but which in the normalized version is placed in the object position (as an _egentligt subjekt_), or further back in the clause as a _postponerat subjekt_, _det_ should be marked with S-Msubj only if the "semantic subject" was already in its object or late position in the original text, and the original text thus did not have a subject in a subject position:
 
 * Finns många nya lagenheterna i dyrare delar i huvudstaden -> **Det** finns många nya lägenheter i dyrare delar i huvudstaden
 
@@ -681,11 +681,24 @@ If the "semantic subject" is placed in an ordinary subject position in the origi
 
 #### S-Other
 
-The S-Other tag is used for syntactic corrections which are not covered by the other S-tags. This includes for instance changes between an infinitive construction and a finite clause construction.
+The S-Other tag is used for a number of correction types:
+
+1.	The basic construction type is corrected, for instance:
+ a.	The overall phrase or clause type, including changes between:
+	- noun phrase and infinitive phrase
+  - infinitive phrase and finite clause
+  - subordinate clause and main clause (but not S-Adv) (C5CT1)
+ b. A construction with an ordinary subject has been changed to a construction with an expletive _det_ and an object-positioned subject (_egentligt subjekt_)
+ c. A construction with a heavy subject in an ordinary subject position has been changed to a construction with _det_ as subject, and the heavy subject has been moved further back in the clause (_postponerat subjekt_)
+ d. Change between passive and active construction
+2.	The structure of a phrase or a clause is changed in a way which involves changing the syntactic function of the words involved
+     - du blir bättre -> det blir bättre för dig
+     - min plats -> platsen där jag bor
+3. The structure of a phrase or a clause is otherwise changed in a way which cannot be covered by the other S-tags, separately or together, but the change is still rather a _correction_ than a _creation_ of the structure. (In the latter case the Unid tag should be used.)
+
+
 
 *	**Att växa** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid. -> **När man växte** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid.
-
-**Note**: Take care not to overuse the S-Other tag. The other S tags should be carefully considered before choosing this one.
 
 #### S-R (word redundant)
 
