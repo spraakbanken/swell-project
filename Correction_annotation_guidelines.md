@@ -248,9 +248,12 @@ In order for the L-W tag to be applied the following has to be the case:
 
 * Either the original string or the normalized string  (or both) is (an attempt at) a word or an established phrase
 
-* If either the original string or the normalized string (or both) is a multi-word expression, the main word of the phrase has to be changed. (Otherwise one or several S-tags should be used for the correction.)
+* The expression should be _replaced_ rather than _corrected_. This means:
 
-* If both the original and the normalized string are single words, all root morphemes of the word should be changed. (Otherwise the L-Der tag should be applied.)
+   - If both the original string and the normalized string are multi-word expressions, the main word of the phrase has to be changed. Otherwise one or several S-tags should be used for the correction.
+   _Example_: såsom våra ”moderna” språk är ibland en blandning av flera utrotade minoritetsspråk som **under tiden** skapade något nytt och unik -> såsom våra ”moderna” språk ibland är en blandning av flera utrotade minoritetsspråk som **med tiden** skapade något nytt och unikt
+   - If one of the strings is a one-word expression and the other is a multi-word expression, at least one lexical morpheme has to be changed. (Otherwise the S-Comp tag should be applied.)
+   - If both the original and the normalized string are single words, all root morphemes of the word should be changed. (Otherwise the L-Der tag should be applied.)
 
 _One word replaced by one word_:
 
@@ -274,7 +277,7 @@ _Multi-word expression replaced by one word_:
 
 _Multi-word expression replaced by another multi-word expression_:
 
-*	såsom våra ”moderna” språk är ibland en blandning av flera utrotade minoritetsspråk som **under tiden** skapade något nytt och unik -> såsom våra ”moderna” språk ibland är en blandning av flera utrotade minoritetsspråk som **med tiden** skapade något nytt och unikt
+
 
 _Phrasal verb replaced by another phrasal verb, both verb and particle exchanged_:
 
