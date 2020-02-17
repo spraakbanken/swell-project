@@ -702,9 +702,9 @@ The S-Other tag is used for a number of correction types:
 - changes between a passive construction and an active construction:
  	- I texten **sägs det av henne** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten . -> I texten **säger hon** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten .
 2.	The structure of clause is changed in a way which involves changing the syntactic function of the words involved
-        - **du blir bättre -> det blir bättre för dig**
+- **du blir bättre -> det blir bättre för dig**
 3. The structure of a phrase or a clause is otherwise changed in a way which cannot be covered by the other S-tags, separately or together, but the change is still rather a _correction_ than a _creation_ of the structure. (In the latter case the Unid tag should be used.)
-       - **min plats -> platsen där jag bor** (The S-Comp tag may not be applied, since the correction involves the addition of a lexical morpheme.)
+- **min plats -> platsen där jag bor** (The S-Comp tag may not be applied, since the correction involves the addition of a lexical morpheme.)
 
 #### S-R (word redundant)
 
