@@ -111,15 +111,23 @@ _Examples_
 
 * Det ligger ett **kultur hus** nära min bostad -> **kulturhus**
 
+* En före nänmt problem nynorska i norge har tas upp i artiklen " Obligatoriska språkprov sliter på norsk tvåspråkighet " av Bengt Östling ( 11.11.2013 ) där han har jämförts **" tvångsvenska " debatten** i Finland med **nynorska debatten** i Norge -> Ett tidigare nämnt problem som nynorskan i Norge har tas upp i artikeln " Obligatoriska språkprov sliter på norsk tvåspråkighet " av Bengt Östling ( 11.11.2013 ) , där han har jämfört **"tvångssvenska"-debatten** i Finland med **nynorska-debatten** i Norge
+
 *	**kultur-hus** -> **kulturhus**
 
 *	**New York bor** -> **New York-bor**
 
 *	**New Yorkbor** -> **New York-bor**
 
-*	**itisdags** -> **i tisdags**
+* **tv program** -> **tv-program**
 
-*	**ochsåvidare** -> **och så vidare**
+*	**engång** -> **en gång**
+
+*	för två **årsen** -> för två **år sen**
+
+In the following example, the change from a comma to a long dash between _Finland_ and _Sverige_ is tagged with P-W, and the change from a space to a hyphen between _Sverige_ and _historien_ is tagged with O-Comp:
+
+* Författaren börjar med att beskriva det långa **Finland , Sverige historien** och hur Finland var en gång i tiden en del av Sverige -> Författaren börjar med att beskriva den långa **Finland–Sverige-historien** och hur Finland en gång i tiden var en del av Sverige
 
 Corrections which involve both a removal of a space and a change of the form of the first part of the compound are tagged both with O-Comp and L-Der:
 
