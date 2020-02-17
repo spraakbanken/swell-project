@@ -244,16 +244,7 @@ The L-Ref tag may also be used when a noun which is used anaphorically has been 
 
 The L-W tag represents the correction category _wrong word or phrase_. It is used when a word or phrase in the original text has been replaced by another word or phrase in the normalized version.
 
-In order for the L-W tag to be applied the following has to be the case:
-
-* Either the original string or the normalized string  (or both) is (an attempt at) a word or an established phrase
-
-* The expression should be _replaced_ rather than _corrected_. This means:
-
-   - If both the original string and the normalized string are multi-word expressions, the main word of the phrase has to be changed. Otherwise one or several S-tags should be used for the correction.
-   _Example_: såsom våra ”moderna” språk är ibland en blandning av flera utrotade minoritetsspråk som **under tiden** skapade något nytt och unik -> såsom våra ”moderna” språk ibland är en blandning av flera utrotade minoritetsspråk som **med tiden** skapade något nytt och unikt
-   - If one of the strings is a one-word expression and the other is a multi-word expression, at least one lexical morpheme has to be changed. (Otherwise the S-Comp tag should be applied.)
-   - If both the original and the normalized string are single words, all root morphemes of the word should be changed. (Otherwise the L-Der tag should be applied.)
+In order for the L-W tag to be applied either the original string or the normalized string  (or both) has to be (an attempt at) a word or an established phrase, and the normalized expression should express the perceived intended meaning of the original string.
 
 _One word replaced by one word_:
 
@@ -287,11 +278,13 @@ _Compound particle verb replaced by a phrasal verb, both verb and particle repla
 
 * Konsekvenserna man skulle få ifall undervisning i svenska blev frivillig så skulle mer än hälften av finska befolkningen **avskaffa** svenskan som modersmålsundervisning och istället fokusera på finska då dem sällan använder svenskan . -> Konsekvenserna man skulle få ifall undervisning i svenska blev frivilligt är att då skulle mer än hälften av den finska befolkningen **välja bort** svenskan som modersmålsundervisning och istället fokusera på finska då de sällan använder svenskan .
 
-_Verbal particle replaced by another verbal particle, but verb kept_:
+_Verbal particle replaced by another verbal particle, but verb kept; the verbal particle rather than the whole phrasal verb is tagged with L-W_:
 
 *	Han torkade **bort** bordet -> Han torkade **av** bordet
 
-In cases like this the verbal particle – not the whole phrasal verb – is marked with the tag L-W.
+_Fixed expression consisting of one preposition and a noun replaced by another fixed expression consisting of another preposition but the same noun; the preposition rather than the full fixed expression is tagged with L-W_:
+
+* såsom våra ”moderna” språk är ibland en blandning av flera utrotade minoritetsspråk som **under tiden** skapade något nytt och unik -> såsom våra ”moderna” språk ibland är en blandning av flera utrotade minoritetsspråk som **med tiden** skapade något nytt och unikt .
 
 **Note (1)**: Corrections consisting in the mere removal or addition of the reflexive sig or a verbal particle are not tagged with L-W, but with S-R or S-M respectively – even if both the bare verb and the phrasal verb may be characterized as lexical units. 
 
@@ -310,6 +303,12 @@ _Examples_
 * **Några tider** vi kan titta och lyssna på hur funkar det -> **Ibland** kan vi titta och lyssna på hur det funkar .
 
 * Finns många nya lagenheterna i dyrare delar i huvudstaden , men detta är **lång distans från  räker nummer** . -> Det finns många nya lägenheter i dyrare delar i huvudstaden , men detta är **långt ifrån tillräckligt** .
+
+**Note (3)**: An expression tagged with L-W should be _replaced_ rather than _corrected_. This means:
+
+   - If both the original string and the normalized string are multi-word expressions, the main word of the phrase has to be changed. Otherwise one or several S-tags should be used for the correction (or, as in examples above, only the actually corrected part of the expression should be marked with L-W)
+   - If one of the strings is a one-word expression and the other is a multi-word expression, at least one lexical morpheme has to be changed. Otherwise the S-Comp tag should be applied.
+   - If both the original and the normalized string are single words, all root morphemes of the word should be changed. Otherwise the L-Der tag should be applied.
 
 ### M – Morphological corrections
 
