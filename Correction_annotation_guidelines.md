@@ -141,7 +141,9 @@ The L tags represent the lexical correction category. It includes four sub-categ
 
 The L-Der tag represents the correction category _deviant word formation_. It is used for corrections of the internal morphological structure of word stems, both with regard to compounding and to derivation.
 
-The L-Der tag is exclusively used for links between one-token units. It covers the following correction types:
+The L-Der tag is exclusively used for links between one-word units, where the normalized word has kept at least one root morpheme from the original word, but where another morpheme has been removed, added, exchanged or had its form altered.
+
+_Examples_
 
 *	A derivational affix has been corrected, e.g.: De är **stressiga** på grund av studier -> De är **stressade** på grund av studier
   
@@ -155,15 +157,33 @@ The L-Der tag is exclusively used for links between one-token units. It covers t
 
      - Internet **uppmanar** vår förståelse -> Internet **utmanar** vår förståelse
      
-     - Han **inhämtade** väskorna från hotellrummet -> Han **hämtade** väskorna från hotellrummet
+     - För att sammanfatta och svara på frågan om likheter och skillnader finns mellan nynorskans ställning i Norge och svenkans ställning i Finland man måste förstå att debatten i båda länder är jätte lik varandra , bara hantering **avskiljer** -> För att sammanfatta och svara på frågan om det finns likheter och skillnader mellan nynorskans ställning i Norge och svenkans ställning i Finland måste man förstå att debatterna i de båda länderna är jättelika varandra , bara hanteringen **skiljer**
      
-     - Hon **minde** honom om mötet på eftermiddagen -> Hon **påminde** honom om mötet på eftermiddagen
+     - I annan text " Tre röster om svenskans ställning i Finland " Parnass 2013:3 som är skriven av författaren Catharina Söderbergh beskriver dem tre olika **ställningar** som finns om svenska inom Finland -> I en annan text , " Tre röster om svenskans ställning i Finland " ( Parnass 2013:3 ) , som är skriven av författaren Catharina Söderbergh , beskriver författaren de tre olika **inställningar** som finns till svenska i Finland
      
 (See the special section on verbal particles and reflexives.)
+
+* A lexical root morpheme has been exchanged, e.g.: **dagsskolan** -> **förskolan**
+
+* A verbal particle has been exchanged for a derivational affix, e.g.: **efterlyser** -> **belyser**
+
+* A root morpheme and a derivational morpheme has been added, e.g.: **maktfull** --> **maktfullkomlig**
 
 **Note (1)**: Corrections of verbal particles of phrasal forms of particle verbs are not tagged with the L-Der tag, but with the L-W tag. (See the special section on verbal particles and reflexives.)
 
 **Note (2)**: The L-Der tag is not used for corrections which involve the addition of a -t suffix to an adjective which is used as an adverb, since this correction category is treated as a morphological correction with its own tag, M-Adj/adv.
+
+**Note (3)**: When the correction of a word tagged with L-Der involves a change of phrase type or part of speech, the correction is tagged with S-Other, in addition to L-Der.
+
+_Examples_
+
+* **norska** bokmål -> **norskt** bokmål
+
+* en **nybyggnad** lägenhet -> en **nybyggd** lägenhet
+
+* Jag ska **solen** och bada -> Jag ska **sola** och bada
+
+* Jag behöver pengar för liv och **betalning** av mitt hus -> Jag behöver pengar för att leva och **betala** mitt hus
 
 #### L-FL (foreign word corrected to Swedish)
 
