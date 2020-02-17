@@ -185,6 +185,9 @@ _Examples_
 
 * Jag behöver pengar för liv och **betalning** av min hus -> Jag behöver pengar för att leva och **betala** mitt hus
 
+* något ha en " svart " avställning **båda** i jobbet och från bostad -> Någon har en " svart " inkomst **både** från jobbet och från bostaden 
+
+
 #### L-FL (foreign word corrected to Swedish)
 
 The L-FL tag is used for words from a foreign (non-Swedish) language which have been corrected to a Swedish word. It may also be applied to words which have certain non-Swedish traits due to influence from a foreign language.
@@ -231,15 +234,23 @@ _Examples_
 
 * I artikeln " Svenskan tynar i Finland " ( Forsknings & Framsteg 2009:2 ) Cecilia Christner Raid om varför man ens lär sig svenska idag i Finland **som** beror på historiska event . -> I artikeln " Svenskan tynar i Finland " ( Forskning & Framsteg 2009:2 ) skriver Cecilia Christner Riad om varför man ens lär sig svenska idag i Finland , **vilket** beror på historiska händelser .
 
+* Man kan flyga till Gotland eller åka till Nynäshamn och åka båt till **där** -> Man kan flyga till Gotland eller åka till Nynäshamn och åka båt **dit** .
+
 The L-Ref tag may also be used when a noun which is used anaphorically has been exchanged for a pronoun, or the other way around, in order for the specificity of the anaphoric expression to suit its textual position:
 
 * Heter Jag Karin och Jag har änmält mig till danskursen och bitalad för det men tyvär fick Jag inte tid för att koma . Jag kunde inte att komma för jobbar och pl$ggar Jag tillsamman och **det** passar inte med min tiden -> Jag heter Karin och jag har anmält mig till danskursen och betalat för den , men tyvärr hade jag inte tid att komma . Jag kunde inte komma för att jag både jobbar och pluggar , och **kursen** passar inte med mina tider
 
 #### L-W (wrong word or phrase)
 
-The L-W tag represents the correction category _wrong word or phrase_. It is used when a word/fixed phrase in the original text is identifiable as a Swedish word/fixed phrase, but has been replaced with another word or construction in the normalized text. Among the kind of multi-word expressions which may be marked with this tag are phrasal verbs and multi-word prepositions.
+The L-W tag represents the correction category _wrong word or phrase_. It is used when a word or phrase in the original text has been replaced by another word or phrase in the normalized version.
 
-FLER EXEMPEL SKA IN HÄR!
+In order for the L-W tag to be applied the following has to be the case:
+
+* Either the original string or the normalized string  (or both) is (an attempt at) a word or an established phrase
+
+* If either the original string or the normalized string (or both) is a multi-word expression, the main word of the phrase has to be changed. (Otherwise one or several S-tags should be used for the correction.)
+
+* If both the original and the normalized string are single words, all root morphemes of the word should be changed. (Otherwise the L-Der tag should be applied.)
 
 _One word replaced by one word_:
 
@@ -249,25 +260,29 @@ _One word replaced by one word_:
 
 *	På det sättet kan kommunen **motionera** alla medborgare att träna → På det sättet kan kommunen **motivera** alla medborgare att träna.
 
-*	Jag bor **samma** med min bror -> Jag bor **tillsammans** med min bror
+* vi solade och badade mycket och träffäde några **personer** från flera länder -> Vi solade och badade mycket och träffade **människor** från flera länder .
 
 *	Alla blir **busiga** med sina sociala medier. -> Alla blir **upptagna** med sina sociala medier (See the section on non-Swedish words and sequences for further comments on this example.)
 
 _One word replaced by a multi-word expression_:
 
-*	EXEMPEL SKA IN HÄR
+*	Med detta som bakgrund så kan man konstatera att majoriteten av **Finland** på olika missnöjesnivåer avskyr inlärning av svenska på grund- och gymnasieskolor . -> Med detta som bakgrund så kan man konstatera att majoriteten av **Finlands befolkning** , på olika missnöjesnivåer , avskyr inlärning av svenska på grund- och gymnasieskolor .
 
-_Multi-word expression (fixed phrase) replaced by one word_:
+_Multi-word expression replaced by one word_:
 
-*	EXEMPEL SKA IN HÄR
+*	Jag maner att om vi **har önskemål** kan vi göra nånting utan pengar -> Jag menar att om vi **vill** kan vi göra nånting utan pengar .
 
-_Multi-word expression (fixed phrase) replaced by another multi-word expression_:
+_Multi-word expression replaced by another multi-word expression_:
 
 *	såsom våra ”moderna” språk är ibland en blandning av flera utrotade minoritetsspråk som **under tiden** skapade något nytt och unik -> såsom våra ”moderna” språk ibland är en blandning av flera utrotade minoritetsspråk som **med tiden** skapade något nytt och unikt
 
-_Phrasal verb replaced by an expression with another main verb_:
+_Phrasal verb replaced by an expression with another verb_:
 
 *	Traditioner ger människorna tid att **stå still** och fundera över livet → … att **stanna upp** och fundera över livet.
+
+_Compound particle verb replaced by a phrasal verb with another verb and another particle_:
+
+* Konsekvenserna man skulle få ifall undervisning i svenska blev frivillig så skulle mer än hälften av finska befolkningen **avskaffa** svenskan som modersmålsundervisning och istället fokusera på finska då dem sällan använder svenskan . -> Konsekvenserna man skulle få ifall undervisning i svenska blev frivilligt är att då skulle mer än hälften av den finska befolkningen **välja bort** svenskan som modersmålsundervisning och istället fokusera på finska då de sällan använder svenskan .
 
 _Verbal particle replaced by another verbal particle, but verb kept_:
 
@@ -277,9 +292,21 @@ In cases like this the verbal particle – not the whole phrasal verb – is mar
 
 **Note (1)**: Corrections consisting in the mere removal or addition of the reflexive sig or a verbal particle are not tagged with L-W, but with S-R or S-M respectively – even if both the bare verb and the phrasal verb may be characterized as lexical units. 
 
-**Note (2)**: While the marked element in the original text has to be either a word or a clear case of a fixed phrase, the substitute expression in the normalized text does not necessarily have to be a word or an indisputable case of a fixed phrase, but it suffices that it is a common endocentric phrase, such as _mellan dem_ in the following exampel, which replaces _sinsemellan_ in the original text:
+**Note (2)**: When a correction tagged with L-W involves a change of phrase type/part of speech, the correction is also marked with the additional tag S-Other.
+
+_Examples_
 
 *	plötsligt bröt muren **sinsemellan** -> plötsligt rasade muren **mellan dem**
+
+* jag behover pengar f$r **liv** och betalning av min hus -> jag behöver pengar för **att leva** och betala för mitt hus
+
+* Tycker om min plats har en **köpa mat** ett , litet centrum en förskolan en vårdcentralen -> Jag tycker om platsen där jag bor , den har en **mataffär** , ett litet centrum , en förskola , en vårdcentral
+
+* Man kan promonera **lång tid** finns det blåser -> Man kan promenera **länge** när det blåser
+
+* **Några tider** vi kan titta och lyssna på hur funkar det -> **Ibland** kan vi titta och lyssna på hur det funkar .
+
+* Finns många nya lagenheterna i dyrare delar i huvudstaden , men detta är **lång distans från  räker nummer** . -> Det finns många nya lägenheter i dyrare delar i huvudstaden , men detta är **långt ifrån tillräckligt** .
 
 ### M – Morphological corrections
 
