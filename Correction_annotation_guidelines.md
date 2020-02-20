@@ -393,7 +393,7 @@ The M-F tag is used when a declension/conjugation form (typically a suffix) whic
 
 _Nouns_:
 
-*	Correction of a plural suffix: **båter** -> **båtar**, **huvudprobelmer** -> **huvudproblem**
+*	Correction of a plural suffix: **båter** -> **båtar**, **huvudproblemer** -> **huvudproblem**
 
 **Note**: Unsuffixed noun forms will be interpreted as singular when corrected to a suffixed plural form, although unsuffixed plurals exist. Corrections like _båt_ -> _båtar_ will thus be tagged with the M-Num tag and not with the M-F tag.
 
