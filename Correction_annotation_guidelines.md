@@ -445,7 +445,7 @@ The M-Gend tag is also used for corrections of the overuse of the distinctly mas
 
 #### M-Num (number)
 
-The M-Num tag is used to mark number corrections of nouns, articles, adjectives, and pronouns with adjective-like functions.
+The M-Num tag is used to mark number corrections of nouns, articles, adjectives, participles, and pronouns with adjective-like functions.
 
 _Examples_
 
