@@ -605,7 +605,7 @@ The S-Comp tag is used for:
 
      - Cecila Christner skriver om hur det svenska språket i skolor blir kallad tvångsvenska **i samma tid** svenska har blivit icke populärt i Finland -> Cecilia Christner skriver om hur det svenska språket i skolorna blir kallat tvångssvenska **samtidigt** som svenska har blivit impopulärt i Finland
 
-* corrections involving the change between an expression with a lexical negation and an expression a derivational negation:
+* corrections involving the change between an expression with a lexical negation and an expression with a derivational negation:
 
      - Cecila Christner skriver om hur det svenska språket i skolor blir kallad tvångsvenska i samma tid svenska har blivit **icke populärt** i Finland -> Cecilia Christner skriver om hur det svenska språket i skolorna blir kallat tvångssvenska samtidigt som svenska har blivit **impopulärt** i Finland
 
