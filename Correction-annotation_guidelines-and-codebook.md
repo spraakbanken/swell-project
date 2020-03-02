@@ -173,7 +173,7 @@ _Examples_
 
 **Note (2)**: The L-Der tag is not used for corrections which involve the addition of a -t suffix to an adjective which is used as an adverb, since this correction category is treated as a morphological correction with its own tag, M-Adj/adv.
 
-**Note (3)**: When the correction of a word tagged with L-Der involves a change of phrase type or part of speech, the correction is tagged with S-Other, in addition to L-Der.
+**Note (3)**: When the correction of a word tagged with L-Der involves a change of phrase type or part of speech, the correction is tagged with S-Type, in addition to L-Der.
 
 _Examples_
 
