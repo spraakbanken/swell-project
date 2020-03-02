@@ -242,9 +242,9 @@ The L-Ref tag may also be used when a noun which is used anaphorically has been 
 
 #### L-W (wrong word or phrase)
 
-The L-W tag represents the correction category _wrong word or phrase_. It is used when a word or phrase in the original text has been replaced by another word or phrase in the normalized version.
+The L-W tag represents the correction category _wrong word or phrase_. It is used when a word or phrase in the original text has been replaced by another word or phrase in the normalized version. The  L-W tag is thus placed on strings which are _exchanged_ rather than _corrected_ (see note below for further explanation).
 
-In order for the L-W tag to be applied either the original string or the normalized string  (or both) has to be (an attempt at) a word or an established phrase, and the normalized expression should express the perceived intended meaning of the original string.
+The L-W tag is only applied when at least one of the strings (the original string and the normalized string) is (an attempt at) a word or a fixed phrase.
 
 _One word replaced by one word_:
 
@@ -288,7 +288,7 @@ _Fixed expression consisting of a lexical word (e.g. a noun) and a grammatical w
 
 **Note (1)**: Corrections consisting in the mere removal or addition of the reflexive sig or a verbal particle are not tagged with L-W, but with S-R or S-M respectively – even if both the bare verb and the phrasal verb may be characterized as lexical units. 
 
-**Note (2)**: When a correction tagged with L-W involves a change of phrase type/part of speech, the correction is also marked with the additional tag S-Other.
+**Note (2)**: When a correction tagged with L-W involves a change of phrase type/part of speech, the correction is also marked with the additional tag S-Type.
 
 _Examples_
 
@@ -308,7 +308,7 @@ _Examples_
 
 * If both the original string and the normalized string are multi-word expressions containing one and the same lexical word, as well as one or more grammatical words which are changed, the L-W tag should be placed on the grammatical word(s) and not on the lexical word, as in the example above where _under tiden_ is exchanged for _med tiden_.
 * If both the original string and the normalized string contain the same lexical morphemes but with another internal structure, the S-Comp tag should be applied rather than the L-W tag. Example: _avsnittet av texten_ -> _textavsnittet_
-* If both the original string and the normalized string are multi-word expressions with the same main word (for instance the central noun of a noun phrase), one or several S-tags should be used rather than the L-W tag. The following correction is thus not marked as L-W but as S-Other: _min plats_ -> _platsen där jag bor_
+* If both the original string and the normalized string are multi-word expressions with the same main word (for instance the central noun of a noun phrase), one or several S-tags should be used rather than the L-W tag. The following correction is thus not marked as L-W but as S-Clause: _min plats_ -> _platsen där jag bor_
 * If both the original and the normalized string are single words, all root morphemes of the word should be changed. Otherwise the L-Der tag should be applied. Example: _dagsskola_ -> _förskola_
 
 ### M – Morphological corrections
@@ -417,6 +417,10 @@ _Adjectives_:
 
 *	Correction of the choice between a periphrastic and an inflectional comparative or superlative construction: I Sverige är **mer kallt** än i xx -> I Sverige är det **kallare** än i xx
 
+The tag may also be used for some analogous changes of pronouns:
+
+* Enligt Hermanssons artikel debatten om huruvida nynorska skulle behållas eller om **dens** öde skulle vara upp till folket och marknaden att bestämma över resulterar i blandade åsikter . -> Enligt Hermanssons artikel resulterar debatten om huruvida nynorskan ska bevaras eller om **dess** öde ska vara upp till folket och marknaden att bestämma över i blandade åsikter .
+
 #### M-Gend (gender)
 
 The M-Gend tag is used to mark corrections of gender forms (neuter vs non-neuter) of nouns, articles, adjectives, and pronouns with adjective-like functions.
@@ -459,17 +463,13 @@ _Examples_
 
 #### M-Other
 
-The M-Other tag is used for:
+The M-Other tag is used for corrections involving inflectional morphology for which none of the other M tags are suited, or for ambiguous cases when different sound interpretations of the correction lead to different M tags.
 
-* corrections between the comparational forms of adjectives, including corrections between non-morphologically related words functioning as different comparational forms of the same adjective (e.g. _dålig_ and _sämre_ or _många_ and _fler_):
+The usage of the M-Other tag covers corrections between the comparational forms of adjectives, including corrections between non-morphologically related words functioning as different comparational forms of the same adjective (e.g. _dålig_ and _sämre_ or _många_ and _fler_):
 
-     - I slutligen kan jag säga utifrån texterna jag läste att det finns **många** nackdelar än fördelar med att avskaffa den obligatorisk svenskan i Finland -> Slutligen kan jag säga , utifrån texterna jag har läst , att det finns **fler** nackdelar än fördelar med att avskaffa den obligatoriska svenskan i Finland
+* I slutligen kan jag säga utifrån texterna jag läste att det finns **många** nackdelar än fördelar med att avskaffa den obligatorisk svenskan i Finland -> Slutligen kan jag säga , utifrån texterna jag har läst , att det finns **fler** nackdelar än fördelar med att avskaffa den obligatoriska svenskan i Finland
 
-     - Morfar ville visa de att det finns nånting som är **viktigaste** , deras förändringen t.ex. -> Morfar ville visa dem att det finns nånting som är **viktigare** , deras förändring t.ex.
-
-* corrections involving inflectional morphology for which none of the other M tags are suited, or for ambiguous cases when different sound interpretations of the correction lead to different M tags:
-
-     - Enligt Hermanssons artikel debatten om huruvida nynorska skulle behållas eller om **dens** öde skulle vara upp till folket och marknaden att bestämma över resulterar i blandade åsikter . -> Enligt Hermanssons artikel resulterar debatten om huruvida nynorskan ska bevaras eller om **dess** öde ska vara upp till folket och marknaden att bestämma över i blandade åsikter .
+* Morfar ville visa de att det finns nånting som är **viktigaste** , deras förändringen t.ex. -> Morfar ville visa dem att det finns nånting som är **viktigare** , deras förändring t.ex.
 
 **Note**: Take care not to overuse the M-Other tag. The other M tags should be carefully considered before choosing this one.
 
@@ -557,7 +557,7 @@ In this example, the P-Sent tag is placed on a link between _och_ in the origina
 
 ### S – Syntactical corrections
 
-The S tags represent the syntactical correction category. It contains eight sub-categories.
+The S tags represent the syntactical correction category. It contains eleven sub-categories.
 
 #### S-Adv (adverbial placement)
 
@@ -610,6 +610,26 @@ The S-Comp tag is used for:
      - Cecila Christner skriver om hur det svenska språket i skolor blir kallad tvångsvenska i samma tid svenska har blivit **icke populärt** i Finland -> Cecilia Christner skriver om hur det svenska språket i skolorna blir kallat tvångssvenska samtidigt som svenska har blivit **impopulärt** i Finland
 
 **Note**: Corrections regarding the mere orthographic rendering of a string with or without a space should not be marked with the S-Comp tag but with the O-Comp tag. (See O-Comp and the section on compounds vs multi-word expressions below.)
+
+#### S-Clause 
+The S-Clause tag is used for corrections involving changes of the most basic clause structure. The corrections in this category may be divided into the two following main types:
+
+1. The structure of a clause is changed in a way which involves changing the primary syntactic function (subject, finite verb, object, egentligt subjekt ‘object-positioned subject’ and predicative) of one or more of the words involved, for instance:
+* Subject changed to a prepositional complement in an adverbial:
+     - du blir bättre -> det blir bättre för dig
+* Changes between a passive construction and an active construction:
+     - I texten sägs det av henne att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten . -> I texten säger hon att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten .
+* Subject changed to egentligt subjekt ’object-positioned subject’:
+     - på andra sidan finns människor som har så mycket pengar att de kan köpa halva världen -> Å andra sidan finns det människor som har så mycket pengar att de kan köpa halva världen (cf. S-Msubj and note below)
+2. The structure of a phrase or a clause is changed in a way which involves adding a clause to its internal structure, for instance:
+* The structure of a noun phrase is changed by changing a framförställt attribut (‘preceding attribute’) to an efterställt attribut (‘succeeding attribute’) in the form of a relative clause 
+     - min plats -> platsen där jag bor
+
+**Note**: When a clause is changed by 1) adding an expletive det as a subject and 2) changing a subject to an egentligt subjekt ‘object-positioned subject’, two tags are needed to mark the corrections:
+
+* The S-Msubj tag is placed on the added _det_.
+* The S-Clause tag is placed on the element which has been changed from subject to _egentligt subjekt_ (‘object-positioned subject’).
+
 
 #### S-FinV (placement of finite verb)
 
