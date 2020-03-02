@@ -216,7 +216,7 @@ The L-FL tag is used for corrections with the following characteristics:
 
 The L-Ref tag is used for anaphoric expressions (particularly pronouns and pronominal adverbs) which have been corrected in order to have the grammatical form (gender, number, reflexive/non-reflexive), semantic content (masculine/feminine, directional/locational etc.), and specificity which suits its correlate and its textual position.
 
-The L-Ref tag has higher priority than the M-Num, M-Gend and M-Case tags. It also has higher priority than the L-W tag.
+The L-Ref tag has higher priority than the M-Num, M-Gend and L-W tags.
 
 The L-Ref tag has lower priority than the M-Def tag, and should only be applied in cases when the M-Def tag cannot be applied.
 
@@ -224,7 +224,7 @@ _Examples_
 
 *	Jag har en bror, **hon** heter xx -> **han** heter xx
 
-*	Stämmer det att våra sociala media skapar individualism och ensamhet? Eller skapar **det** kontakter och trivs? -> Eller skapar **de** kontakter … (_In cases like this, the L-Ref tag should be applied rather than the M-Num tag._)
+*	Stämmer det att våra sociala media skapar individualism och ensamhet? Eller skapar **det** kontakter och trivs? -> Eller skapar **de** kontakter … (_In cases like this, the L-Ref tag has higher priority than the M-Num tag._)
 
 *	Innan trädet blev borta dem fick fars äpplen och **sin** fru lagade saft och mos av äpplena -> Innan trädet var borta fick de fars äpplen och **hans** fru lagade saft och mos av äpplena
 
@@ -236,9 +236,9 @@ _Examples_
 
 * Jag tycker om Gotland och **den** ligger i Sverige . -> Jag tycker om Gotland , och **det** ligger i Sverige .
 
-* I artikeln " Svenskan tynar i Finland " ( Forsknings & Framsteg 2009:2 ) Cecilia Christner Raid om varför man ens lär sig svenska idag i Finland **som** beror på historiska event . -> I artikeln " Svenskan tynar i Finland " ( Forskning & Framsteg 2009:2 ) skriver Cecilia Christner Riad om varför man ens lär sig svenska idag i Finland , **vilket** beror på historiska händelser .
+* I artikeln " Svenskan tynar i Finland " ( Forsknings & Framsteg 2009:2 ) Cecilia Christner Raid om varför man ens lär sig svenska idag i Finland **som** beror på historiska event . -> I artikeln " Svenskan tynar i Finland " ( Forskning & Framsteg 2009:2 ) skriver Cecilia Christner Riad om varför man ens lär sig svenska idag i Finland , **vilket** beror på historiska händelser . (_In cases like this, and the following examples, the L-Ref tag has higher priority than the L-W tag._)
 
-* Man kan flyga till Gotland eller åka till Nynäshamn och åka båt till **där** -> Man kan flyga till Gotland eller åka till Nynäshamn och åka båt **dit** . (_In cases like this, the L-Ref tag has higher priority than the L-W tag._)
+* Man kan flyga till Gotland eller åka till Nynäshamn och åka båt till **där** -> Man kan flyga till Gotland eller åka till Nynäshamn och åka båt **dit** .
 
 The L-Ref tag may also be used when a noun which is used anaphorically has been exchanged for a pronoun, or the other way around, in order for the specificity of the anaphoric expression to suit its textual position:
 
@@ -249,6 +249,8 @@ The L-Ref tag may also be used when a noun which is used anaphorically has been 
 The L-W tag represents the correction category _wrong word or phrase_. It is used when a word or phrase in the original text has been replaced by another word or phrase in the normalized version. The  L-W tag is thus placed on strings which are _exchanged_ rather than _corrected_ (see note below for further explanation).
 
 The L-W tag is only applied when at least one of the strings (the original string and the normalized string) is (an attempt at) a word or a fixed phrase.
+
+The L-W tag has lower priority than the L-Ref tag.
 
 _One word replaced by one word_:
 
@@ -308,15 +310,16 @@ _Examples_
 
 * Finns många nya lagenheterna i dyrare delar i huvudstaden , men detta är **lång distans från  räker nummer** . -> Det finns många nya lägenheter i dyrare delar i huvudstaden , men detta är **långt ifrån tillräckligt** .
 
-* The pronoun form _dem_ is changed to the form _de_ used as a definite article, the correction is tagged as L-W, not as M-Case:
-
-* den obligatoriska svenskundervisningen i **dem** finska skolorna -> den obligatoriska svenskundervisningen i **de** finska skolorna (_The pronoun form_ dem _is changed to the form_ de used as a definite article. Cf. M-Case.)
+* den obligatoriska svenskundervisningen i **dem** finska skolorna -> den obligatoriska svenskundervisningen i **de** finska skolorna (_The pronoun form_ dem _is changed to the form_ de _used as a definite article. Cf. M-Case._)
 
 **Note (3)**: An expression tagged with L-W should be _replaced_ rather than _corrected_. This means:
 
 * If both the original string and the normalized string are multi-word expressions containing one and the same lexical word, as well as one or more grammatical words which are changed, the L-W tag should be placed on the grammatical word(s) and not on the lexical word, as in the example above where _under tiden_ is exchanged for _med tiden_.
+
 * If both the original string and the normalized string contain the same lexical morphemes but with another internal structure, the S-Comp tag should be applied rather than the L-W tag. Example: _avsnittet av texten_ -> _textavsnittet_
+
 * If both the original string and the normalized string are multi-word expressions with the same main word (for instance the central noun of a noun phrase), one or several S-tags should be used rather than the L-W tag. The following correction is thus not marked as L-W but as S-Clause: _min plats_ -> _platsen där jag bor_
+
 * If both the original and the normalized string are single words, all root morphemes of the word should be changed. Otherwise the L-Der tag should be applied. Example: _dagsskola_ -> _förskola_
 
 ### M – Morphological corrections
