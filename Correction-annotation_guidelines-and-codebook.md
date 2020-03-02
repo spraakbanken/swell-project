@@ -337,7 +337,7 @@ _Examples_
 
 * Jag tror att man måste hitta balansen mellan rikdom och andra saker som är **riktiga** viktiga -> Jag tror att man måste hitta balansen mellan rikedom och andra saker som är **riktigt** viktiga
 
-The M-Adj/adv is also used for similar changes, when an adjective-like word is changed to a morphologically closely related but morphologically distinct adverb form:
+The M-Adj/adv is also used for similar changes, when an adjective or adjective-like word is changed to a morphologically closely related but distinct adverb form:
 
 * När jag kommer **första** i 2012 , jag bodde i en social lagenhet med 3 andra person -> När jag **först** kom 2012 bodde jag i en kommunal lägenhet med 3 andra personer
 
