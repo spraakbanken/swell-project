@@ -202,7 +202,7 @@ _Examples_
 
 * varför man ens lär sig svenska idag i Finland som beror på historiska **event** -> varför man ens lär sig svenska idag i Finland , vilket beror på historiska **händelser**
 
-* Bostad i D-hemland är litet het **topik** för att **diskussera** -> Bostäder i D-hemland är ett lite hett ämne att **diskutera**
+* Bostad i D-hemland är litet het **topik** för att **diskussera** -> Bostäder i D-hemland är ett lite hett **ämne** att **diskutera**
 
 The L-FL tag is used for corrections with the following characteristics:
 
