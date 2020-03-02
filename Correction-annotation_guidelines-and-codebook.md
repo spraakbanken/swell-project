@@ -647,6 +647,19 @@ The S-Clause tag is used for corrections involving changes of the most basic cla
 
 * The S-Clause tag is placed on the element which has been changed from subject to _egentligt subjekt_ (‘object-positioned subject’).
 
+#### S-Ext  (extensive, complex correction)
+
+The S-Ext tag is used for extensive, complex corrections. The syntactic structure of the normalized text segment may rather be described as _created_ than as _corrected_, and the correction often also involves the addition of lexical words. The original text gives a fair indication of the intended meaning (otherwise the correction would be X-marked), but it gives a very poor basis for assuming a specific syntactic goal structure.
+
+_Examples_
+
+* **Det därför tycker jag om det är** simma lungt och blåser -> **Jag tycker om det för att jag tycker om** att simma lugnt och när det blåser
+
+* Jag hoppas att du **intressant för din ny livs** -> Jag hoppas att du **tycker att ditt nya liv är intressant**
+
+* Så hur mycket pojkarna bettalad **värt inte deras äppelträd** eftersom trädet var viktig för dem -> Så hur mycket pojkarna betalade **var mindre än vad deras äppelträd var värt** eftersom trädet var viktigt för dem .
+
+**Note**: The S-Ext tag should only be applied in cases when a correction has actually been made, and when the original text gives fairly sound support for the interpretation presented in the normalized version. Text segments which are so difficult to interpret that they are either left unchanged or normalized on the basis of guesses rather than interpretations should be tagged with X.
 
 #### S-FinV (placement of finite verb)
 
@@ -702,46 +715,29 @@ _Examples_
 
 * I annan text " Tre röster om svenskans ställning i Finland " Parnass 2013:3 som är skriven av författaren Catharina Söderbergh beskriver dem tre olika ställningar som finns om svenska inom Finland -> I en annan text , " Tre röster om svenskans ställning i Finland " ( Parnass 2013:3 ) , som är skriven av författaren Catharina Söderbergh , beskriver **författaren** de tre olika inställningar som finns till svenska i Finland
 
-**Note (1)**: The S-Msubj tag should only be applied in those cases when the clause is already present in the original text. If the added subject is part of a clause which has altogether been added in the normalization, the S-M tag should be applied:
-
-* Jag studerar på eftermiddag Sfi och förmiddag praktik -> Jag studerar sfi på eftermiddagen och på förmiddagen har **jag** praktik
-
-**Note (2)**: When _det_ is added as a subject in a clause which already in the original version includes a phrase which has the semantic function of a subject, but which in the normalized version is placed in the object position (as an _egentligt subjekt_), or further back in the clause as a _postponerat subjekt_, _det_ should be marked with S-Msubj only if the "semantic subject" was already in its object or late position in the original text, and the original text thus did not have a subject in a subject position:
-
 * Finns många nya lagenheterna i dyrare delar i huvudstaden -> **Det** finns många nya lägenheter i dyrare delar i huvudstaden
 
-If the "semantic subject" is placed in an ordinary subject position in the original text, but moved further back in the normalized version, _det_ should be marked as S-Other (as well as the moved subject):
+The S-Msubj tag should be placed on a _det_ which has been inserted as a subject, also in the following cases:
 
-* på andra sidan finns **människor som har så mycket pengar att de kan köpa halva världen** -> Å andra sidan finns **det** **människor som har så mycket pengar att de kan köpa halva världen**
+* _Det_ replaces a subject which has been changed to an _egentligt subjekt_ (‘object-positioned subject’) (cf. S-Clause)
 
-* Hon försätter skriva om **att inte avskaffa den obligatoriska svenskan på skolan** är fördel för ungdomar . -> Hon fortsätter skriva om att **det** är en fördel för ungdomar **att inte avskaffa den obligatoriska svenskan i skolan**
+     - på andra sidan finns **människor som har så mycket pengar att de kan köpa halva världen** -> Å andra sidan finns **det människor som har så mycket pengar att de kan köpa halva världen** (_The inserted_ det _is tagged as S-Msubj and the moved subject is marked as S-Clause_)
+     
+* A heavy subject is moved to a position further back in the clause, and _det_ is inserted in the subject position:
+     
+     - Hon försätter skriva om **att inte avskaffa den obligatoriska svenskan på skolan** är fördel för ungdomar -> Hon fortsätter skriva om att **det** är en fördel för ungdomar **att inte avskaffa den obligatoriska svenskan i skolan** (_The inserted_ det _is tagged as S-Msubj and the moved subject is marked as S-WO._)
+     
+* _Det_ (and possibly _att_) is inserted as a subject before an infinitive phrase already functioning as a subject (and the infinitive phrase becomes an attribute to _det_):
 
-**Note (3)** When _det_ (and possibly _att_) is added to an infinitive phrase functioning as a subject, _det_ should not be tagged with S-Msubj, but with S-M:
+     - Hon skriver också om att ha svenska som obligatorisk i Finland visar att alla är ju finnar och att " finlandssvenska " är bara påhittat . -> Hon skriver också om att **det att** ha obligatorisk svenska i Finland visar att alla är ju finnar och att " finlandssvenska " är bara påhittat .
 
-* Hon skriver också om **att ha svenska som obligatorisk i Finland** visar att alla är ju finnar och att " finlandssvenska " är bara påhittat . -> Hon skriver också om att **det att ha obligatorisk svenska i Finland** visar att alla är ju finnar och att " finlandssvenska " är bara påhittat .
+**Note**: The S-Msubj tag should only be applied in those cases when the clause is already present in the original text. Thus, in the following example, the generic pronoun _man_ is added as a subject as a part of a correction involving changing an infinitive phrase to a finite clause, and the correction, including the addition of _man_, is marked as S-type. The S-Msubj tag should not be applied.
 
+* Att växa upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid. -> När man växte upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid.
 
 #### S-Other
 
-The S-Other tag is used for a number of correction types:
-
-1.	The basic construction type is corrected, including:
-- changes between a noun phrase and an infinitive phrase:
-	- jag behover pengar f$r **liv** och **betalning** av min hus -> jag behöver pengar för **att leva** och **betala** för mitt hus
-	- I artikeln " Tre röster om svenskan ställning i Finland " ( Parnass , 2013:3 ) skriver Catharina Söderbergh om tre personer som har sagt sin åsikt om tvångssvenskan och **hur svenskan befinner sig** . -> I artikeln " Tre röster om svenskans ställning i Finland " ( Parnass 2013:3 ) skriver Catharina Söderbergh om tre personer som har sagt sin åsikt om tvångssvenskan och **läget för svenskan** .
-- changes between an infinitive phrase and finite clause:
-	- **Att växa** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid. -> **När man växte** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid.
-- changes between a subordinate clause and a main clause
-- the change of a construction with an ordinary subject to a construction with an expletive _det_ and an object-positioned subject (_egentligt subjekt_)
- 	- på andra sidan finns **människor som har så mycket pengar att de kan köpa halva världen** -> Å andra sidan finns **det** **människor som har så mycket pengar att de kan köpa halva världen**
- - changes between a construction with a heavy subject in an ordinary subject position to a construction with _det_ as subject, and the heavy subject further back in the clause (_postponerat subjekt_)
-	- Hon försätter skriva om **att inte avskaffa den obligatoriska svenskan på skolan** är fördel för ungdomar -> Hon fortsätter skriva om att **det** är en fördel för ungdomar **att inte avskaffa den obligatoriska svenskan i skolan**
-- changes between a passive construction and an active construction:
- 	- I texten **sägs det av henne** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten . -> I texten **säger hon** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten .
-2.	The structure of clause is changed in a way which involves changing the syntactic function of the words involved
-- **du blir bättre -> det blir bättre för dig**
-3. The structure of a phrase or a clause is otherwise changed in a way which cannot be covered by the other S-tags, separately or together, but the change is still rather a _correction_ than a _creation_ of the structure. (In the latter case the Unid tag should be used.)
-- **min plats -> platsen där jag bor** (The S-Comp tag may not be applied, since the correction involves the addition of a lexical morpheme.)
+The S-Other tag is used for syntactic corrections not covered by any of the other S-tags.
 
 #### S-R (word redundant)
 
@@ -768,6 +764,29 @@ _Examples_
 *	De promenerade **sig** i parken -> De promenerade i parken
 
 *	Hon gav **bort** honom en blomma -> Hon gav honom en blomma
+
+#### S-Type (change of phrase or clause type)
+
+The S-Type tag is used when a phrase or clause has in its entirety been changed to another phrase- or clause-type, such as:
+
+* changes between a noun phrase and an infinitive phrase:
+     - jag behover pengar f$r **liv** och **betalning av** min hus -> jag behöver pengar för **att leva** och **betala** för mitt hus (_Cf. the same examples under L-W and L-Der; two tags are used for each of these changes_)
+     
+* changes between a finite clause and a noun phrase:
+
+     - I artikeln " Tre röster om svenskan ställning i Finland " ( Parnass , 2013:3 ) skriver Catharina Söderbergh om tre personer som har sagt sin åsikt om tvångssvenskan och **hur svenskan befinner sig** . -> I artikeln " Tre röster om svenskans ställning i Finland " ( Parnass 2013:3 ) skriver Catharina Söderbergh om tre personer som har sagt sin åsikt om tvångssvenskan och **läget för svenskan** .
+     
+* changes between an infinitive phrase and finite clause:
+
+     - **Att växa** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid. -> **När man växte** upp som en flicka så var det väldigt många orättvisor man fick vänja sig vid. (Cf. S-Msubj.)
+     
+* changes between a subordinate clause and a main clause:
+
+     - HÄR SKA EXEMPEL IN
+     
+**Note (1)**: The S-Type tag may be combined with the L-W tag and the L-Der tag. See these sections for examples.
+
+**Note (2)**: Word-order corrections covered by the word-order tags (S-Adv, S-FinV, S-WO) are not in themselves a basis for considering the correction a change of clause type (but rather as corrections to suit a clause type which has been indicated by other means). The S-Type tag should thus not be applied to a correction solely on the basis of an adverbial having been moved from a typical main clause position to a typical subordinate clause position (or vice versa). That correction is covered by the S-Adv tag. For an S-Type tag to be applied to a clause which has been changed from a subordinate clause to a main clause etc., the change of clause structure has to be indicated for instance by the addition of or removal of a subjunction.
 
 #### S-WO (word order, other)
 
@@ -864,19 +883,7 @@ _Stanna_ is a reasonable guess about the intention with _sta_, but not well foun
 
 #### Unid (unidentified correction)
 
-The Unid tag is used when the syntactic structure of the normalized text segment may rather be described as _created_ than as _corrected_. The normalization is a radical change of or addition to the original text. The original text does however give a fair indication of the intended _meaning_ (otherwise the correction would be X-marked), but it gives a very poor basis for assuming a specific syntactic structure.
-
-_Examples_
-
-* **Det därför tycker jag om det är** simma lungt och blåser -> **Jag tycker om det för att jag tycker om att** simma lugnt och när det blåser
-
-* Jag hoppas att du **intressant för din ny livs** -> Jag hoppas att du **tycker att ditt nya liv är intressant**
-
-* Så hur mycket pojkarna bettalad **värt inte** deras äppelträd eftersom trädet var viktig för dem -> Så hur mycket pojkarna betalade **var mindre än vad** deras äppelträd **var värt** eftersom trädet var viktigt för dem .
-
-The Unid tag may also be used for any other type of correction which cannot be covered by any of the other correction categories defined in the taxonomy.
-
-**Note**: The Unid tag should only be applied in cases when a correction has actually been made, and when the original text gives fairly sound support for the interpretation presented in the normalized version. Text segments which are so difficult to interpret that they are either left unchanged or normalized on the basis of guesses rather than solid interpretations should be tagged with X.
+The Unid tag is used for any type of correction which cannot be covered by any of the correction categories defined in the taxonomy.
 
 ### Some specific categorization issues
 
