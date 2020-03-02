@@ -304,6 +304,10 @@ _Examples_
 
 * Finns många nya lagenheterna i dyrare delar i huvudstaden , men detta är **lång distans från  räker nummer** . -> Det finns många nya lägenheter i dyrare delar i huvudstaden , men detta är **långt ifrån tillräckligt** .
 
+* The pronoun form _dem_ is changed to the form _de_ used as a definite article, the correction is tagged as L-W, not as M-Case:
+
+* den obligatoriska svenskundervisningen i **dem** finska skolorna -> den obligatoriska svenskundervisningen i **de** finska skolorna (_The pronoun form_ dem _is changed to the form_ de used as a definite article. Cf. M-Case.)
+
 **Note (3)**: An expression tagged with L-W should be _replaced_ rather than _corrected_. This means:
 
 * If both the original string and the normalized string are multi-word expressions containing one and the same lexical word, as well as one or more grammatical words which are changed, the L-W tag should be placed on the grammatical word(s) and not on the lexical word, as in the example above where _under tiden_ is exchanged for _med tiden_.
