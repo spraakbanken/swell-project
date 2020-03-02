@@ -310,6 +310,8 @@ _Examples_
 
 * Finns många nya lagenheterna i dyrare delar i huvudstaden , men detta är **lång distans från  räker nummer** . -> Det finns många nya lägenheter i dyrare delar i huvudstaden , men detta är **långt ifrån tillräckligt** .
 
+*  jag bor **in** lägenhet plan ett -> Jag bor **i** en lägenhet på plan ett
+
 * den obligatoriska svenskundervisningen i **dem** finska skolorna -> den obligatoriska svenskundervisningen i **de** finska skolorna (_The pronoun form_ dem _is changed to the form_ de _used as a definite article. Cf. M-Case._)
 
 **Note (3)**: An expression tagged with L-W should be _replaced_ rather than _corrected_. This means:
@@ -775,6 +777,7 @@ _Examples_
 The S-Type tag is used when a phrase or clause has in its entirety been changed to another phrase- or clause-type, such as:
 
 * changes between a noun phrase and an infinitive phrase:
+
      - jag behover pengar f$r **liv** och **betalning av** min hus -> jag behöver pengar för **att leva** och **betala** för mitt hus (_Cf. the same examples under L-W and L-Der; two tags are used for each of these changes_)
      
 * changes between a finite clause and a noun phrase:
