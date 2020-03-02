@@ -214,7 +214,9 @@ The L-FL tag is used for corrections with the following characteristics:
 
 #### L-Ref (anaphoric expressions)
 
-The L-Ref is used for anaphoric pronominal expressions which have been corrected in order to have the grammatical form and semantic content (gender, number, reflexive/non-reflexive, sexus, directional/locational etc.) which suits its correlate.
+The L-Ref tag is used for anaphoric expressions (particularly pronouns and pronominal adverbs) which have been corrected in order to have the grammatical form (gender, number, reflexive/non-reflexive), semantic content (masculine/feminine, directional/locational etc.), and specificity which suits its correlate and its textual position.
+
+The L-Ref tag has lower priority than the M-Def tag, and should only be applied in cases when the M-Def tag cannot be applied.
 
 _Examples_
 
@@ -367,7 +369,7 @@ _Examples_
 
 The M-Def tag is used for corrections regarding definiteness constructions. The kinds of corrections which are involved in this correction category are:
 
-*	Change between indefinite and definite forms of nouns (_bok_ vs _boken_; _rum_ vs _rummet_)
+*	Change between indefinite and definite forms of nouns (_bok_ vs _boken_; _rum_ vs _rummet_) **In these cases the M-Def tag has higher priority than the L-Ref tag.**
 
 *	Change between, removal of and addition of indefinite and definite articles (_en_, _ett_; _den_, _det_, _de_). **In these cases the M-Def tag has higher priority than the S-M and S-R tags.**
 
