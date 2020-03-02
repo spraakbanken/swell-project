@@ -202,6 +202,8 @@ _Examples_
 
 * varför man ens lär sig svenska idag i Finland som beror på historiska **event** -> varför man ens lär sig svenska idag i Finland , vilket beror på historiska **händelser**
 
+* Bostad i D-hemland är litet het **topik** för att **diskussera** -> Bostäder i D-hemland är ett lite hett ämne att **diskutera**
+
 The L-FL tag is used for corrections with the following characteristics:
 
 *	The word in the original text is recognizable as a word from a foreign language _to the annotator_ (who is obviously not equally proficient in all languages). Alternatively, _the annotator_ recognizes certain non-Swedish traits in the word which are due to influence from a foreign language.
