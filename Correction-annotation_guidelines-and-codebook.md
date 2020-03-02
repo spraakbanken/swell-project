@@ -185,6 +185,8 @@ _Examples_
 
 * Jag behöver pengar för liv och **betalning** av min hus -> Jag behöver pengar för att leva och **betala** mitt hus
 
+Changes from _båda_ to _både_, or the other way around, are tagged as L-Der (and S-Type) rather than as L-W:
+
 * något ha en " svart " avställning **båda** i jobbet och från bostad -> Någon har en " svart " inkomst **både** från jobbet och från bostaden 
 
 
