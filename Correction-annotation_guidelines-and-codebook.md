@@ -216,19 +216,21 @@ The L-FL tag is used for corrections with the following characteristics:
 
 The L-Ref tag is used for anaphoric expressions (particularly pronouns and pronominal adverbs) which have been corrected in order to have the grammatical form (gender, number, reflexive/non-reflexive), semantic content (masculine/feminine, directional/locational etc.), and specificity which suits its correlate and its textual position.
 
+The L-Ref tag has higher priority than the M-Num, M-Gend and M-Case tags. It also has higher priority than the L-W tag.
+
 The L-Ref tag has lower priority than the M-Def tag, and should only be applied in cases when the M-Def tag cannot be applied.
 
 _Examples_
 
 *	Jag har en bror, **hon** heter xx -> **han** heter xx
 
-*	Stämmer det att våra sociala media skapar individualism och ensamhet? Eller skapar **det** kontakter och trivs? -> Eller skapar **de** kontakter …
+*	Stämmer det att våra sociala media skapar individualism och ensamhet? Eller skapar **det** kontakter och trivs? -> Eller skapar **de** kontakter … (_In cases like this, the L-Ref tag should be applied rather than the M-Num tag._)
 
 *	Innan trädet blev borta dem fick fars äpplen och **sin** fru lagade saft och mos av äpplena -> Innan trädet var borta fick de fars äpplen och **hans** fru lagade saft och mos av äpplena
 
 * Östling skriver om politiker som tycker att obligatorisk språkundervisningen och prov på nynorska krävs för att försäkra ett minoritets språk som har ett gamal kulturarv knutet till **den** . -> Östling skriver om politiker som tycker att obligatorisk språkundervisning och prov på nynorska krävs för att skydda ett minoritetsspråk som har ett gammalt kulturarv knutet till **sig** .
 
-* “ Finns det något som är mer värt än pengar ? ” Jag vet faktiskt inte , **den** är en svår fråga . -> “ Finns det något som är mer värt än pengar ? ” Jag vet faktiskt inte , **det** är en svår fråga .
+* “ Finns det något som är mer värt än pengar ? ” Jag vet faktiskt inte , **den** är en svår fråga . -> “ Finns det något som är mer värt än pengar ? ” Jag vet faktiskt inte , **det** är en svår fråga . (_In cases like this, and the following examples, the L-Ref tag has higher priority than the M-Gend tag._)
 
 * Om man jobbar åtta timmar varje vardag för att få pengar , sedan är det lite hycklande att säga något som , ” Ja , det finns jo viktigare saker i livet ! ” **Den** är en tredjedel av din dag ! -> Om man jobbar åtta timmar varje vardag för att få pengar , är det sedan lite hycklande att säga något som : ” Ja , det finns ju viktigare saker i livet ! ” **Det** är en tredjedel av din dag !
 
@@ -236,7 +238,7 @@ _Examples_
 
 * I artikeln " Svenskan tynar i Finland " ( Forsknings & Framsteg 2009:2 ) Cecilia Christner Raid om varför man ens lär sig svenska idag i Finland **som** beror på historiska event . -> I artikeln " Svenskan tynar i Finland " ( Forskning & Framsteg 2009:2 ) skriver Cecilia Christner Riad om varför man ens lär sig svenska idag i Finland , **vilket** beror på historiska händelser .
 
-* Man kan flyga till Gotland eller åka till Nynäshamn och åka båt till **där** -> Man kan flyga till Gotland eller åka till Nynäshamn och åka båt **dit** .
+* Man kan flyga till Gotland eller åka till Nynäshamn och åka båt till **där** -> Man kan flyga till Gotland eller åka till Nynäshamn och åka båt **dit** . (_In cases like this, the L-Ref tag has higher priority than the L-W tag._)
 
 The L-Ref tag may also be used when a noun which is used anaphorically has been exchanged for a pronoun, or the other way around, in order for the specificity of the anaphoric expression to suit its textual position:
 
