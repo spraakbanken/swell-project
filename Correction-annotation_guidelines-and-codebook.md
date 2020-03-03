@@ -670,6 +670,8 @@ _Examples_
 
 * Så hur mycket pojkarna bettalad **värt inte deras äppelträd** eftersom trädet var viktig för dem -> Så hur mycket pojkarna betalade **var mindre än vad deras äppelträd var värt** eftersom trädet var viktigt för dem .
 
+* Det är lite bättre i huvudstad , när många manniskor bo tilsammans eftersom **de kan e betala för** -> Det är lite bättre i huvudstaden , när många människor bor tillsammans eftersom **det gör att de kan betala** (det gör att _in the normalization is tagged with S-Ext_; e _in the original text is tagged with X and S-R_; för _is tagged with S-R_.)
+
 **Note**: The S-Ext tag should only be applied in cases when a correction has actually been made, and when the original text gives fairly sound support for the interpretation presented in the normalized version. Text segments which are so difficult to interpret that they are either left unchanged or normalized on the basis of guesses rather than interpretations should be tagged with X.
 
 #### S-FinV (placement of finite verb)
@@ -892,6 +894,10 @@ _Examples_
 The text from which this example is collected has some german or possibly dutch traits, and a fairly resonable guess is that _dar rum_ is meant to be darum. Another, less likely, possibility is that _dar rum_ is intended to mean _där rum_, but that interpretation necessitates extensive changes in the rest of the text passage in order to create a syntactically functional string. By marking _dar rum_ with X and keeping the rest of the sentence unchanged in the normalized text version, the normalization as a whole is better adjusted to the principle of _minimal change_.
 
 _Stanna_ is a reasonable guess about the intention with _sta_, but not well founded enough for the correction to be marked as an orthographic correction. Many other interpretations are obviously also possible.
+
+The X tag may be combined with the S-R tag when the unitelligible string is also redundant, and thus eliminated in the normalization:
+
+* Det är lite bättre i huvudstad , när många manniskor bo tilsammans eftersom **de kan e betala för** -> Det är lite bättre i huvudstaden , när många människor bor tillsammans eftersom **det gör att de kan betala** (det gör att _in the normalization is tagged with S-Ext_; e _in the original text is tagged with X and S-R_; för _is tagged with S-R_.)
 
 #### Unid (unidentified correction)
 
