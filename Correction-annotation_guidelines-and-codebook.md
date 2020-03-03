@@ -863,11 +863,21 @@ The link between _första_ and _först_ is tagged with S-Adj/adv (see this secti
 
 #### Cit-FL (cited foreign word judged acceptable in the normalization)
 
-The Cit-FL tag is used for foreign (non-Swedish) words, phrases or text segments, which have been kept by the normalizer since their usage has been judged acceptable given the norms of the text type in question. This may be the case for instance for explicitly marked citations or intentional code switching appropriate for the genre.
+The Cit-FL tag is used for foreign (non-Swedish) words, phrases or text segments, which have been kept by the normalizer since their usage has been judged acceptable given the norms of the text type in question. This may be the case for instance for explicitly marked citations or intentional code switching appropriate for the genre. The Cit-FL tag is thus used to mark words and text segments which have _not_ been corrected in the normalized version, but which nevertheless are not passable as standard Swedish.
 
-Note that the only requirement for applying this code is that the word or text segment is recognizable as another language than Swedish, and that the choice to use this other language is judged appropriate for the genre. No judgement or correction of the word or text segment is made relative to the norms of the foreign language in questions. For instance, spelling mistakes are left uncorrected.
+Note that the only requirement for applying this code is that the word or text segment is recognizable as another language than Swedish, and that the choice to use this other language is judged appropriate for the genre and the text. No judgement or correction of the word or text segment is made relative to the norms of the foreign language in questions. For instance, spelling mistakes are left uncorrected.
 
 The Cit-FL tag is usually added already during normalization.
+
+_Examples_
+
+_Judged as appropriate code switching_:
+
+* Badrum var **basic** men rent -> Badrummet var **basic** men rent
+
+_Clearly marked citation of norwegian passage_:
+
+* I samma artikel skriver Bengt Östling om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . **" Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk "** , lyder det i ett debattinlägg . -> I samma artikel skriver Bengt Östling att om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . **" Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk "** , låter det i ett debattinlägg .
 
 #### Com! (comments for the corpus users)
 
@@ -964,12 +974,7 @@ When a word (or sequence) in an original text is recognized as belonging to a fo
      b)	The form used may be interpreted as a Swedish word with an incorrect usage of derivational affixes etc. -> Corrected during normalization, tagged L-Der during correction annotation: **national helgdag** -> **nationell helgdag**
      
      c)	Neither a nor b applies. -> Corrected during normalization, tagged L-FL during correction annotation: **balkony** -> **balkong**; **family** -> **familj**; **gas bojler** -> **gaskokare**
-
-In the following example, a text passage in norwegian is marked as a citation, and is thus kept in the normalization and tagged with Cit-FL:
-
-* I samma artikel skriver Bengt Östling om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . **" Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk "** , lyder det i ett debattinlägg . -> I samma artikel skriver Bengt Östling att om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . **" Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk "** , låter det i ett debattinlägg .
-
-     
+  
 **Note**: A word in the original text which is identifiable as a Swedish word, but which is used with another meaning in a way which is likely to be due to influence from a similar non-Swedish word, should be corrected and marked as L-W (not as L-FL):
 
 *	Alla blir **busiga** med sina sociala medier. -> Alla blir **upptagna** med sina sociala medier
