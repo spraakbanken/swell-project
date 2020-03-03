@@ -456,6 +456,8 @@ _Examples_
 
 *	Han har **egen** rummet och jag **egen** -> Han har ett **eget** rum och jag ett **eget** (cf. the same example under M-Def)
 
+* många i båda länder tycker att minoritet språken borde förbjudas eller att minoritetspåken har för mycket makt inom **landen** -> många i båda länderna tycker att minoritetsspråken borde förbjudas eller att minoritetsspråken har för mycket makt i **landet**
+
 The M-Gend tag is also used for corrections of the overuse of the distinctly masculine form of adjectives:
 
 *	min **käre** mamma -> min **kära** mamma
