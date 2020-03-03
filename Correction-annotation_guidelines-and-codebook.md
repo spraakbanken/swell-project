@@ -603,6 +603,38 @@ _Examples_
 
 *	om hur **under 600 år** Finland var en del av Sverige → om hur Finland var en del av Sverige under **600 år**
 
+#### S-Clause 
+The S-Clause tag is used for corrections involving changes of the most basic clause structure. The corrections in this category may be divided into the two following main types:
+
+1. The structure of a clause is changed in a way which involves changing the primary syntactic function (subject, finite verb, object, _egentligt subjekt_ (‘object-positioned subject’) and predicative) of one or more of the words involved, for instance:
+
+* Subject changed to a prepositional complement in an adverbial:
+
+     - **du blir bättre** -> **det blir bättre för dig**
+   
+* Changes between a passive construction and an active construction:
+
+     - I texten **sägs det av henne** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten . -> I texten **säger hon** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten .
+     
+* Subject changed to _egentligt subjekt_ (’object-positioned subject’):
+
+     - på andra sidan finns **människor som har så mycket pengar att de kan köpa halva världen** -> Å andra sidan finns det **människor som har så mycket pengar att de kan köpa halva världen** (cf. S-Msubj and note below)
+     
+     - Fler faktorer för detta finns , exempelvis **mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige och därför minskade antalet svenskar i finska samhället och även att fler barn med tvåspråkiga föräldrar fick bara lära sig finska -> Fler faktorer bakom detta finns , exempelvis **att det mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige (Att _is marked with S-type_, det _is marked with S-Msubj, and_ en inflyttning _is marked with S-Clause. Cf. S-Msubj and S-Type.)
+     
+2. The structure of a phrase or a clause is changed in a way which involves adding a clause to its internal structure, for instance:
+
+* The structure of a noun phrase is changed by changing a _framförställt attribut_ (‘preceding attribute’) to an _efterställt attribut_ (‘succeeding attribute’) in the form of a relative clause
+
+     - **min plats** -> **platsen där jag bor**
+
+**Note**: When a clause is changed by 1) adding an expletive _det_ as a subject and 2) changing a subject to an _egentligt subjekt_ (‘object-positioned subject’), two tags are needed to mark the corrections:
+
+* The S-Msubj tag is placed on the added _det_.
+
+* The S-Clause tag is placed on the element which has been changed from subject to _egentligt subjekt_ (‘object-positioned subject’).
+
+
 #### S-Comp (compound vs multi-word expression)
 
 The S-Comp tag is used for:
@@ -634,36 +666,6 @@ The S-Comp tag is used for:
      - Cecila Christner skriver om hur det svenska språket i skolor blir kallad tvångsvenska i samma tid svenska har blivit **icke populärt** i Finland -> Cecilia Christner skriver om hur det svenska språket i skolorna blir kallat tvångssvenska samtidigt som svenska har blivit **impopulärt** i Finland
 
 **Note**: Corrections regarding the mere orthographic rendering of a string with or without a space should not be marked with the S-Comp tag but with the O-Comp tag. (See O-Comp and the section on compounds vs multi-word expressions below.)
-
-#### S-Clause 
-The S-Clause tag is used for corrections involving changes of the most basic clause structure. The corrections in this category may be divided into the two following main types:
-
-1. The structure of a clause is changed in a way which involves changing the primary syntactic function (subject, finite verb, object, _egentligt subjekt_ (‘object-positioned subject’) and predicative) of one or more of the words involved, for instance:
-
-* Subject changed to a prepositional complement in an adverbial:
-
-     - **du blir bättre** -> **det blir bättre för dig**
-     
-
-* Changes between a passive construction and an active construction:
-
-     - I texten **sägs det av henne** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten . -> I texten **säger hon** att hon efterlyser de som enbart talar finska och är positiva till svenskan och tvåspråkigheten .
-     
-* Subject changed to _egentligt subjekt_ (’object-positioned subject’):
-
-     - på andra sidan finns **människor som har så mycket pengar att de kan köpa halva världen** -> Å andra sidan finns det **människor som har så mycket pengar att de kan köpa halva världen** (cf. S-Msubj and note below)
-     
-2. The structure of a phrase or a clause is changed in a way which involves adding a clause to its internal structure, for instance:
-
-* The structure of a noun phrase is changed by changing a _framförställt attribut_ (‘preceding attribute’) to an _efterställt attribut_ (‘succeeding attribute’) in the form of a relative clause
-
-     - **min plats** -> **platsen där jag bor**
-
-**Note**: When a clause is changed by 1) adding an expletive _det_ as a subject and 2) changing a subject to an _egentligt subjekt_ (‘object-positioned subject’), two tags are needed to mark the corrections:
-
-* The S-Msubj tag is placed on the added _det_.
-
-* The S-Clause tag is placed on the element which has been changed from subject to _egentligt subjekt_ (‘object-positioned subject’).
 
 #### S-Ext  (extensive, complex correction)
 
@@ -803,7 +805,7 @@ The S-Type tag is used when a phrase or clause has in its entirety been changed 
      
 * changes between a subordinate clause and a main clause:
 
-     - HÄR SKA EXEMPEL IN
+     - Fler faktorer för detta finns , exempelvis **mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige och därför minskade antalet svenskar i finska samhället och även att fler barn med tvåspråkiga föräldrar fick bara lära sig finska -> Fler faktorer bakom detta finns , exempelvis **att det mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige (Att _is marked with S-type_, det _is marked with S-Msubj, and_ en inflyttning _is marked with S-Clause. Cf. S-Msubj and S-Clause.)
      
 **Note (1)**: The S-Type tag may be combined with the L-W tag and the L-Der tag. See these sections for examples.
 
