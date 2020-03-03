@@ -805,7 +805,7 @@ The S-Type tag is used when a phrase or clause has in its entirety been changed 
      
 * changes between a subordinate clause and a main clause:
 
-     - Fler faktorer för detta finns , exempelvis **mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige och därför minskade antalet svenskar i finska samhället och även att fler barn med tvåspråkiga föräldrar fick bara lära sig finska -> Fler faktorer bakom detta finns , exempelvis **att det mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige (Att _is marked with S-type_, det _is marked with S-Msubj, and_ en inflyttning _is marked with S-Clause. Cf. S-Msubj and S-Clause.)
+     - Fler faktorer för detta finns , exempelvis **mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige och därför minskade antalet svenskar i finska samhället och även att fler barn med tvåspråkiga föräldrar fick bara lära sig finska -> Fler faktorer bakom detta finns , exempelvis **att det mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige (Att _is marked with S-type_, det _is marked with S-Msubj, and_ en inflyttning _is marked with S-Clause. Cf. S-Msubj and S-Clause._)
      
 **Note (1)**: The S-Type tag may be combined with the L-W tag and the L-Der tag. See these sections for examples.
 
