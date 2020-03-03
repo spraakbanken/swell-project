@@ -861,6 +861,10 @@ The removal of _är_ is marked as S-R, while the movement of _går_ to the finit
 
 The link between _första_ and _först_ is tagged with S-Adj/adv (see this section) **and** with C, which indicates that the word order change is a consequence of the change from adjective to adverb. (An alternative normalization would be to keep the adjective form _första_ and add the noun _gången_.)
 
+* Jag stoppade i lång tid att saga till mina vänner i D-hemland hur jag bo här , **vad** extra vi ha här , e.g. tvättstuga -> ->  Jag slutade för länge sen att säga till mina vänner i D-hemland hur jag bor här , **vilka** extra **saker** vi har här , t.ex. tvättstuga  och att man kan betala hela avgiften för en lägenhet på under en minut 
+
+The addition of _saker_ is tagged as S-M, and the correction of _vad_ to _vilka_ is tagged with C, since it is the congruence with _saker_ which determines the choice of pronoun.
+
 #### Cit-FL (cited foreign word judged acceptable in the normalization)
 
 The Cit-FL tag is used for foreign (non-Swedish) words, phrases or text segments, which have been kept by the normalizer since their usage has been judged acceptable given the norms of the text type in question. This may be the case for instance for explicitly marked citations or intentional code switching appropriate for the genre. The Cit-FL tag is thus used to mark words and text segments which have _not_ been corrected in the normalized version, but which nevertheless are not passable as standard Swedish.
