@@ -628,7 +628,7 @@ The S-Clause tag is used for corrections involving changes of the most basic cla
 
      - **min plats** -> **platsen där jag bor**
      
-* The structure of a clause is changed in a way which involves adding an extra level of subordination, for instance, as in the following example, by adding a finite verb (which is tagged with S-Clause) before a clause which is changed from a main clause to a subordinate clause (and thus tagged with S-Type, cf. the same example in the S-Type section).
+* The structure of a clause is changed in a way which involves adding an extra level of subordination. In the following example an ambiguous clause structure is normalized in a way which involves adding a finite verb (_är_), and thus an extra clause, to the structure. The following clause is changed from a main clause to a subordinate clause (by changing _så_ to _att då_). _Är_ is tagged with S-Clause, and a link between _så_ in the original text and _att då_ in the normalized text is tagged with S-Type:
 
      - Konsekvenserna man skulle få ifall undervisning i svenska blev frivillig så skulle mer än hälften av finska befolkningen avskaffa svenskan som modersmålsundervisning och istället fokusera på finska då dem sällan använder svenskan -> Konsekvenserna man skulle få ifall undervisning i svenska blev frivilligt **är** att då skulle mer än hälften av den finska befolkningen välja bort svenskan som modersmålsundervisning och istället fokusera på finska då de sällan använder svenskan
 
