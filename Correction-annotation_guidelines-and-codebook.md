@@ -627,6 +627,10 @@ The S-Clause tag is used for corrections involving changes of the most basic cla
 * The structure of a noun phrase is changed by changing a _framförställt attribut_ (‘preceding attribute’) to an _efterställt attribut_ (‘succeeding attribute’) in the form of a relative clause
 
      - **min plats** -> **platsen där jag bor**
+     
+* The structure of a clause is changed in a way which involves adding an extra level of subordination, for instance, as in the following example, by adding a finite verb (which is tagged with S-Clause) before a clause which is changed from a main clause to a subordinate clause (and thus tagged with S-Type, cf. the same example in the S-Type section).
+
+     - Konsekvenserna man skulle få ifall undervisning i svenska blev frivillig så skulle mer än hälften av finska befolkningen avskaffa svenskan som modersmålsundervisning och istället fokusera på finska då dem sällan använder svenskan -> Konsekvenserna man skulle få ifall undervisning i svenska blev frivilligt **är** att då skulle mer än hälften av den finska befolkningen välja bort svenskan som modersmålsundervisning och istället fokusera på finska då de sällan använder svenskan
 
 **Note**: When a clause is changed by 1) adding an expletive _det_ as a subject and 2) changing a subject to an _egentligt subjekt_ (‘object-positioned subject’), two tags are needed to mark the corrections:
 
@@ -806,6 +810,8 @@ The S-Type tag is used when a phrase or clause has in its entirety been changed 
 * changes between a subordinate clause and a main clause:
 
      - Fler faktorer för detta finns , exempelvis **mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige -> Fler faktorer bakom detta finns , exempelvis **att det mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige (Att _is marked with S-type_, det _is marked with S-Msubj, and_ en inflyttning _is marked with S-Clause. Cf. S-Msubj and S-Clause._)
+     
+     - Konsekvenserna man skulle få ifall undervisning i svenska blev frivillig **så skulle mer än hälften av finska befolkningen avskaffa svenskan som modersmålsundervisning** och istället fokusera på finska då dem sällan använder svenskan -> Konsekvenserna man skulle få ifall undervisning i svenska blev frivilligt **är att då skulle mer än hälften av den finska befolkningen välja bort svenskan som modersmålsundervisning** och istället fokusera på finska då de sällan använder svenskan (Är _is tagged with S-Clause_; a link between _så_ and _att då_ is marked with S-Type.)
      
 **Note (1)**: The S-Type tag may be combined with the L-W tag and the L-Der tag. See these sections for examples.
 
