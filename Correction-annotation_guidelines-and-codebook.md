@@ -857,6 +857,10 @@ För det första **går** vi i skolan från förskolan till olika nivåer för a
 
 The removal of _är_ is marked as S-R, while the movement of _går_ to the finite verb position (where it replaces the likewise finite verb _är_) is tagged with C.
 
+* När jag kommer **första** i 2012 , jag bodde i en social lagenhet med 3 andra person -> När jag **först** kom 2012 bodde jag i en kommunal lägenhet med 3 andra personer 
+
+The link between _första_ and _först_ is tagged with S-Adj/adv (see this section) **and** with C, which indicates that the word order change is a consequence of the change from adjective to adverb. (An alternative normalization would be to keep the adjective form _första_ and add the noun _gången_.)
+
 #### Cit-FL (cited foreign word judged acceptable in the normalization)
 
 The Cit-FL tag is used for foreign (non-Swedish) words, phrases or text segments, which have been kept by the normalizer since their usage has been judged acceptable given the norms of the text type in question. This may be the case for instance for explicitly marked citations or intentional code switching appropriate for the genre.
