@@ -540,6 +540,21 @@ _Examples_
 
 **Note**: Removals of hyphens between the constituent words in a compound are not included in this category, but in the O-Comp category.
 
+
+#### P-Sent (sentence segmentation)
+
+The P-Sent tag is used for corrections involving splitting a sentence or merging two sentences into one, when this correction involves more than the pure insertion or removal of a punctuation mark – in the typical case the adding or removal of a conjunction.
+
+_Examples_
+
+*	Jag heter xxx och jag pratar arabiska och engelska och lite **svenska och vi** har tre rum i huset -> Jag heter xxx och jag pratar arabiska och engelska och lite **svenska. Vi** har tre rum i huset.
+
+In this example, the P-Sent tag is placed on a link between _och_ in the original text and the period in the normalized text. The link between _vi_ and _Vi_ is tagged with C, as a consistency correction necessitated by another correction.
+
+* Catharina börjar med att beskriva Marie Tolppanens ( som är en politiker inom Finlands riksdag ) åsikt om svenska **som** hon tycker att svenska har ingen plats finska skolor och enligt hon är det betydligt mer logiskt att barnen ska lära sig ryska istället för svenska -> Catharina börjar med att beskriva Marie Tolppanens ( som är en politiker i Finlands riksdag ) åsikt om svenska **.** Hon tycker att svenska har ingen plats i finska skolor och enligt henne är det betydligt mer logiskt att barnen ska lära sig ryska istället för svenska
+
+In this example, the P-Sent tag is placed on a link between _som_ in the original text and the period in the normalized text. The link between _hon_ and _Hon_ is tagged with C, in the same way as in the example above.
+
 #### P-W (wrong punctuation)
 
 The P-W tag is used when a punctuation mark in the original text has been replaced with another punctuation mark in the normalized text.
@@ -561,16 +576,6 @@ _Example_:
 *	Jog kan ante skriv meka ord .tack  Jag kan inte skriva många ord. Tack.
 
 In this example, a space is inserted between the period and _tack_, and the _t_ in _tack_ is changed from lower to upper case. _Tack_ will be tagged with O-Cap, but the insertion of the space will not be tagged.
-
-#### P-Sent (sentence segmentation)
-
-The P-Sent tag is used for corrections involving splitting a sentence or merging two sentences into one, when this correction involves more than the pure insertion or removal of a punctuation mark – in the typical case the adding or removal of a conjunction.
-
-_Examples_
-
-*	Jag heter xxx och jag pratar arabiska och engelska och lite **svenska och vi** har tre rum i huset -> Jag heter xxx och jag pratar arabiska och engelska och lite **svenska. Vi** har tre rum i huset.
-
-In this example, the P-Sent tag is placed on a link between _och_ in the original text and the period in the normalized text. The link between _vi_ and _Vi_ is tagged with C, as a consistency correction necessitated by another correction.
 
 ### S – Syntactical corrections
 
