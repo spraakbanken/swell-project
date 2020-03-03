@@ -620,7 +620,7 @@ The S-Clause tag is used for corrections involving changes of the most basic cla
 
      - på andra sidan finns **människor som har så mycket pengar att de kan köpa halva världen** -> Å andra sidan finns det **människor som har så mycket pengar att de kan köpa halva världen** (cf. S-Msubj and note below)
      
-     - Fler faktorer för detta finns , exempelvis **mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige och därför minskade antalet svenskar i finska samhället och även att fler barn med tvåspråkiga föräldrar fick bara lära sig finska -> Fler faktorer bakom detta finns , exempelvis **att det mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige (Att _is marked with S-type_, det _is marked with S-Msubj, and_ en inflyttning _is marked with S-Clause. Cf. S-Msubj and S-Type.)
+     - Fler faktorer för detta finns , exempelvis **mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige -> Fler faktorer bakom detta finns , exempelvis **att det mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige (Att _is marked with S-type_, det _is marked with S-Msubj, and_ en inflyttning _is marked with S-Clause. Cf. S-Msubj and S-Type.)
      
 2. The structure of a phrase or a clause is changed in a way which involves adding a clause to its internal structure, for instance:
 
@@ -805,7 +805,7 @@ The S-Type tag is used when a phrase or clause has in its entirety been changed 
      
 * changes between a subordinate clause and a main clause:
 
-     - Fler faktorer för detta finns , exempelvis **mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige och därför minskade antalet svenskar i finska samhället och även att fler barn med tvåspråkiga föräldrar fick bara lära sig finska -> Fler faktorer bakom detta finns , exempelvis **att det mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige (Att _is marked with S-type_, det _is marked with S-Msubj, and_ en inflyttning _is marked with S-Clause. Cf. S-Msubj and S-Clause._)
+     - Fler faktorer för detta finns , exempelvis **mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige -> Fler faktorer bakom detta finns , exempelvis **att det mellan 1950 och 1980 skedde en inflyttning** då många svenskar från Finland flyttade tillbaka till Sverige (Att _is marked with S-type_, det _is marked with S-Msubj, and_ en inflyttning _is marked with S-Clause. Cf. S-Msubj and S-Clause._)
      
 **Note (1)**: The S-Type tag may be combined with the L-W tag and the L-Der tag. See these sections for examples.
 
