@@ -2,23 +2,23 @@
 
 ## Contents
 
-[1. General information](#1.-general-information)
+[1. General information](#1-general-information)
 
-[2. Metadata description for the SweLL corpus](#2.-metadata-description-for-the-swell-corpus)
+[2. Metadata description for the SweLL corpus](#2-metadata-description-for-the-swell-corpus)
 
-  - [2.1 Personal metadata](#2.1-personal-metadata)
+  - [2.1 Personal metadata](#21-personal-metadata)
 
-  - [2.2 Task metadata](#2.2-task-metadata)
+  - [2.2 Task metadata](#22-task-metadata)
 
-  - [2.3 Essay metadata](#2.3-essay-metadata)
+  - [2.3 Essay metadata](#23-essay-metadata)
 
-  - [2.4 Schools metadata](#2.4-schools-metadata)
+  - [2.4 Schools metadata](#24-schools-metadata)
 
-[3. Manual coding / annotation in the SweLL corpus](#3.-manual-coding-annotation-in-the-swell-corpus)
+[3. Manual coding / annotation in the SweLL corpus](#3-manual-coding-annotation-in-the-swell-corpus)
 
-  - [3.1 Pseudonymization codes](#3.1-pseudonymization-codes)
+  - [3.1 Pseudonymization codes](#31-pseudonymization-codes)
 
-  - [3.2 Correction annotation codes](#3.2-correction-annotation-codes)
+  - [3.2 Correction annotation codes](#32-correction-annotation-codes)
 
 
 
@@ -75,8 +75,8 @@ Newer articles will be added on completion of the project
 
 ### 2.1 Personal metadata
 
-  | *General* |   |
-  |-------------|--------------|
+  | ***General*** |   |
+  |:-------------|:--------------|
   | Student ID | **370** unique students (numbers are not final!), e.g. **C16**. Letter prefix (for a school) + a running number |
   | Birth year in 5-year intervals | 1950-1954 \-- 2000-2004 |
   |  Gender | Kvinna, Man, Annat, Vill inte säga |
@@ -111,7 +111,7 @@ Newer articles will be added on completion of the project
 ### 2.2 Task metadata
 
 | ***Administrative Metadata*** |    |
-|------------------|------------------|
+|:------------------|:------------------|
 | Task ID  | Task ID in the corpus. A letter prefix (for a school) +  **T**(ask) + a running number,  e.g. **AT14**. Total of 38  unique tasks |
 | Semester (time span) | **VT-2018, HT-2018, VT-2019** (more is coming!) |
 | Task date                        | Year-week, e.g. **2018-W20**     |
@@ -204,8 +204,8 @@ Newer articles will be added on completion of the project
 
 ### 2.4 Schools metadata
 
-  | *School listing*  |    |  *Description* |
-  |------------------| ---------------|---------------- |
+  | ***School listing***  |    |  ***Description*** |
+  |:------------------|:---------------|:---------------- |
   | A                | Vuxenutbildningscentrum | Inplacering SFI-utbildning: A-D |
   | B                |  Gymnasieskola                   
   | C                |  Komvux/SFI                    |  SFI A-D |
@@ -227,7 +227,7 @@ Pseudonymization guidelines:
 (Needs updating!)
 
 | ***Category type*** | ***Codes*** | ***Pseudonym / details*** |
-|---------------------|-------------|---------------------------|
+|:---------------------|:-------------|:------------------------|
 | Names             | firstname\_male       | replaced by an equivalent |
 |                   | firstname\_female     |                       |
 |                   | firstname\_unknown    |                       |
@@ -286,7 +286,7 @@ Pseudonymization guidelines:
 (Needs updating!)
 
   | ***ORTHOGRAPHY*** |        |                                        
-  |-------------------|---------|
+  |:-------------------|:---------|
   | *O* | misspelling   |                                             
   |*O-Cap* | capitalization     |                                    
   |*O-Comp* | compounding        |                                   
