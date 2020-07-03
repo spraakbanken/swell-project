@@ -2,7 +2,7 @@
 
 ## Contents
 
-[1. General information](#1.-general-information)
+[1. General information](#1-general-information)
 
 [2. Metadata description for the SweLL corpus](#2.-metadata-description-for-the-swell-corpus)
 
