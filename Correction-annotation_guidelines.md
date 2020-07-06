@@ -199,7 +199,6 @@
 # 1. Introduction
 
 ## 1.1 The purpose of the correction annotation
-----------------------------------------
 
 The purpose of the correction annotation is to make the learner corpus
 searchable for different types of deviations from a standard language
@@ -210,7 +209,6 @@ research and educational purposes.
 
 
 ## 1.2 The purposes of this document
------------------------------
 
 This document has three interconnected purposes:
 
@@ -225,7 +223,6 @@ This document has three interconnected purposes:
     correction annotation for future users of the Swell corpus.
 
 ## 1.3 The organization of the document
---------------------------------
 
 The rest of this document contains the following six main sections:
 
@@ -268,7 +265,6 @@ The rest of this document contains the following six main sections:
 # 2. The most fundamental principles and terms
 
 ## 2.1 What is a correction? What is annotated?
-----------------------------------------
 
 By *correction* we mean a difference between the original learner text
 and the normalized version of the text. The correction annotation is
@@ -296,7 +292,6 @@ which the original text is related. (The principles underlying the
 normalization are described in the normalization guidelines.)
 
 ## 2.2 Correction, unit, link and tag
-------------------------------
 
 A **correction** may consist of:
 
@@ -1268,7 +1263,6 @@ L-Der:
 
 
 ## 5.2 L-Lexical corrections
-------------------------
 
 The L tags represent the lexical correction category. It includes four
 sub-categories.
@@ -2182,7 +2176,6 @@ been replaced with another punctuation mark in the normalized text.
 
 
 ## 5.5 S-Syntactical corrections
-----------------------------
 
 The S tags represent the syntactical correction category. It contains
 eleven sub-categories.
