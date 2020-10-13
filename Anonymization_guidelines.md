@@ -57,18 +57,15 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 ### 1. Personal Names: 
 
 
-  * Types: < firstname_male > , < firstname_female > , < firstname_unknown > , < middlename > , < surname > , < initials >
+  * Types: < firstname_male > , < firstname_female > , < firstname_unknown > , < initials > , < middlename > , < surname >  
   * < firstname > vs < surname > are sometimes difficult to distinguish between. In uncertain cases, follow the standard Swedish order: < firstname > < middlename > < surname >
-   
-<!--     - Running number:  1, 2…   [enumerate each unique name type entity with a number starting with 1] -->
 
-  * Pseudonymization: (suggested source: https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn , see more information at the bottom of this document)
+  * Pseudonymization: (suggested source is from a national statistical agency: https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn , see more information at the bottom of this document)
       - Provide a list with first names, male, female and gender neutral (incl. international). 
       - For surnames, gender-specific types, when unclear use gender-neutral names 
       - Provide a list with surnames (incl. international)
       - Middlenames: Replace with an initial “A”
       - Initial replaced by “A”, keep delimiters
-<!--     - Change token by token [BEA, WHAT IS MEANT BY THIS?] -->
 
   * To consider: 
       - allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym. This is handled automatically, through the procedure with running numbers (see above). 
@@ -80,8 +77,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 
 ### 2. Geographic data (country, city, zip codes, area names, …)
-  * Types: < country > , < zip_code > , < region > , < city > , < area > , < place > , < geo > , < street_nr >, < foreign >
-       - < foreign > : this tag is combined with the following tags when applied to places outside of Sweden: < region > , < city >, < place > , < geo >. For places in Sweden the same four tags are used _without_ the additional tag < foreign >.
+  * Types: < foreign >, < area > , < city > , < geo > ,  < country > , < place > ,  < region > ,  < street_nr >, < zip_code > 
+       - < foreign > : this tag is combined with the following tags when applied to places _outside of Sweden_: < region > , < city >, < place > , < geo >. For places in Sweden the same four tags are used _without_ the additional tag < foreign >.
        - < country > : except Sweden
        - < zip_code > : zip/area code
        - < region > : geographical/political unit larger than a city but not equivalent to a country. E.g. _Sörmland_, _Stockholms län_, _Region Blekinge_, _Svealand_, _Sydirak_, _Toscana_, _Baltikum_. Regions outside of Sweden are marked with the additional tag < foreign >.
@@ -102,7 +99,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
   * Pseudonymization: (suggested source:  http://www.geonames.org , see more information at the bottom of this document)
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
-      - < zip_code >: Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
+      - < zip_code >: ABCDEF alt Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
 ### 3. Institution: < school > , < work > , < other_institution >
   * The institution tags are used to pseudonymize institutions mentioned in the texts which may be used to identify the writer, such as the school, work or sport's team of the writer (or a person related to the writer).
@@ -110,7 +107,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
     - < work > is used for an institution which is revealed as the writer's working place (or the working place of a person related to the writer). When an institution is identified as a working place, the tag < work > is applied instead of other tags which may otherwise be applied. For instance: If a text reveals that the writer works in a named school, the tag < work >, rather than the tag < school >, is used to pseudonymize the name of the school.
     - < other_institution > is used for all other institutions in need for pseudonymization, such as a sport's team or an NGO
   * Pseudonymization: 
-      - Replace from a list of school names and companies (e.g. from Yellow pages) 
+      - Replace from a list of school names and companies (e.g. from Yellow pages) alternatively use _A-school, B-workplace, C-institution_
    
 
 ### 4. Transportation: < transport_name >, < transport_nr >
@@ -119,7 +116,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
     - Words which clearly refer to transportation types rather than to specific lines, such as *tunnelbana, buss, pendeltåg* etc. should not be pseudonymized, although some of them reveal a city or limit the number of possible cities.
   * < transport_nr > : used for the number of a specific line, e.g. "buss *528*", "linje *3*". The tag should be placed only on the *number*.
   * Pseudonymization: 
-    - < transport_name > : Replace with *A-linjen, B-linjen* etc. 
+    - < transport_name > : Replace with *A-linjen, B-linjen* etc. to avoid adding inconcistensies into the text
     - < transport_nr > : Replace actual number with 1, in case of several numbers in the same text, enumerate (1, 2, 3…)
   * **Note**: Names of stations and stops, such as *Mariatorget, Centralen*, are pseudonymized with the tag < place > in the *geographic data* group.
 
@@ -128,28 +125,28 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20. (This is done automatically by the annotation tool.)
       - The same as above applies to < age_string > , rendered in strings. **The actual implementation of this pseudonymization category remains to be figured out.**
-      - **_??? There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. We need to have an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Added as an issue for anonymization tool. (Elena, A10AT1) ???_**
+      - ( There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. We need to have an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Added as an issue for anonymization tool. (Elena, A10AT1) )
          
 
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
-  * Types: < day > , < month_digit >, < month_word >, < year >, < date_digits >. Keep the delimiters as in original (, . - /)
+  * Types: < date_digits > , < day > , < month_digit >, < month_word >, < year > . 
   <!-- * Descriptor: --> 
-  * Pseudonymization: 
+  * Pseudonymization: Ideally - keep the delimiters as in the original (, . - /)
       - < day > - > random number between 1-28
       - < month_digit > - > random replace 1-12
       - < month_word > - > random replace: januari, februari, ...
       - < year > - > 5-year interval: e.g. 2013 is replaced by a random number from a range of numbers (+ - 2), i.e. 2011-2015
-      - < date_digits > - used for all dates that are written as a sequence of numbers with delimiters. Replace all numbers with "1" and keep delimiters, e.g.   
+      - < date_digits > - used for all dates that are written as a sequence of numbers with delimiters. Replace all numbers with "1" to a standard from 11-11-1111, (keeping delimiters not implemented) e.g.   
          * 2018-12-01 --> @date_digits --> 1111-11-11
-         * 18/01/12 -->  @date_digits --> 11/11/11 
-         * 180112 --> @date_digits --> 111111
-         * 18.01.12 --> @date_digits --> 11.11.11
-         * 01/12 --> @date_digits --> 11/11
+         * 18/01/12 -->  @date_digits --> 11-11-1111 
+         * 180112 --> @date_digits --> 11-11-1111
+         * 18.01.12 --> @date_digits --> 11-11-1111
+         * 01/12 --> @date_digits --> 11-11-1111
 
 
 ### 7. Phone numbers < phone_nr >
   * Pseudonymization: 
-      - Replace each number with a “0” in the sequence (0000-000000) and keep the delimiter
+      - Replace each number with a “0” in the sequence (e.g. 0000-000000) (and keep the delimiter)
       
 ### 8. Email addresses < email >
   * Pseudonymization: 
@@ -161,11 +158,11 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 ### 10. Social security numbers < personid_nr  >
   * Pseudonymization:  
-      - Replace each number with 123456-0000, and keep the delimiter (-)
+      - Replace each number with 123456-0000 (and keep the delimiter (-) )
 
 ### 11. Account numbers < account_nr >
   * Pseudonymization: 
-      - Replace each number with 0 and keep the delimiter(s)
+      - Replace each number with 0 (and keep the delimiter(s))
 
 ### 12. Certificate/licence numbers (e.g. vehicle) < license_nr >
   * Pseudonymization: 
@@ -173,7 +170,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       
 ### 13. Other sequence of numbers < other_nr_seq >
   * Pseudonymization: 
-      - Replace each number with 0 and keep delimiters
+      - Replace each number with 0 (and keep delimiters)
       
 
 ### 14. Extra (something else, not covered but the previous categories)
@@ -193,6 +190,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * < fam>, family members: Use for words for family members, friends, etc., e.g. *mamma, farfar, son, kusin, kompis, vän*.
             
 ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
+
+![alt text](datavetenskap.png)
  
   * < sensitive >, sensitive information:
       - Markup: assign a "sensitive" @placeholder to at least one token per sentence. When deciding which and how many tokens to mark with the < sensitive > label, a guiding principle is that pseudomization of the marked tokens could potentially suffice. However, the whole sentence will be reviewed later on before final decisions about these pseudonymizations are made, and fewer rather than more tokens should be marked. A possible solution for the example below is to mark the tokens “glad”, “fri” and “demstration”.
