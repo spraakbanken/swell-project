@@ -2,25 +2,25 @@
 
 The purpose of pseudonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, addresses and phone numbers, city names and other geographical names, etc.
 
-On top of this, some information is also marked as "sensitive" during the pseudonymization process. This is information which does not in itself disclose the identity of the writer, but which would be particularly harming to reveal were the identity of the writer to be disclosed in spite of the de-identifying efforts. Sensitive information is for instance information on political or religious views of the writer. The information marked as sensitive will be reviewed before publication of the corpus to evaluate whether it needs to be hidden or not.
+On top of this, some information is also marked as "potentially sensitive" during the pseudonymization process. This is information which does not in itself disclose the identity of the writer, but which would be particularly harming to reveal were the identity of the writer to be disclosed in spite of the de-identifying efforts. Sensitive information is for instance information on political or religious views of the writer. The information marked as potentially sensitive will be reviewed before publication of the corpus to evaluate whether it needs to be hidden or not.
 
-Your task is 1) to identify all information that can relate to the specific person who wrote the text, and categorize what type of information it is so that the person can be de-identified by changing/hiding the specific information, and 2) to mark potentially sensitive information related to the writer. The replacement of the personal information is performed automaticaly given the assigned label. 
+Your task as an assistant is 1) to identify all information that can relate to the specific person who wrote the text, and categorize what type of information it is so that the person can be de-identified by changing/hiding the specific information, and 2) to mark potentially sensitive information related to the writer. The replacement of the personal information is performed automaticaly given the assigned label. 
 
 This document contains instructions for how to proceed. 
 
 ## Basic principles
 
-1. Remove/change the information that can reveal a person behind the essay(s), yet keep to the “minimal change” rule. The data should be usable in research scenarios.  _Example?_
+1. Remove/change the information that can reveal a person behind the essay(s), yet keep to the _minimal change_ rule. The data should be usable in research scenarios. 
 
-2. Data on deviations from standard Swedish (mis-spellings etc.) will be lost for the pseudonymized strings. This also holds for text segments the form of which is dependent on the pseudonymized string (for instance prepositions preceeding pseudonymized city and country names).
+2. Data on _deviations from standard Swedish will be lost_ for the pseudonymized strings (e.g. mis-spellings etc.). This also holds for text segments the form of which is dependent on the pseudonymized string (for instance prepositions preceeding pseudonymized city and country names, e.g. in Germany -> in Cuba).
 
-3. Annotators have to make the assessment of the risks and needs for pseudonymization (an element of subjectivity).
+3. Annotators have to make the _assessment of the risks and needs_ for pseudonymization (an element of subjectivity).
 
-4. Tokens should not be pseudonymized solely on the basis of them belonging to a specific category listed among the pseudonymization categories, but on the basis of them potentially revealing the identity of the writer. For instance, not all country or city names are pseudonymized, but only those which, **together with the context**, 1) may be connected to the writer (e.g. because the city may be identified as the writer's home town), and 2) reveal information which is specific enough to be used to identify the writer. Accordingly, in a text where Istanbul is mentioned as a city where the writer has lived or as a city where a family member of the writer lives (etc.), _Istanbul_ should be pseudonymized. But not so in a text providing general information about Istanbul. And while the information that the writer stems from the Baltic countries may be reason to pseudonymize _Baltikum_ (as a region), the information that the writer stems from Europe does not necessitate pseudonymization, since Europe is such a large region which may be assumed to be the home region for a large number of potential writers.
+4. Tokens should not be pseudonymized solely on the basis of them belonging to a specific category listed among the pseudonymization categories, but on the basis of them _potentially revealing the identity of the writer_. For instance, not all country or city names are pseudonymized, but only those which, **together with the context**, 1) may be connected to the writer (e.g. because the city may be identified as the writer's home town), and 2) reveal information which is specific enough to be used to identify the writer. Accordingly, in a text where Istanbul is mentioned as a city where the writer has lived or as a city where a family member of the writer lives (etc.), _Istanbul_ should be pseudonymized. But not so in a text providing general information about Istanbul. And while the information that the writer stems from the Baltic countries may be reason to pseudonymize _Baltikum_ (as a region), the information that the writer stems from Europe does not necessitate pseudonymization, since Europe is such a large region which may be assumed to be the home region for a large number of potential writers.
 
-5. Keep track of whether the token is “original” or “masked”. (This is done automatically by the annotating tool.)
+5. Keep _track_ of whether the token is “original” or “masked”. (This is done automatically by the annotating tool.)
 
-6. Categories that need to be marked in the texts, but not necessarily replaced. We will  make an assessment later when we have enough statistics over the learners behind the essays, as well as the assembled texts and metadata on each particular writer: 
+6. Categories that need to be _marked in the texts, but not necessarily replaced_. We will  make an assessment later when we have enough statistics over the learners behind the essays, as well as the assembled texts and metadata on each particular writer: 
   * country: the same pseudonymization tag, < country >, is used for: 
     - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in our database are from the named countries
     - country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
@@ -39,6 +39,8 @@ May be applied on top of other categories, as (extra)linguistic information.
 
 ### Running numbers
 Applies to all named entities (NE) and their *@placeholders*. Each unique named entity type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. This is done automatically, but the automatically assigned running number may be changed manually. A manual change of the running number is necessary when the same entity (for instance the same city) is referred to by non-identical strings (for instance due to mis-spelling).
+
+![](Stockhuml.png)
 
 <**NEED A PICTURE HERE**>
 
