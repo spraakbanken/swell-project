@@ -189,7 +189,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * < edu >, education: Use for degrees etc., e.g. *datavetare*, "jag har en examen i *kemi*"
   * < fam>, family members: Use for words for family members, friends, etc., e.g. *mamma, farfar, son, kusin, kompis, vän*.
             
-![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")
+<--![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")-->
 
 ![alt text](datavetenskap.png)
  
@@ -204,6 +204,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 -->
 
 *I en dag såg vi en stor demstration det var för mycket människor vill inte **Turkiets < country, genitive >** statsminister **Ardogan < surname >** och vi kände mycket **glad < sensitive >** för att det var första dag ser vi en **fri < sensitive >** **demstration < sensitive >***. 
+
+![](Turkiet.png)
 
 
 ### 16. Comments < OBS! >, < Com! >, document comments
