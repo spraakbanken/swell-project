@@ -40,7 +40,7 @@ May be applied on top of other categories, as (extra)linguistic information.
 ### Running numbers
 Applies to all named entities (NE) and their *@placeholders*. Each unique named entity type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. This is done automatically, but the automatically assigned running number may be changed manually. A manual change of the running number is necessary when the same entity (for instance the same city) is referred to by non-identical strings (for instance due to mis-spelling).
 
-![Stockhulm vs Stockholm](Stockhuml.png =100x)
+![Stockhulm vs Stockholm](Stockhuml.png)
 
 
 
@@ -50,7 +50,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
  * Number: < pl > , e.g. Mölndalsbor
  * Only marked forms are tagged, i.e. genitive case is marked, whereas nominative case is not (by default everything is assumed to have nominative case).
  
- <**NEED A PICTURE HERE**>
+![Stockholm vs Stockholms](Stockholms.png)
 
 ## Pseudonymize: 
 
