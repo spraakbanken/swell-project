@@ -173,7 +173,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       - Replace each number with 0 (and keep delimiters)
       
 
-### 14. Extra (something else, not covered but the previous categories)
+### 14. Extra (something else, not covered in the previous categories)
   * When the pseudonymizer comes across some kind of information in a text which may potentially be used to identify the writer, but which is not covered by any of the other pseudonymization categories, the tag < extra > is used.
   * The < extra > tag may for instance be used to mark information about very specific events in the writer's life.
   * By default we consider all "Extra" tags as obligatory to pseudonymize. However, the intention is to re-evaluate the category after the initial pseudonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". 
@@ -205,11 +205,11 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 *I en dag såg vi en stor demstration det var för mycket människor vill inte **Turkiets < country, genitive >** statsminister **Ardogan < surname >** och vi kände mycket **glad < sensitive >** för att det var första dag ser vi en **fri < sensitive >** **demstration < sensitive >***. 
 
-![](Turkiet.png)
+![](Turkiet2.png)
 
 
 ### 16. Comments < OBS! >, < Com! >, document comments
-   * The < OBS! > tag is used for marking a place to return to or for making comments which may be useful for later stages in the work with making the text ready for the corpus (i.e. normalization and correction annotation).
+   * The < OBS! > tag is used for marking a place to return to or for making comments which may be useful for later stages in the work with making the text ready for the corpus release (i.e. normalization and correction annotation).
    * The < Com! > tag is used for marking specific text sequences in need of comments which are judged to be useful for the future users of the corpus and which are thus intended to be kept in the published corpus.
    * Both the < OBS! > tag and the < Com! > tag are connected to an "edge comment" field where notes may be made. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
    * There is also a *document comment* field in which notes about the text as a whole may be made. These notes may provide essential information for later stages (normalization, correction annotation), or in some cases information which is meant for the corpus user and which is thus meant to be kept in the published corpus.
