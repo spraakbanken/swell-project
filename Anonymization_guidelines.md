@@ -188,14 +188,14 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * < prof >, professions, e.g. *webbutvecklare*
   * < edu >, education: Use for degrees etc., e.g. *datavetare*, "jag har en examen i *kemi*"
   * < fam>, family members: Use for words for family members, friends, etc., e.g. *mamma, farfar, son, kusin, kompis, vän*.
-            
-<--![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Anon_gen.png "xxx")-->
 
 ![alt text](datavetenskap.png)
  
   * < sensitive >, sensitive information:
       - Markup: assign a "sensitive" @placeholder to at least one token per sentence. When deciding which and how many tokens to mark with the < sensitive > label, a guiding principle is that pseudomization of the marked tokens could potentially suffice. However, the whole sentence will be reviewed later on before final decisions about these pseudonymizations are made, and fewer rather than more tokens should be marked. A possible solution for the example below is to mark the tokens “glad”, “fri” and “demstration”.
       - **Note**: Sensitive information which could be covered by other pseudonymization categories should be assigned these other labels, e.g. “Turkiet” and “Ardogan” in the example below.
+      - **Consider in the future**: for < sensitive > we need to evaluate if subgroups are needed: e.g. religion, ethnicity, sexual orientation, political views, physical and mental disabilities
+
 
       Example: 
       
@@ -217,23 +217,31 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?'Alice%5C's'%3A1%3AOBS!%3A'firstname_female'%3Agen%20wallet%20was%20stolen%20.%2F%2F'Alice%5C's'%20wallet%20was%20stolen%20.)
 
-## For < sensitive > we need to evaluate if subgroups are needed: 
-religion, ethnicity, sexual orientation, political views, physical and mental disabilities
+![](Obs-Com.png)
 
-## To be included: 
-Examples
-Original:
-Jag heter Ali och bor i Borlänge. Jag flyttade till Sverige för 1 år sedan. Jag har flytt från Afghanistan med min familj 2015. Jag har fem bröder och tre systrar. Vi bor på Tegelvägen 32. Jag vill jobba. Jag vill bli arkitekt. Sverige är skön. Jag är muslim.
 
-Marked-up:
-Jag heter <firstname1-m> och bor i <city1>. Jag flyttade till Sverige för 1 år sedan. Jag har flytt från <country_of_origin>,  med min familj <year-2012-2018>. Jag har <sensitive> bröder och <sensitive> systrar. Vi bor på <street1> <street_nr>. Jag vill jobba. Jag vill bli <prof>. Sverige är skön. Jag är <sensitive>.
+## Text example
 
-Pseudonymized*: 
-Jag heter Mohammed och bor i Göteborg. Jag flyttade till Sverige för 1 år sedan. Jag har flytt från Afghanistan med min familj 2013. Jag har två bröder och två systrar. Vi bor på Gustavsgatan 1. Jag vill jobba. Jag vill bli <prof>. Sverige är skön. Jag är <sensitive>.
+![](Text_exe.png)
 
-## Details about geonames (from mail med SweLLers, 3 april 2018): 
 
-För att pseudonymisera ”platserna”, kan vi använda  http://www.geonames.org
+## Resources (lists) for pseudonyms and automatic pseudonymization scripts
+
+Resources and lists are collected in a private repository here:
+https://github.com/SamirYousuf/LR_project 
+
+## SweLL publications on the topic
+
+* Beáta Megyesi, Sofia Johansson, Dan Rosén,Carl-Johan Schenström, Gunlög Sundberg, Mats Wirén & Elena Volodina. (2018). Learner Corpus Anonymization in the Age of GDPR: Insights from the Creation of a Learner Corpus of Swedish. Proceedings of the 7th NLP4CALL workshop. [https://ep.liu.se/ecp/152/006/ecp18152006.pdf]
+
+* Elena Volodina, Yousuf Ali Mohammed, Arild Matsson, Sandra Derbring, Beatá Megyesi. (2020). Towards Privacy by Design in Learner Corpora Research: A Case of On-the-fly Pseudonymization of Swedish Learner Essays. COLING-2020. [pdf-link comes later]
+
+
+
+
+<-Details about geonames: 
+
+För att pseudonymisera ”platserna”, kan man använda  http://www.geonames.org
 
 Det finns en hel del info och zip-filer där, så klicka på ”info”-länken (eller använd länken nedan) för att läsa förklaringar
 http://download.geonames.org/export/dump/readme.txt
@@ -248,9 +256,8 @@ Det verkar att de mest användbara listorna (för oss) är:
 * cities1000.zip (här listas alla städer med invånare över 1000, samt också vilket land de tillhör/country codes, men de listas med alla möjliga skrift, så vi behöver använda denna fil ihop med alternateNamesV2.zip och matcha på geonameid)
 
 Vi behöver leka lite med dessa filer. Enligt info-länken, så finns det även koder för kontinenter, till exempel. Filerna är superstora, så dator kan lätt hänga sig om man försöker öppna filerna…
-Jag klistrar in denna info till vårt anonymiserngsdokument.
 
-## Details about personal names (from mail med Markus, 28 mars 2018): 
+## Details about personal names: 
 
 Vi har datan från SCB med för- och efternamn här:
 https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn
@@ -274,9 +281,9 @@ https://sv.wikipedia.org/wiki/Lista_över_universitet_och_högskolor_i_Sverige
 https://www.gymnasium.se/yrkesguiden/alla-yrken-10957 
 https://www.saco.se/studieval/yrken-a-o/ 
 
-< education > ?
+< education > ? 
 
 ## More notes:
 
 * See pages 4-5, notes from SweLL meeting, August 2018:
-https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Minnesanteckningar_SweLL_Projektmote_20180830-31.pdf
+https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Minnesanteckningar_SweLL_Projektmote_20180830-31.pdf -->
