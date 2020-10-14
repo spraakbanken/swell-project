@@ -94,9 +94,10 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
  ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
       
 
-<!-- c **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_** -->
- <!-- * Descriptor: 
-      - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
+[//]: # <!-- c **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_** -->
+ [//]: # <!-- * Descriptor: 
+ [//]: #      - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
+ 
   * Pseudonymization: (suggested source:  http://www.geonames.org , see more information at the bottom of this document)
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
       - < zip_code >: ABCDEF alt Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
@@ -130,7 +131,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
   * Types: < date_digits > , < day > , < month_digit >, < month_word >, < year > . 
-  <!-- * Descriptor: --> 
+ [//]: #  <!-- * Descriptor: --> 
   * Pseudonymization: Ideally - keep the delimiters as in the original (, . - /)
       - < day > - > random number between 1-28
       - < month_digit > - > random replace 1-12
@@ -230,60 +231,68 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 Resources and lists are collected in a private repository here:
 https://github.com/SamirYousuf/LR_project 
 
+## SweLL annotation tool 
+
+SVALA is used for both manual annotation and for supportive automatic pseudonymization. A demo-version of the tool can be found here: https://spraakbanken.gu.se/swell/dev/# 
+
+Manual for SVALA: coming
+
+
 ## SweLL publications on the topic
 
 * Beáta Megyesi, Sofia Johansson, Dan Rosén,Carl-Johan Schenström, Gunlög Sundberg, Mats Wirén & Elena Volodina. (2018). Learner Corpus Anonymization in the Age of GDPR: Insights from the Creation of a Learner Corpus of Swedish. Proceedings of the 7th NLP4CALL workshop. [https://ep.liu.se/ecp/152/006/ecp18152006.pdf]
 
 * Elena Volodina, Yousuf Ali Mohammed, Arild Matsson, Sandra Derbring, Beatá Megyesi. (2020). Towards Privacy by Design in Learner Corpora Research: A Case of On-the-fly Pseudonymization of Swedish Learner Essays. COLING-2020. [pdf-link comes later]
 
+* Wirén Mats, Arild Matsson, Dan Rosén, Elena Volodina. 2019. SVALA: Annotation of Second-Language Learner Text Based on Mostly Automatic Alignment of Parallel Corpora. CLARIN-2018 post-conference volume. LiUP Press. [https://ep.liu.se/ecp/159/023/ecp18159023.pdf]
 
 
 
-<-- Details about geonames: -->
+[//]: # Details about geonames: 
 
-<-- För att pseudonymisera ”platserna”, kan man använda  http://www.geonames.org -->
+[//]: # För att pseudonymisera ”platserna”, kan man använda  http://www.geonames.org 
 
-Det finns en hel del info och zip-filer där, så klicka på ”info”-länken (eller använd länken nedan) för att läsa förklaringar
+[//]: # Det finns en hel del info och zip-filer där, så klicka på ”info”-länken (eller använd länken nedan) för att läsa förklaringar
 http://download.geonames.org/export/dump/readme.txt
 
-För att ladda hem filerna, klicka på Free Gazetteer Data (eller använd länken nedan)
+[//]: # För att ladda hem filerna, klicka på Free Gazetteer Data (eller använd länken nedan)
 http://download.geonames.org/export/dump/readme.txt
 
-Det verkar att de mest användbara listorna (för oss) är:
+[//]: # Det verkar att de mest användbara listorna (för oss) är:
 
-* se.zip (svenska geografiska namn, dock inkluderar de inte bara städer/byar, utan också berg osv)
-* alternateNamesV2.zip (innehåller städer över hela världen. Om man filtrerar på koden ”se” (eller ”sv”?) så får man städer med svensk ortografi
-* cities1000.zip (här listas alla städer med invånare över 1000, samt också vilket land de tillhör/country codes, men de listas med alla möjliga skrift, så vi behöver använda denna fil ihop med alternateNamesV2.zip och matcha på geonameid)
+[//]: # * se.zip (svenska geografiska namn, dock inkluderar de inte bara städer/byar, utan också berg osv)
+[//]: # * alternateNamesV2.zip (innehåller städer över hela världen. Om man filtrerar på koden ”se” (eller ”sv”?) så får man städer med svensk ortografi
+[//]: # * cities1000.zip (här listas alla städer med invånare över 1000, samt också vilket land de tillhör/country codes, men de listas med alla möjliga skrift, så vi behöver använda denna fil ihop med alternateNamesV2.zip och matcha på geonameid)
 
-Vi behöver leka lite med dessa filer. Enligt info-länken, så finns det även koder för kontinenter, till exempel. Filerna är superstora, så dator kan lätt hänga sig om man försöker öppna filerna…
+[//]: # Vi behöver leka lite med dessa filer. Enligt info-länken, så finns det även koder för kontinenter, till exempel. Filerna är superstora, så dator kan lätt hänga sig om man försöker öppna filerna…
 
-## Details about personal names: 
+[//]: # ## Details about personal names: 
 
-Vi har datan från SCB med för- och efternamn här:
-https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn
+[//]: # Vi har datan från SCB med för- och efternamn här:
+[//]: # https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn
 
-(litet skräpig data; vi påbörjade arbetet med att skapa en namn-saldo, men det stannade av. saldo-namn.xml innehåller senaste versionen av namn-morfologin)
+[//]: # (litet skräpig data; vi påbörjade arbetet med att skapa en namn-saldo, men det stannade av. saldo-namn.xml innehåller senaste versionen av namn-morfologin)
 
-## About workplaces (category 3) and professtions (15):
-(3.)
-Companies ( < work > ):
-https://sv.wikipedia.org/wiki/Lista_över_företag_på_Stockholmsbörsen_–_medelstora_företag
-http://www.largestcompanies.se/topplistor/sverige/de-storsta-foretagen-efter-omsattning
+[//]: # ## About workplaces (category 3) and professtions (15):
+[//]: # (3.)
+[//]: # Companies ( < work > ):
+[//]: # https://sv.wikipedia.org/wiki/Lista_över_företag_på_Stockholmsbörsen_–_medelstora_företag
+[//]: # http://www.largestcompanies.se/topplistor/sverige/de-storsta-foretagen-efter-omsattning
 
-Universities and schools ( < institution > , < school > ):
-https://sv.wikipedia.org/wiki/Lista_över_universitet_och_högskolor_i_Sverige
+[//]: # Universities and schools ( < institution > , < school > ):
+[//]: # https://sv.wikipedia.org/wiki/Lista_över_universitet_och_högskolor_i_Sverige
 
-< Other_institutions > ?
+[//]: # < Other_institutions > ?
 
 
-(15.)
-< profession > : t.ex.
-https://www.gymnasium.se/yrkesguiden/alla-yrken-10957 
-https://www.saco.se/studieval/yrken-a-o/ 
+[//]: # (15.)
+[//]: # < profession > : t.ex.
+[//]: # https://www.gymnasium.se/yrkesguiden/alla-yrken-10957 
+[//]: # https://www.saco.se/studieval/yrken-a-o/ 
 
-< education > ? 
+[//]: # < education > ? 
 
-## More notes:
+[//]: # ## More notes:
 
-* See pages 4-5, notes from SweLL meeting, August 2018:
-https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Minnesanteckningar_SweLL_Projektmote_20180830-31.pdf -->
+[//]: # * See pages 4-5, notes from SweLL meeting, August 2018:
+[//]: # https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Minnesanteckningar_SweLL_Projektmote_20180830-31.pdf
