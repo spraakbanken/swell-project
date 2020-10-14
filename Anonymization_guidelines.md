@@ -239,9 +239,9 @@ https://github.com/SamirYousuf/LR_project
 
 
 
-<-- Details about geonames: 
+<-- Details about geonames: -->
 
-För att pseudonymisera ”platserna”, kan man använda  http://www.geonames.org
+<-- För att pseudonymisera ”platserna”, kan man använda  http://www.geonames.org -->
 
 Det finns en hel del info och zip-filer där, så klicka på ”info”-länken (eller använd länken nedan) för att läsa förklaringar
 http://download.geonames.org/export/dump/readme.txt
