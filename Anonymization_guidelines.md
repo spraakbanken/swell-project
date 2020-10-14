@@ -239,7 +239,7 @@ https://github.com/SamirYousuf/LR_project
 
 
 
-<-Details about geonames: 
+<-- Details about geonames: 
 
 För att pseudonymisera ”platserna”, kan man använda  http://www.geonames.org
 
