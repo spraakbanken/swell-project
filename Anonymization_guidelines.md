@@ -94,9 +94,9 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
  ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
       
 
-[//]: # <!-- c **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_** -->
- [//]: # <!-- * Descriptor: 
- [//]: #      - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
+<!-- c **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_** -->
+  <!-- * Descriptor: 
+     - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
  
   * Pseudonymization: (suggested source:  http://www.geonames.org , see more information at the bottom of this document)
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
