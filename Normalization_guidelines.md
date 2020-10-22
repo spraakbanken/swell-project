@@ -14,7 +14,7 @@ Normalization in SVALA means editing of the original learner text in such a way 
 
 The purpose of normalization is twofold: 
 
-1. To render the text in a version which is amenable to automatic annotation using a standard linguistic analysis pipeline. (For Swedish, such a pipeline is [efselab](https://github.com/robertostling/efselab).)
+1. To render the text in a version which is amenable to automatic annotation using a standard linguistic analysis pipeline. (For Swedish, such a pipeline is [efselab](https://github.com/robertostling/efselab) or [Sparv](https://spraakbanken.gu.se/verktyg/sparv). The SweLL data is currently processed with the Sparv-pipeline. It is possible to re-annotate later with other pipelines.)
 
 2. To obtain a separate, explicit representation of the corrections (that is, the target hypotheses). Such a representation is highly useful by allowing for many new types of search of the corpus.
 
@@ -119,7 +119,7 @@ Frequency in Korp (all corpora selected): "hitta lägenhet" 1904, "hitta en läg
 
 ### Principle of positive assumption
 
-In cases where it is difficult to decide whether an expression is correct or incorrect, assume the the learner was correct. 
+In cases where it is difficult to decide whether an expression is correct or incorrect, assume that the learner was correct. 
 
 _Do we have grammatical examples of this?_
 
