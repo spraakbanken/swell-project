@@ -20,6 +20,7 @@ Fältet *Kurs etc.* innehåller kurs- och nivåbeteckningar, men också provbete
 Kurs etc. | Skolform där kursen/provet ges | Ungefärlig nivå
 --------- | ------------------------------ | -------------------
 Språkintroduktion för nyanlända | Ungdomsgymnasiet | Olika nivåer, beror på kursen 
+--------- | ------------------------------ | -------------------
 Inplaceringsprov SFI | Vuxenutbildningen  | A: Nybörjare (Beginner)
 SFI A	| Vuxenutbildningen  | A: Nybörjare (Beginner)
 SFI B	| Vuxenutbildningen  | A: Nybörjare (Beginner)
@@ -31,12 +32,12 @@ Grundläggande SVA dk 2	| Vuxenutbildningen  | B: Fortsättning (Intermediate)
 Grundläggande SVA dk 3	| Vuxenutbildningen  | B: Fortsättning (Intermediate)
 Grundläggande SVA dk 4	| Vuxenutbildningen  | B: Fortsättning (Intermediate)
 --------- | ------------------------------ | -------------------
-SVA 1	| Ungdomsgymnasiet/Vuxenutbildningen   | C: Avsancerad (Advanced)
-SVA 2	| Ungdomsgymnasiet/Vuxenutbildningen   | C: Avsancerad (Advanced)
-SVA 3	| Ungdomsgymnasiet/Vuxenutbildningen   | C: Avsancerad (Advanced)
-Förberedande kurs | Universitetet   | C: Avsancerad (Advanced)
-Behörighetsgivande kurs	| Universitetet   | C: Avsancerad (Advanced)
-Tisus	| Universitetet   | C: Avsancerad (Advanced)
+SVA 1	| Ungdomsgymnasiet/Vuxenutbildningen   | C: Avancerad (Advanced)
+SVA 2	| Ungdomsgymnasiet/Vuxenutbildningen   | C: Avancerad (Advanced)
+SVA 3	| Ungdomsgymnasiet/Vuxenutbildningen   | C: Avancerad (Advanced)
+Förberedande kurs | Universitetet   | C: Avancerad (Advanced)
+Behörighetsgivande kurs	| Universitetet   | C: Avancerad (Advanced)
+Tisus	| Universitetet   | C: Avancerad (Advanced)
 
 ## Betygsskala
 Fältet *Betygsskala* anger vilken betygsskala som har använts vid betygsättningen av uppgiften i de fall de uppsatser som hör ihop med uppgiften har ett betyg som är tillgängligt i våra metadata.
