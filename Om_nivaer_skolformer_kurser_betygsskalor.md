@@ -17,24 +17,24 @@ Det finns tre alternativa värden för fältet skolform i portalen: *Ungdomsgymn
 ## Kurs etc.
 Fältet *Kurs etc.* innehåller kurs- och nivåbeteckningar, men också provbeteckningar (*Inplaceringsprov SFI* och *Tisus*). Tabellen nedan visar vilka alternativ som finns för fältet *Kurs etc.* samt de skolformer där kurserna/proven ges.
 
-Kurs etc. | Skolform där kursen/provet ges
---------- | ------------------------------
-Språkintroduktion för nyanlända | Ungdomsgymnasiet
-Inplaceringsprov SFI | Vuxenutbildningen
-SFI A	| Vuxenutbildningen
-SFI B	| Vuxenutbildningen
-SFI C	| Vuxenutbildningen
-SFI D	| Vuxenutbildningen
-Grundläggande SVA dk 1	| Vuxenutbildningen
-Grundläggande SVA dk 2	| Vuxenutbildningen
-Grundläggande SVA dk 3	| Vuxenutbildningen
-Grundläggande SVA dk 4	| Vuxenutbildningen
-SVA 1	| Ungdomsgymnasiet/Vuxenutbildningen
-SVA 2	| Ungdomsgymnasiet/Vuxenutbildningen
-SVA 3	| Ungdomsgymnasiet/Vuxenutbildningen
-Förberedande kurs | Universitetet
-Behörighetsgivande kurs	| Universitetet
-Tisus	| Universitetet
+Kurs etc. | Skolform där kursen/provet ges | Ungefärlig nivå
+--------- | ------------------------------  -------------------
+Språkintroduktion för nyanlända | Ungdomsgymnasiet | Olika nivåer, beror på kursen 
+Inplaceringsprov SFI | Vuxenutbildningen  | A: Nybörjare (Beginner)
+SFI A	| Vuxenutbildningen  | A: Nybörjare (Beginner)
+SFI B	| Vuxenutbildningen  | A: Nybörjare (Beginner)
+SFI C	| Vuxenutbildningen  | A: Nybörjare (Beginner)
+SFI D	| Vuxenutbildningen  | A: Nybörjare (Beginner)
+Grundläggande SVA dk 1	| Vuxenutbildningen  | B: Fortsättning (Intermediate)
+Grundläggande SVA dk 2	| Vuxenutbildningen  | B: Fortsättning (Intermediate)
+Grundläggande SVA dk 3	| Vuxenutbildningen  | B: Fortsättning (Intermediate)
+Grundläggande SVA dk 4	| Vuxenutbildningen  | B: Fortsättning (Intermediate)
+SVA 1	| Ungdomsgymnasiet/Vuxenutbildningen   | C: Avsancerad (Advanced)
+SVA 2	| Ungdomsgymnasiet/Vuxenutbildningen   | C: Avsancerad (Advanced)
+SVA 3	| Ungdomsgymnasiet/Vuxenutbildningen   | C: Avsancerad (Advanced)
+Förberedande kurs | Universitetet   | C: Avsancerad (Advanced)
+Behörighetsgivande kurs	| Universitetet   | C: Avsancerad (Advanced)
+Tisus	| Universitetet   | C: Avsancerad (Advanced)
 
 ## Betygsskala
 Fältet *Betygsskala* anger vilken betygsskala som har använts vid betygsättningen av uppgiften i de fall de uppsatser som hör ihop med uppgiften har ett betyg som är tillgängligt i våra metadata.
