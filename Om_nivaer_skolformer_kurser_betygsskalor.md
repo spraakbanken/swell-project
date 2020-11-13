@@ -15,7 +15,7 @@ Det finns tre alternativa värden för fältet *Ungefärlig nivå*: *Nybörjare*
 ## Skolform
 Det finns tre alternativa värden för fältet skolform i portalen: *Ungdomsgymnasiet*, *Vuxenutbildningen* och *Universitetet*.
 ## Kurs etc.
-Fältet *Kurs etc.* innehåller kurs- och nivåbeteckningar, men också provbeteckningar (*Inplaceringsprov SFI* och *Tisus*). Tabellen nedan visar vilka alternativ som finns för fältet *Kurs etc.* samt de skolformer där kurserna/proven ges.
+Fältet *Kurs etc.* innehåller kurs- och nivåbeteckningar, men också provbeteckningar (*Inplaceringsprov SFI*, *Tisus* och *Inträdesprov universitetet*). Tabellen nedan visar vilka alternativ som finns för fältet *Kurs etc.* samt de skolformer där kurserna/proven ges.
 
 Kurs etc. | Skolform där kursen/provet ges | Ungefärlig nivå
 --------- | ------------------------------ | -------------------
@@ -38,11 +38,14 @@ SVA 3	| Ungdomsgymnasiet/Vuxenutbildningen   | C: Avancerad (Advanced)
 Förberedande kurs | Universitetet   | C: Avancerad (Advanced)
 Behörighetsgivande kurs	| Universitetet   | C: Avancerad (Advanced)
 Tisus	| Universitetet   | C: Avancerad (Advanced)
+Inträdesprov universitetet | Universitetet | C: Avancerad (Advanced)
 
 ## Betygsskala
 Fältet *Betygsskala* anger vilken betygsskala som har använts vid betygsättningen av uppgiften i de fall de uppsatser som hör ihop med uppgiften har ett betyg som är tillgängligt i våra metadata.
 
 Alternativet *SFI-inplacering* innebär att de uppsatser som hör ihop med uppgiften har bedömts med avseende på vilken SFI-kurs som eleven bör placeras in på.
+
+Alternativet *Inträdesprov universitetet* innebär att de uppsatser som hör ihop med uppgiften har bedömts med avseende på vilken universitetskurs i svenska som främmande språk som studenten kan placeras in på, men en mer fingraderad nivåbedömning genom en sjugradig skala har gjorts: Betyget 1 motsvarar den lägsta färdighetsnivån och betyget 7 motsvarar den högsta färdighetsnivån. Betyget 1 innebär att studenten inte har antagits till någon universitetskurs och betyget 7 innebär att studentens behärskning av svenskan ligger över den förväntade färdighetsnivån för behörighetsgivande kurser i svenska och att andra typer av universitetskurser i svenska därmed kan övervägas. Betygen 2 - 4 innebär en inplacering på förberedande kurs. Betygen 5 - 6 innebär en inplacering på behörighetsgivande kurs.
 
 Alternativet *Uppgiften har inte betyg* används både i de fall då de tillhörande uppsatserna över huvud taget inte har betygsatts och i de fall uppsatserna i och för sig har betygsatts, men då uppgifter om dessa betyg saknas i våra metadata.
 
@@ -55,4 +58,5 @@ G/U |	Godkänd (G), Underkänd (U) |Tisus, de flesta universitetskurser (förber
 VG/G/U | Väl godkänd (VG), Godkänd (G), Underkänd (U) | Vissa universitetskurser (förberedande, behörighetsgivande)
 A–F	| A, B, C, D, E, F |SFI, grundläggande SVA, SVA
 SFI-inplacering	| SFI A, SFI B, SFI C, SFI D | Inplaceringsprov SFI
+Universitetsintagning | 1 - ej antagen, 2 - förberedande, 3 - förberedande, 4 - förberedande, 5 - behörighetsgivande, 6 - behörighetsgivande, 7 - annan kurs tänkbar | Inträdesprov universitetet
 Uppgiften har inte betyg | | de flesta kurstyper
