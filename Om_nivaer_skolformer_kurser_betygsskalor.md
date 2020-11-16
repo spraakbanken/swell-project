@@ -3,17 +3,19 @@ Metadata om skrivuppgifter med avseende på skolformer, studienivåer/färdighet
 
 I portalen ges metadata av detta slag i fyra olika fält: *Ungefärlig nivå*, *Skolform*, *Kurs etc.* samt *Betygsskala*.
 ## Ungefärlig nivå
-Fältet *Ungefärlig nivå* anger en ungefärlig färdighetsnivå/studienivå för skriven svenska som man kan anta att eleven har utifrån den kurs hen går. Dessa ungefärliga nivåer har lagts in i metadata framför allt för att underlätta användningen av korpusen för personer som inte är helt bekanta med det svenska utbildningssystemet. Nivån anger alltså inte resultatet av ett färdighetstest e.d., utan utgår helt från en antagen ungefärlig korrelation mellan kurstyper och färdighetsnivåer/studienivåer.
+Fältet *Ungefärlig nivå* anger en ungefärlig färdighetsnivå/studienivå för skriven svenska som man kan anta att eleven har utifrån den kurs hen går. Dessa ungefärliga nivåer har konstruerats och lagts in i metadata framför allt för att underlätta användningen av korpusen för personer som inte är helt bekanta med det svenska utbildningssystemet. Nivån anger alltså inte resultatet av ett färdighetstest e.d., utan utgår helt från en antagen ungefärlig korrelation mellan kurstyper och färdighetsnivåer/studienivåer. Det är viktigt att notera att en skribent lika väl kan befinna sig i början som i slutet av den angivna kursen. Nivåerna i det svenska utbildningssystemet är inte heller korrelerade med den europeiska referensramens nivåer. 
 
-Det finns tre alternativa värden för fältet *Ungefärlig nivå*: *Nybörjare*, *Fortsättning* och *Avancerad*.
+Det finns tre alternativa värden för fältet *Ungefärlig nivå*: *Nybörjare*, *Fortsättning* och *Avancerad*. 
 
 **Nybörjare** innebär elever i det svenska skolsystemet som går kurser i Svenska för invandrare i vuxenutbildningen, eller i ungdomsgymnasiets Språkintroduktion för nyanlända på de lägre nivåerna.
 
-**Fortsättning** innebär elever i det svenska skolsystemet som går kurser i svenska som andraspråk på grundläggande vux i vuxenutbildningen, eller i undomsgymnasiets Språkintroduktion för nyanlända på de högre nivåerna.
+**Fortsättning** innebär elever i det svenska skolsystemet som går kurser i svenska som andraspråk i den grundläggande vuxenutbildningen, eller i undomsgymnasiets Språkintroduktion för nyanlända på de högre nivåerna.
 
-**Avancerad** innebär elever i det svenska skolsystemet som går kurser i svenska som andraspråk på gymnasial vux i vuxenutbildningen eller i ungdomsgymnasiet, eller på universitetet (föreberedande eller behörighetsgivande kurs), alternativt elever som har godkänt betyg på Tisus (test i svenska för universitets- och högskolestudier).
+**Avancerad** innebär elever i det svenska skolsystemet som går kurser i svenska som andraspråk på gymnasial nivå i vuxenutbildningen eller i ungdomsgymnasiet, eller i kurser i svenska på universitetet (föreberedande eller behörighetsgivande kurs), alternativt skribenter som har godkänt betyg på Tisus (Test i svenska för universitets- och högskolestudier).
+
 ## Skolform
 Det finns tre alternativa värden för fältet skolform i portalen: *Ungdomsgymnasiet*, *Vuxenutbildningen* och *Universitetet*.
+
 ## Kurs etc.
 Fältet *Kurs etc.* innehåller kurs- och nivåbeteckningar, men också provbeteckningar (*Inplaceringsprov SFI*, *Tisus* och *Inträdesprov universitetet*). Tabellen nedan visar vilka alternativ som finns för fältet *Kurs etc.* samt de skolformer där kurserna/proven ges.
 
@@ -41,7 +43,7 @@ Tisus	| Universitetet   | C: Avancerad (Advanced)
 Inträdesprov universitetet | Universitetet | C: Avancerad (Advanced)
 
 ## Betygsskala
-Fältet *Betygsskala* anger vilken betygsskala som har använts vid betygsättningen av uppgiften i de fall de uppsatser som hör ihop med uppgiften har ett betyg som är tillgängligt i våra metadata.
+Fältet *Betygsskala* anger vilken betygsskala som har använts vid betygsättningen av uppgiften i de fall de uppsatser som hör ihop med uppgiften har ett betyg som är tillgängligt i våra metadata. Betygsskalan för skrivuppgiften speglar i de flesta fall de kursbetyg som används på kursen som helhet. 
 
 Alternativet *SFI-inplacering* innebär att de uppsatser som hör ihop med uppgiften har bedömts med avseende på vilken SFI-kurs som eleven bör placeras in på.
 
@@ -54,9 +56,9 @@ Tabellen nedan visar vilka alternativ som finns för fältet *Betygsskala*, de m
 Betygsskala |	Möjliga betyg på de tillhörande uppsatserna |	Förekommer på uppsatser från följande kurstyper/provtyper
 ---|---|---
 CEFR (A1–C2) | A1, A2, B1, B2, C1, C2	| Språkintroduktion för nyanlända
-G/U |	Godkänd (G), Underkänd (U) |Tisus, de flesta universitetskurser (förberedande, behörighetsgivande)
+G/U |	Godkänd (G), Underkänd (U) |Tisus; De flesta universitetskurser (förberedande, behörighetsgivande)
 VG/G/U | Väl godkänd (VG), Godkänd (G), Underkänd (U) | Vissa universitetskurser (förberedande, behörighetsgivande)
-A–F	| A, B, C, D, E, F |SFI, grundläggande SVA, SVA
+A–F	| A, B, C, D, E, F |SFI, SVA grundläggande nivå, SVA gymnasial nivå
 SFI-inplacering	| SFI A, SFI B, SFI C, SFI D | Inplaceringsprov SFI
 Universitetsintagning | 1 - ej antagen, 2 - förberedande, 3 - förberedande, 4 - förberedande, 5 - behörighetsgivande, 6 - behörighetsgivande, 7 - annan kurs tänkbar | Inträdesprov universitetet
-Uppgiften har inte betyg | | de flesta kurstyper
+Uppgiften har inte betyg | | De flesta kurstyper
