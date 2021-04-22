@@ -82,8 +82,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
        - < country > : except Sweden
        - < zip_code > : zip/area code
        - < region > : geographical/political unit larger than a city but not equivalent to a country. E.g. _Sörmland_, _Stockholms län_, _Region Blekinge_, _Svealand_, _Sydirak_, _Toscana_, _Baltikum_. Regions outside of Sweden are marked with the additional tag < foreign >.
-       - < city > : city including villages (på svenska “ort”). Cities outside Sweden are marked with the additional tag < foreign >.
-       - < area > : part of a city, e.g. _Vesterbro_, _Greenwich village_. The tag < area > is only used for non-Swedish settings, and is always (reduntantly) combined with the tag < foreign >.
+       - < city > : the tag < city > is used for a large category of populated areas, including cities, urban districts both larger and smaller than cities, and villages. Cities outside Sweden are marked with the additional tag < foreign >.
+       - < area > : part of a city, e.g. _Vesterbro_, _Greenwich village_. The tag < area > is only used for non-Swedish settings, and is always (reduntantly) combined with the tag < foreign >. (For Swedish settings the tag < city > is used also for city parts.)
        - < place > : specific place, street, square, bridge, name of a bus/tram/metro stop. Places outside Sweden are marked with the additional tag < foreign >.
        - < geo > : This tag is used for any additional type of geographic name not among the other categories, for instance forests, lakes, mountains, etc. Geographical names referring to entities outside Sweden are marked with the additional tag < foreign >.
        - < street_nr > : street or place number
