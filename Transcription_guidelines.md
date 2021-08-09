@@ -1,5 +1,5 @@
 
-# Transcription process, L2 essays
+# SweLL transcription guidelines, L2 essays
 
 _Elena Volodina, Bea Megyesi, June, 04 - July, 15, 2018;_
 
