@@ -120,7 +120,7 @@ Table 2. Time estimation for annotator work on transcription
 ## Text format / use of a kiosk version of SVALA
 ---
 
-The work on hand-written essays is potentially risky, since certain amount of personal information in the text (as well as handwriting itself) may give away a person behind the text. That is why this work has to be performed in a safe environment. We use a specially designed SweLL “kiosk” option for that, which is a special encrypted computer that has extremely limited access to the internet and has pre-installed database for managing essays. See instructions for "kiosk" here: [](https://spraakbanken.github.io/swell-project/SweLL_kiosk_user_manual) -- **Note!** In Swedish!
+The work on hand-written essays is potentially risky, since certain amount of personal information in the text (as well as handwriting itself) may give away a person behind the text. That is why this work has to be performed in a safe environment. We use a specially designed SweLL “kiosk” option for that, which is a special encrypted computer that has extremely limited access to the internet and has pre-installed database for managing essays. See instructions for "kiosk" here: [https://spraakbanken.github.io/swell-project/SweLL_kiosk_user_manual](https://spraakbanken.github.io/swell-project/SweLL_kiosk_user_manual) -- _**Note!** In Swedish!_
 
 You can save your work in any format while you are working, but your should deliver it in a plain text format (in unicode utf-8). 
 
