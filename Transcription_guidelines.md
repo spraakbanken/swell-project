@@ -89,9 +89,9 @@ Figure 3. Invented letters
 (We need, though, to make transcribed versions comparable to the digitally-born essays. Here, we need to see whether there are any cases where students have left their comments in the digitally-born versions, e.g. in the form of footnotes.) 
 
 ---
-## (5) Rule of thumb
+## Rule of thumb
 ---
-Re-read each hand-written essay once again and compare with your transcribed version. You will get used to the student’s handwriting by then, and will - probably - understand better what is written. Another reason for re-reading the essays is to double-check that no unintended error-correction is introduced (rules 1-5).
+Re-read each hand-written essay once again and compare with your transcribed version. You will get used to the student’s handwriting by then, and will - probably - understand better what is written. Another reason for re-reading the essays is to double-check that no unintended error-correction is introduced (rules 1-4).
 
 
 ---
