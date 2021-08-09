@@ -82,7 +82,7 @@ Figure 3. Invented letters
 1. Insert line breaks (“Enter”) to introduce new paragraphs. 
 2. Differentiate between capital letters and non-capital ones (see ⑥ in Figure 1).
 3. Keep smileys
-4. If a student has stricken out some text, that text should not be digitized. 
+4. If a student has stricken out some text, that text should not be transcribed. 
 5. Don’t bother about leaving indentation. We are primarily interested in the contents and the language, not in the graphical reproducibility.
 6. All edits, like underlinings, are discarded. We keep only the text.
 7. Comments in the margin are a case for interpretation. If it is obvious that the margin text is a part of the running text, it should be added into the essay. Otherwise - not. 
@@ -122,7 +122,7 @@ The work on hand-written essays is potentially risky, since certain amount of pe
 
 You can save your work in any format while you are working, but your should deliver it in a plain text format (in unicode utf-8). 
 
-Save information about time used for digitizing an essay - for our statistics.
+Save information about time used for transcribing an essay - for our statistics.
 
 
 
