@@ -28,7 +28,7 @@ _Transcription check (5)_ is performed by a third party, e.g. another annotator.
 
 
 ---
-## Transcription guidelines
+## Transcription principles
 ---
 
 The two **major principles** for essay transcription are: 
@@ -36,9 +36,11 @@ The two **major principles** for essay transcription are:
 * not to make personal assumptions. 
 
 
+---
+## Transcription rules
+---
 
 The following **rules** should apply to transcription of hand-written essays:
-
 
 ---
 **(1) Authenticity of writing**
