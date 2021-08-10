@@ -42,10 +42,8 @@ Normalization in SweLL means editing of the original learner text in such a way 
 The normalization is carried out by balancing the following fundamental values:
 1.	adherence to standard Swedish norms
 2.	fidelity to the original text
-
-a.	similarity to the original text string
-
-b.	effective communication of the content intended by the writer (according to the normalizer’s interpretation)
+   a.	similarity to the original text string
+   b.	effective communication of the content intended by the writer (according to the normalizer’s interpretation)
 
 The conflict between adherence to standard Swedish norms (1) and fidelity to the original text (2) is the very basis for the normalization; only in cases where the original text deviates from standard Swedish norms is a normalization called for. But the two sides of the fidelity to the original text may also be conflicting, so that a greater similarity to the original text string may mean a less effective communication of the assumed intended meaning, and vice versa, as the following example illustrates:
 
@@ -69,7 +67,7 @@ We would like to stress that the Svala tool may be used for the visualization an
 ## 3.	Adherence to the norms of standard Swedish
 ---
 
-The normalized text version should contain no obvious deviations from standard Swedish norms. (There are two exceptions to this: **1)** Unintelligible strings may be X-marked without being changed, see section 6. **2)** In some cases, non-Swedish strings are left untranslated and marked Cit-FL, see secion 5.)  
+The normalized text version should contain no obvious deviations from standard Swedish norms. (There are two exceptions to this: **1)** Unintelligible strings may be X-marked without being changed, see section 6. **2)** In some cases, non-Swedish strings are left untranslated and marked Cit-FL, see section 5.)  
 
 The norms considered are norms for spelling and inflection of specific words, general punctuation norms, general morphological and syntactic rules and patterns, as well as well-established collocational patterns and norms for the usage range of specific words and expressions. However, the acceptance for unusual expressions is fairly high, and the understanding of “standard Swedish” is quite encompassing, including expressions and constructions which are widespread throughout the Swedish language community within consciously edited texts of any prose genre.
 
