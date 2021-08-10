@@ -45,24 +45,17 @@ ________________________________________________________________________________
  
   - [3.14 Extra (something else, not covered in the previous categories)](#314-extra-something-else-not-covered-in-the-previous-categories)
  
-  - [](#)
+  - [3.15 Mark up but do not pseudonymize](#315-mark-up-but-do-not-pseudonymize)
  
-  - [](#)
+  - [3.16 Comments](#316-comments)
  
-  - [](#)
- 
-  - [](#)
- 
-  - [](#)
- 
-  - [](#)
- 
-  - [](#)
- 
-  - [](#)
- 
-  - [](#)
+[4. Text example](#4-text-example)
 
+[5. Resources (lists) for pseudonyms and automatic pseudonymization scripts](#5-resources-lists-for-pseudonyms-and-automatic-pseudonymization-scripts)
+
+[6. SweLL annotation tool](#6-sweLL-annotation-tool)
+
+[7. SweLL publications on the topic](#7-sweLL-publications-on-the-topic)
 
 _____________________________________________________________________________________
 
@@ -316,7 +309,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
   [//]: #  (- < nonoblig > might be sensitive and replaced later)-->
 
 ---
-### 3.15 Mark up but do not pseudonymize: 
+### 3.15 Mark up but do not pseudonymize 
 ---
 
   * < prof >, professions, e.g. *webbutvecklare*
