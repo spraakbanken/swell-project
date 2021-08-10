@@ -65,7 +65,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
  * Number: < pl > , e.g. Mölndalsbor
  * Only marked forms are tagged, i.e. genitive case is marked, whereas nominative case is not (by default everything is assumed to have nominative case).
  
-<img src="Stockholms.png" width="400"> 
+<img src="Stockholms.png" width="500"> 
 
 <!--![Stockholm vs Stockholms](Stockholms.png)-->
 
@@ -112,9 +112,9 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * Uncertain categorization:
        - In some cases local knowledge or extensive research is needed in order to determine the most suitable category for a geographic name: It may be hard to figure out whether a name rather refers to a region or to a city, to a city or to an area, etc. Such extensive research is not motivated by the objective of the pseudonymization; what's important is that information potentially revealing the identity of the writer is pseudonymized, and that the categorization (and subsequent replacement) of the pseudonymized entities in the text are consistent with the rest of the information given in the text.
             
- <img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png" width="800"> 
+ <img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png" width="400"> 
  
- ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
+ <!--![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")-->
       
 
 <!-- c **_WHAT DO WE MEAN BY REGION? Should person's place of living, like "Baltorp" in Mölndal or "Sköndal" in Stockholm be marked as "region"? Or "area" ? (Elena, A10AT1) In the case of "jag bor in irak maysan soudirak" how to mark "maysan" versus "soudirak" (Elena, A11AT1)) ???_** -->
@@ -249,7 +249,10 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * < edu >, education: Use for degrees etc., e.g. *datavetare*, "jag har en examen i *kemi*"
   * < fam>, family members: Use for words for family members, friends, etc., e.g. *mamma, farfar, son, kusin, kompis, vän*.
 
-![alt text](datavetenskap.png)
+<img src="datavetenskap.png" width="400"> 
+
+
+<!--![alt text](datavetenskap.png)-->
  
   * < sensitive >, sensitive information:
       - Markup: assign a "sensitive" @placeholder to at least one token per sentence. When deciding which and how many tokens to mark with the < sensitive > label, a guiding principle is that pseudomization of the marked tokens could potentially suffice. However, the whole sentence will be reviewed later on before final decisions about these pseudonymizations are made, and fewer rather than more tokens should be marked. A possible solution for the example below is to mark the tokens “glad”, “fri” and “demstration”.
@@ -360,6 +363,6 @@ http://download.geonames.org/export/dump/readme.txt
 
 [//]: # ## More notes:
 
-[//]: # * See pages 4-5, notes from SweLL meeting, August 2018:
-[//]: # https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Minnesanteckningar_SweLL_Projektmote_20180830-31.pdf-->
+[//]: # * See pages 4-5, notes from SweLL meeting, August 2018:-->
+<!--[//]: # https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Minnesanteckningar_SweLL_Projektmote_20180830-31.pdf-->
 
