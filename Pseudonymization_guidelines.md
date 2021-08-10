@@ -356,7 +356,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ## 4. Text example
 ---
 
-<img src="Text_exe.png" width="900">
+<img src="Text_exe.png" width="700">
 
 ![](Text_exe.png)
 
