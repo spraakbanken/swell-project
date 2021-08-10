@@ -67,7 +67,7 @@ We would like to stress that the Svala tool may be used for the visualization an
 ## 3.	Adherence to the norms of standard Swedish
 ---
 
-The normalized text version should contain no obvious deviations from standard Swedish norms. (There are two exceptions to this: **1)** Unintelligible strings may be X-marked without being changed, see section 6. **2)** In some cases, non-Swedish strings are left untranslated and marked Cit-FL, see section 5.)  
+The normalized text version should contain no obvious deviations from standard Swedish norms. (There are two exceptions to this: **(1)** Unintelligible strings may be X-marked without being changed, see section 6. **(2)** In some cases, non-Swedish strings are left untranslated and marked Cit-FL, see section 5.)  
 
 The norms considered are norms for spelling and inflection of specific words, general punctuation norms, general morphological and syntactic rules and patterns, as well as well-established collocational patterns and norms for the usage range of specific words and expressions. However, the acceptance for unusual expressions is fairly high, and the understanding of “standard Swedish” is quite encompassing, including expressions and constructions which are widespread throughout the Swedish language community within consciously edited texts of any prose genre.
 
