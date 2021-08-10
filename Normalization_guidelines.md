@@ -128,11 +128,7 @@ When coming across a word or a sequence of words stemming from a non-Swedish lan
     * _gillar du **quiz nights**?_ --> _gillar du **quiz nights**?_
     
     Clearly marked citation of Norwegian passage:
-    * _I samma artikel skriver Bengt Östling om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . " **Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk** " , lyder det i ett debattinlägg ._ 
-    
-    -->
-    
-    _I samma artikel skriver Bengt Östling att om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . " **Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk** " , lyder det i ett debattinlägg ._
+    * _I samma artikel skriver Bengt Östling om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . " **Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk** " , lyder det i ett debattinlägg ._  -->  _I samma artikel skriver Bengt Östling att om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . " **Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk** " , lyder det i ett debattinlägg ._
     
     1.3	If a word or string is recognized as likely belonging to another language, and the language knowledge within the team of normalizers does not suffice to interpret it, no further efforts is made to interpret the word/string. It is left unchanged and marked with the X-tag (unintelligible string, see below).
 
@@ -145,9 +141,13 @@ When coming across a word or a sequence of words stemming from a non-Swedish lan
 ---
 
 When the normalizer comes across a string which she is unable to interpret, it is marked with the X-tag. The word/passage may either be left unchanged, or the normalizer may provide a guess as to its interpretation in the normalization.
-•	Jag gick till dem och frågade henne om hennes namn och inte berätta något han blyg av mig så jag spårade tills jag kände hennes hem och bad henne och pjäsen idag dig varje morgon jag går att se det och låta dig gå till skolan  Jag gick till dem och frågade om hennes namn och bad dem att inte berätta något . Jag var blyg av mig så jag letade tills jag hittade hennes hem och bad henne och pjäsen idag dig varje morgon jag går att se det och låta dig gå till skolan
+
+* _Jag gick till dem och frågade henne om hennes namn och inte berätta något han blyg av mig så jag spårade tills jag kände hennes hem **och bad henne och pjäsen idag dig varje morgon jag går att se det och låta dig gå till skolan** --> Jag gick till dem och frågade om hennes namn och bad dem att inte berätta något . Jag var blyg av mig så jag letade tills jag hittade hennes hem **och bad henne och pjäsen idag dig varje morgon jag går att se det och låta dig gå till skolan**_
+
 Both of the marked strings are X-marked as unintelligible, but in the first case a guess is provided in the normalization, while the second string is left unchanged.
-Note: Since an X-marked passage may be left unchanged in the normalized version, a normalized text may include some passages which do not adhere to the norms of standard Swedish.
+
+**Note: Since an X-marked passage may be left unchanged in the normalized version, a normalized text may include some passages which do not adhere to the norms of standard Swedish.**
+
 Strings which have been marked as unreadable by the transcriber (with “$” representing an unreadable symbol) are treated as any other string; if the surrounding context provides a basis for a sound interpretation, the normalization is based on this interpretation. If the unreadable string is also uninterpretable, it is marked with the X-tag, and the normalizer may either provide a guess in the normalization, or keep the string unchanged.
 
 ---
@@ -155,9 +155,11 @@ Strings which have been marked as unreadable by the transcriber (with “$” re
 ---
 
 The normalization procedure involves some exceptions to the regular use of punctuation and spaces. These exceptions are due to tokenization procedures, and to the fact that many of our originals are hand written, which may make it hard to distinguish a hyphen from a dash, etc. (The effects of tokenization on the handling of the texts in Svala are described in the Svala manual.)
+
 These special procedures with tokenization and punctuation are:
-•	Errors involving the incorrect placement of a space before a punctuation mark (which is not part of an abbreviation or another one-token string) will not be corrected, since a space is always inserted before such punctuation marks in the process of tokenization.
-•	Errors involving the lack of a space between a punctuation mark and the following word are corrected in the normalization process (a space is inserted), but will nevertheless be left untagged in the correction annotation process.
-	Jog kan ante skriv meka ord .tack  Jag kan inte skriva många ord. Tack.
-•	Instances where a hyphen has been used in the original text where a dash would be more appropriate are left uncorrected.
+* Errors involving the incorrect placement of a space before a punctuation mark (which is not part of an abbreviation or another one-token string) will not be corrected, since a space is always inserted before such punctuation marks in the process of tokenization.
+* Errors involving the lack of a space between a punctuation mark and the following word are corrected in the normalization process (a space is inserted), but will nevertheless be left untagged in the correction annotation process.
+   * Jog kan ante skriv meka ord .tack --> Jag kan inte skriva många ord. Tack.
+
+* Instances where a hyphen has been used in the original text where a dash would be more appropriate are left uncorrected.
 
