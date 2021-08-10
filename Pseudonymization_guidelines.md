@@ -6,7 +6,7 @@ _Beáta Megyesi, Lisa Rudebeck, Elena Volodina, June, 2018 -- May 2019_
 _____________________________________________________________________________________
 ## Contents
 
-[1. Basic principles](#1-basic-principles)
+[1. Basic, principles](#1-basic-,-principles)
 
 [2. Supra-categories](#2-supra-categories)
 
@@ -77,7 +77,7 @@ Your task as an assistant is 1) to identify all information that can relate to t
 This document contains instructions for how to proceed. 
 
 ---
-## 1. Basic principles
+## 1. Basic, principles
 ---
 
 1.1 Remove/change the information that can reveal a person behind the essay(s), yet keep to the _minimal change_ rule. The data should be usable in research scenarios. 
