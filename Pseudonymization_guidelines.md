@@ -6,7 +6,7 @@ _Beáta Megyesi, Lisa Rudebeck, Elena Volodina, June, 2018 -- May 2019_
 _____________________________________________________________________________________
 ## Contents
 
-[1. Basic principles …](#1-basic-principles-…)
+[1. Basic principles](#1-basic-principles)
 
 [2. Supra-categories](#2-supra-categories)
 
@@ -19,7 +19,7 @@ ________________________________________________________________________________
 
   - [3.1 Personal Names](#31-personal-names)
 
-  - [3.2 Geographic data (country, city, zip codes, area names, …)](#32-geographic-data-country-city-zip-codes-area-names-…)
+  - [3.2 Geographic data (country, city, zip codes, area names, etc)](#32-geographic-data-country-city-zip-codes-area-names-etc)
   
   - [3.3 Institution: < school > , < work > , < other_institution >](#33-institution-<-school->-<-work->-<-other_institution->)
  
@@ -77,7 +77,7 @@ Your task as an assistant is 1) to identify all information that can relate to t
 This document contains instructions for how to proceed. 
 
 ---
-## 1. Basic principles …
+## 1. Basic principles
 ---
 
 1. Remove/change the information that can reveal a person behind the essay(s), yet keep to the _minimal change_ rule. The data should be usable in research scenarios. 
