@@ -1,6 +1,6 @@
 # Normalization guidelines
 
-_Lisa Rudebeck, Ginlög Sundberg, Mats Wirén (May 2021)_
+_Lisa Rudebeck, Gunlög Sundberg, Mats Wirén (May 2021)_
 
 _____________________________________________________________________________________
 ## Contents
