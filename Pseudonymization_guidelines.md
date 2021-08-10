@@ -13,20 +13,20 @@ Your task as an assistant is 1) to identify all information that can relate to t
 This document contains instructions for how to proceed. 
 
 ---
-## Basic principles
+## 1. Basic principles
 ---
 
-1. Remove/change the information that can reveal a person behind the essay(s), yet keep to the _minimal change_ rule. The data should be usable in research scenarios. 
+1.1 Remove/change the information that can reveal a person behind the essay(s), yet keep to the _minimal change_ rule. The data should be usable in research scenarios. 
 
-2. Data on _deviations from standard Swedish will be lost_ for the pseudonymized strings (e.g. mis-spellings etc.). This also holds for text segments the form of which is dependent on the pseudonymized string (for instance prepositions preceeding pseudonymized city and country names, e.g. in Germany -> in Cuba).
+1.2 Data on _deviations from standard Swedish will be lost_ for the pseudonymized strings (e.g. mis-spellings etc.). This also holds for text segments the form of which is dependent on the pseudonymized string (for instance prepositions preceeding pseudonymized city and country names, e.g. in Germany -> in Cuba).
 
-3. Annotators have to make the _assessment of the risks and needs_ for pseudonymization (an element of subjectivity).
+1.3 Annotators have to make the _assessment of the risks and needs_ for pseudonymization (an element of subjectivity).
 
-4. Tokens should not be pseudonymized solely on the basis of them belonging to a specific category listed among the pseudonymization categories, but on the basis of them _potentially revealing the identity of the writer_. For instance, not all country or city names are pseudonymized, but only those which, **together with the context**, 1) may be connected to the writer (e.g. because the city may be identified as the writer's home town), and 2) reveal information which is specific enough to be used to identify the writer. Accordingly, in a text where Istanbul is mentioned as a city where the writer has lived or as a city where a family member of the writer lives (etc.), _Istanbul_ should be pseudonymized. But not so in a text providing general information about Istanbul. And while the information that the writer stems from the Baltic countries may be reason to pseudonymize _Baltikum_ (as a region), the information that the writer stems from Europe does not necessitate pseudonymization, since Europe is such a large region which may be assumed to be the home region for a large number of potential writers.
+1.4 Tokens should not be pseudonymized solely on the basis of them belonging to a specific category listed among the pseudonymization categories, but on the basis of them _potentially revealing the identity of the writer_. For instance, not all country or city names are pseudonymized, but only those which, **together with the context**, 1) may be connected to the writer (e.g. because the city may be identified as the writer's home town), and 2) reveal information which is specific enough to be used to identify the writer. Accordingly, in a text where Istanbul is mentioned as a city where the writer has lived or as a city where a family member of the writer lives (etc.), _Istanbul_ should be pseudonymized. But not so in a text providing general information about Istanbul. And while the information that the writer stems from the Baltic countries may be reason to pseudonymize _Baltikum_ (as a region), the information that the writer stems from Europe does not necessitate pseudonymization, since Europe is such a large region which may be assumed to be the home region for a large number of potential writers.
 
-5. Keep _track_ of whether the token is “original” or “masked”. (This is done automatically by the annotating tool.)
+1.5 Keep _track_ of whether the token is “original” or “masked”. (This is done automatically by the annotating tool.)
 
-6. Categories that need to be _marked in the texts, but not necessarily replaced_. An assessment should be made later when enough statistics is collected over the learners behind the essays , as well as the assembled texts and metadata on each particular writer: 
+1.6 Categories that need to be _marked in the texts, but not necessarily replaced_. An assessment should be made later when enough statistics is collected over the learners behind the essays , as well as the assembled texts and metadata on each particular writer: 
   * country: the same pseudonymization tag, < country >, is used for: 
     - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in the database are from the named countries
     - country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
@@ -35,18 +35,18 @@ This document contains instructions for how to proceed.
   * professions (_Jag är webbutvikler_)
   * education
 
-7. Categories that can be used for discrimination, such as political views, religious convictions or sexual orientation, should also be marked (with the tag < sensitive >) without being masked right away. A decision needs to be made later in the process, before publication. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
+1.7 Categories that can be used for discrimination, such as political views, religious convictions or sexual orientation, should also be marked (with the tag < sensitive >) without being masked right away. A decision needs to be made later in the process, before publication. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
-8. Although information about languages spoken by the writer may help identifying the writer, such information is not pseudonymized, since this information is nevertheless included in the metadata which will be available for the corpus users.
+1.8 Although information about languages spoken by the writer may help identifying the writer, such information is not pseudonymized, since this information is nevertheless included in the metadata which will be available for the corpus users.
 
 ---
-## Supra-categories 
+## 2. Supra-categories 
 ---
 
 May be applied on top of other categories, as (extra)linguistic information.
 
 ---
-### Running numbers
+### 2.1 Running numbers
 ---
 
 Applies to all _personally identifiable information (PII)_ and their *@placeholders*. Each unique PII type (e.g.name) should get its own running number, starting with 1 in each individual essay. If the same PII is repeated in the text, the same running number is assigned to it. This is done automatically, but the automatically assigned running number may be changed manually. A manual change of the running number is necessary when the same PII (for instance the same city) is referred to by non-identical strings (for instance due to mis-spelling).
@@ -57,7 +57,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 
 
 ---
-### Morphology: 
+### 2.2 Morphology 
 ---
 
  * Case: < gen > , e.g. Volvo**s**
@@ -70,10 +70,10 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 <!--![Stockholm vs Stockholms](Stockholms.png)-->
 
 ---
-## Pseudonymize: 
+## 3. Pseudonymization 
 ---
 
-### 1. Personal Names: 
+### 3.1 Personal Names 
 ---
 
 
@@ -96,7 +96,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20Alice~Alice%3A'firstname_female'%3A1%20and~and%20Bob~Bob%3A'firstname_male'%3A2%20went~went%20to~to%20Paris~Paris%3Acity%20.%40s6~%40s6%20'Alice%5C's'~'Alice%5C's'%3A'firstname_female'%3A1%3Agen%20wallet~wallet%20was~was%20stolen~stolen%20.%40s11~%40s11%2F%2F'firstname_female'~Alice%201~Alice%20and~and%20'firstname_male'~Bob%202~Bob%20went~went%20to~to%20city~Paris%20.~%40s6%20'firstname_female'~'Alice%5C's'%201~'Alice%5C's'%20gen~'Alice%5C's'%20wallet~wallet%20was~was%20stolen~stolen%20.~%40s11)
 
 ---
-### 2. Geographic data (country, city, zip codes, area names, …)
+### 3.2 Geographic data (country, city, zip codes, area names, …)
 ---
 
   * Types: < foreign >, < area > , < city > , < geo > ,  < country > , < place > ,  < region > ,  < street_nr >, < zip_code > 
@@ -126,7 +126,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
       - < zip_code >: ABCDEF alt Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
 ---
-### 3. Institution: < school > , < work > , < other_institution >
+### 3.3 Institution: < school > , < work > , < other_institution >
 ---
 
   * The institution tags are used to pseudonymize institutions mentioned in the texts which may be used to identify the writer, such as the school, work or sport's team of the writer (or a person related to the writer).
@@ -137,7 +137,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
       - Replace from a list of school names and companies (e.g. from Yellow pages) alternatively use _A-school, B-workplace, C-institution_
    
 ---
-### 4. Transportation: < transport_name >, < transport_nr >
+### 3.4 Transportation: < transport_name >, < transport_nr >
 ---
 
   * < transport_name >: used for transport lines or transport systems with specific names, e.g. *gröna linjen, Lidingöbanan, Pågatågen*
@@ -150,7 +150,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
   * **Note**: Names of stations and stops, such as *Mariatorget, Centralen*, are pseudonymized with the tag < place > in the *geographic data* group.
 
 ---
-### 5. Age: < age_digits >, < age_string >
+### 3.5 Age: < age_digits >, < age_string >
 ---
 
   * Person’s age (e.g. 18 years old)
@@ -160,7 +160,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
       - ( There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. There is a need of an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Issues of this kind are handled individually on a case-to-case basis. <!--Added as an issue for anonymization tool. (Elena, A10AT1) )-->
          
 ---
-### 6. Dates (all elements directly related to an individual, day, month, year) 
+### 3.6 Dates (all elements directly related to an individual, day, month, year) 
 ---
 
   * Types: < date_digits > , < day > , < month_digit >, < month_word >, < year > . 
@@ -179,56 +179,56 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
          * 01/12 --> @date_digits --> 11-11-1111
 
 ---
-### 7. Phone numbers < phone_nr >
+### 3.7 Phone numbers < phone_nr >
 ---
 
   * Pseudonymization: 
       - Replace each number with a “0” in the sequence (e.g. 0000-000000) (and keep the delimiter)
 
 ---
-### 8. Email addresses < email >
+### 3.8 Email addresses < email >
 ---
 
   * Pseudonymization: 
       - One single for all: email@dot.com
 
 ---
-### 9. [personal] web pages (URL) < url >
+### 3.9 [personal] web pages (URL) < url >
 ---
 
   * Pseudonymization: 
       - Replace all with: url.com 
 
 ---
-### 10. Social security numbers < personid_nr  >
+### 3.10 Social security numbers < personid_nr  >
 ---
 
   * Pseudonymization:  
       - Replace each number with: 123456-0000 (and keep the delimiter (-) )
 
 ---
-### 11. Account numbers < account_nr >
+### 3.11 Account numbers < account_nr >
 ---
 
   * Pseudonymization: 
       - Replace each number with 0 (and keep the delimiter(s))
 
 ---
-### 12. Certificate/licence numbers (e.g. vehicle) < license_nr >
+### 3.12 Certificate/licence numbers (e.g. vehicle) < license_nr >
 ---
 
   * Pseudonymization: 
       - Replace letters with ABC and each number with 0 (ABC 0000)
 
 ---
-### 13. Other sequence of numbers < other_nr_seq >
+### 3.13 Other sequence of numbers < other_nr_seq >
 ---
 
   * Pseudonymization: 
       - Replace each number with 0 (and keep delimiters)
       
 ---
-### 14. Extra (something else, not covered in the previous categories)
+### 3.14 Extra (something else, not covered in the previous categories)
 ---
 
   * When the pseudonymizer comes across some kind of information in a text which may potentially be used to identify the writer, but which is not covered by any of the other pseudonymization categories, the tag < extra > is used.
@@ -242,7 +242,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
   [//]: #  (- < nonoblig > might be sensitive and replaced later)-->
 
 ---
-### 15. Mark up but do not pseudonymize: 
+### 3.15 Mark up but do not pseudonymize: 
 ---
 
   * < prof >, professions, e.g. *webbutvecklare*
@@ -262,16 +262,16 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 
       Example: 
       
-*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket **glad** för att det var första dag ser vi en **fri** **demstration***. 
+<!--*I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket **glad** för att det var första dag ser vi en **fri** **demstration***. 
 
--->
 
-*I en dag såg vi en stor demstration det var för mycket människor vill inte **Turkiets < country, genitive >** statsminister **Ardogan < surname >** och vi kände mycket **glad < sensitive >** för att det var första dag ser vi en **fri < sensitive >** **demstration < sensitive >***. 
+
+*I en dag såg vi en stor demstration det var för mycket människor vill inte **Turkiets < country, genitive >** statsminister **Ardogan < surname >** och vi kände mycket **glad < sensitive >** för att det var första dag ser vi en **fri < sensitive >** **demstration < sensitive >***. -->
 
 ![](Turkiet2.png)
 
 ---
-### 16. Comments < OBS! >, < Com! >, document comments
+### 3.16 Comments < OBS! >, < Com! >, document comments
 ---
 
    * The < OBS! > tag is used for marking a place to return to or for making comments which may be useful for later stages in the work with making the text ready for the corpus release (i.e. normalization and correction annotation).
@@ -285,20 +285,20 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ![](Obs-Com.png)
 
 ---
-## Text example
+## 4. Text example
 ---
 
 ![](Text_exe.png)
 
 ---
-## Resources (lists) for pseudonyms and automatic pseudonymization scripts
+## 5. Resources (lists) for pseudonyms and automatic pseudonymization scripts
 ---
 
 Resources and lists are collected in a private repository here:
 https://github.com/SamirYousuf/LR_project 
 
 ---
-## SweLL annotation tool
+## 6. SweLL annotation tool
 ---
 
 SVALA is used for both manual annotation and for supportive automatic pseudonymization. A demo-version of the tool can be found here: https://spraakbanken.gu.se/swell/dev/# 
@@ -306,7 +306,7 @@ SVALA is used for both manual annotation and for supportive automatic pseudonymi
 <!--Manual for SVALA: coming-->
 
 ---
-## SweLL publications on the topic
+## 7. SweLL publications on the topic
 ---
 
 * Beáta Megyesi, Sofia Johansson, Dan Rosén, Carl-Johan Schenström, Gunlög Sundberg, Mats Wirén & Elena Volodina. (2018). Learner Corpus Anonymization in the Age of GDPR: Insights from the Creation of a Learner Corpus of Swedish. Proceedings of the 7th NLP4CALL workshop. (https://ep.liu.se/ecp/152/006/ecp18152006.pdf)[https://ep.liu.se/ecp/152/006/ecp18152006.pdf]
