@@ -19,7 +19,7 @@ ________________________________________________________________________________
 
   - [3.1 Personal Names](#31-personal-names)
 
-  - [3.2 Geographic data (country, city, zip codes, area names, etc)](#32-geographic-data-country-city-zip-codes-area-names-etc)
+  - [3.2 Geographic data (country, city, zip codes, area names, etc)](#32-geographic-data)
   
   - [3.3 Institution: < school > , < work > , < other_institution >](#33-institution-<-school->-<-work->-<-other_institution->)
  
