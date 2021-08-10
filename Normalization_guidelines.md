@@ -5,23 +5,23 @@ _Lisa Rudebeck, Ginlög Sundberg, Mats Wirén (May 2021)_
 _____________________________________________________________________________________
 ## Contents
 
-[1.	The purpose of the normalization](#1-the-purpose-of-the-normalization)
+[1. The purpose of the normalization](#1-the-purpose-of-the-normalization)
 
-[2.	Fundamental values](#2-fundamental-values)
+[2. Fundamental values](#2-fundamental-values)
 
-[3.	Adherence to the norms of standard Swedish](#3-adherence-to-the-norms-of-standard-swedish)
+[3. Adherence to the norms of standard Swedish](#3-adherence-to-the-norms-of-standard-swedish)
 
    - [Orthography and inflectional patterns of specific words](#)
 
    - [Punctuation and sentence segmentation](#)
 
-[4.	Methodological practices](#4-methodological-practices)
+[4. Methodological practices](#4-methodological-practices)
 
-[5.	Non-Swedish words and sequences](#5-non-swedish-words-and-sequences)
+[5. Non-Swedish words and sequences](#5-non-swedish-words-and-sequences)
 
-[6.	Unintelligible and unreadable strings](#6-unintelligible-and-unreadable-strings)
+[6. Unintelligible and unreadable strings](#6-unintelligible-and-unreadable-strings)
 
-[7.	Some special procedures with tokenization and punctuation](#7-some-special-procedures-with-tokenization-and-punctuation)
+[7. Some special procedures with tokenization and punctuation](#7-some-special-procedures-with-tokenization-and-punctuation)
 
 ---
 ## 1.	The purpose of the normalization
