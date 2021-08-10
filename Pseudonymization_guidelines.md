@@ -39,7 +39,7 @@ ________________________________________________________________________________
  
   - [3.11 Account numbers](#311-account-numbers)
  
-  - [3.12 Certificate/licence numbers](#312-certificate/licence-numbers)
+  - [3.12 Certificate/licence numbers](#312-certificate-licence-numbers)
  
   - [](#)
  
