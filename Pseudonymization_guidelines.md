@@ -2,7 +2,71 @@
 
 _Beáta Megyesi, Lisa Rudebeck, Elena Volodina, June, 2018 -- May 2019_
 
----
+
+_____________________________________________________________________________________
+## Contents
+
+[1. Basic principles](#1-basic-principles)
+
+[2. Supra-categories](#2-supra-categories)
+
+  - [2.1 Running numbers](#21-running-numbers)
+  
+  - [2.2 Morphology](#22-morphology)
+
+
+[3. Pseudonymization](#3-pseudonymization)
+
+  - [3.1 Personal Names](#31-personal-names)
+
+  - [3.2 Geographic data (country, city, zip codes, area names, …)](#32-geographic-data-country-city-zip-codes-area-names)
+  
+  - [3.3 Institution: < school > , < work > , < other_institution >](#33-institution-school-work-other-institution)
+ 
+  - [3.4 Transportation: < transport_name >, < transport_nr >](#34-transportation-transport-name-transport-nr)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+ 
+  - [](#)
+
+
+_____________________________________________________________________________________
+
+
 
 The purpose of pseudonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, addresses and phone numbers, city names and other geographical names, etc.
 
