@@ -303,7 +303,7 @@ https://github.com/SamirYousuf/LR_project
 
 SVALA is used for both manual annotation and for supportive automatic pseudonymization. A demo-version of the tool can be found here: https://spraakbanken.gu.se/swell/dev/# 
 
-Manual for SVALA: coming
+<!--Manual for SVALA: coming-->
 
 ---
 ## SweLL publications on the topic
