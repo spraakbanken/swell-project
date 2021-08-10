@@ -1,6 +1,6 @@
 # Pseudonymization guidelines
 
-_Beáta Megyesi, Lisa Rudebeck, Elena Volodina, June, 2018 -- May 2019_
+_Beáta Megyesi, Lisa Rudebeck, Elena Volodina (June, 2018 -- May 2019)_
 
 
 _____________________________________________________________________________________
