@@ -2,6 +2,8 @@
 
 _Beáta Megyesi, Lisa Rudebeck, Elena Volodina, June, 2018 -- May 2019_
 
+---
+
 The purpose of pseudonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, addresses and phone numbers, city names and other geographical names, etc.
 
 On top of this, some information is also marked as "potentially sensitive" during the pseudonymization process. This is information which does not in itself disclose the identity of the writer, but which would be particularly harming to reveal were the identity of the writer to be disclosed in spite of the de-identifying efforts. Sensitive information is for instance information on political or religious views of the writer. The information marked as potentially sensitive will be reviewed before publication of the corpus to evaluate whether it needs to be hidden or not.
