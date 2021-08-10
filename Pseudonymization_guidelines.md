@@ -21,25 +21,25 @@ ________________________________________________________________________________
 
   - [3.2 Geographic data](#32-geographic-data)
   
-  - [3.3 Institution: < school > , < work > , < other_institution >](#33-institution-<-school->-<-work->-<-other_institution->)
+  - [3.3 Institutions](#33-institutions)
  
-  - [3.4 Transportation: < transport_name >, < transport_nr >](#34-transportation-transport-name-transport-nr)
+  - [3.4 Transportation](#34-transportation)
  
-  - [](#)
+  - [3.5 Age](#35-age)
  
-  - [](#)
+  - [3.6 Dates](#36-dates)
  
-  - [](#)
+  - [3.7 Phone numbers](#37-phone-numbers)
  
-  - [](#)
+  - [3.8 Email addresses](#38-email-addresses)
  
-  - [](#)
+  - [3.9 Web pages](#39-web-pages)
  
-  - [](#)
+  - [3.10 Social security numbers](#310-social-security-numbers)
  
-  - [](#)
+  - [3.11 Account numbers](#311-account-numbers)
  
-  - [](#)
+  - [3.12 Certificate/licence numbers](#312-certificate/licence-numbers)
  
   - [](#)
  
@@ -193,7 +193,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ### 3.3 Institutions
 ---
 
-< school > , < work > , < other_institution >
+  * < school > , < work > , < other_institution >
   * The institution tags are used to pseudonymize institutions mentioned in the texts which may be used to identify the writer, such as the school, work or sport's team of the writer (or a person related to the writer).
     - < school > is used for all education-providing institutions (primary school, secondary school, university, etc.)
     - < work > is used for an institution which is revealed as the writer's working place (or the working place of a person related to the writer). When an institution is identified as a working place, the tag < work > is applied instead of other tags which may otherwise be applied. For instance: If a text reveals that the writer works in a named school, the tag < work >, rather than the tag < school >, is used to pseudonymize the name of the school.
@@ -205,7 +205,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ### 3.4 Transportation
 ---
 
-< transport_name >, < transport_nr >
+  * < transport_name >, < transport_nr >
   * < transport_name >: used for transport lines or transport systems with specific names, e.g. *gröna linjen, Lidingöbanan, Pågatågen*
     - *Tvärbanan*, and similar words which may be interpreted both as type nouns and as names for specific lines, are pseudonymized with this tag.
     - Words which clearly refer to transportation types rather than to specific lines, such as *tunnelbana, buss, pendeltåg* etc. should not be pseudonymized, although some of them reveal a city or limit the number of possible cities.
@@ -219,7 +219,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ### 3.5 Age
 ---
 
-< age_digits >, < age_string >
+  * < age_digits >, < age_string >
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20. (This is done automatically by the annotation tool.)
@@ -249,7 +249,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ### 3.7 Phone numbers
 ---
 
-< phone_nr >
+  * < phone_nr >
   * Pseudonymization: 
       - Replace each number with a “0” in the sequence (e.g. 0000-000000) (and keep the delimiter)
 
@@ -257,7 +257,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ### 3.8 Email addresses
 ---
 
-< email >
+  * < email >
   * Pseudonymization: 
       - One single for all: email@dot.com
 
@@ -265,8 +265,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ### 3.9 Web pages
 ---
 
-< url >
-Applies to personal webpages or webpages that can disclose some information about the person such as link to a workplace.
+  * < url >, applies to personal webpages or webpages that can disclose some information about the person such as link to a workplace.
 
   * Pseudonymization: 
       - Replace all with: url.com 
