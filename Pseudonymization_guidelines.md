@@ -53,7 +53,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 <img src="Stockhuml.png" width="500">
 
-![Stockhulm vs Stockholm](Stockhuml.png)
+<!--![Stockhulm vs Stockholm](Stockhuml.png)-->
 
 
 ---
@@ -65,6 +65,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
  * Number: < pl > , e.g. Mölndalsbor
  * Only marked forms are tagged, i.e. genitive case is marked, whereas nominative case is not (by default everything is assumed to have nominative case).
  
+<img src="Stockholms.png" width="500"> 
 ![Stockholm vs Stockholms](Stockholms.png)
 
 ---
@@ -161,7 +162,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 ---
 
   * Types: < date_digits > , < day > , < month_digit >, < month_word >, < year > . 
- [//]: #  <!-- * Descriptor: --> 
+ <!-- * Descriptor: --> 
+ 
   * Pseudonymization: Ideally - keep the delimiters as in the original (, . - /)
       - < day > - > random number between 1-28
       - < month_digit > - > random replace 1-12
@@ -231,11 +233,11 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * The < extra > tag may for instance be used to mark information about very specific events in the writer's life.
   * By default we consider all "Extra" tags as obligatory to pseudonymize. However, the intention is to re-evaluate the category after the initial pseudonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". 
   
-  [//]: # (In that case, the following could apply:)
+  <!--[//]: # (In that case, the following could apply:)
   
   [//]: # (Description: < oblig >, < nonoblig >)
   [//]: #  (- < oblig > need to be replaced because of sensitivity)
-  [//]: #  (- < nonoblig > might be sensitive and replaced later)
+  [//]: #  (- < nonoblig > might be sensitive and replaced later)-->
 
 ---
 ### 15. Mark up but do not pseudonymize: 
@@ -302,15 +304,15 @@ Manual for SVALA: coming
 ## SweLL publications on the topic
 ---
 
-* Beáta Megyesi, Sofia Johansson, Dan Rosén,Carl-Johan Schenström, Gunlög Sundberg, Mats Wirén & Elena Volodina. (2018). Learner Corpus Anonymization in the Age of GDPR: Insights from the Creation of a Learner Corpus of Swedish. Proceedings of the 7th NLP4CALL workshop. [https://ep.liu.se/ecp/152/006/ecp18152006.pdf]
+* Beáta Megyesi, Sofia Johansson, Dan Rosén,Carl-Johan Schenström, Gunlög Sundberg, Mats Wirén & Elena Volodina. (2018). Learner Corpus Anonymization in the Age of GDPR: Insights from the Creation of a Learner Corpus of Swedish. Proceedings of the 7th NLP4CALL workshop. (https://ep.liu.se/ecp/152/006/ecp18152006.pdf)[https://ep.liu.se/ecp/152/006/ecp18152006.pdf]
 
-* Elena Volodina, Yousuf Ali Mohammed, Arild Matsson, Sandra Derbring, Beatá Megyesi. (2020). Towards Privacy by Design in Learner Corpora Research: A Case of On-the-fly Pseudonymization of Swedish Learner Essays. COLING-2020. [pdf-link comes later]
+* Elena Volodina, Yousuf Ali Mohammed, Arild Matsson, Sandra Derbring, Beatá Megyesi. (2020). Towards Privacy by Design in Learner Corpora Research: A Case of On-the-fly Pseudonymization of Swedish Learner Essays. COLING-2020. (https://aclanthology.org/2020.coling-main.32.pdf)[https://aclanthology.org/2020.coling-main.32.pdf]
 
-* Wirén Mats, Arild Matsson, Dan Rosén, Elena Volodina. 2019. SVALA: Annotation of Second-Language Learner Text Based on Mostly Automatic Alignment of Parallel Corpora. CLARIN-2018 post-conference volume. LiUP Press. [https://ep.liu.se/ecp/159/023/ecp18159023.pdf]
+* Wirén Mats, Arild Matsson, Dan Rosén, Elena Volodina. 2019. SVALA: Annotation of Second-Language Learner Text Based on Mostly Automatic Alignment of Parallel Corpora. CLARIN-2018 post-conference volume. LiUP Press. (https://ep.liu.se/ecp/159/023/ecp18159023.pdf)[https://ep.liu.se/ecp/159/023/ecp18159023.pdf]
 
 
 
-[//]: # Details about geonames: 
+<!--[//]: # Details about geonames: 
 
 [//]: # För att pseudonymisera ”platserna”, kan man använda  http://www.geonames.org 
 
@@ -357,4 +359,5 @@ http://download.geonames.org/export/dump/readme.txt
 [//]: # ## More notes:
 
 [//]: # * See pages 4-5, notes from SweLL meeting, August 2018:
-[//]: # https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Minnesanteckningar_SweLL_Projektmote_20180830-31.pdf
+[//]: # https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Minnesanteckningar_SweLL_Projektmote_20180830-31.pdf-->
+
