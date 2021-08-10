@@ -41,9 +41,9 @@ ________________________________________________________________________________
  
   - [3.12 Certificate, licence numbers](#312-certificate-licence-numbers)
  
-  - [](#)
+  - [3.13 Other sequence of numbers](#313-other-sequence-of-numbers)
  
-  - [](#)
+  - [3.14 Extra (something else, not covered in the previous categories)](#314-extra-something-else-not-covered-in-the-previous-categories)
  
   - [](#)
  
