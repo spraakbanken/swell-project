@@ -1,5 +1,7 @@
 # Pseudonymization guidelines
 
+_Beáta Megyesi, Lisa Rudebeck, Elena Volodina, June, 2018 -- May 2019_
+
 The purpose of pseudonymization is to de-identify all information that can reveal the identity of the person who wrote the text. This information can include person names, age, addresses and phone numbers, city names and other geographical names, etc.
 
 On top of this, some information is also marked as "potentially sensitive" during the pseudonymization process. This is information which does not in itself disclose the identity of the writer, but which would be particularly harming to reveal were the identity of the writer to be disclosed in spite of the de-identifying efforts. Sensitive information is for instance information on political or religious views of the writer. The information marked as potentially sensitive will be reviewed before publication of the corpus to evaluate whether it needs to be hidden or not.
@@ -8,7 +10,9 @@ Your task as an assistant is 1) to identify all information that can relate to t
 
 This document contains instructions for how to proceed. 
 
+---
 ## Basic principles
+---
 
 1. Remove/change the information that can reveal a person behind the essay(s), yet keep to the _minimal change_ rule. The data should be usable in research scenarios. 
 
@@ -33,18 +37,25 @@ This document contains instructions for how to proceed.
 
 8. Although information about languages spoken by the writer may help identifying the writer, such information is not pseudonymized, since this information is nevertheless included in the metadata which will be available for the corpus users.
 
+---
 ## Supra-categories 
+---
 
 May be applied on top of other categories, as (extra)linguistic information.
 
+---
 ### Running numbers
+---
+
 Applies to all named entities (NE) and their *@placeholders*. Each unique named entity type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. This is done automatically, but the automatically assigned running number may be changed manually. A manual change of the running number is necessary when the same entity (for instance the same city) is referred to by non-identical strings (for instance due to mis-spelling).
 
 ![Stockhulm vs Stockholm](Stockhuml.png)
 
 
-
+---
 ### Morphology: 
+---
+
  * Case: < gen > , e.g. Volvos
  * Definiteness: < def > , e.g. Stadsbiliotekets
  * Number: < pl > , e.g. Mölndalsbor
@@ -52,9 +63,12 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
  
 ![Stockholm vs Stockholms](Stockholms.png)
 
+---
 ## Pseudonymize: 
+---
 
 ### 1. Personal Names: 
+---
 
 
   * Types: < firstname_male > , < firstname_female > , < firstname_unknown > , < initials > , < middlename > , < surname >  
@@ -75,8 +89,10 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20Alice~Alice%3A'firstname_female'%3A1%20and~and%20Bob~Bob%3A'firstname_male'%3A2%20went~went%20to~to%20Paris~Paris%3Acity%20.%40s6~%40s6%20'Alice%5C's'~'Alice%5C's'%3A'firstname_female'%3A1%3Agen%20wallet~wallet%20was~was%20stolen~stolen%20.%40s11~%40s11%2F%2F'firstname_female'~Alice%201~Alice%20and~and%20'firstname_male'~Bob%202~Bob%20went~went%20to~to%20city~Paris%20.~%40s6%20'firstname_female'~'Alice%5C's'%201~'Alice%5C's'%20gen~'Alice%5C's'%20wallet~wallet%20was~was%20stolen~stolen%20.~%40s11)
 
-
+---
 ### 2. Geographic data (country, city, zip codes, area names, …)
+---
+
   * Types: < foreign >, < area > , < city > , < geo > ,  < country > , < place > ,  < region > ,  < street_nr >, < zip_code > 
        - < foreign > : this tag is combined with the following tags when applied to places _outside of Sweden_: < region > , < city >, < place > , < geo >. For places in Sweden the same four tags are used _without_ the additional tag < foreign >.
        - < country > : except Sweden
@@ -102,7 +118,10 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
       - < zip_code >: ABCDEF alt Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
+---
 ### 3. Institution: < school > , < work > , < other_institution >
+---
+
   * The institution tags are used to pseudonymize institutions mentioned in the texts which may be used to identify the writer, such as the school, work or sport's team of the writer (or a person related to the writer).
     - < school > is used for all education-providing institutions (primary school, secondary school, university, etc.)
     - < work > is used for an institution which is revealed as the writer's working place (or the working place of a person related to the writer). When an institution is identified as a working place, the tag < work > is applied instead of other tags which may otherwise be applied. For instance: If a text reveals that the writer works in a named school, the tag < work >, rather than the tag < school >, is used to pseudonymize the name of the school.
@@ -110,8 +129,10 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * Pseudonymization: 
       - Replace from a list of school names and companies (e.g. from Yellow pages) alternatively use _A-school, B-workplace, C-institution_
    
-
+---
 ### 4. Transportation: < transport_name >, < transport_nr >
+---
+
   * < transport_name >: used for transport lines or transport systems with specific names, e.g. *gröna linjen, Lidingöbanan, Pågatågen*
     - *Tvärbanan*, and similar words which may be interpreted both as type nouns and as names for specific lines, are pseudonymized with this tag.
     - Words which clearly refer to transportation types rather than to specific lines, such as *tunnelbana, buss, pendeltåg* etc. should not be pseudonymized, although some of them reveal a city or limit the number of possible cities.
@@ -121,15 +142,20 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
     - < transport_nr > : Replace actual number with 1, in case of several numbers in the same text, enumerate (1, 2, 3…)
   * **Note**: Names of stations and stops, such as *Mariatorget, Centralen*, are pseudonymized with the tag < place > in the *geographic data* group.
 
+---
 ### 5. Age: < age_digits >, < age_string >
+---
+
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20. (This is done automatically by the annotation tool.)
       - The same as above applies to < age_string > , rendered in strings. **The actual implementation of this pseudonymization category remains to be figured out.**
       - ( There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. We need to have an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Added as an issue for anonymization tool. (Elena, A10AT1) )
          
-
+---
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
+---
+
   * Types: < date_digits > , < day > , < month_digit >, < month_word >, < year > . 
  [//]: #  <!-- * Descriptor: --> 
   * Pseudonymization: Ideally - keep the delimiters as in the original (, . - /)
@@ -144,37 +170,59 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
          * 18.01.12 --> @date_digits --> 11-11-1111
          * 01/12 --> @date_digits --> 11-11-1111
 
-
+---
 ### 7. Phone numbers < phone_nr >
+---
+
   * Pseudonymization: 
       - Replace each number with a “0” in the sequence (e.g. 0000-000000) (and keep the delimiter)
-      
+
+---
 ### 8. Email addresses < email >
+---
+
   * Pseudonymization: 
       - One single for all: email@dot.com
 
+---
 ### 9. [personal] web pages (URL) < url >
+---
+
   * Pseudonymization: 
       - Replace all with url.com 
 
+---
 ### 10. Social security numbers < personid_nr  >
+---
+
   * Pseudonymization:  
       - Replace each number with 123456-0000 (and keep the delimiter (-) )
 
+---
 ### 11. Account numbers < account_nr >
+---
+
   * Pseudonymization: 
       - Replace each number with 0 (and keep the delimiter(s))
 
+---
 ### 12. Certificate/licence numbers (e.g. vehicle) < license_nr >
+---
+
   * Pseudonymization: 
       - Replace letters with ABC and each number with 0 (ABC 0000)
-      
+
+---
 ### 13. Other sequence of numbers < other_nr_seq >
+---
+
   * Pseudonymization: 
       - Replace each number with 0 (and keep delimiters)
       
-
+---
 ### 14. Extra (something else, not covered in the previous categories)
+---
+
   * When the pseudonymizer comes across some kind of information in a text which may potentially be used to identify the writer, but which is not covered by any of the other pseudonymization categories, the tag < extra > is used.
   * The < extra > tag may for instance be used to mark information about very specific events in the writer's life.
   * By default we consider all "Extra" tags as obligatory to pseudonymize. However, the intention is to re-evaluate the category after the initial pseudonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". 
@@ -185,7 +233,10 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   [//]: #  (- < oblig > need to be replaced because of sensitivity)
   [//]: #  (- < nonoblig > might be sensitive and replaced later)
 
+---
 ### 15. Mark up but do not pseudonymize: 
+---
+
   * < prof >, professions, e.g. *webbutvecklare*
   * < edu >, education: Use for degrees etc., e.g. *datavetare*, "jag har en examen i *kemi*"
   * < fam>, family members: Use for words for family members, friends, etc., e.g. *mamma, farfar, son, kusin, kompis, vän*.
@@ -208,8 +259,10 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 ![](Turkiet2.png)
 
-
+---
 ### 16. Comments < OBS! >, < Com! >, document comments
+---
+
    * The < OBS! > tag is used for marking a place to return to or for making comments which may be useful for later stages in the work with making the text ready for the corpus release (i.e. normalization and correction annotation).
    * The < Com! > tag is used for marking specific text sequences in need of comments which are judged to be useful for the future users of the corpus and which are thus intended to be kept in the published corpus.
    * Both the < OBS! > tag and the < Com! > tag are connected to an "edge comment" field where notes may be made. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
@@ -220,25 +273,30 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
 ![](Obs-Com.png)
 
-
+---
 ## Text example
+---
 
 ![](Text_exe.png)
 
-
+---
 ## Resources (lists) for pseudonyms and automatic pseudonymization scripts
+---
 
 Resources and lists are collected in a private repository here:
 https://github.com/SamirYousuf/LR_project 
 
-## SweLL annotation tool 
+---
+## SweLL annotation tool
+---
 
 SVALA is used for both manual annotation and for supportive automatic pseudonymization. A demo-version of the tool can be found here: https://spraakbanken.gu.se/swell/dev/# 
 
 Manual for SVALA: coming
 
-
+---
 ## SweLL publications on the topic
+---
 
 * Beáta Megyesi, Sofia Johansson, Dan Rosén,Carl-Johan Schenström, Gunlög Sundberg, Mats Wirén & Elena Volodina. (2018). Learner Corpus Anonymization in the Age of GDPR: Insights from the Creation of a Learner Corpus of Swedish. Proceedings of the 7th NLP4CALL workshop. [https://ep.liu.se/ecp/152/006/ecp18152006.pdf]
 
