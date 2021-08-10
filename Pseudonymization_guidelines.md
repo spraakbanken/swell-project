@@ -39,7 +39,7 @@ ________________________________________________________________________________
  
   - [3.11 Account numbers](#311-account-numbers)
  
-  - [3.12 Certificate/licence numbers](#312-certificate-/-licence-numbers)
+  - [3.12 Certificate, licence numbers](#312-certificate-licence-numbers)
  
   - [](#)
  
@@ -287,7 +287,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
       - Replace each number with 0 (and keep the delimiter(s))
 
 ---
-### 3.12 Certificate/licence numbers  
+### 3.12 Certificate, licence numbers  
 ---
 
   * < license_nr > (e.g. vehicle)
