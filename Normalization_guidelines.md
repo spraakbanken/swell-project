@@ -1,29 +1,38 @@
 # Normalization guidelines
 
-_Lisa Rudebeck, Ginlög Sundberg, Mats Wirén (May 2021)
+_Lisa Rudebeck, Ginlög Sundberg, Mats Wirén (May 2021)_
 
 _____________________________________________________________________________________
 ## Contents
 
-1.	The purpose of the normalization	1
-2.	Fundamental values	1
-3.	Adherence to the norms of standard Swedish	3
+[1.	The purpose of the normalization](1-the-purpose-of-the-normalization)
+
+[2.	Fundamental values](#2-fundamental-values)
+
+[3.	Adherence to the norms of standard Swedish](#3-adherence-to-the-norms-of-standard-swedish)
+
 Orthography and inflectional patterns of specific words	3
 Punctuation and sentence segmentation	3
-4.	Methodological practices	4
-5.	Non-Swedish words and sequences	4
-6.	Unintelligible and unreadable strings	5
-7.	Some special procedures with tokenization and punctuation	6
+
+[4.	Methodological practices](#4-methodological-practices)
+
+[5.	Non-Swedish words and sequences](#5-non-swedish-words-and-sequences)
+
+[6.	Unintelligible and unreadable strings](#6-unintelligible-and-unreadable-strings)
+
+[7.	Some special procedures with tokenization and punctuation](#7-some-special-procedures-with-tokenization-and-punctuation)
 
 ---
 ## 1.	The purpose of the normalization
 ---
 
 Normalization in SweLL means editing of the original learner text in such a way that the normalized version of the text adheres to standard Swedish text norms. The purpose of the normalization is twofold:
+
 1.	To render the text in a version which is amenable to automatic annotation using a standard linguistic analysis pipeline. (For Swedish, such a pipeline is efselab or Sparv. The SweLL data is currently processed with the Sparv-pipeline. It is possible to re-annotate later with other pipelines.)
 2.	To provide a basis for the correction annotation through an explicit representation of the specific standard version of the text to which the original version of the text is related. Such a representation is highly useful by allowing for many new types of search of the corpus, for instance:
-•	Finding missing occurrences of a construction in the learner text in the sense that it could or should have been used, for example, when something that ought to have been expressed using a passive was not.
-•	Finding mismatches between the learner and corrected text, for example, an adjective in the learner text that corresponds to an adverb in the corrected text, or cases when a content word in the original text has been changed in the normalized text.
+
+* Finding missing occurrences of a construction in the learner text in the sense that it could or should have been used, for example, when something that ought to have been expressed using a passive was not.
+* Finding mismatches between the learner and corrected text, for example, an adjective in the learner text that corresponds to an adverb in the corrected text, or cases when a content word in the original text has been changed in the normalized text.
 
 ---
 ## 2.	Fundamental values
