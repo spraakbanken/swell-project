@@ -51,7 +51,7 @@ May be applied on top of other categories, as (extra)linguistic information.
 
 Applies to all named entities (NE) and their *@placeholders*. Each unique named entity type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. This is done automatically, but the automatically assigned running number may be changed manually. A manual change of the running number is necessary when the same entity (for instance the same city) is referred to by non-identical strings (for instance due to mis-spelling).
 
-<img src="Stockhuml.png" width="500">
+<img src="Stockhuml.png" width="400">
 
 <!--![Stockhulm vs Stockholm](Stockhuml.png)-->
 
@@ -65,8 +65,9 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
  * Number: < pl > , e.g. Mölndalsbor
  * Only marked forms are tagged, i.e. genitive case is marked, whereas nominative case is not (by default everything is assumed to have nominative case).
  
-<img src="Stockholms.png" width="500"> 
-![Stockholm vs Stockholms](Stockholms.png)
+<img src="Stockholms.png" width="400"> 
+
+<!--![Stockholm vs Stockholms](Stockholms.png)-->
 
 ---
 ## Pseudonymize: 
@@ -111,7 +112,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * Uncertain categorization:
        - In some cases local knowledge or extensive research is needed in order to determine the most suitable category for a geographic name: It may be hard to figure out whether a name rather refers to a region or to a city, to a city or to an area, etc. Such extensive research is not motivated by the objective of the pseudonymization; what's important is that information potentially revealing the identity of the writer is pseudonymized, and that the categorization (and subsequent replacement) of the pseudonymized entities in the text are consistent with the rest of the information given in the text.
             
-       
+ <img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png" width="800"> 
+ 
  ![alt text](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Svala_anon_region.png "region")
       
 
