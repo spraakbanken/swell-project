@@ -118,20 +118,26 @@ The acceptance for _satsradning_, i.e. the practice of separating main clauses w
 
 When coming across a word or a sequence of words stemming from a non-Swedish language, the normalizer has the following options:
 1.	_The word or sequence is left unchanged._
+
     1.1	The normalizer judges the word/sequence as having been incorporated into written standard Swedish, and the word/sequence is thus kept unchanged. This judgement is based on the normalizer’s acquaintance with written Swedish, and may, in case of doubt, be informed by a secondary opinion from another member of the team of normalizers, by searches in corpuses or on the Internet, or, in some instances, by information in lexicographic sources. (The fact that a certain word or phrase is not included in dictionaries is in itself not sufficient to judge it as not belonging to standard Swedish.)
+    
     1.2	The normalizer judges the word/sequence as a genre appropriate usage of cited foreign language (explicitly signaled citations, code switching etc.). In such cases the word/sequence is left unchanged, but marked with the tag Cit-FL (see the Svala manual). The word/sequence **is not corrected to fit the norms of the source language**.
+    
     Judged as appropriate code switching:
     * _Badrum var **basic** men rent_ --> _Badrummet var **basic** men rent_
     * _gillar du **quiz nights**?_ --> _gillar du **quiz nights**?_
     
     Clearly marked citation of Norwegian passage:
     * _I samma artikel skriver Bengt Östling om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . " **Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk** " , lyder det i ett debattinlägg ._ 
+    
     -->
+    
     _I samma artikel skriver Bengt Östling att om man läser några webbsidor där norska ungdomar debatterar , förstår man att diskussionen om den obligatoriska nynorskan är inflammerad . " **Ett språk som holdes kunstig i live gjennom tvan og finansiering gjennom skatt , og sakte men sikkert dör ut ja . Det finns ikke vilje hos folk til å beholde nynorsk** " , lyder det i ett debattinlägg ._
     
     1.3	If a word or string is recognized as likely belonging to another language, and the language knowledge within the team of normalizers does not suffice to interpret it, no further efforts is made to interpret the word/string. It is left unchanged and marked with the X-tag (unintelligible string, see below).
 
 2.	_The word or sequence is translated into Swedish._
+
    The normalizer does not judge the word/sequence as part of standard Swedish, nor as a genre appropriate usage of cited Swedish language. The normalizer is however able to interpret the word/sequence, and thus translates it into Swedish
 
 ---
