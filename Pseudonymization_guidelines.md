@@ -358,7 +358,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 
 <img src="Text_exe.png" width="700">
 
-![](Text_exe.png)
+<!--![](Text_exe.png)-->
 
 ---
 ## 5. Resources (lists) for pseudonyms and automatic pseudonymization scripts
