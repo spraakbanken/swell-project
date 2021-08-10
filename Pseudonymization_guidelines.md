@@ -19,9 +19,9 @@ ________________________________________________________________________________
 
   - [3.1 Personal Names](#31-personal-names)
 
-  - [3.2 Geographic data (country, city, zip codes, area names, …)](#32-geographic-data-country-city-zip-codes-area-names)
+  - [3.2 Geographic data (country, city, zip codes, area names, …)](#32-geographic-data-country-city-zip-codes-area-names-…)
   
-  - [3.3 Institution: < school > , < work > , < other_institution >](#33-institution-school-work-other-institution)
+  - [3.3 Institution: < school > , < work > , < other_institution >](#33-institution-<-school->-<-work->-<-other_institution->)
  
   - [3.4 Transportation: < transport_name >, < transport_nr >](#34-transportation-transport-name-transport-nr)
  
