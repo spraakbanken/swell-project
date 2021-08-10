@@ -26,16 +26,16 @@ This document contains instructions for how to proceed.
 
 5. Keep _track_ of whether the token is “original” or “masked”. (This is done automatically by the annotating tool.)
 
-6. Categories that need to be _marked in the texts, but not necessarily replaced_. We will  make an assessment later when we have enough statistics over the learners behind the essays, as well as the assembled texts and metadata on each particular writer: 
+6. Categories that need to be _marked in the texts, but not necessarily replaced_. An assessment should be made later when enough statistics is collected over the learners behind the essays , as well as the assembled texts and metadata on each particular writer: 
   * country: the same pseudonymization tag, < country >, is used for: 
-    - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in our database are from the named countries
+    - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in the database are from the named countries
     - country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
     - **Note:** Mentions of _Sweden_ as a country of origin or residence are not marked.
-  * number of family members (_Jag har fem bröder och fyra systrar_) - we will need to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
+  * number of family members (_Jag har fem bröder och fyra systrar_ --> Eng. "I have five brothers and four sisters") - an estimation is necessary to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
   * professions (_Jag är webbutvikler_)
   * education
 
-7. Categories that can be used for discrimination, such as political views, religious convictions or sexual orientation, should also be marked (with the tag < sensitive >) without being masked right away. A decision will be made later in the process, before publication. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
+7. Categories that can be used for discrimination, such as political views, religious convictions or sexual orientation, should also be marked (with the tag < sensitive >) without being masked right away. A decision needs to be made later in the process, before publication. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
 8. Although information about languages spoken by the writer may help identifying the writer, such information is not pseudonymized, since this information is nevertheless included in the metadata which will be available for the corpus users.
 
@@ -49,7 +49,7 @@ May be applied on top of other categories, as (extra)linguistic information.
 ### Running numbers
 ---
 
-Applies to all named entities (NE) and their *@placeholders*. Each unique named entity type (e.g.name) should get its own running number, starting with 1. If the same NE is repeated in the text, the same running number is assigned to it. This is done automatically, but the automatically assigned running number may be changed manually. A manual change of the running number is necessary when the same entity (for instance the same city) is referred to by non-identical strings (for instance due to mis-spelling).
+Applies to all _personally identifiable information (PII)_ and their *@placeholders*. Each unique PII type (e.g.name) should get its own running number, starting with 1 in each individual essay. If the same PII is repeated in the text, the same running number is assigned to it. This is done automatically, but the automatically assigned running number may be changed manually. A manual change of the running number is necessary when the same PII (for instance the same city) is referred to by non-identical strings (for instance due to mis-spelling).
 
 <img src="Stockhuml.png" width="400">
 
@@ -60,9 +60,9 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 ### Morphology: 
 ---
 
- * Case: < gen > , e.g. Volvos
- * Definiteness: < def > , e.g. Stadsbiliotekets
- * Number: < pl > , e.g. Mölndalsbor
+ * Case: < gen > , e.g. Volvo**s**
+ * Definiteness: < def > , e.g. Stadsbiliotek**et**s
+ * Number: < pl > , e.g. Mölndalsb**or**
  * Only marked forms are tagged, i.e. genitive case is marked, whereas nominative case is not (by default everything is assumed to have nominative case).
  
 <img src="Stockholms.png" width="500"> 
@@ -80,15 +80,15 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * Types: < firstname_male > , < firstname_female > , < firstname_unknown > , < initials > , < middlename > , < surname >  
   * < firstname > vs < surname > are sometimes difficult to distinguish between. In uncertain cases, follow the standard Swedish order: < firstname > < middlename > < surname >
 
-  * Pseudonymization: (suggested source is from a national statistical agency: https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn , see more information at the bottom of this document)
+  * Pseudonymization: (suggested source is from a national statistical agency: https://svn.spraakbanken.gu.se/sb-arkiv/lexikon/scb-namn) <!-- , see more information at the bottom of this document)-->
       - Provide a list with first names, male, female and gender neutral (incl. international). 
       - For surnames, gender-specific types, when unclear use gender-neutral names 
       - Provide a list with surnames (incl. international)
       - Middlenames: Replace with an initial “A”
-      - Initial replaced by “A”, keep delimiters
+      - Initial: Replace by “A”, keep delimiters
 
   * To consider: 
-      - allow cross-reference/anaphora resolution, i.e. allow to keep track of the entities that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym. This is handled automatically, through the procedure with running numbers (see above). 
+      - allow cross-reference/anaphora resolution, i.e. allow to keep track of the PIIs that the L2 learner refers to, e.g. if more than one unique name occurs in the text, each unique name shall be replaced by a unique pseudonym. This is handled automatically, through the procedure with running numbers (see above). 
       - random substitution for each unique name in the text given a list of names or
       - select a few names (while keeping the gender and cross-reference info) and use these names - throughout all texts
 
@@ -121,7 +121,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   <!-- * Descriptor: 
      - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
  
-  * Pseudonymization: (suggested source:  http://www.geonames.org , see more information at the bottom of this document)
+  * Pseudonymization: (suggested source:  http://www.geonames.org <!--, see more information at the bottom of this document)-->
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
       - < zip_code >: ABCDEF alt Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
@@ -156,8 +156,8 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20. (This is done automatically by the annotation tool.)
-      - The same as above applies to < age_string > , rendered in strings. **The actual implementation of this pseudonymization category remains to be figured out.**
-      - ( There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. We need to have an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Added as an issue for anonymization tool. (Elena, A10AT1) )
+      - The same as above applies to < age_string > , rendered in strings. <!--**The actual implementation of this pseudonymization category remains to be figured out.**--> 
+      - ( There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. There is a need of an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Issues of this kind are handled individually on a case-to-case basis. <!--Added as an issue for anonymization tool. (Elena, A10AT1) )-->
          
 ---
 ### 6. Dates (all elements directly related to an individual, day, month, year) 
@@ -197,14 +197,14 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 ---
 
   * Pseudonymization: 
-      - Replace all with url.com 
+      - Replace all with: url.com 
 
 ---
 ### 10. Social security numbers < personid_nr  >
 ---
 
   * Pseudonymization:  
-      - Replace each number with 123456-0000 (and keep the delimiter (-) )
+      - Replace each number with: 123456-0000 (and keep the delimiter (-) )
 
 ---
 ### 11. Account numbers < account_nr >
@@ -233,7 +233,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 
   * When the pseudonymizer comes across some kind of information in a text which may potentially be used to identify the writer, but which is not covered by any of the other pseudonymization categories, the tag < extra > is used.
   * The < extra > tag may for instance be used to mark information about very specific events in the writer's life.
-  * By default we consider all "Extra" tags as obligatory to pseudonymize. However, the intention is to re-evaluate the category after the initial pseudonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". 
+  * By default we consider all "Extra" tags as obligatory to pseudonymize. However, there is a need to re-evaluate the category after the initial pseudonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". 
   
   <!--[//]: # (In that case, the following could apply:)
   
@@ -255,7 +255,7 @@ Applies to all named entities (NE) and their *@placeholders*. Each unique named 
 <!--![alt text](datavetenskap.png)-->
  
   * < sensitive >, sensitive information:
-      - Markup: assign a "sensitive" @placeholder to at least one token per sentence. When deciding which and how many tokens to mark with the < sensitive > label, a guiding principle is that pseudomization of the marked tokens could potentially suffice. However, the whole sentence will be reviewed later on before final decisions about these pseudonymizations are made, and fewer rather than more tokens should be marked. A possible solution for the example below is to mark the tokens “glad”, “fri” and “demstration”.
+      - Markup: assign a "sensitive" @placeholder to at least one token per sentence. When deciding which and how many tokens to mark with the < sensitive > label, a guiding principle is that pseudomization of the marked tokens could potentially suffice. However, the whole sentence needs to be reviewed later on before final decisions about these pseudonymizations are made, and fewer rather than more tokens should be marked. A possible solution for the example below is to mark the tokens “glad”, “fri” and “demstration”.
       - **Note**: Sensitive information which could be covered by other pseudonymization categories should be assigned these other labels, e.g. “Turkiet” and “Ardogan” in the example below.
       - **Consider in the future**: for < sensitive > we need to evaluate if subgroups are needed: e.g. religion, ethnicity, sexual orientation, political views, physical and mental disabilities
 
@@ -309,7 +309,7 @@ SVALA is used for both manual annotation and for supportive automatic pseudonymi
 ## SweLL publications on the topic
 ---
 
-* Beáta Megyesi, Sofia Johansson, Dan Rosén,Carl-Johan Schenström, Gunlög Sundberg, Mats Wirén & Elena Volodina. (2018). Learner Corpus Anonymization in the Age of GDPR: Insights from the Creation of a Learner Corpus of Swedish. Proceedings of the 7th NLP4CALL workshop. (https://ep.liu.se/ecp/152/006/ecp18152006.pdf)[https://ep.liu.se/ecp/152/006/ecp18152006.pdf]
+* Beáta Megyesi, Sofia Johansson, Dan Rosén, Carl-Johan Schenström, Gunlög Sundberg, Mats Wirén & Elena Volodina. (2018). Learner Corpus Anonymization in the Age of GDPR: Insights from the Creation of a Learner Corpus of Swedish. Proceedings of the 7th NLP4CALL workshop. (https://ep.liu.se/ecp/152/006/ecp18152006.pdf)[https://ep.liu.se/ecp/152/006/ecp18152006.pdf]
 
 * Elena Volodina, Yousuf Ali Mohammed, Arild Matsson, Sandra Derbring, Beatá Megyesi. (2020). Towards Privacy by Design in Learner Corpora Research: A Case of On-the-fly Pseudonymization of Swedish Learner Essays. COLING-2020. (https://aclanthology.org/2020.coling-main.32.pdf)[https://aclanthology.org/2020.coling-main.32.pdf]
 
