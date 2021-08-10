@@ -6,7 +6,7 @@ _Beáta Megyesi, Lisa Rudebeck, Elena Volodina, June, 2018 -- May 2019_
 _____________________________________________________________________________________
 ## Contents
 
-[1. Basic, principles](#1-basic-,-principles)
+[1. Basic, principles](#1-basic-principles)
 
 [2. Supra-categories](#2-supra-categories)
 
