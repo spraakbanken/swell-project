@@ -19,7 +19,7 @@ ________________________________________________________________________________
 
   - [3.1 Personal Names](#31-personal-names)
 
-  - [3.2 Geographic data (country, city, zip codes, area names, etc)](#32-geographic-data)
+  - [3.2 Geographic data](#32-geographic-data)
   
   - [3.3 Institution: < school > , < work > , < other_institution >](#33-institution-<-school->-<-work->-<-other_institution->)
  
@@ -160,7 +160,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20Alice~Alice%3A'firstname_female'%3A1%20and~and%20Bob~Bob%3A'firstname_male'%3A2%20went~went%20to~to%20Paris~Paris%3Acity%20.%40s6~%40s6%20'Alice%5C's'~'Alice%5C's'%3A'firstname_female'%3A1%3Agen%20wallet~wallet%20was~was%20stolen~stolen%20.%40s11~%40s11%2F%2F'firstname_female'~Alice%201~Alice%20and~and%20'firstname_male'~Bob%202~Bob%20went~went%20to~to%20city~Paris%20.~%40s6%20'firstname_female'~'Alice%5C's'%201~'Alice%5C's'%20gen~'Alice%5C's'%20wallet~wallet%20was~was%20stolen~stolen%20.~%40s11)
 
 ---
-### 3.2 Geographic data (country, city, zip codes, area names, …)
+### 3.2 Geographic data
 ---
 
   * Types: < foreign >, < area > , < city > , < geo > ,  < country > , < place > ,  < region > ,  < street_nr >, < zip_code > 
@@ -190,9 +190,10 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
       - < zip_code >: ABCDEF alt Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
 ---
-### 3.3 Institution: < school > , < work > , < other_institution >
+### 3.3 Institutions
 ---
 
+< school > , < work > , < other_institution >
   * The institution tags are used to pseudonymize institutions mentioned in the texts which may be used to identify the writer, such as the school, work or sport's team of the writer (or a person related to the writer).
     - < school > is used for all education-providing institutions (primary school, secondary school, university, etc.)
     - < work > is used for an institution which is revealed as the writer's working place (or the working place of a person related to the writer). When an institution is identified as a working place, the tag < work > is applied instead of other tags which may otherwise be applied. For instance: If a text reveals that the writer works in a named school, the tag < work >, rather than the tag < school >, is used to pseudonymize the name of the school.
@@ -201,9 +202,10 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
       - Replace from a list of school names and companies (e.g. from Yellow pages) alternatively use _A-school, B-workplace, C-institution_
    
 ---
-### 3.4 Transportation: < transport_name >, < transport_nr >
+### 3.4 Transportation
 ---
 
+< transport_name >, < transport_nr >
   * < transport_name >: used for transport lines or transport systems with specific names, e.g. *gröna linjen, Lidingöbanan, Pågatågen*
     - *Tvärbanan*, and similar words which may be interpreted both as type nouns and as names for specific lines, are pseudonymized with this tag.
     - Words which clearly refer to transportation types rather than to specific lines, such as *tunnelbana, buss, pendeltåg* etc. should not be pseudonymized, although some of them reveal a city or limit the number of possible cities.
@@ -214,9 +216,10 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
   * **Note**: Names of stations and stops, such as *Mariatorget, Centralen*, are pseudonymized with the tag < place > in the *geographic data* group.
 
 ---
-### 3.5 Age: < age_digits >, < age_string >
+### 3.5 Age
 ---
 
+< age_digits >, < age_string >
   * Person’s age (e.g. 18 years old)
   * Pseudonymization: 
       - Change the year within the range of numbers in 5-year interval. If an author writes 18 y.o., provide a number from a range of numbers < age > (+ - 2) - > e.g. 16-20. (This is done automatically by the annotation tool.)
@@ -224,7 +227,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
       - ( There is a complication, though: if for example age is written in letters (and also misspelled, like "niotton" or "sIxtton"), then automatic replacement becomes nontrivial. There is a need of an option to add "pseudonimyzation" manually directly in the tool by rewriting the target token. At the moment this is not possible.  Another issue with this is that misspelling can be pretty bad and there is a need for "interpretation" by an assistant, e.g. "åttonde" år (elder sister) versus "tionde" år (little sister). Issues of this kind are handled individually on a case-to-case basis. <!--Added as an issue for anonymization tool. (Elena, A10AT1) )-->
          
 ---
-### 3.6 Dates (all elements directly related to an individual, day, month, year) 
+### 3.6 Dates
 ---
 
   * Types: < date_digits > , < day > , < month_digit >, < month_word >, < year > . 
@@ -243,58 +246,66 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
          * 01/12 --> @date_digits --> 11-11-1111
 
 ---
-### 3.7 Phone numbers < phone_nr >
+### 3.7 Phone numbers
 ---
 
+< phone_nr >
   * Pseudonymization: 
       - Replace each number with a “0” in the sequence (e.g. 0000-000000) (and keep the delimiter)
 
 ---
-### 3.8 Email addresses < email >
+### 3.8 Email addresses
 ---
 
+< email >
   * Pseudonymization: 
       - One single for all: email@dot.com
 
 ---
-### 3.9 [personal] web pages (URL) < url >
+### 3.9 Web pages
 ---
+
+< url >
+Applies to personal webpages or webpages that can disclose some information about the person such as link to a workplace.
 
   * Pseudonymization: 
       - Replace all with: url.com 
 
 ---
-### 3.10 Social security numbers < personid_nr  >
+### 3.10 Social security numbers
 ---
 
-  * Pseudonymization:  
-      - Replace each number with: 123456-0000 (and keep the delimiter (-) )
+* < personid_nr >
+* Pseudonymization:  
+   - Replace each number with: 123456-0000 (and keep the delimiter (-) )
 
 ---
-### 3.11 Account numbers < account_nr >
+### 3.11 Account numbers 
 ---
 
+  * < account_nr >
   * Pseudonymization: 
       - Replace each number with 0 (and keep the delimiter(s))
 
 ---
-### 3.12 Certificate/licence numbers (e.g. vehicle) < license_nr >
+### 3.12 Certificate/licence numbers  
 ---
 
+  * < license_nr > (e.g. vehicle)
   * Pseudonymization: 
       - Replace letters with ABC and each number with 0 (ABC 0000)
 
 ---
-### 3.13 Other sequence of numbers < other_nr_seq >
+### 3.13 Other sequence of numbers 
 ---
-
+  * < other_nr_seq >
   * Pseudonymization: 
       - Replace each number with 0 (and keep delimiters)
       
 ---
 ### 3.14 Extra (something else, not covered in the previous categories)
 ---
-
+  * < extra >
   * When the pseudonymizer comes across some kind of information in a text which may potentially be used to identify the writer, but which is not covered by any of the other pseudonymization categories, the tag < extra > is used.
   * The < extra > tag may for instance be used to mark information about very specific events in the writer's life.
   * By default we consider all "Extra" tags as obligatory to pseudonymize. However, there is a need to re-evaluate the category after the initial pseudonymization and see whether there is a need to separate between obligatory and non-obligatory pseudonymization of "extras". 
@@ -335,9 +346,10 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ![](Turkiet2.png)
 
 ---
-### 3.16 Comments < OBS! >, < Com! >, document comments
+### 3.16 Comments 
 ---
-
+   
+   * < OBS! >, < Com! >, document comments
    * The < OBS! > tag is used for marking a place to return to or for making comments which may be useful for later stages in the work with making the text ready for the corpus release (i.e. normalization and correction annotation).
    * The < Com! > tag is used for marking specific text sequences in need of comments which are judged to be useful for the future users of the corpus and which are thus intended to be kept in the published corpus.
    * Both the < OBS! > tag and the < Com! > tag are connected to an "edge comment" field where notes may be made. The label(s) get red-pink background for easier identification when there is a need to return to it/them.
