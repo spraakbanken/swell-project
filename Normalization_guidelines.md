@@ -11,9 +11,9 @@ ________________________________________________________________________________
 
 [3. Adherence to the norms of standard Swedish](#3-adherence-to-the-norms-of-standard-swedish)
 
-   - [Orthography and inflectional patterns of specific words](#)
+   - [3.1 Orthography and inflectional patterns of specific words](#31-orthography-and-inflectional-patterns-of-specific-words)
 
-   - [Punctuation and sentence segmentation](#)
+   - [3.2 Punctuation and sentence segmentation](#32-punctuation-and-sentence-segmentation)
 
 [4. Methodological practices](#4-methodological-practices)
 
