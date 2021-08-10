@@ -42,8 +42,8 @@ Normalization in SweLL means editing of the original learner text in such a way 
 The normalization is carried out by balancing the following fundamental values:
 1.	adherence to standard Swedish norms
 2.	fidelity to the original text
-   -- a.	similarity to the original text string
-   -- b.	effective communication of the content intended by the writer (according to the normalizer’s interpretation)
+   - a.	similarity to the original text string
+   - b.	effective communication of the content intended by the writer (according to the normalizer’s interpretation)
 
 The conflict between adherence to standard Swedish norms (1) and fidelity to the original text (2) is the very basis for the normalization; only in cases where the original text deviates from standard Swedish norms is a normalization called for. But the two sides of the fidelity to the original text may also be conflicting, so that a greater similarity to the original text string may mean a less effective communication of the assumed intended meaning, and vice versa, as the following example illustrates:
 
