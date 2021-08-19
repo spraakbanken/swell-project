@@ -3,6 +3,7 @@
 
 _Elena Volodina, Bea Megyesi, June, 04 - July, 15, 2018;_
 
+Online version of this document: [https://spraakbanken.github.io/swell-project/Transcription_guidelines](https://spraakbanken.github.io/swell-project/Transcription_guidelines)
 
 ---
 ## Transcription flow
