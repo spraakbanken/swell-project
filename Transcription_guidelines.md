@@ -113,15 +113,15 @@ It will take longer per essay in the beginning, when annotators are not yet conf
 
 <img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time1.png" width="600">
 
-<img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time1.png" width="700">
-
 Table 1. Time estimation for essay transcription at different levels
 
 
 
 During your work, write down your time per essay in an excel sheet acc. to the example below (Table 2):
 
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time.png)
+<!--![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time.png)-->
+
+<img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time.png" width="600">
 
 Table 2. Time estimation for annotator work on transcription
 
