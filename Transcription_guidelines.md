@@ -109,7 +109,9 @@ To be able to give some time estimation, we have taken time for transcription of
 
 It will take longer per essay in the beginning, when annotators are not yet confident with the guidelines and the process itself. The time will also depend upon the legibility of handwriting, length of the text and challenges of the writing, i.e. presence of challenging interpretations/uncertainties. Take the time estimations below only as an approximation.
 
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time1.png)
+<!--![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time1.png)-->
+
+<img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Transcription_time1.png" width="500">
 
 Table 1. Time estimation for essay transcription at different levels
 
