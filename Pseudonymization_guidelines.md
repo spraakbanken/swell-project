@@ -2,7 +2,7 @@
 
 _Beáta Megyesi, Lisa Rudebeck, Elena Volodina (June, 2018 -- May 2019)_
 
-
+Online version of this document: [https://spraakbanken.github.io/swell-project/Pseudonymization_guidelines](https://spraakbanken.github.io/swell-project/Pseudonymization_guidelines)
 _____________________________________________________________________________________
 ## Contents
 
