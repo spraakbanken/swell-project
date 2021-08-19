@@ -180,7 +180,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
  
   * Pseudonymization: (suggested source:  http://www.geonames.org <!--, see more information at the bottom of this document)-->
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
-      - Two approaches are possible: (a) to substitute a PII with another PII of the same category (e.g. *Barcelona* for *Reykjavik*), or (b) to substitute with a dummy name, e.g. *A-city, B-street*, etc. (e.g. *A-city* for *Reykjavik*). Strategy (a) gives better readability to the text, while strategy (b) helps avoid accidental semantic or grammatical errors, e.g. *I live in Barcelona where I can ski all year round* where *Barcelona* is an automatic replacement of *Reyklavik*. In SweLL-gold.v1 strategy (b) is used. 
+      - Two approaches are possible: (a) to substitute a PII with another PII of the same category (e.g. *Barcelona* for *Reykjavik*), or (b) to substitute with a dummy name of the form *A-city*, (e.g. *A-city* for *Reykjavik*). Strategy (a) gives better readability to the text, while strategy (b) helps avoid accidental semantic or grammatical errors, e.g. *I live in Barcelona where I can ski all year round* where *Barcelona* is an automatic replacement of *Reyklavik*. In SweLL-gold.v1 strategy (b) is applied. 
       - < zip_code >: ABCDEF alt Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
 ---
@@ -193,7 +193,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
     - < work > is used for an institution which is revealed as the writer's working place (or the working place of a person related to the writer). When an institution is identified as a working place, the tag < work > is applied instead of other tags which may otherwise be applied. For instance: If a text reveals that the writer works in a named school, the tag < work >, rather than the tag < school >, is used to pseudonymize the name of the school.
     - < other_institution > is used for all other institutions in need for pseudonymization, such as a sport's team or an NGO
   * Pseudonymization: 
-      - Replace from a list of school names and companies (e.g. from Yellow pages) alternatively use _A-school, B-workplace, C-institution_ In SweLL-gold.v1 the second alternaative is used.
+      - Replace from a list of school names and companies (e.g. from Yellow pages) alternatively use _A-school, B-workplace, C-institution_. In SweLL-gold.v1 the second alternaative is used.
    
 ---
 ### 3.4 Transportation
@@ -365,14 +365,13 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
 ## 5. Resources (lists) for pseudonyms and automatic pseudonymization scripts
 ---
 
-Resources and lists are collected in a private repository here:
-https://github.com/SamirYousuf/LR_project 
+Resources and lists are collected in a private repository here: [https://github.com/SamirYousuf/LR_project](https://github.com/SamirYousuf/LR_project) 
 
 ---
 ## 6. SweLL annotation tool
 ---
 
-SVALA is used for both manual annotation and for supportive automatic pseudonymization. A demo-version of the tool can be found here: https://spraakbanken.gu.se/swell/dev/# 
+SVALA is used for both manual annotation and for supportive automatic pseudonymization. A demo-version of the tool can be found here: [https://spraakbanken.gu.se/swell/dev/#](https://spraakbanken.gu.se/swell/dev/#) 
 
 <!--Manual for SVALA: coming-->
 
