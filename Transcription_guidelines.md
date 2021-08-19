@@ -78,7 +78,7 @@ If there is no way you can report a corresponding "created" letter, use dollar-s
 
 <!--![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_newLetters3.png)-->
 
-<img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_newLetters3.png" width="400">
+<img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_newLetters3.png" width="300">
 
 Figure 3. Invented letters
 
