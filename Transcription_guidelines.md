@@ -61,7 +61,9 @@ If the handwriting is illegible, write $ (dollar-sign) for each character that c
 
 Figure 1. Essay example. Level A1 (beginner), nr tokens: 117, topic: Presentation/Om mig; transcription time: 15 min.
 
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_deciphering.png)
+<!--![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_deciphering.png)-->
+
+<img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_deciphering.png" width="800">
 
 Figure 2. Deciphering letters in student writing: o vs a; capital/non-capital; hyphenation. Level B1 (intermed.), nr tokens: 330, topic: Min första dag i Sverige; transcription time: 34 min.
 
@@ -74,7 +76,9 @@ In the case, if there is no way to reflect that letter in writing, choose the cl
 
 If there is no way you can report a corresponding "created" letter, use dollar-sign $ as if it is an unintelligeble letter.
 
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_newLetters3.png)
+<!--![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_newLetters3.png)-->
+
+<img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_newLetters3.png" width="400">
 
 Figure 3. Invented letters
 
