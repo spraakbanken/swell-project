@@ -84,13 +84,13 @@ This document contains instructions for how to proceed.
 5. Keep _track_ of whether the token is “original” or “masked”. (This is done automatically by the annotating tool.)
 
 6. Categories that need to be _marked in the texts, but not necessarily replaced_. An assessment should be made later when enough statistics is collected over the learners behind the essays , as well as the assembled texts and metadata on each particular writer: 
-  * country: the same pseudonymization tag, < country >, is used for: 
-    - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in the database are from the named countries
-    - country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
-    - **Note:** Mentions of _Sweden_ as a country of origin or residence are not marked.
-  * number of family members (_Jag har fem bröder och fyra systrar_ --> Eng. "I have five brothers and four sisters") - an estimation is necessary to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
-  * professions (_Jag är webbutvikler_)
-  * education
+     * country: the same pseudonymization tag, < country >, is used for: 
+         - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in the database are from the named countries
+         - country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
+         - **Note:** Mentions of _Sweden_ as a country of origin or residence are not marked.
+     * number of family members (_Jag har fem bröder och fyra systrar_ --> Eng. "I have five brothers and four sisters") - an estimation is necessary to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
+     * professions (_Jag är webbutvikler_)
+     * education
 
 7. Categories that can be used for discrimination, such as political views, religious convictions or sexual orientation, should also be marked (with the tag < sensitive >) without being masked right away. A decision needs to be made later in the process, before publication. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
