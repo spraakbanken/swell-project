@@ -84,13 +84,13 @@ This document contains instructions for how to proceed.
 5. Keep _track_ of whether the token is “original” or “masked”. (This is done automatically by the annotating tool.)
 
 6. Categories that need to be _marked in the texts, but not necessarily replaced_. An assessment should be made later when enough statistics is collected over the learners behind the essays , as well as the assembled texts and metadata on each particular writer: 
-     * country: the same pseudonymization tag, < country >, is used for: 
-         - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in the database are from the named countries
-         - country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
-         - **Note:** Mentions of _Sweden_ as a country of origin or residence are not marked.
-     * number of family members (_Jag har fem bröder och fyra systrar_ --> Eng. "I have five brothers and four sisters") - an estimation is necessary to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
-     * professions (_Jag är webbutvikler_)
-     * education
+   * country: the same pseudonymization tag, < country >, is used for: 
+       - country of origin (_Jag kommer från Syrien_ versus _Jag kommer från Luxembourg_) - depending upon how many subjects in the database are from the named countries
+       - country of “intermediate” residence (_Vi har stannat en månad i Turkiet_)
+       - **Note:** Mentions of _Sweden_ as a country of origin or residence are not marked.
+   * number of family members (_Jag har fem bröder och fyra systrar_ --> Eng. "I have five brothers and four sisters") - an estimation is necessary to see whether it is a normal pattern in many essays. If yes - no masking/suppression is necessary
+   * professions (_Jag är webbutvikler_)
+   * education
 
 7. Categories that can be used for discrimination, such as political views, religious convictions or sexual orientation, should also be marked (with the tag < sensitive >) without being masked right away. A decision needs to be made later in the process, before publication. E.g. _I en dag såg vi en stor demstration det var för mycket människor vill inte Turkiets statsminister Ardogan och vi kände mycket glad för att det var första dag ser vi en fri demstration._
 
@@ -150,7 +150,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
       - select a few names (while keeping the gender and cross-reference info) and use these names - throughout all texts
 
       
-![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20Alice~Alice%3A'firstname_female'%3A1%20and~and%20Bob~Bob%3A'firstname_male'%3A2%20went~went%20to~to%20Paris~Paris%3Acity%20.%40s6~%40s6%20'Alice%5C's'~'Alice%5C's'%3A'firstname_female'%3A1%3Agen%20wallet~wallet%20was~was%20stolen~stolen%20.%40s11~%40s11%2F%2F'firstname_female'~Alice%201~Alice%20and~and%20'firstname_male'~Bob%202~Bob%20went~went%20to~to%20city~Paris%20.~%40s6%20'firstname_female'~'Alice%5C's'%201~'Alice%5C's'%20gen~'Alice%5C's'%20wallet~wallet%20was~was%20stolen~stolen%20.~%40s11)
+<!--![](https://ws.spraakbanken.gu.se/ws/swell/png?mode%3Aanon%20Alice~Alice%3A'firstname_female'%3A1%20and~and%20Bob~Bob%3A'firstname_male'%3A2%20went~went%20to~to%20Paris~Paris%3Acity%20.%40s6~%40s6%20'Alice%5C's'~'Alice%5C's'%3A'firstname_female'%3A1%3Agen%20wallet~wallet%20was~was%20stolen~stolen%20.%40s11~%40s11%2F%2F'firstname_female'~Alice%201~Alice%20and~and%20'firstname_male'~Bob%202~Bob%20went~went%20to~to%20city~Paris%20.~%40s6%20'firstname_female'~'Alice%5C's'%201~'Alice%5C's'%20gen~'Alice%5C's'%20wallet~wallet%20was~was%20stolen~stolen%20.~%40s11)-->
 
 ---
 ### 3.2 Geographic data
@@ -180,6 +180,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
  
   * Pseudonymization: (suggested source:  http://www.geonames.org <!--, see more information at the bottom of this document)-->
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
+      - Two approaches are possible: (a) to substitute a PII with another PII of the same category (e.g. *Barcelona* for *Reykjavik*), or (b) to substitute with a dummy name, e.g. *A-city, B-street*, etc. (e.g. *A-city* for *Reykjavik*). Strategy (a) gives better readability to the text, while strategy (b) helps avoid accidental semantic or grammatical errors, e.g. *I live in Barcelona where I can ski all year round* where *Barcelona* is an automatic replacement of *Reyklavik*. In SweLL-gold.v1 strategy (b) is used. 
       - < zip_code >: ABCDEF alt Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
 
 ---
@@ -192,7 +193,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
     - < work > is used for an institution which is revealed as the writer's working place (or the working place of a person related to the writer). When an institution is identified as a working place, the tag < work > is applied instead of other tags which may otherwise be applied. For instance: If a text reveals that the writer works in a named school, the tag < work >, rather than the tag < school >, is used to pseudonymize the name of the school.
     - < other_institution > is used for all other institutions in need for pseudonymization, such as a sport's team or an NGO
   * Pseudonymization: 
-      - Replace from a list of school names and companies (e.g. from Yellow pages) alternatively use _A-school, B-workplace, C-institution_
+      - Replace from a list of school names and companies (e.g. from Yellow pages) alternatively use _A-school, B-workplace, C-institution_ In SweLL-gold.v1 the second alternaative is used.
    
 ---
 ### 3.4 Transportation
@@ -324,7 +325,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
   * < sensitive >, sensitive information:
       - Markup: assign a "sensitive" @placeholder to at least one token per sentence. When deciding which and how many tokens to mark with the < sensitive > label, a guiding principle is that pseudomization of the marked tokens could potentially suffice. However, the whole sentence needs to be reviewed later on before final decisions about these pseudonymizations are made, and fewer rather than more tokens should be marked. A possible solution for the example below is to mark the tokens “glad”, “fri” and “demstration”.
       - **Note**: Sensitive information which could be covered by other pseudonymization categories should be assigned these other labels, e.g. “Turkiet” and “Ardogan” in the example below.
-      - **Consider in the future**: for < sensitive > we need to evaluate if subgroups are needed: e.g. religion, ethnicity, sexual orientation, political views, physical and mental disabilities
+     <!-- - **Consider in the future**: for < sensitive > we need to evaluate if subgroups are needed: e.g. religion, ethnicity, sexual orientation, political views, physical and mental disabilities-->
 
 
       Example: 
@@ -379,11 +380,11 @@ SVALA is used for both manual annotation and for supportive automatic pseudonymi
 ## 7. SweLL publications on the topic
 ---
 
+
 * Beáta Megyesi, Sofia Johansson, Dan Rosén, Carl-Johan Schenström, Gunlög Sundberg, Mats Wirén & Elena Volodina. (2018). Learner Corpus Anonymization in the Age of GDPR: Insights from the Creation of a Learner Corpus of Swedish. Proceedings of the 7th NLP4CALL workshop. (https://ep.liu.se/ecp/152/006/ecp18152006.pdf)[https://ep.liu.se/ecp/152/006/ecp18152006.pdf]
+* Elena Volodina, Yousuf Ali Mohammed, Arild Matsson, Sandra Derbring, Beatá Megyesi. (2020). Towards Privacy by Design in Learner Corpora Research: A Case of On-the-fly Pseudonymization of Swedish Learner Essays. COLING-2020. [https://aclanthology.org/2020.coling-main.32.pdf](https://aclanthology.org/2020.coling-main.32.pdf)
 
-* Elena Volodina, Yousuf Ali Mohammed, Arild Matsson, Sandra Derbring, Beatá Megyesi. (2020). Towards Privacy by Design in Learner Corpora Research: A Case of On-the-fly Pseudonymization of Swedish Learner Essays. COLING-2020. (https://aclanthology.org/2020.coling-main.32.pdf)[https://aclanthology.org/2020.coling-main.32.pdf]
-
-* Wirén Mats, Arild Matsson, Dan Rosén, Elena Volodina. 2019. SVALA: Annotation of Second-Language Learner Text Based on Mostly Automatic Alignment of Parallel Corpora. CLARIN-2018 post-conference volume. LiUP Press. (https://ep.liu.se/ecp/159/023/ecp18159023.pdf)[https://ep.liu.se/ecp/159/023/ecp18159023.pdf]
+* Wirén Mats, Arild Matsson, Dan Rosén, Elena Volodina. 2019. SVALA: Annotation of Second-Language Learner Text Based on Mostly Automatic Alignment of Parallel Corpora. CLARIN-2018 post-conference volume. LiUP Press. [https://ep.liu.se/ecp/159/023/ecp18159023.pdf](https://ep.liu.se/ecp/159/023/ecp18159023.pdf)
 
 
 
