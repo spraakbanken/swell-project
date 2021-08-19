@@ -1,7 +1,7 @@
 
 # SweLL transcription guidelines, L2 essays
 
-_Elena Volodina, Bea Megyesi, June, 04 - July, 15, 2018;_
+_Elena Volodina, Bea Megyesi, June, 04, 2018 - August, 19, 2021;_
 
 Online version of this document: [https://spraakbanken.github.io/swell-project/Transcription_guidelines](https://spraakbanken.github.io/swell-project/Transcription_guidelines)
 
