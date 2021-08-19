@@ -55,8 +55,9 @@ If there is a dubious case - for instance, when you are uncertain whether the le
 In many cases some basic knowledge of Swedish should help to understand what is written (see ⑤ in Figure 1; as well as Figure 2, lilac underlinings).
 If the handwriting is illegible, write $ (dollar-sign) for each character that cannot be understood.
 
-![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_example_cropped.png)
+<!--![](https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_example_cropped.png)-->
 
+<img src="https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Digitization_example_cropped.png" width="800">
 
 Figure 1. Essay example. Level A1 (beginner), nr tokens: 117, topic: Presentation/Om mig; transcription time: 15 min.
 
