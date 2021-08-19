@@ -178,7 +178,7 @@ Applies to all _personally identifiable information (PII)_ and their *@placehold
   <!-- * Descriptor: 
      - Running number: < 1, 2… > [enumerate each unique name type entity with a number starting with 1] -->
  
-  * Pseudonymization: (suggested source:  http://www.geonames.org <!--, see more information at the bottom of this document)-->
+  * Pseudonymization: (suggested source:  http://www.geonames.org) <!--, see more information at the bottom of this document)-->
       - Random substitution given a list of named entities of various attributes for each attribute, except for Sweden 
       - Two approaches are possible: (a) to substitute a PII with another PII of the same category (e.g. *Barcelona* for *Reykjavik*), or (b) to substitute with a dummy name of the form *A-city*, (e.g. *A-city* for *Reykjavik*). Strategy (a) gives better readability to the text, while strategy (b) helps avoid accidental semantic or grammatical errors, e.g. *I live in Barcelona where I can ski all year round* where *Barcelona* is an automatic replacement of *Reyklavik*. In SweLL-gold.v1 strategy (b) is applied. 
       - < zip_code >: ABCDEF alt Replace letters with ABC and each number with 0 (ABC 0000), keep the delimiter
