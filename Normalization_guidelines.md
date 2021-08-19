@@ -2,6 +2,8 @@
 
 _Lisa Rudebeck, Gunlög Sundberg, Mats Wirén (May 2021)_
 
+Online version of this document: [https://spraakbanken.github.io/swell-project/Normalization_guidelines](https://spraakbanken.github.io/swell-project/Normalization_guidelines)
+
 _____________________________________________________________________________________
 ## Contents
 
