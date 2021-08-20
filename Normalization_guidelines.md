@@ -77,7 +77,7 @@ Norms concerning the composition of texts at a discourse level, i.e. beyond thos
 
 While only intra-sentence changes are made, the context provided by the rest of the text is taken into consideration when judging each sentence. For instance, anaphoric expressions and conjunctions may be changed due to intra-sentential relationships. And the interpretation of an expression in one sentence is often affected by contextual information.
 
-In the following, we comment on our implementation of norm-adherence for orthography and inflectional patterns of specific words, and for punctuation and sentence segmentation. When it comes to norms for wording, collocational patterns, and general morphosyntactic rules and patterns, we refer directly to the sections on methodological practices and guiding principles. The treatment of non-Swedish words is discussed in a separate section.
+In the following, we comment on our implementation of norm-adherence for orthography and inflectional patterns of specific words, and for punctuation and sentence segmentation. When it comes to norms for wording, collocational patterns, and general morphosyntactic rules and patterns, we refer directly to the section on methodological practices. The treatment of non-Swedish words is discussed in a separate section.
 
 ---
 ### 3.1 Orthography and inflectional patterns of specific words
@@ -144,7 +144,7 @@ When coming across a word or a sequence of words stemming from a non-Swedish lan
 
 When the normalizer comes across a string which she is unable to interpret, it is marked with the X-tag. The word/passage may either be left unchanged, or the normalizer may provide a guess as to its interpretation in the normalization.
 
-* _Jag gick till dem och frågade henne om hennes namn och inte berätta något han blyg av mig så jag spårade tills jag kände hennes hem **och bad henne och pjäsen idag dig varje morgon jag går att se det och låta dig gå till skolan** --> Jag gick till dem och frågade om hennes namn och bad dem att inte berätta något . Jag var blyg av mig så jag letade tills jag hittade hennes hem **och bad henne och pjäsen idag dig varje morgon jag går att se det och låta dig gå till skolan**_
+* _Jag gick till dem och frågade henne om hennes namn och inte berätta något **han** blyg av mig så jag spårade tills jag kände hennes hem **och bad henne och pjäsen idag dig varje morgon jag går att se det och låta dig gå till skolan** --> Jag gick till dem och frågade om hennes namn och bad dem att inte berätta något . **Jag var** blyg av mig så jag letade tills jag hittade hennes hem **och bad henne och pjäsen idag dig varje morgon jag går att se det och låta dig gå till skolan**_
 
 Both of the marked strings are X-marked as unintelligible, but in the first case a guess is provided in the normalization, while the second string is left unchanged.
 
